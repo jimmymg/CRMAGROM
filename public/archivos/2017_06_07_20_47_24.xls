@@ -1,0 +1,506 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:x='urn:schemas-microsoft-com:office:excel' xmlns='http://www.w3.org/TR/REC-html40'><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>{worksheet}</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table id='tblExportar' style='display:none;'>
+		<tbody><tr>
+		<th>Código</th>
+		<th>Nombre</th>
+		<th>Exist. Ventas</th>
+		</tr>  <tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=64&amp;name=TARJETA%20MADRE%20ASUS%20P8B75%20LGA1155%204XDDR3%20HDMI%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&amp;codigo=610839185269' style='cursor: pointer;'>
+		     <td>610839185269                  </td>
+		     <td>TARJETA MADRE ASUS P8B75 LGA1155 4XDDR3 HDMI                </td>
+		     <td align='center'> 2</td>
+		     <td>NUEVO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=379&amp;name=LAPTOP%20ASUS%20X401A%20AMD%20E1%201.4GHZ/4GB/320GB/14/W7HP%20%20%20%20%20%20%20%20%20%20%20&amp;codigo=886227215966' style='cursor: pointer;'>
+		     <td>886227215966                  </td>
+		     <td>LAPTOP ASUS X401A AMD E1 1.4GHZ/4GB/320GB/14/W7HP           </td>
+		     <td align='center'> 0</td>
+		     <td>0</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=3207&amp;name=LAPTOP%20MINI%20ASUS%202GB%20MEMORIA%20RAM%20320GB%20HDD%20CAMARA%20PTO%20HDMI%20%20&amp;codigo=MINIASUS' style='cursor: pointer;'>
+		     <td>MINIASUS                      </td>
+		     <td>LAPTOP MINI ASUS 2GB MEMORIA RAM 320GB HDD CAMARA PTO HDMI  </td>
+		     <td align='center'> -1</td>
+		     <td>0</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=3357&amp;name=LAPTOP%20ASUS%20X551CA-HCL1201L%20CELERON%204GB/500GB/15.6&quot;/W8%20%20%20%20%20%20&amp;codigo=886227603787' style='cursor: pointer;'>
+		     <td>886227603787                  </td>
+		     <td>LAPTOP ASUS X551CA-HCL1201L CELERON 4GB/500GB/15.6'/W8      </td>
+		     <td align='center'> 1</td>
+		     <td>NUEVO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=3469&amp;name=LAPTOP%20ASUS%20X551CARF-HCL1201L%20CELERON%204GB/500GB/15.6&quot;/W8%20%20%20%20&amp;codigo=886227596133' style='cursor: pointer;'>
+		     <td>886227596133                  </td>
+		     <td>LAPTOP ASUS X551CARF-HCL1201L CELERON 4GB/500GB/15.6'/W8    </td>
+		     <td align='center'> 0</td>
+		     <td>NUEVO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=3785&amp;name=TABLETA%20ASUS%20ME301T-A1-WH%2016GB/10.1&quot;/ANDROID/BLANCO%20%20%20%20%20%20%20%20%20&amp;codigo=886227413027' style='cursor: pointer;'>
+		     <td>886227413027                  </td>
+		     <td>TABLETA ASUS ME301T-A1-WH 16GB/10.1'/ANDROID/BLANCO         </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4097&amp;name=LAPTOP%20ASUS%20X55C-MX1-H%20Ci3-2350M%204GB/500GB/15.6&quot;/WIN8%20%20%20%20%20%20%20&amp;codigo=886227297092' style='cursor: pointer;'>
+		     <td>886227297092                  </td>
+		     <td>LAPTOP ASUS X55C-MX1-H Ci3-2350M 4GB/500GB/15.6'/WIN8       </td>
+		     <td align='center'> 1</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4098&amp;name=LAPTOP%20ASUS%20A44H-MSR1-R%20DCORE-B960%204GB/500GB/14&quot;/CAFE/WIN7HB&amp;codigo=886227169443' style='cursor: pointer;'>
+		     <td>886227169443                  </td>
+		     <td>LAPTOP ASUS A44H-MSR1-R DCORE-B960 4GB/500GB/14'/CAFE/WIN7HB</td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4099&amp;name=LAPTOP%20ASUS%20A45A-MX2-H-BLK%20Ci5%204GB/500GB/14&quot;/WIN8%20%20%20%20%20%20%20%20%20%20%20&amp;codigo=886227287000' style='cursor: pointer;'>
+		     <td>886227287000                  </td>
+		     <td>LAPTOP ASUS A45A-MX2-H-BLK Ci5 4GB/500GB/14'/WIN8           </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4100&amp;name=LAPTOP%20ASUS%20F55C-MX1-H%20Ci3-2350M%204GB/500GB/15.6&quot;/WIN8%20%20%20%20%20%20%20&amp;codigo=886227297078' style='cursor: pointer;'>
+		     <td>886227297078                  </td>
+		     <td>LAPTOP ASUS F55C-MX1-H Ci3-2350M 4GB/500GB/15.6'/WIN8       </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4101&amp;name=LAPTOP%20ASUS%20K43E-MSR1-SIL-R%20CI3-2350M%204GB/500GB/14&quot;/W7HB%20%20%20%20&amp;codigo=886227157365' style='cursor: pointer;'>
+		     <td>886227157365                  </td>
+		     <td>LAPTOP ASUS K43E-MSR1-SIL-R CI3-2350M 4GB/500GB/14'/W7HB    </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4102&amp;name=LAPTOP%20ASUS%20K43E-ME1%20Ci5-2410%204GB/640GB/14&quot;/WIN7HP%20%20%20%20%20%20%20%20%20%20&amp;codigo=884840887270' style='cursor: pointer;'>
+		     <td>884840887270                  </td>
+		     <td>LAPTOP ASUS K43E-ME1 Ci5-2410 4GB/640GB/14'/WIN7HP          </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4103&amp;name=LAPTOP%20ASUS%20K55A-MX1-H%20Ci3-3110M%204GB/750GB/15.6&quot;/WIN8%20%20%20%20%20%20%20&amp;codigo=886227297023' style='cursor: pointer;'>
+		     <td>886227297023                  </td>
+		     <td>LAPTOP ASUS K55A-MX1-H Ci3-3110M 4GB/750GB/15.6'/WIN8       </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4105&amp;name=LAPTOP%20ASUS%20K55A-MX2-H%20Ci5-3210M%206GB/750GB/15.6&quot;/WIN8%20%20%20%20%20%20%20&amp;codigo=886227297009' style='cursor: pointer;'>
+		     <td>886227297009                  </td>
+		     <td>LAPTOP ASUS K55A-MX2-H Ci5-3210M 6GB/750GB/15.6'/WIN8       </td>
+		     <td align='center'> 2</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4106&amp;name=LAPTOP%20ASUS%20R500N-MTSR1-R%20AMD%20A6-4400M%204GB/500GB/15.6&quot;/W7HB%20&amp;codigo=886227236626' style='cursor: pointer;'>
+		     <td>886227236626                  </td>
+		     <td>LAPTOP ASUS R500N-MTSR1-R AMD A6-4400M 4GB/500GB/15.6'/W7HB </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4107&amp;name=ULTRABOOK%20ASUS%20S400C%20Ci5-3217U%204GB/500GB/14&quot;/WIN8/TOUCH%20%20%20%20%20&amp;codigo=886227371594' style='cursor: pointer;'>
+		     <td>886227371594                  </td>
+		     <td>ULTRABOOK ASUS S400C Ci5-3217U 4GB/500GB/14'/WIN8/TOUCH     </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4108&amp;name=ULTRABOOK%20ASUS%20S400CA-MX2-H%20Ci5-3317U%204GB/500GB/24SSD/W8/TS%20&amp;codigo=886227371723' style='cursor: pointer;'>
+		     <td>886227371723                  </td>
+		     <td>ULTRABOOK ASUS S400CA-MX2-H Ci5-3317U 4GB/500GB/24SSD/W8/TS </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4109&amp;name=LAPTOP%20ASUS%20S200E-MPR6-H%20PENTIUM-987%204GB/500GB/11.6&quot;/W8/TS%20%20&amp;codigo=886227430703' style='cursor: pointer;'>
+		     <td>886227430703                  </td>
+		     <td>LAPTOP ASUS S200E-MPR6-H PENTIUM-987 4GB/500GB/11.6'/W8/TS  </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4110&amp;name=ULTRABOOK%20ASUS%20S46CA-MX3-H%20Ci5-3317U%204GB/500GB/24SSD/14&quot;/W8%20&amp;codigo=886227368167' style='cursor: pointer;'>
+		     <td>886227368167                  </td>
+		     <td>ULTRABOOK ASUS S46CA-MX3-H Ci5-3317U 4GB/500GB/24SSD/14'/W8 </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4111&amp;name=ULTRABOOK%20ASUS%20S46CA-MX1-H%20Ci5-3317U%206GB/750GB/14&quot;/W8%20%20%20%20%20%20%20&amp;codigo=886227303915' style='cursor: pointer;'>
+		     <td>886227303915                  </td>
+		     <td>ULTRABOOK ASUS S46CA-MX1-H Ci5-3317U 6GB/750GB/14'/W8       </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4112&amp;name=LAPTOP%20ASUS%20X201E%20CELERON-847%202GB/320GB/11.6&quot;/W8/BLANCO%20%20%20%20%20&amp;codigo=886227430833' style='cursor: pointer;'>
+		     <td>886227430833                  </td>
+		     <td>LAPTOP ASUS X201E CELERON-847 2GB/320GB/11.6'/W8/BLANCO     </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4113&amp;name=LAPTOP%20ASUS%20X201E-MPR1-H%20CELERON-847%204GB/500GB/11.6&quot;/W8%20%20%20%20%20&amp;codigo=886227430840' style='cursor: pointer;'>
+		     <td>886227430840                  </td>
+		     <td>LAPTOP ASUS X201E-MPR1-H CELERON-847 4GB/500GB/11.6'/W8     </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4114&amp;name=LAPTOP%20ASUS%20X401A-MX1-H-WHI%20Ci3-2350M%204GB/500GB/14&quot;/W8%20%20%20%20%20%20&amp;codigo=886227287062' style='cursor: pointer;'>
+		     <td>886227287062                  </td>
+		     <td>LAPTOP ASUS X401A-MX1-H-WHI Ci3-2350M 4GB/500GB/14'/W8      </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4115&amp;name=LAPTOP%20ASUS%20X401U-MPR2-H%20AMD-C60%202GB/320GB/14&quot;/WIN8%20%20%20%20%20%20%20%20%20&amp;codigo=886227435647' style='cursor: pointer;'>
+		     <td>886227435647                  </td>
+		     <td>LAPTOP ASUS X401U-MPR2-H AMD-C60 2GB/320GB/14'/WIN8         </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4116&amp;name=LAPTOP%20ASUS%20F401U-MTPR1-H%20AMD-C60%202GB/320GB/14&quot;/WIN8%20%20%20%20%20%20%20%20&amp;codigo=886227460731' style='cursor: pointer;'>
+		     <td>886227460731                  </td>
+		     <td>LAPTOP ASUS F401U-MTPR1-H AMD-C60 2GB/320GB/14'/WIN8        </td>
+		     <td align='center'> 1</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4117&amp;name=LAPTOP%20ASUS%20X401U-MPR5-H%20AMD%20E2-1800%204GB/500GB/14&quot;/W8%20%20%20%20%20%20%20&amp;codigo=886227430499' style='cursor: pointer;'>
+		     <td>886227430499                  </td>
+		     <td>LAPTOP ASUS X401U-MPR5-H AMD E2-1800 4GB/500GB/14'/W8       </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4118&amp;name=LAPTOP%20ASUS%20X45A-MPR2-H%20CELERON-1000M%20%204GB/500GB/14&quot;/W8%20%20%20%20%20&amp;codigo=886227430468' style='cursor: pointer;'>
+		     <td>886227430468                  </td>
+		     <td>LAPTOP ASUS X45A-MPR2-H CELERON-1000M  4GB/500GB/14'/W8     </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4119&amp;name=LAPTOP%20ASUS%20X55A-MX1-H%20CELERON-B830%202GB/500GB/15.6&quot;/W8%20%20%20%20%20%20&amp;codigo=886227297559' style='cursor: pointer;'>
+		     <td>886227297559                  </td>
+		     <td>LAPTOP ASUS X55A-MX1-H CELERON-B830 2GB/500GB/15.6'/W8      </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4120&amp;name=LAPTOP%20ASUS%20X55A-MX2-H%20PENTIUM-B970%204GB/500GB/15.6&quot;/W8%20%20%20%20%20%20&amp;codigo=886227287130' style='cursor: pointer;'>
+		     <td>886227287130                  </td>
+		     <td>LAPTOP ASUS X55A-MX2-H PENTIUM-B970 4GB/500GB/15.6'/W8      </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4121&amp;name=LAPTOP%20ASUS%20X55U-MPR1-H%20AMD%20E2-1800%204GB/500GB/15.6&quot;/W8%20%20%20%20%20%20&amp;codigo=886227430420' style='cursor: pointer;'>
+		     <td>886227430420                  </td>
+		     <td>LAPTOP ASUS X55U-MPR1-H AMD E2-1800 4GB/500GB/15.6'/W8      </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4122&amp;name=LAPTOP%20ASUS%20X55A-MX3-0%20CELERON-B830%202GB/500GB/15.6&quot;/SINSO%20%20%20&amp;codigo=886227383979' style='cursor: pointer;'>
+		     <td>886227383979                  </td>
+		     <td>LAPTOP ASUS X55A-MX3-0 CELERON-B830 2GB/500GB/15.6'/SINSO   </td>
+		     <td align='center'> 1</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4123&amp;name=LAPTOP%20ASUS%20A45A-MTPR1-H%20Ci3-3120M%204GB/750GB/14&quot;/W8/CAFE%20%20%20%20&amp;codigo=886227448968' style='cursor: pointer;'>
+		     <td>886227448968                  </td>
+		     <td>LAPTOP ASUS A45A-MTPR1-H Ci3-3120M 4GB/750GB/14'/W8/CAFE    </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4124&amp;name=LAPTOP%20ASUS%20A45A-MX3-H%20Ci5%206GB/750GB/14&quot;/WIN8%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&amp;codigo=886227297016' style='cursor: pointer;'>
+		     <td>886227297016                  </td>
+		     <td>LAPTOP ASUS A45A-MX3-H Ci5 6GB/750GB/14'/WIN8               </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4218&amp;name=LAPTOP%20ASUS%20G750JX-MBS1-H%20Ci7-4700HQ%208GB/1TB/17.3&quot;/W8%20%20%20%20%20%20%20&amp;codigo=886227541102' style='cursor: pointer;'>
+		     <td>886227541102                  </td>
+		     <td>LAPTOP ASUS G750JX-MBS1-H Ci7-4700HQ 8GB/1TB/17.3'/W8       </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4238&amp;name=NOTEBOOK%20ASUS%20X101CH-MTX1-B%20ATOM-N2600%204GB/320GB/10.1&quot;/W7HP%20&amp;codigo=886227339297' style='cursor: pointer;'>
+		     <td>886227339297                  </td>
+		     <td>NOTEBOOK ASUS X101CH-MTX1-B ATOM-N2600 4GB/320GB/10.1'/W7HP </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4239&amp;name=NOTEBOOK%20ASUS%20X101CH-MS1-WHI%20ATOM-N2600%201GB/320GB/10.1&quot;/W7S%20&amp;codigo=886227135677' style='cursor: pointer;'>
+		     <td>886227135677                  </td>
+		     <td>NOTEBOOK ASUS X101CH-MS1-WHI ATOM-N2600 1GB/320GB/10.1'/W7S </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4240&amp;name=NOTEBOOK%20ASUS%20X101CH-MX1-B-WHI%20AT-N2600%202GB/320GB/10.1&quot;/W7HB&amp;codigo=886227305742' style='cursor: pointer;'>
+		     <td>886227305742                  </td>
+		     <td>NOTEBOOK ASUS X101CH-MX1-B-WHI AT-N2600 2GB/320GB/10.1'/W7HB</td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4241&amp;name=NOTEBOOK%20ASUS%20R051BX-MS2C6-RED%20DC%204GB/320GB/10.1&quot;/W7HP%20%20%20%20%20%20&amp;codigo=886227154524' style='cursor: pointer;'>
+		     <td>886227154524                  </td>
+		     <td>NOTEBOOK ASUS R051BX-MS2C6-RED DC 4GB/320GB/10.1'/W7HP      </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4242&amp;name=NOTEBOOK%20ASUS%201025C-MS1-BLK%20AT-N2800%202GB/320GB/10.1&quot;/W7S%20%20%20%20&amp;codigo=886227169641' style='cursor: pointer;'>
+		     <td>886227169641                  </td>
+		     <td>NOTEBOOK ASUS 1025C-MS1-BLK AT-N2800 2GB/320GB/10.1'/W7S    </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4243&amp;name=NOTEBOOK%20ASUS%201001PXD-EM17-BK%20%20AT-N455%201GB/250GB/10.1&quot;/W7S%20%20&amp;codigo=884840827719' style='cursor: pointer;'>
+		     <td>884840827719                  </td>
+		     <td>NOTEBOOK ASUS 1001PXD-EM17-BK  AT-N455 1GB/250GB/10.1'/W7S  </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4244&amp;name=NOTEBOOK%20ASUS%201015BX-MS2-BLK%20AMD%201GB/320GB/10.1&quot;/WIN7S%20%20%20%20%20%20&amp;codigo=886227061808' style='cursor: pointer;'>
+		     <td>886227061808                  </td>
+		     <td>NOTEBOOK ASUS 1015BX-MS2-BLK AMD 1GB/320GB/10.1'/WIN7S      </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4245&amp;name=NOTEBOOK%20ASUS%20R11CX-MX1-B-WHI%20AT-N2600%201GB/320GB/10.1/W7S%20%20%20&amp;codigo=886227294749' style='cursor: pointer;'>
+		     <td>886227294749                  </td>
+		     <td>NOTEBOOK ASUS R11CX-MX1-B-WHI AT-N2600 1GB/320GB/10.1/W7S   </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4246&amp;name=NOTEBOOK%20ASUS%201015BX-MS2C6-RED%20AMD%201GB/320GB/10.1&quot;/W7S%20%20%20%20%20%20&amp;codigo=886227154500' style='cursor: pointer;'>
+		     <td>886227154500                  </td>
+		     <td>NOTEBOOK ASUS 1015BX-MS2C6-RED AMD 1GB/320GB/10.1'/W7S      </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4247&amp;name=NOTEBOOK%20ASUS%201215P-MT27-BK%20N5%202GB/4GB/10.1!/WIN7%20%20%20%20%20%20%20%20%20%20%20&amp;codigo=884840893677' style='cursor: pointer;'>
+		     <td>884840893677                  </td>
+		     <td>NOTEBOOK ASUS 1215P-MT27-BK N5 2GB/4GB/10.1!/WIN7           </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4248&amp;name=NOTEBOOK%20ASUS%20X101CH%20ATOM-N2600%202GB/320GB/10.1/WIN7S%20%20%20%20%20%20%20%20&amp;codigo=886227305759' style='cursor: pointer;'>
+		     <td>886227305759                  </td>
+		     <td>NOTEBOOK ASUS X101CH ATOM-N2600 2GB/320GB/10.1/WIN7S        </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4249&amp;name=NOTEBOOK%20ASUS%20X101CH-MS1S-WHI%20AT-N2600%201GB/320GB/10.1!/WIN7S&amp;codigo=886227097388' style='cursor: pointer;'>
+		     <td>886227097388                  </td>
+		     <td>NOTEBOOK ASUS X101CH-MS1S-WHI AT-N2600 1GB/320GB/10.1!/WIN7S</td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4251&amp;name=NOTEBOOK%20ASUS%20X101H%20AT-N2600%201GB/320GB/.10.1&quot;/WIN7S%20%20%20%20%20%20%20%20%20&amp;codigo=884840919575' style='cursor: pointer;'>
+		     <td>884840919575                  </td>
+		     <td>NOTEBOOK ASUS X101H AT-N2600 1GB/320GB/.10.1'/WIN7S         </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4252&amp;name=NOTEBOOK%20ASUS%20X101CH-MS1-BLK%20AT-N2600%201GB/320GB/10.1&quot;/W7S%20%20%20&amp;codigo=886227097364' style='cursor: pointer;'>
+		     <td>886227097364                  </td>
+		     <td>NOTEBOOK ASUS X101CH-MS1-BLK AT-N2600 1GB/320GB/10.1'/W7S   </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4253&amp;name=NOTEBOOK%20ASUS%201015BX-MS1C6-BLK%20AMD%201GB/320GB/10.1&quot;/W7S%20%20%20%20%20%20&amp;codigo=886227157334' style='cursor: pointer;'>
+		     <td>886227157334                  </td>
+		     <td>NOTEBOOK ASUS 1015BX-MS1C6-BLK AMD 1GB/320GB/10.1'/W7S      </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4254&amp;name=NOTEBOOK%20ASUS%20R11CX-MX1-B-BLK%20DN%201GB/320GB/10.1&quot;/W7S%20%20%20%20%20%20%20%20&amp;codigo=886227294763' style='cursor: pointer;'>
+		     <td>886227294763                  </td>
+		     <td>NOTEBOOK ASUS R11CX-MX1-B-BLK DN 1GB/320GB/10.1'/W7S        </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4255&amp;name=NOTEBOOK%20ASUS%201001PXD-ET27-BK%20AT-N455%201GB/250GB/10.1&quot;/W7S%20%20%20&amp;codigo=884840885832' style='cursor: pointer;'>
+		     <td>884840885832                  </td>
+		     <td>NOTEBOOK ASUS 1001PXD-ET27-BK AT-N455 1GB/250GB/10.1'/W7S   </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4256&amp;name=NOTEBOOK%20ASUS%201015BX-MS2C6-BLK%20AMD%201GB/320GB/10.1&quot;/W7S%20%20%20%20%20%20&amp;codigo=886227154494' style='cursor: pointer;'>
+		     <td>886227154494                  </td>
+		     <td>NOTEBOOK ASUS 1015BX-MS2C6-BLK AMD 1GB/320GB/10.1'/W7S      </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4257&amp;name=LAPTOP%20ASUS%20K53TA-MT1%20AMD%20A4-3300M%204GB/640GB/15.6&quot;/W7HP%20%20%20%20%20&amp;codigo=884840887263' style='cursor: pointer;'>
+		     <td>884840887263                  </td>
+		     <td>LAPTOP ASUS K53TA-MT1 AMD A4-3300M 4GB/640GB/15.6'/W7HP     </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4258&amp;name=LAPTOP%20ASUS%20U38N-MPR1-H%20AMD%20A8-4555M%204GB/500GB/13.3&quot;/W8/TS%20%20&amp;codigo=886227430550' style='cursor: pointer;'>
+		     <td>886227430550                  </td>
+		     <td>LAPTOP ASUS U38N-MPR1-H AMD A8-4555M 4GB/500GB/13.3'/W8/TS  </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4259&amp;name=LAPTOP%20ASUS%20UX31E-MA1%20Ci5-2257M%204GB/128GB/13.3&quot;/WIN7HP%20%20%20%20%20%20&amp;codigo=884840992202' style='cursor: pointer;'>
+		     <td>884840992202                  </td>
+		     <td>LAPTOP ASUS UX31E-MA1 Ci5-2257M 4GB/128GB/13.3'/WIN7HP      </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4260&amp;name=LAPTOP%20ASUS%20K55N-MSR1-R%20AMD%20A6-4400M%204GB/500GB/15.6&quot;/WIN7HP%20&amp;codigo=886227189618' style='cursor: pointer;'>
+		     <td>886227189618                  </td>
+		     <td>LAPTOP ASUS K55N-MSR1-R AMD A6-4400M 4GB/500GB/15.6'/WIN7HP </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4261&amp;name=LAPTOP%20ASUS%20K45VD-MX1-H%20Ci5-3210M%206GB/1TB/14&quot;/WIN8%20%20%20%20%20%20%20%20%20%20&amp;codigo=886227296958' style='cursor: pointer;'>
+		     <td>886227296958                  </td>
+		     <td>LAPTOP ASUS K45VD-MX1-H Ci5-3210M 6GB/1TB/14'/WIN8          </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4262&amp;name=LAPTOP%20ASUS%20N53SM-MS1%20Ci7-2670QM%206GB/750GB/15.6&quot;/WIN7HP%20%20%20%20%20&amp;codigo=886227110292' style='cursor: pointer;'>
+		     <td>886227110292                  </td>
+		     <td>LAPTOP ASUS N53SM-MS1 Ci7-2670QM 6GB/750GB/15.6'/WIN7HP     </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4263&amp;name=LAPTOP%20ASUS%20N53SV-MA3%20Ci7-2630QM%206GB/750GB/15.6&quot;/WIN7HP%20%20%20%20%20&amp;codigo=884840952435' style='cursor: pointer;'>
+		     <td>884840952435                  </td>
+		     <td>LAPTOP ASUS N53SV-MA3 Ci7-2630QM 6GB/750GB/15.6'/WIN7HP     </td>
+		     <td align='center'> 1</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4264&amp;name=LAPTOP%20ASUS%20K53TA-ME2%20AMD%20A4-3300M%204GB/640GB/15.6&quot;/W7HP%20%20%20%20%20&amp;codigo=884840957935' style='cursor: pointer;'>
+		     <td>884840957935                  </td>
+		     <td>LAPTOP ASUS K53TA-ME2 AMD A4-3300M 4GB/640GB/15.6'/W7HP     </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4265&amp;name=LAPTOP%20ASUS%20K53Z-MS1S%20AMD%20A4-3305M%204GB/500GB/15.6&quot;/WIN7HB%20%20%20&amp;codigo=886227110537' style='cursor: pointer;'>
+		     <td>886227110537                  </td>
+		     <td>LAPTOP ASUS K53Z-MS1S AMD A4-3305M 4GB/500GB/15.6'/WIN7HB   </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4266&amp;name=LAPTOP%20ASUS%20X44H-MS1%20CELERON%20B815%202GB/320GB/14&quot;/WIN7HB%20%20%20%20%20%20&amp;codigo=886227107766' style='cursor: pointer;'>
+		     <td>886227107766                  </td>
+		     <td>LAPTOP ASUS X44H-MS1 CELERON B815 2GB/320GB/14'/WIN7HB      </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4269&amp;name=LAPTOP%20ASUS%20D550MA-DS01%20CELERON-N2815%204GB/500GB/15.6&quot;/W8%20%20%20%20&amp;codigo=886227660605' style='cursor: pointer;'>
+		     <td>886227660605                  </td>
+		     <td>LAPTOP ASUS D550MA-DS01 CELERON-N2815 4GB/500GB/15.6'/W8    </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4351&amp;name=LAPTOP%20ASUS%20X44H-MS2%20PENTIUM%20B960%204GB/500GB/14&quot;/W7HB%20%20%20%20%20%20%20%20&amp;codigo=886227107773' style='cursor: pointer;'>
+		     <td>886227107773                  </td>
+		     <td>LAPTOP ASUS X44H-MS2 PENTIUM B960 4GB/500GB/14'/W7HB        </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4352&amp;name=LAPTOP%20ASUS%20TX300C%20CI5%204GB/500GB/13.3&quot;/W8.1/TOUCH/CON%20FUNDa%20&amp;codigo=886227529919' style='cursor: pointer;'>
+		     <td>886227529919                  </td>
+		     <td>LAPTOP ASUS TX300C CI5 4GB/500GB/13.3'/W8.1/TOUCH/CON FUNDa </td>
+		     <td align='center'> 6</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4383&amp;name=LAPTOP%20ASUS%20D450CA%20CI3-3217U%204GB/500GB/14&quot;/WIN8%20%20%20%20%20%20%20%20%20%20%20%20%20&amp;codigo=0886227735358' style='cursor: pointer;'>
+		     <td>0886227735358                 </td>
+		     <td>LAPTOP ASUS D450CA CI3-3217U 4GB/500GB/14'/WIN8             </td>
+		     <td align='center'> 0</td>
+		     <td>NUEVO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4422&amp;name=LAPTOP%20ASUS%20X551MAV-RCLN06%20CELERON%204GB/500GB/15.6&quot;/W8.1%20%20%20%20%20&amp;codigo=886227738793' style='cursor: pointer;'>
+		     <td>886227738793                  </td>
+		     <td>LAPTOP ASUS X551MAV-RCLN06 CELERON 4GB/500GB/15.6'/W8.1     </td>
+		     <td align='center'> 8</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4458&amp;name=LAPTOP%20ASUS%20X550CA-SI30304R%20CI3%204GB/500GB/15.6/W8/GRIS/TOUCH&amp;codigo=886227674763' style='cursor: pointer;'>
+		     <td>886227674763                  </td>
+		     <td>LAPTOP ASUS X550CA-SI30304R CI3 4GB/500GB/15.6/W8/GRIS/TOUCH</td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4460&amp;name=LAPTOP%20ASUS%20X54C-MS1%20CI3-2350M%204GB/320GB/15.6&quot;/WIN7%20%20%20%20%20%20%20%20%20&amp;codigo=886227107759' style='cursor: pointer;'>
+		     <td>886227107759                  </td>
+		     <td>LAPTOP ASUS X54C-MS1 CI3-2350M 4GB/320GB/15.6'/WIN7         </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4461&amp;name=LAPTOP%20ASUS%201225B-MSR1-GRY%20DC-E450%204GB/500GB/11.6&quot;/W7%20%20%20%20%20%20%20&amp;codigo=886227176250' style='cursor: pointer;'>
+		     <td>886227176250                  </td>
+		     <td>LAPTOP ASUS 1225B-MSR1-GRY DC-E450 4GB/500GB/11.6'/W7       </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4462&amp;name=LAPTOP%20ASUS%20X44H-MSR2-R%20PENTIUM%20B960%202GB/320GB/14&quot;/W7HB%20%20%20%20%20&amp;codigo=886227164158' style='cursor: pointer;'>
+		     <td>886227164158                  </td>
+		     <td>LAPTOP ASUS X44H-MSR2-R PENTIUM B960 2GB/320GB/14'/W7HB     </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4464&amp;name=LAPTOP%20ASUS%20TX300C%20CI5%204GB/500GB/13.3&quot;/WIN8/TOUCH%20%20%20%20%20%20%20%20%20%20%20&amp;codigo=886227430741' style='cursor: pointer;'>
+		     <td>886227430741                  </td>
+		     <td>LAPTOP ASUS TX300C CI5 4GB/500GB/13.3'/WIN8/TOUCH           </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4465&amp;name=NOTEBOOK%20ASUS%201225B-MS1-GRY%20AMD-450%204GB/320GB/10.1&quot;/W7S%20%20%20%20%20&amp;codigo=886227120437' style='cursor: pointer;'>
+		     <td>886227120437                  </td>
+		     <td>NOTEBOOK ASUS 1225B-MS1-GRY AMD-450 4GB/320GB/10.1'/W7S     </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4466&amp;name=LAPTOP%20ASUS%20TAICHI21-MX1-H%20CI5%204GB/128GBSSD/T-DUAL/11.6&quot;/W8%20&amp;codigo=886227394890' style='cursor: pointer;'>
+		     <td>886227394890                  </td>
+		     <td>LAPTOP ASUS TAICHI21-MX1-H CI5 4GB/128GBSSD/T-DUAL/11.6'/W8 </td>
+		     <td align='center'> 1</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4467&amp;name=LAPTOP%20ASUS%20A55V%20CI3-3120M%206GB/1TB/15.6&quot;/WIN8%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&amp;codigo=886227430796' style='cursor: pointer;'>
+		     <td>886227430796                  </td>
+		     <td>LAPTOP ASUS A55V CI3-3120M 6GB/1TB/15.6'/WIN8               </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4506&amp;name=TECLADO/MOUSE%20ASUS%20W3000%20SLIM%20WIRELESS%20US/NEGRO%20%20%20%20%20%20%20%20%20%20%20%20%20&amp;codigo=884840028031' style='cursor: pointer;'>
+		     <td>884840028031                  </td>
+		     <td>TECLADO/MOUSE ASUS W3000 SLIM WIRELESS US/NEGRO             </td>
+		     <td align='center'> 0</td>
+		     <td>NUEVO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4516&amp;name=LAPTOP%20ASUS%20X550LA-SI50402W%20CI5/4GB/500GB/15.6&quot;/DVD/W8%20%20%20%20%20%20&amp;codigo=886227684212' style='cursor: pointer;'>
+		     <td>886227684212                  </td>
+		     <td>LAPTOP ASUS X550LA-SI50402W CI5/4GB/500GB/15.6'/DVD/W8      </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4634&amp;name=LAPTOP%20ASUS%20P45VA-MPR01-P%20CI3-3110M%204GB/500GB/14&quot;/WIN8PRO%20%20%20&amp;codigo=886227725892' style='cursor: pointer;'>
+		     <td>886227725892                  </td>
+		     <td>LAPTOP ASUS P45VA-MPR01-P CI3-3110M 4GB/500GB/14'/WIN8PRO   </td>
+		     <td align='center'> 0</td>
+		     <td>NUEVO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4754&amp;name=LAPTOP%20ASUS%20ASX550L-RI7T27%20CI7-4500U%208GB/1TB/15.6&quot;/W8/TOUCH%20&amp;codigo=886227654086' style='cursor: pointer;'>
+		     <td>886227654086                  </td>
+		     <td>LAPTOP ASUS ASX550L-RI7T27 CI7-4500U 8GB/1TB/15.6'/W8/TOUCH </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4817&amp;name=LAPTOP%20ASUS%20CI5%204GB/128MSSD/500GB/WIN8/SILVER%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&amp;codigo=0886227529919' style='cursor: pointer;'>
+		     <td>0886227529919                 </td>
+		     <td>LAPTOP ASUS CI5 4GB/128MSSD/500GB/WIN8/SILVER               </td>
+		     <td align='center'> 1</td>
+		     <td>NUEVO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4824&amp;name=MOTHER%20BOARD%20ASUS%20H81M-K%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&amp;codigo=MBDASS2600' style='cursor: pointer;'>
+		     <td>MBDASS2600                    </td>
+		     <td>MOTHER BOARD ASUS H81M-K                                    </td>
+		     <td align='center'> 0</td>
+		     <td>NUEVO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4886&amp;name=NOTEBOOK%20ASUS%20F200CA-SH01T%20CEL-1007U%204GB/500GB/11.6&quot;/TS/W8%20%20&amp;codigo=886227580262' style='cursor: pointer;'>
+		     <td>886227580262                  </td>
+		     <td>NOTEBOOK ASUS F200CA-SH01T CEL-1007U 4GB/500GB/11.6'/TS/W8  </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4928&amp;name=LAPTOP%20ASUS%20X550CA-SI30303T%20CI3%204GB/500GB/15.6&quot;/W8/BLANCO%20%20%20&amp;codigo=886227676767' style='cursor: pointer;'>
+		     <td>886227676767                  </td>
+		     <td>LAPTOP ASUS X550CA-SI30303T CI3 4GB/500GB/15.6'/W8/BLANCO   </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4929&amp;name=LAPTOP%20ASUS%20X550CA-SI30303S%20CI3%204GB/500GB/15.6&quot;/W8/ROJO%20%20%20%20%20&amp;codigo=886227676750' style='cursor: pointer;'>
+		     <td>886227676750                  </td>
+		     <td>LAPTOP ASUS X550CA-SI30303S CI3 4GB/500GB/15.6'/W8/ROJO     </td>
+		     <td align='center'> 1</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=4930&amp;name=LAPTOP%20ASUS%20X550CA-RI3T13%20CI3%206GB/500GB/15.6&quot;/W8/SILVER%20%20%20%20%20&amp;codigo=886227654116' style='cursor: pointer;'>
+		     <td>886227654116                  </td>
+		     <td>LAPTOP ASUS X550CA-RI3T13 CI3 6GB/500GB/15.6'/W8/SILVER     </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=5493&amp;name=PC%20ESCRITORIO%20ASUS%20J1800I-A%20CELERON%204GB/500GB/DVD/%20%20%20%20%20%20%20%20%20%20&amp;codigo=7506215906814' style='cursor: pointer;'>
+		     <td>7506215906814                 </td>
+		     <td>PC ESCRITORIO ASUS J1800I-A CELERON 4GB/500GB/DVD/          </td>
+		     <td align='center'> 0</td>
+		     <td>NUEVO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=5523&amp;name=TABLETA%20ASUS%20TF101RF-A1%20NVIDIA%201GB/16GB/10.1&quot;/ANDROID/CAFE%20%20&amp;codigo=886227003150' style='cursor: pointer;'>
+		     <td>886227003150                  </td>
+		     <td>TABLETA ASUS TF101RF-A1 NVIDIA 1GB/16GB/10.1'/ANDROID/CAFE  </td>
+		     <td align='center'> 2</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=5526&amp;name=ASUS%20TRANSFORMER%20BOOK%20T100%20QC%202GB/32GB/10.1&quot;/W8/OFFICE%20%20%20%20%20%20&amp;codigo=886227628476' style='cursor: pointer;'>
+		     <td>886227628476                  </td>
+		     <td>ASUS TRANSFORMER BOOK T100 QC 2GB/32GB/10.1'/W8/OFFICE      </td>
+		     <td align='center'> 0</td>
+		     <td>NUEVO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=5538&amp;name=TARJETA%20MADRE%20INTEL%20ASUS%204DDR2/VGA/PCI/USB%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&amp;codigo=PCH-0004' style='cursor: pointer;'>
+		     <td>PCH-0004                      </td>
+		     <td>TARJETA MADRE INTEL ASUS 4DDR2/VGA/PCI/USB                  </td>
+		     <td align='center'> 0</td>
+		     <td>NUEVO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=5577&amp;name=ASUS%20TRANSFORMER%20BOOK%20T100%20QC%202GB/64GB/10.1&quot;/OFFICE/W8%20%20%20%20%20%20&amp;codigo=886227726523' style='cursor: pointer;'>
+		     <td>886227726523                  </td>
+		     <td>ASUS TRANSFORMER BOOK T100 QC 2GB/64GB/10.1'/OFFICE/W8      </td>
+		     <td align='center'> 0</td>
+		     <td>NUEVO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=5583&amp;name=LAPTOP%20ASUS%20X552LAV-BBI5N08%20CI5-4210U%204GB/500GB/15.6&quot;/W8%20%20%20%20&amp;codigo=886227771158' style='cursor: pointer;'>
+		     <td>886227771158                  </td>
+		     <td>LAPTOP ASUS X552LAV-BBI5N08 CI5-4210U 4GB/500GB/15.6'/W8    </td>
+		     <td align='center'> -47</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=5686&amp;name=LAPTOP%20ASUS%20X551CA-RI3N15%20CI3-3217U%204GB/500GB/15.6&quot;/DVD/W8%20%20&amp;codigo=886227654123' style='cursor: pointer;'>
+		     <td>886227654123                  </td>
+		     <td>LAPTOP ASUS X551CA-RI3N15 CI3-3217U 4GB/500GB/15.6'/DVD/W8  </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=6001&amp;name=MODERBOAR%20ASUS%20H81M-E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&amp;codigo=MBDASS1910' style='cursor: pointer;'>
+		     <td>MBDASS1910                    </td>
+		     <td>MODERBOAR ASUS H81M-E                                       </td>
+		     <td align='center'> 2</td>
+		     <td>NUEVO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=6092&amp;name=ASUS%20GR6-R019R%20CI-5200U%208GB/1TB/GTX-NVIDIA/GEFORCE/W8.1%20%20%20%20%20&amp;codigo=889349034033' style='cursor: pointer;'>
+		     <td>889349034033                  </td>
+		     <td>ASUS GR6-R019R CI-5200U 8GB/1TB/GTX-NVIDIA/GEFORCE/W8.1     </td>
+		     <td align='center'> 0</td>
+		     <td>NUEVO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=6431&amp;name=LAPTOP%20ASUS%20Q551LN-BBI706T%20CI7/1TB/8GB/15.6&quot;/W8/DVD/BT%20%20%20%20%20%20&amp;codigo=886227763474' style='cursor: pointer;'>
+		     <td>886227763474                  </td>
+		     <td>LAPTOP ASUS Q551LN-BBI706T CI7/1TB/8GB/15.6'/W8/DVD/BT      </td>
+		     <td align='center'> 1</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=6432&amp;name=LAPTOP%20ASUS%20ROG%20G751JM-BHI7T25T%20CI7%201TB/8GB/17.3&quot;/DVD/W8%20%20%20%20&amp;codigo=886227828623' style='cursor: pointer;'>
+		     <td>886227828623                  </td>
+		     <td>LAPTOP ASUS ROG G751JM-BHI7T25T CI7 1TB/8GB/17.3'/DVD/W8    </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=6522&amp;name=TABLET%20ASUS%20MEMOPAD%20ME70C%20ATOM%208GB/1GB/7/BT/ANDROID4.3%20%20%20%20%20%20&amp;codigo=886227858231' style='cursor: pointer;'>
+		     <td>886227858231                  </td>
+		     <td>TABLET ASUS MEMOPAD ME70C ATOM 8GB/1GB/7/BT/ANDROID4.3      </td>
+		     <td align='center'> 2</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=6549&amp;name=LAPTOP%20ASUS%20TP500LA%20CI5%20500GB/8G/15.6&quot;/BT/WIN8.1/TOUCH%20%20%20%20%20%20&amp;codigo=886227886074' style='cursor: pointer;'>
+		     <td>886227886074                  </td>
+		     <td>LAPTOP ASUS TP500LA CI5 500GB/8G/15.6'/BT/WIN8.1/TOUCH      </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=6645&amp;name=LAPTOP%20ASUS%20TP500LA-DB51T%20CI5%20500GB/6GB/15.6&quot;/TS/BT/WIN8.1%20%20&amp;codigo=886227785025' style='cursor: pointer;'>
+		     <td>886227785025                  </td>
+		     <td>LAPTOP ASUS TP500LA-DB51T CI5 500GB/6GB/15.6'/TS/BT/WIN8.1  </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=6717&amp;name=TARJETA%20MADRE%20ASUS%20H81M-E%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&amp;codigo=886227553075' style='cursor: pointer;'>
+		     <td>886227553075                  </td>
+		     <td>TARJETA MADRE ASUS H81M-E                                   </td>
+		     <td align='center'> 0</td>
+		     <td>NUEVO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=7031&amp;name=LAPTOP%20ASUS%20P550LA-QUENT%20CI7/1TB/8GB/15.6&quot;/DVD/BT/W7/8PRO%20%20%20&amp;codigo=886227666195' style='cursor: pointer;'>
+		     <td>886227666195                  </td>
+		     <td>LAPTOP ASUS P550LA-QUENT CI7/1TB/8GB/15.6'/DVD/BT/W7/8PRO   </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=7504&amp;name=LAPTOP%20ASUS%20X550LA-S15040%20CI5/4GB/500GB/15.6&quot;/DVD/W8%20%20%20%20%20%20%20%20&amp;codigo=827396527078' style='cursor: pointer;'>
+		     <td>827396527078                  </td>
+		     <td>LAPTOP ASUS X550LA-S15040 CI5/4GB/500GB/15.6'/DVD/W8        </td>
+		     <td align='center'> 1</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=7572&amp;name=LAPTOP%20ASUS%20ROG%20G751JL%20CI7/1TB/8GB/17.3&quot;/DVD/BT/TS/W10%20%20%20%20%20%20&amp;codigo=889349112397' style='cursor: pointer;'>
+		     <td>889349112397                  </td>
+		     <td>LAPTOP ASUS ROG G751JL CI7/1TB/8GB/17.3'/DVD/BT/TS/W10      </td>
+		     <td align='center'> 0</td>
+		     <td>NUEVO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=8110&amp;name=LAPTOP%20ASUS%20TP550LA-RHI5T01%20CI5/6GB/1TB/15.6&quot;/TS/DVD/W8.1%20%20%20&amp;codigo=886227873296' style='cursor: pointer;'>
+		     <td>886227873296                  </td>
+		     <td>LAPTOP ASUS TP550LA-RHI5T01 CI5/6GB/1TB/15.6'/TS/DVD/W8.1   </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=8130&amp;name=Teclado%20color%20Negro%20(SP)%20para%20ASUS%201015%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&amp;codigo=TEC317' style='cursor: pointer;'>
+		     <td>TEC317                        </td>
+		     <td>Teclado color Negro (SP) para ASUS 1015                     </td>
+		     <td align='center'> 1</td>
+		     <td>NUEVO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=8213&amp;name=LAPTOP%20ASUS%20TP500LA-SI50401C/CI5/8GB/1TB/15.6&quot;/TS/BT/W8%20%20%20%20%20&amp;codigo=886227985081' style='cursor: pointer;'>
+		     <td>886227985081                  </td>
+		     <td>LAPTOP ASUS TP500LA-SI50401C/CI5/8GB/1TB/15.6'/TS/BT/W8     </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=8214&amp;name=LAPTOP%20ASUS%20TP300LA-DB51T/CI5/500GB/6GB/13.3&quot;TS/BT/W8.1%20%20%20%20%20&amp;codigo=886227733699' style='cursor: pointer;'>
+		     <td>886227733699                  </td>
+		     <td>LAPTOP ASUS TP300LA-DB51T/CI5/500GB/6GB/13.3'TS/BT/W8.1     </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=8459&amp;name=LAPTOP%20ASUS%20X555LA-DH31%20CI3/4GB/500GB/15.6&quot;/DVD/BT/W10%20%20%20%20%20%20&amp;codigo=889349186923' style='cursor: pointer;'>
+		     <td>889349186923                  </td>
+		     <td>LAPTOP ASUS X555LA-DH31 CI3/4GB/500GB/15.6'/DVD/BT/W10      </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=8537&amp;name=LAPTOP%20ASUS%20F555LA-EH51%20CI5/8GB/1TB/15.6&quot;/DVD/W10/BT%20%20%20%20%20%20%20%20&amp;codigo=889349166956' style='cursor: pointer;'>
+		     <td>889349166956                  </td>
+		     <td>LAPTOP ASUS F555LA-EH51 CI5/8GB/1TB/15.6'/DVD/W10/BT        </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=8538&amp;name=LAPTOP%20ASUS%20R556LA-RH51%20CI5/6GB/1TB/15.6&quot;/DVD/W10/BT%20%20%20%20%20%20%20%20&amp;codigo=889349167021' style='cursor: pointer;'>
+		     <td>889349167021                  </td>
+		     <td>LAPTOP ASUS R556LA-RH51 CI5/6GB/1TB/15.6'/DVD/W10/BT        </td>
+		     <td align='center'> 1</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=8689&amp;name=LAPTOP%20ASUS%20D553SA-BH01%20CEL%20N3050%204GB%20500GB%2015.6%20W10%20NEGRO%20%20&amp;codigo=889349195932' style='cursor: pointer;'>
+		     <td>889349195932                  </td>
+		     <td>LAPTOP ASUS D553SA-BH01 CEL N3050 4GB 500GB 15.6 W10 NEGRO  </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=8690&amp;name=LAPTOP%20ASUS%20D553SA-BH01%20CEL%20N3050%204GB%20500GB%2015.6%20W10%20MORADA%20&amp;codigo=889349195956' style='cursor: pointer;'>
+		     <td>889349195956                  </td>
+		     <td>LAPTOP ASUS D553SA-BH01 CEL N3050 4GB 500GB 15.6 W10 MORADA </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=8691&amp;name=LAPTOP%20ASUS%20D553SA-BH01%20CEL%20N3050%204GB%20500GB%2015.6%20W10%20ROJA%20%20%20&amp;codigo=889349195963' style='cursor: pointer;'>
+		     <td>889349195963                  </td>
+		     <td>LAPTOP ASUS D553SA-BH01 CEL N3050 4GB 500GB 15.6 W10 ROJA   </td>
+		     <td align='center'> 1</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=8692&amp;name=LAPTOP%20ASUS%20D553SA-BH01%20CEL%20N3050%204GB%20500GB%2015.6%20W10%20BLANCA%20&amp;codigo=889349195949' style='cursor: pointer;'>
+		     <td>889349195949                  </td>
+		     <td>LAPTOP ASUS D553SA-BH01 CEL N3050 4GB 500GB 15.6 W10 BLANCA </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=8693&amp;name=LAPTOP%20ASUS%20GL752VW-DH71%20CI7%206700HQ%2016GB%201TBGB%2017.3%20W10%20%20%20%20%20&amp;codigo=889349201930' style='cursor: pointer;'>
+		     <td>889349201930                  </td>
+		     <td>LAPTOP ASUS GL752VW-DH71 CI7 6700HQ 16GB 1TBGB 17.3 W10     </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=8694&amp;name=LAPTOP%20ASUS%20X751MA-DH21TQ%20PENT%20QUAD%208GB%201TB%2017.3%20TOUCH%20W10%20%20&amp;codigo=889349161722' style='cursor: pointer;'>
+		     <td>889349161722                  </td>
+		     <td>LAPTOP ASUS X751MA-DH21TQ PENT QUAD 8GB 1TB 17.3 TOUCH W10  </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=8695&amp;name=LAPTOP%20ASUS%20TP200SA-UHBF%20CEL%20N3050%202GB%2032GB%20SSD%2011.6T%20W10%20BL&amp;codigo=889349162859' style='cursor: pointer;'>
+		     <td>889349162859                  </td>
+		     <td>LAPTOP ASUS TP200SA-UHBF CEL N3050 2GB 32GB SSD 11.6T W10 BL</td>
+		     <td align='center'> 1</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=8846&amp;name=LAPTOP%20ASUS%20CEL%20N3060%204GB%20500GB%20SYST%20WIN%2010%20NEGRO%20CHOCOLATE%20&amp;codigo=889394505779' style='cursor: pointer;'>
+		     <td>889394505779                  </td>
+		     <td>LAPTOP ASUS CEL N3060 4GB 500GB SYST WIN 10 NEGRO CHOCOLATE </td>
+		     <td align='center'> 5</td>
+		     <td>NUEVO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=9000&amp;name=LAPTOP%20ASUS%20TP500L%20CI3-4005U/15.6&quot;%20/8GB/500GB/360°/TS%20%20%20%20%20%20%20&amp;codigo=889349188552' style='cursor: pointer;'>
+		     <td>889349188552                  </td>
+		     <td>LAPTOP ASUS TP500L CI3-4005U/15.6' /8GB/500GB/360°/TS       </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=9011&amp;name=LAPTOP%20ASUS%20R554LA-RS51T%20CI5%20%206GB%20500GB%2015.6&quot;%20DVDRW%20WIN%208.1%20&amp;codigo=886227971879' style='cursor: pointer;'>
+		     <td>886227971879                  </td>
+		     <td>LAPTOP ASUS R554LA-RS51T CI5  6GB 500GB 15.6' DVDRW WIN 8.1 </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=9252&amp;name=COMPUTADORA%20PC%20ASUS%20T303U%20CI7/512GB%20SSD/16GB/12.6&quot;TS/W10%20%20%20%20&amp;codigo=889349505816' style='cursor: pointer;'>
+		     <td>889349505816                  </td>
+		     <td>COMPUTADORA PC ASUS T303U CI7/512GB SSD/16GB/12.6'TS/W10    </td>
+		     <td align='center'> 1</td>
+		     <td>NUEVO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=9268&amp;name=LAPTOP%20ASUS%20X555LA%20CI7/6GB/1TB/15.6&quot;/DVD/W10%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&amp;codigo=889349148327' style='cursor: pointer;'>
+		     <td>889349148327                  </td>
+		     <td>LAPTOP ASUS X555LA CI7/6GB/1TB/15.6'/DVD/W10                </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=9334&amp;name=LAPTOP%20ASUS%20ROG%20GL552V%20CI7/8GB/1TB/GTX950/2G/DVD-DL/W10%20%20%20%20%20&amp;codigo=889349413272' style='cursor: pointer;'>
+		     <td>889349413272                  </td>
+		     <td>LAPTOP ASUS ROG GL552V CI7/8GB/1TB/GTX950/2G/DVD-DL/W10     </td>
+		     <td align='center'> 0</td>
+		     <td>NUEVO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=9346&amp;name=LAPTOP%20ASUS%20X555DA/A10/8GB/1TB/15.6&quot;/BT/W10/BLACK%20%20%20%20%20%20%20%20%20%20%20&amp;codigo=889349351673' style='cursor: pointer;'>
+		     <td>889349351673                  </td>
+		     <td>LAPTOP ASUS X555DA/A10/8GB/1TB/15.6'/BT/W10/BLACK           </td>
+		     <td align='center'> 0</td>
+		     <td>REACONDICIOANADO</td></tr><tr class='odd gradeX' data-toggle='modal' data-id='1' data-target='#detalleProductos' href='DetalleProducto?producto=9504&amp;name=ALL%20IN%20ONE%20ASUS%20ET2323IUT%20CI5%208GB%202TB%20TS%20DVD%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20&amp;codigo=886227953066' style='cursor: pointer;'>
+		     <td>886227953066                  </td>
+		     <td>ALL IN ONE ASUS ET2323IUT CI5 8GB 2TB TS DVD                </td>
+		     <td align='center'> 30</td>
+		     <td>REACONDICIOANADO</td></tr></tbody></table></body></html>

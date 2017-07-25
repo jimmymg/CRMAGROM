@@ -1,0 +1,5592 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:x='urn:schemas-microsoft-com:office:excel' xmlns='http://www.w3.org/TR/REC-html40'><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>{worksheet}</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table id='tblExportar' style='display:none;'>
+		<tbody><tr>
+		 <th>Pedido</th>
+		 <th>Cliente</th>
+		 <th>Pseudonimo</th>
+		 <th>Codigo</th>
+		 <th>Producto</th>
+		 <th>Unidades</th>
+		 <th>Precio</th>
+		 <th>Total</th>
+		 <th>Creacion</th>
+		 <th>Ultima Modificacion</th>
+		 <th>Vendedor</th>
+		
+		</tr>  <tr class='odd gradeX'>
+		     <td>33683 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 253695542</td>
+
+		     <td>Codigo 608940533369</td>
+			 <td>Can Can for Women by Paris Hilton Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>519</td>
+
+		     <td>519.00</td>
+		     <td>2017-04-17 12:30:34</td>
+		     <td>2017-04-17 12:38:17</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33680 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 900562378</td>
+
+		     <td>Codigo 8431754347011</td>
+			 <td>HALLOWEEN KISS FOR WOMEN BY JESUS DEL POZO EDT 100ML</td>
+			 <td>1</td>
+			 <td>625</td>
+
+		     <td>625.00</td>
+		     <td>2017-04-17 12:27:24</td>
+		     <td>2017-04-17 12:32:24</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33677 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 211845542</td>
+
+		     <td>Codigo 31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>5</td>
+			 <td>1431.67</td>
+
+		     <td>2,577.01</td>
+		     <td>2017-04-17 12:12:28</td>
+		     <td>2017-04-17 12:22:55</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33677 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 211845542</td>
+
+		     <td>Codigo 3661163904016</td>
+			 <td>Nautica Classic For Men by Nautica Eau de Toilette 100ML</td>
+			 <td>2</td>
+			 <td>572.67</td>
+
+		     <td>2,577.01</td>
+		     <td>2017-04-17 12:12:28</td>
+		     <td>2017-04-17 12:22:55</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33677 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 211845542</td>
+
+		     <td>Codigo 3412242508027</td>
+			 <td>Nautica Blue For Men by Nautica Eau De Toilette 100ml</td>
+			 <td>2</td>
+			 <td>572.67</td>
+
+		     <td>2,577.01</td>
+		     <td>2017-04-17 12:12:28</td>
+		     <td>2017-04-17 12:22:55</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33669 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 222917542</td>
+
+		     <td>Codigo 88300107407</td>
+			 <td>CK One by Calvin Klein Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>364.5</td>
+
+		     <td>729.00</td>
+		     <td>2017-04-17 12:11:48</td>
+		     <td>2017-04-17 12:25:29</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33669 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 222917542</td>
+
+		     <td>Codigo 88300104406</td>
+			 <td>CK BE CALVIN KLEIN EAU DE TOILETTE 100 ML</td>
+			 <td>1</td>
+			 <td>364.5</td>
+
+		     <td>729.00</td>
+		     <td>2017-04-17 12:11:48</td>
+		     <td>2017-04-17 12:25:29</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33672 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 255737542</td>
+
+		     <td>Codigo 31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>335</td>
+
+		     <td>335.00</td>
+		     <td>2017-04-17 12:11:01</td>
+		     <td>2017-04-17 12:26:21</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33670 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 217937542</td>
+
+		     <td>Codigo 31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>263</td>
+
+		     <td>789.00</td>
+		     <td>2017-04-17 12:10:22</td>
+		     <td>2017-04-17 12:48:08</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33670 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 217937542</td>
+
+		     <td>Codigo 3661163904016</td>
+			 <td>Nautica Classic For Men by Nautica Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>263</td>
+
+		     <td>789.00</td>
+		     <td>2017-04-17 12:10:22</td>
+		     <td>2017-04-17 12:48:08</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33670 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 217937542</td>
+
+		     <td>Codigo 3412242508027</td>
+			 <td>Nautica Blue For Men by Nautica Eau De Toilette 100ml</td>
+			 <td>1</td>
+			 <td>263</td>
+
+		     <td>789.00</td>
+		     <td>2017-04-17 12:10:22</td>
+		     <td>2017-04-17 12:48:08</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33674 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 238137542</td>
+
+		     <td>Codigo 3607343191005</td>
+			 <td>Meow for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>324.5</td>
+
+		     <td>649.00</td>
+		     <td>2017-04-17 12:08:54</td>
+		     <td>2017-04-17 12:28:22</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33674 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 238137542</td>
+
+		     <td>Codigo 3607349312459</td>
+			 <td>Purr for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>324.5</td>
+
+		     <td>649.00</td>
+		     <td>2017-04-17 12:08:54</td>
+		     <td>2017-04-17 12:28:22</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33679 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 224425542</td>
+
+		     <td>Codigo 31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>3</td>
+			 <td>999</td>
+
+		     <td>999.00</td>
+		     <td>2017-04-17 12:08:05</td>
+		     <td>2017-04-17 12:30:07</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33667 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 247237542</td>
+
+		     <td>Codigo 31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>263</td>
+
+		     <td>789.00</td>
+		     <td>2017-04-17 12:07:15</td>
+		     <td>2017-04-17 12:20:42</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33667 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 247237542</td>
+
+		     <td>Codigo 3661163904016</td>
+			 <td>Nautica Classic For Men by Nautica Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>263</td>
+
+		     <td>789.00</td>
+		     <td>2017-04-17 12:07:15</td>
+		     <td>2017-04-17 12:20:42</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33667 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 247237542</td>
+
+		     <td>Codigo 3412242508027</td>
+			 <td>Nautica Blue For Men by Nautica Eau De Toilette 100ml</td>
+			 <td>1</td>
+			 <td>263</td>
+
+		     <td>789.00</td>
+		     <td>2017-04-17 12:07:15</td>
+		     <td>2017-04-17 12:20:42</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33661 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 257157542</td>
+
+		     <td>Codigo 608940533369</td>
+			 <td>Can Can for Women by Paris Hilton Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>519</td>
+
+		     <td>519.00</td>
+		     <td>2017-04-17 11:59:22</td>
+		     <td>2017-04-17 12:53:33</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33630 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//Juan Gayosso (GAYITOJUAN)</td>
+
+		     <td>Codigo 31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>3</td>
+			 <td>989.02</td>
+
+		     <td>989.02</td>
+		     <td>2017-04-17 11:56:44</td>
+		     <td>2017-04-17 13:04:29</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33657 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 276658542</td>
+
+		     <td>Codigo 608940521601</td>
+			 <td>Just Me for Women by Paris Hilton Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>449</td>
+
+		     <td>449.00</td>
+		     <td>2017-04-17 11:54:23</td>
+		     <td>2017-04-17 12:34:01</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33664 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 299217542</td>
+
+		     <td>Codigo 3607342539914</td>
+			 <td>Fame Black Fuid for Women by Lady Gaga Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>639</td>
+
+		     <td>639.00</td>
+		     <td>2017-04-17 11:53:43</td>
+		     <td>2017-04-17 12:35:37</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33639 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//Irene Ocampo (OCIR5614630)</td>
+
+		     <td>Codigo 663350061529</td>
+			 <td>DISNEY FROZEN GIRLS 100ML EDT</td>
+			 <td>1</td>
+			 <td>299</td>
+
+		     <td>299.00</td>
+		     <td>2017-04-17 11:53:09</td>
+		     <td>2017-04-17 13:01:34</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33662 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 299257542</td>
+
+		     <td>Codigo 3607348816552</td>
+			 <td>KILLER QUEEN FOR WOMEN BY KATY PERRY EDP 100ML</td>
+			 <td>1</td>
+			 <td>385</td>
+
+		     <td>385.00</td>
+		     <td>2017-04-17 11:52:33</td>
+		     <td>2017-04-17 12:44:58</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33640 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//Omar Guadalupe Mejia lopez (OMARGUADALUPEMEJIALOPEZ)</td>
+
+		     <td>Codigo 3661163904016</td>
+			 <td>Nautica Classic For Men by Nautica Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>296.35</td>
+
+		     <td>889.01</td>
+		     <td>2017-04-17 11:51:49</td>
+		     <td>2017-04-17 12:58:22</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33640 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//Omar Guadalupe Mejia lopez (OMARGUADALUPEMEJIALOPEZ)</td>
+
+		     <td>Codigo 3412242508027</td>
+			 <td>Nautica Blue For Men by Nautica Eau De Toilette 100ml</td>
+			 <td>1</td>
+			 <td>296.33</td>
+
+		     <td>889.01</td>
+		     <td>2017-04-17 11:51:49</td>
+		     <td>2017-04-17 12:58:22</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33640 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//Omar Guadalupe Mejia lopez (OMARGUADALUPEMEJIALOPEZ)</td>
+
+		     <td>Codigo 31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>296.33</td>
+
+		     <td>889.01</td>
+		     <td>2017-04-17 11:51:49</td>
+		     <td>2017-04-17 12:58:22</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33622 L</td>
+		     <td>Victor manuel Herrera martinez</td>
+		     <td>232165542</td>
+
+		     <td>Codigo B1000-V</td>
+			 <td>BASTON SELFIE VARIOS COLORES</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>4,199.00</td>
+		     <td>2017-04-17 11:51:18</td>
+		     <td>2017-04-17 12:17:50</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33622 L</td>
+		     <td>Victor manuel Herrera martinez</td>
+		     <td>232165542</td>
+
+		     <td>Codigo 8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>4,199.00</td>
+		     <td>2017-04-17 11:51:18</td>
+		     <td>2017-04-17 12:17:50</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33622 L</td>
+		     <td>Victor manuel Herrera martinez</td>
+		     <td>232165542</td>
+
+		     <td>Codigo MAN-GEN</td>
+			 <td>MANOS LIBRES GENERICO</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>4,199.00</td>
+		     <td>2017-04-17 11:51:18</td>
+		     <td>2017-04-17 12:17:50</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33622 L</td>
+		     <td>Victor manuel Herrera martinez</td>
+		     <td>232165542</td>
+
+		     <td>Codigo 0886513298746</td>
+			 <td>CELULAR SAMSUNG GALAXY NOTE3 SM-N900T/N900V/HSTO 32GB/NGO</td>
+			 <td>1</td>
+			 <td>4199</td>
+
+		     <td>4,199.00</td>
+		     <td>2017-04-17 11:51:18</td>
+		     <td>2017-04-17 12:17:50</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33628 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//zobeida espejo (ZOBESPEJO)</td>
+
+		     <td>Codigo 3607349312459</td>
+			 <td>Purr for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>388.99</td>
+
+		     <td>388.99</td>
+		     <td>2017-04-17 11:50:52</td>
+		     <td>2017-04-17 12:55:49</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33659 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 227957542</td>
+
+		     <td>Codigo 31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>2</td>
+			 <td>645.01</td>
+
+		     <td>645.01</td>
+		     <td>2017-04-17 11:48:40</td>
+		     <td>2017-04-17 12:51:33</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33646 L</td>
+		     <td>sergio correa</td>
+		     <td>274541542</td>
+
+		     <td>Codigo 89461251</td>
+			 <td>AUDIFONOS CON MICROFONO</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>2,199.00</td>
+		     <td>2017-04-17 11:48:28</td>
+		     <td>2017-04-17 12:27:40</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33646 L</td>
+		     <td>sergio correa</td>
+		     <td>274541542</td>
+
+		     <td>Codigo SPAREPARTS224</td>
+			 <td>KIT CARGADOR APPLE USB LIGHTNING</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>2,199.00</td>
+		     <td>2017-04-17 11:48:28</td>
+		     <td>2017-04-17 12:27:40</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33646 L</td>
+		     <td>sergio correa</td>
+		     <td>274541542</td>
+
+		     <td>Codigo 85131654112</td>
+			 <td>CELULAR APPLE IPHONE 4S 16GB NEGRO HSTO</td>
+			 <td>1</td>
+			 <td>2199</td>
+
+		     <td>2,199.00</td>
+		     <td>2017-04-17 11:48:28</td>
+		     <td>2017-04-17 12:27:40</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33637 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//Miguel Betancourt Hernandez (MIGUELBETANCOURTHERNANDEZ)</td>
+
+		     <td>Codigo 88300107407</td>
+			 <td>CK One by Calvin Klein Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>344.5</td>
+
+		     <td>689.00</td>
+		     <td>2017-04-17 11:48:02</td>
+		     <td>2017-04-17 12:10:07</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33637 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//Miguel Betancourt Hernandez (MIGUELBETANCOURTHERNANDEZ)</td>
+
+		     <td>Codigo 88300104406</td>
+			 <td>CK BE CALVIN KLEIN EAU DE TOILETTE 100 ML</td>
+			 <td>1</td>
+			 <td>344.5</td>
+
+		     <td>689.00</td>
+		     <td>2017-04-17 11:48:02</td>
+		     <td>2017-04-17 12:10:07</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33648 L</td>
+		     <td>Jonathan Oswaldo Mendivil</td>
+		     <td>222255542</td>
+
+		     <td>Codigo 89461251</td>
+			 <td>AUDIFONOS CON MICROFONO</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>3,290.00</td>
+		     <td>2017-04-17 11:45:27</td>
+		     <td>2017-04-17 12:21:55</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33648 L</td>
+		     <td>Jonathan Oswaldo Mendivil</td>
+		     <td>222255542</td>
+
+		     <td>Codigo SPAREPARTS224</td>
+			 <td>KIT CARGADOR APPLE USB LIGHTNING</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>3,290.00</td>
+		     <td>2017-04-17 11:45:27</td>
+		     <td>2017-04-17 12:21:55</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33648 L</td>
+		     <td>Jonathan Oswaldo Mendivil</td>
+		     <td>222255542</td>
+
+		     <td>Codigo 8563286515</td>
+			 <td>CELULAR APPLE IPHONE 5C/A-HSTO/16GB/ROSA</td>
+			 <td>1</td>
+			 <td>3290</td>
+
+		     <td>3,290.00</td>
+		     <td>2017-04-17 11:45:27</td>
+		     <td>2017-04-17 12:21:55</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33641 L</td>
+		     <td>Oscar Gutierrez</td>
+		     <td>291125542</td>
+
+		     <td>Codigo MAN-GEN</td>
+			 <td>MANOS LIBRES GENERICO</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>4,950.00</td>
+		     <td>2017-04-17 11:43:51</td>
+		     <td>2017-04-17 12:31:23</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33641 L</td>
+		     <td>Oscar Gutierrez</td>
+		     <td>291125542</td>
+
+		     <td>Codigo 8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>4,950.00</td>
+		     <td>2017-04-17 11:43:51</td>
+		     <td>2017-04-17 12:31:23</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33641 L</td>
+		     <td>Oscar Gutierrez</td>
+		     <td>291125542</td>
+
+		     <td>Codigo 081232168532</td>
+			 <td>CELULAR SAMSUNG GALAXY NOTE4 SM-N910P A/BSTOCK HSTO 32GB NGO</td>
+			 <td>1</td>
+			 <td>4950</td>
+
+		     <td>4,950.00</td>
+		     <td>2017-04-17 11:43:51</td>
+		     <td>2017-04-17 12:31:23</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33626 L</td>
+		     <td>Ángel Avila</td>
+		     <td>233175542</td>
+
+		     <td>Codigo 89461251</td>
+			 <td>AUDIFONOS CON MICROFONO</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>3,290.00</td>
+		     <td>2017-04-17 11:28:05</td>
+		     <td>2017-04-17 12:40:05</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33626 L</td>
+		     <td>Ángel Avila</td>
+		     <td>233175542</td>
+
+		     <td>Codigo SPAREPARTS224</td>
+			 <td>KIT CARGADOR APPLE USB LIGHTNING</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>3,290.00</td>
+		     <td>2017-04-17 11:28:05</td>
+		     <td>2017-04-17 12:40:05</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33626 L</td>
+		     <td>Ángel Avila</td>
+		     <td>233175542</td>
+
+		     <td>Codigo 21865413218</td>
+			 <td>CELULAR APPLE IPHONE 5C/HSTO/16GB/AZUL</td>
+			 <td>1</td>
+			 <td>3290</td>
+
+		     <td>3,290.00</td>
+		     <td>2017-04-17 11:28:05</td>
+		     <td>2017-04-17 12:40:05</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33631 L</td>
+		     <td>David Rivera rosas</td>
+		     <td>289217542</td>
+
+		     <td>Codigo MIC-NOTE4</td>
+			 <td>MICA DE CRISTAL TEMPLADO NOTE 4</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>4,899.00</td>
+		     <td>2017-04-17 11:26:25</td>
+		     <td>2017-04-17 12:35:23</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33631 L</td>
+		     <td>David Rivera rosas</td>
+		     <td>289217542</td>
+
+		     <td>Codigo 8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>4,899.00</td>
+		     <td>2017-04-17 11:26:25</td>
+		     <td>2017-04-17 12:35:23</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33631 L</td>
+		     <td>David Rivera rosas</td>
+		     <td>289217542</td>
+
+		     <td>Codigo MAN-GEN</td>
+			 <td>MANOS LIBRES GENERICO</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>4,899.00</td>
+		     <td>2017-04-17 11:26:25</td>
+		     <td>2017-04-17 12:35:23</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33631 L</td>
+		     <td>David Rivera rosas</td>
+		     <td>289217542</td>
+
+		     <td>Codigo 088813131321</td>
+			 <td>CELULAR SAMSUNG GALAXY NOTE4 SM-N910P A/BSTOCK HSTO 32GB/BCO</td>
+			 <td>1</td>
+			 <td>4899</td>
+
+		     <td>4,899.00</td>
+		     <td>2017-04-17 11:26:25</td>
+		     <td>2017-04-17 12:35:23</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33516 L</td>
+		     <td>Claudia Herrera</td>
+		     <td>GARANTIA 32898</td>
+
+		     <td>Codigo 321984320520</td>
+			 <td>CELULAR APPLE IPHONE 5C/HSTO/16GB/VERDE</td>
+			 <td>1</td>
+			 <td>3599</td>
+
+		     <td>3,599.00</td>
+		     <td>2017-04-12 17:45:02</td>
+		     <td>2017-04-12 17:51:17</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33516 L</td>
+		     <td>Claudia Herrera</td>
+		     <td>GARANTIA 32898</td>
+
+		     <td>Codigo SPAREPARTS224</td>
+			 <td>KIT CARGADOR APPLE USB LIGHTNING</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>3,599.00</td>
+		     <td>2017-04-12 17:45:02</td>
+		     <td>2017-04-12 17:51:17</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33610 L</td>
+		     <td>ADRIAN VALDEZ</td>
+		     <td>VAAD6290758</td>
+
+		     <td>Codigo ZZGZ0001</td>
+			 <td>GASTOS DE ENVIO LTM</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>0.00</td>
+		     <td>2017-04-12 17:14:25</td>
+		     <td>2017-04-12 17:31:27</td>
+		     <td>MARCOSS</td></tr><tr class='odd gradeX'>
+		     <td>33607 L</td>
+		     <td>Aurelio Salomon Valdivia Alzaga</td>
+		     <td>R.P.</td>
+
+		     <td>Codigo 190780619803</td>
+			 <td>LAPTOP HP 14-an014LA/A8/500GB/4GB/14'/W10/BT</td>
+			 <td>1</td>
+			 <td>6590.01</td>
+
+		     <td>6,590.01</td>
+		     <td>2017-04-12 17:11:59</td>
+		     <td>2017-04-12 18:05:41</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33449 L</td>
+		     <td>JOSE ANTONIO RAMOS GALLARDO</td>
+		     <td>R.P.</td>
+
+		     <td>Codigo 821793048464</td>
+			 <td>CELULAR HTC DESIRE 530/16GB/KITTED/BLANCO</td>
+			 <td>1</td>
+			 <td>2180</td>
+
+		     <td>2,180.00</td>
+		     <td>2017-04-12 17:11:00</td>
+		     <td>2017-04-12 18:06:53</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33458 L</td>
+		     <td>TETRAFLON CORP, S. DE R.L. DE C.V.</td>
+		     <td>R.P.</td>
+
+		     <td>Codigo 010343920101</td>
+			 <td>MULTIFUNCIONAL DE INYECCION EPSON XP-431</td>
+			 <td>1</td>
+			 <td>1699.01</td>
+
+		     <td>1,699.01</td>
+		     <td>2017-04-12 16:59:42</td>
+		     <td>2017-04-12 18:04:30</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33617 L</td>
+		     <td>Juan Martinez Ceja</td>
+		     <td>MAJU461632</td>
+
+		     <td>Codigo 8806086743808G</td>
+			 <td>CELULAR SAMSUNG GALAXY S6 G920P HSTO A-STOCK 32GB GOLD</td>
+			 <td>1</td>
+			 <td>6780</td>
+
+		     <td>6,780.00</td>
+		     <td>2017-04-12 16:58:03</td>
+		     <td>2017-04-12 17:43:12</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33617 L</td>
+		     <td>Juan Martinez Ceja</td>
+		     <td>MAJU461632</td>
+
+		     <td>Codigo 8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>6,780.00</td>
+		     <td>2017-04-12 16:58:03</td>
+		     <td>2017-04-12 17:43:12</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33616 L</td>
+		     <td>Francisco Lopez</td>
+		     <td>LOFR4441937</td>
+
+		     <td>Codigo 85321631235</td>
+			 <td>CELULAR APPLE IPHONE 6 HSTO/16GB/GOLD</td>
+			 <td>1</td>
+			 <td>6790</td>
+
+		     <td>6,790.00</td>
+		     <td>2017-04-12 16:46:36</td>
+		     <td>2017-04-12 17:45:53</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33616 L</td>
+		     <td>Francisco Lopez</td>
+		     <td>LOFR4441937</td>
+
+		     <td>Codigo SPAREPARTS224</td>
+			 <td>KIT CARGADOR APPLE USB LIGHTNING</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>6,790.00</td>
+		     <td>2017-04-12 16:46:36</td>
+		     <td>2017-04-12 17:45:53</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33613 L</td>
+		     <td>Ricardo Vazquez</td>
+		     <td>RICHARD_77</td>
+
+		     <td>Codigo 88060862243895</td>
+			 <td>CELULAR SAMSUNG GALAXY S6 EDGE/G925V/KITTED/64GB/BLACK</td>
+			 <td>1</td>
+			 <td>7990</td>
+
+		     <td>7,990.00</td>
+		     <td>2017-04-12 16:44:13</td>
+		     <td>2017-04-12 18:03:06</td>
+		     <td>eduardoh</td></tr><tr class='odd gradeX'>
+		     <td>33612 L</td>
+		     <td>Jose Angel Morales Varela</td>
+		     <td>PEPEBOY_26</td>
+
+		     <td>Codigo 88060862243895</td>
+			 <td>CELULAR SAMSUNG GALAXY S6 EDGE/G925V/KITTED/64GB/BLACK</td>
+			 <td>1</td>
+			 <td>7990</td>
+
+		     <td>7,990.00</td>
+		     <td>2017-04-12 16:41:22</td>
+		     <td>2017-04-12 18:02:49</td>
+		     <td>eduardoh</td></tr><tr class='odd gradeX'>
+		     <td>33605 L</td>
+		     <td>INMOBILIARIA MARPA DE PACHUCA S.A DE C.V</td>
+		     <td>ANJE2512862</td>
+
+		     <td>Codigo 821793048464</td>
+			 <td>CELULAR HTC DESIRE 530/16GB/KITTED/BLANCO</td>
+			 <td>1</td>
+			 <td>2180</td>
+
+		     <td>2,180.00</td>
+		     <td>2017-04-12 16:39:59</td>
+		     <td>2017-04-12 16:45:00</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33615 L</td>
+		     <td>Eliseo Geraldo Gonzalez</td>
+		     <td>ELISEOGERALDOGONZALEZ</td>
+
+		     <td>Codigo 08881654984321</td>
+			 <td>CELULAR SAMSUNG GALAXY S5 G900V/  HSTO/16GB/BLACK</td>
+			 <td>1</td>
+			 <td>3595</td>
+
+		     <td>3,595.00</td>
+		     <td>2017-04-12 16:35:36</td>
+		     <td>2017-04-12 16:37:44</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33615 L</td>
+		     <td>Eliseo Geraldo Gonzalez</td>
+		     <td>ELISEOGERALDOGONZALEZ</td>
+
+		     <td>Codigo 8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>3,595.00</td>
+		     <td>2017-04-12 16:35:36</td>
+		     <td>2017-04-12 16:37:44</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33614 L</td>
+		     <td>Luis Rafael Ramírez Herrera</td>
+		     <td>LUISRAFAELRAMREZHERRERA</td>
+
+		     <td>Codigo 821793048464</td>
+			 <td>CELULAR HTC DESIRE 530/16GB/KITTED/BLANCO</td>
+			 <td>1</td>
+			 <td>2180</td>
+
+		     <td>2,180.00</td>
+		     <td>2017-04-12 16:34:12</td>
+		     <td>2017-04-12 16:37:58</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33598 L</td>
+		     <td>Thais Salamene</td>
+		     <td>SALAMENETHAIS</td>
+
+		     <td>Codigo 88060862243895</td>
+			 <td>CELULAR SAMSUNG GALAXY S6 EDGE/G925V/KITTED/64GB/BLACK</td>
+			 <td>1</td>
+			 <td>10490</td>
+
+		     <td>10,490.00</td>
+		     <td>2017-04-12 16:27:28</td>
+		     <td>2017-04-12 18:02:26</td>
+		     <td>eduardoh</td></tr><tr class='odd gradeX'>
+		     <td>33593 L</td>
+		     <td>Jose Bernardino Barragan Carranco</td>
+		     <td>Amazon N.º de pedido: 701-9454378-6914632 </td>
+
+		     <td>Codigo 889488369829</td>
+			 <td>LAPTOP LENOVO B41-30/CEL N3050/ 2GB/500GB 14' HDMI</td>
+			 <td>1</td>
+			 <td>3995.01</td>
+
+		     <td>3,995.01</td>
+		     <td>2017-04-12 16:24:25</td>
+		     <td>2017-04-12 17:59:45</td>
+		     <td>eduardoh</td></tr><tr class='odd gradeX'>
+		     <td>33454 L</td>
+		     <td>Antonio Eduardo Torres Tazzer</td>
+		     <td>Amazon N.º de pedido: 701-3617597-8542666 </td>
+
+		     <td>Codigo 889894322548</td>
+			 <td>LAPTOP HP 14-AB151LA/A8/4GB/1TB/W10/DVD/BLANCO</td>
+			 <td>1</td>
+			 <td>8990</td>
+
+		     <td>9,109.77</td>
+		     <td>2017-04-12 16:22:53</td>
+		     <td>2017-04-12 17:58:55</td>
+		     <td>eduardoh</td></tr><tr class='odd gradeX'>
+		     <td>33454 L</td>
+		     <td>Antonio Eduardo Torres Tazzer</td>
+		     <td>Amazon N.º de pedido: 701-3617597-8542666 </td>
+
+		     <td>Codigo ZZGZ0001</td>
+			 <td>GASTOS DE ENVIO LTM</td>
+			 <td>1</td>
+			 <td>119.77</td>
+
+		     <td>9,109.77</td>
+		     <td>2017-04-12 16:22:53</td>
+		     <td>2017-04-12 17:58:55</td>
+		     <td>eduardoh</td></tr><tr class='odd gradeX'>
+		     <td>33602 L</td>
+		     <td>AGUSTIN RAMIREZ DE LA PEÑA</td>
+		     <td>R.P.</td>
+
+		     <td>Codigo SPAREPARTS224</td>
+			 <td>KIT CARGADOR APPLE USB LIGHTNING</td>
+			 <td>1</td>
+			 <td>160</td>
+
+		     <td>160.00</td>
+		     <td>2017-04-12 16:22:52</td>
+		     <td>2017-04-12 18:04:47</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33609 L</td>
+		     <td>Pablo Leon Hernández</td>
+		     <td>263577542</td>
+
+		     <td>Codigo 357943062699384</td>
+			 <td>CELULAR SAMSUNG GALAXY S6 G920A/KITTED/32GB/BLACK</td>
+			 <td>1</td>
+			 <td>5980</td>
+
+		     <td>5,980.00</td>
+		     <td>2017-04-12 16:20:39</td>
+		     <td>2017-04-12 16:34:51</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33609 L</td>
+		     <td>Pablo Leon Hernández</td>
+		     <td>263577542</td>
+
+		     <td>Codigo 880608668334</td>
+			 <td>CARGADOR SAMSUNG GALAXY  WIRELESS NEGRO</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>5,980.00</td>
+		     <td>2017-04-12 16:20:39</td>
+		     <td>2017-04-12 16:34:51</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33604 L</td>
+		     <td>Alejandro Pastrana</td>
+		     <td>LOBO6304</td>
+
+		     <td>Codigo FUNDA-AGUA</td>
+			 <td>FUNDA CONTRA EL AGUA PARA CELULAR</td>
+			 <td>1</td>
+			 <td>79</td>
+
+		     <td>79.00</td>
+		     <td>2017-04-12 16:18:00</td>
+		     <td>2017-04-12 16:41:22</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33608 L</td>
+		     <td>Roberto Alonso Jimenez Martinez</td>
+		     <td>224577542</td>
+
+		     <td>Codigo 89461251</td>
+			 <td>AUDIFONOS CON MICROFONO</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>3,290.00</td>
+		     <td>2017-04-12 16:15:55</td>
+		     <td>2017-04-12 16:19:39</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33608 L</td>
+		     <td>Roberto Alonso Jimenez Martinez</td>
+		     <td>224577542</td>
+
+		     <td>Codigo SPAREPARTS224</td>
+			 <td>KIT CARGADOR APPLE USB LIGHTNING</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>3,290.00</td>
+		     <td>2017-04-12 16:15:55</td>
+		     <td>2017-04-12 16:19:39</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33608 L</td>
+		     <td>Roberto Alonso Jimenez Martinez</td>
+		     <td>224577542</td>
+
+		     <td>Codigo 21865413218</td>
+			 <td>CELULAR APPLE IPHONE 5C/HSTO/16GB/AZUL</td>
+			 <td>1</td>
+			 <td>3290</td>
+
+		     <td>3,290.00</td>
+		     <td>2017-04-12 16:15:55</td>
+		     <td>2017-04-12 16:19:39</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33603 L</td>
+		     <td>Salvador Gonzalez</td>
+		     <td>GOSA6861937</td>
+
+		     <td>Codigo 88806085107175N</td>
+			 <td>CELULAR SAMSUNG GALAXY S4 KITTED 16GB BLACK</td>
+			 <td>1</td>
+			 <td>2980.01</td>
+
+		     <td>2,980.01</td>
+		     <td>2017-04-12 14:01:37</td>
+		     <td>2017-04-12 15:26:12</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33601 L</td>
+		     <td>JESUS DANIEL CHAVEZ PEREZ</td>
+		     <td>HAAGENDAZS</td>
+
+		     <td>Codigo 29980</td>
+			 <td>DISCO DURO HITACHI 2TB 7200RPM SATA</td>
+			 <td>2</td>
+			 <td>1870.01</td>
+
+		     <td>1,870.01</td>
+		     <td>2017-04-12 14:00:21</td>
+		     <td>2017-04-12 15:33:48</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33600 L</td>
+		     <td>Ezequiel Lopez</td>
+		     <td>LOEZ821880</td>
+
+		     <td>Codigo 088813131321</td>
+			 <td>CELULAR SAMSUNG GALAXY NOTE4 SM-N910P A/BSTOCK HSTO 32GB/BCO</td>
+			 <td>1</td>
+			 <td>5490</td>
+
+		     <td>5,490.00</td>
+		     <td>2017-04-12 13:58:57</td>
+		     <td>2017-04-12 15:24:50</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33600 L</td>
+		     <td>Ezequiel Lopez</td>
+		     <td>LOEZ821880</td>
+
+		     <td>Codigo 8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>5,490.00</td>
+		     <td>2017-04-12 13:58:57</td>
+		     <td>2017-04-12 15:24:50</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33599 L</td>
+		     <td>Andres Jimenez</td>
+		     <td>SHIKAMARU2010</td>
+
+		     <td>Codigo 610214630186</td>
+			 <td>CELULAR SAMSUNG GALAXY S5 G900/KITTED/16GB/NEGRO</td>
+			 <td>1</td>
+			 <td>3980.01</td>
+
+		     <td>3,980.01</td>
+		     <td>2017-04-12 13:57:39</td>
+		     <td>2017-04-12 15:43:14</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33597 L</td>
+		     <td>Pedro Flores Trinidad</td>
+		     <td>PEDROFLORESTRINIDAD</td>
+
+		     <td>Codigo 889894322524</td>
+			 <td>LAPTOP HP 14-AB155LA A8/4GB/1TB/W10/DVD/ROJA</td>
+			 <td>1</td>
+			 <td>8290</td>
+
+		     <td>8,290.00</td>
+		     <td>2017-04-12 13:52:12</td>
+		     <td>2017-04-12 16:00:46</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33596 L</td>
+		     <td>Fausto Michel</td>
+		     <td>FAUMICHEL</td>
+
+		     <td>Codigo CAR-PAR</td>
+			 <td>CARGADOR DE PARED GENERICO SIN MARCA</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>4,290.00</td>
+		     <td>2017-04-12 13:50:47</td>
+		     <td>2017-04-12 15:47:44</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33596 L</td>
+		     <td>Fausto Michel</td>
+		     <td>FAUMICHEL</td>
+
+		     <td>Codigo CAB-V8E</td>
+			 <td>CABLE DE DATOS V8 GENERICO</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>4,290.00</td>
+		     <td>2017-04-12 13:50:47</td>
+		     <td>2017-04-12 15:47:44</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33596 L</td>
+		     <td>Fausto Michel</td>
+		     <td>FAUMICHEL</td>
+
+		     <td>Codigo 081232168532</td>
+			 <td>CELULAR SAMSUNG GALAXY NOTE4 SM-N910P A/BSTOCK HSTO 32GB NGO</td>
+			 <td>1</td>
+			 <td>4290</td>
+
+		     <td>4,290.00</td>
+		     <td>2017-04-12 13:50:47</td>
+		     <td>2017-04-12 15:47:44</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33596 A</td>
+		     <td>SUKARNE AGROINDUSTRIAL SA DE CV</td>
+		     <td></td>
+
+		     <td>Codigo 541040</td>
+			 <td>E.COLI O121 LATEX AGGLUTINATION KIT 50 T</td>
+			 <td>2</td>
+			 <td>19140</td>
+
+		     <td>57,420.00</td>
+		     <td>2017-04-12 13:40:20</td>
+		     <td>2017-04-12 16:02:48</td>
+		     <td>ISAYANAO</td></tr><tr class='odd gradeX'>
+		     <td>33596 A</td>
+		     <td>SUKARNE AGROINDUSTRIAL SA DE CV</td>
+		     <td></td>
+
+		     <td>Codigo 541030</td>
+			 <td>E. COLI O111 LATEX AGGLUTINATION KIT 50T</td>
+			 <td>2</td>
+			 <td>19140</td>
+
+		     <td>57,420.00</td>
+		     <td>2017-04-12 13:40:20</td>
+		     <td>2017-04-12 16:02:48</td>
+		     <td>ISAYANAO</td></tr><tr class='odd gradeX'>
+		     <td>33596 A</td>
+		     <td>SUKARNE AGROINDUSTRIAL SA DE CV</td>
+		     <td></td>
+
+		     <td>Codigo 541050</td>
+			 <td>E. COLI O145 LATEX AGGLUTINATION KIT 50T</td>
+			 <td>2</td>
+			 <td>19140</td>
+
+		     <td>57,420.00</td>
+		     <td>2017-04-12 13:40:20</td>
+		     <td>2017-04-12 16:02:48</td>
+		     <td>ISAYANAO</td></tr><tr class='odd gradeX'>
+		     <td>33560 L</td>
+		     <td>Alejandro Partida Contreras</td>
+		     <td></td>
+
+		     <td>Codigo ZZGZ0001</td>
+			 <td>GASTOS DE ENVIO LTM</td>
+			 <td>1</td>
+			 <td>180</td>
+
+		     <td>3,834.00</td>
+		     <td>2017-04-12 13:37:15</td>
+		     <td>2017-04-12 17:52:55</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33560 L</td>
+		     <td>Alejandro Partida Contreras</td>
+		     <td></td>
+
+		     <td>Codigo 735029235651</td>
+			 <td>SOPORTE FIJO PEERLESS SF640</td>
+			 <td>1</td>
+			 <td>664</td>
+
+		     <td>3,834.00</td>
+		     <td>2017-04-12 13:37:15</td>
+		     <td>2017-04-12 17:52:55</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33560 L</td>
+		     <td>Alejandro Partida Contreras</td>
+		     <td></td>
+
+		     <td>Codigo 6942147425664</td>
+			 <td>TV LED 32' HISENSE HD 3HDMI/1USB</td>
+			 <td>1</td>
+			 <td>2990</td>
+
+		     <td>3,834.00</td>
+		     <td>2017-04-12 13:37:15</td>
+		     <td>2017-04-12 17:52:55</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33478 L</td>
+		     <td>Lydia Negrete De Pinal</td>
+		     <td>JLYDIAPN</td>
+
+		     <td>Codigo 889296132332</td>
+			 <td>IMPRESORA HP DESKJET INK ADVANTAGE 2135</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>6,999.00</td>
+		     <td>2017-04-12 13:23:42</td>
+		     <td>2017-04-12 15:55:51</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33478 L</td>
+		     <td>Lydia Negrete De Pinal</td>
+		     <td>JLYDIAPN</td>
+
+		     <td>Codigo ZZGZ0003</td>
+			 <td>AUMENTO DE MEMORIA</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>6,999.00</td>
+		     <td>2017-04-12 13:23:42</td>
+		     <td>2017-04-12 15:55:51</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33478 L</td>
+		     <td>Lydia Negrete De Pinal</td>
+		     <td>JLYDIAPN</td>
+
+		     <td>Codigo 190151300637</td>
+			 <td>LAPTOP LENOVO IDEAPAD 100-14IBD CI3 4GB 500GB W10 14'</td>
+			 <td>1</td>
+			 <td>6999</td>
+
+		     <td>6,999.00</td>
+		     <td>2017-04-12 13:23:42</td>
+		     <td>2017-04-12 15:55:51</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33506 L</td>
+		     <td>DRC TEC S.A. DE C.V.</td>
+		     <td></td>
+
+		     <td>Codigo 888793330906</td>
+			 <td>ELITEBOOK HP  725 G2 A10/500GB/4GB/12.5'/BT/WIN8.1PRO</td>
+			 <td>1</td>
+			 <td>7500</td>
+
+		     <td>35,000.00</td>
+		     <td>2017-04-12 13:22:46</td>
+		     <td>2017-04-12 18:06:25</td>
+		     <td>c.robles</td></tr><tr class='odd gradeX'>
+		     <td>33506 L</td>
+		     <td>DRC TEC S.A. DE C.V.</td>
+		     <td></td>
+
+		     <td>Codigo 888793633946</td>
+			 <td>LAPTOP HP PAV 15-P034CY AMD A10-5745M 6GB/1TB/15.6/W8.1</td>
+			 <td>1</td>
+			 <td>8000</td>
+
+		     <td>35,000.00</td>
+		     <td>2017-04-12 13:22:46</td>
+		     <td>2017-04-12 18:06:25</td>
+		     <td>c.robles</td></tr><tr class='odd gradeX'>
+		     <td>33506 L</td>
+		     <td>DRC TEC S.A. DE C.V.</td>
+		     <td></td>
+
+		     <td>Codigo 022265966358</td>
+			 <td>LAPTOP TOSHIBA S55T-B5335 CI5-4200H 8GB/1TB/15.6'/W8.1/TS</td>
+			 <td>1</td>
+			 <td>7500</td>
+
+		     <td>35,000.00</td>
+		     <td>2017-04-12 13:22:46</td>
+		     <td>2017-04-12 18:06:25</td>
+		     <td>c.robles</td></tr><tr class='odd gradeX'>
+		     <td>33506 L</td>
+		     <td>DRC TEC S.A. DE C.V.</td>
+		     <td></td>
+
+		     <td>Codigo DELL-011</td>
+			 <td>LAPTOP DELL 5421 CI5-3337U 1.80GHZ 4GB/750GB/14'/W8/ES/DVD</td>
+			 <td>1</td>
+			 <td>5500</td>
+
+		     <td>35,000.00</td>
+		     <td>2017-04-12 13:22:46</td>
+		     <td>2017-04-12 18:06:25</td>
+		     <td>c.robles</td></tr><tr class='odd gradeX'>
+		     <td>33506 L</td>
+		     <td>DRC TEC S.A. DE C.V.</td>
+		     <td></td>
+
+		     <td>Codigo DELL-004</td>
+			 <td>LAPTOP DELL E5430 CI5-3230M 2.60GHZ/4GB/500GB/14'/W7PRO/DVD</td>
+			 <td>1</td>
+			 <td>6500</td>
+
+		     <td>35,000.00</td>
+		     <td>2017-04-12 13:22:46</td>
+		     <td>2017-04-12 18:06:25</td>
+		     <td>c.robles</td></tr><tr class='odd gradeX'>
+		     <td>33584 L</td>
+		     <td>ADC SOLUCIONES INTEGRALES SA DE CV</td>
+		     <td>R.P.</td>
+
+		     <td>Codigo 190151300637</td>
+			 <td>LAPTOP LENOVO IDEAPAD 100-14IBD CI3 4GB 500GB W10 14'</td>
+			 <td>1</td>
+			 <td>6490</td>
+
+		     <td>6,490.00</td>
+		     <td>2017-04-12 13:22:14</td>
+		     <td>2017-04-12 18:05:02</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33594 L</td>
+		     <td>Alberto Salto</td>
+		     <td>SAAL8598580</td>
+
+		     <td>Codigo GP-IPA4-9H</td>
+			 <td>IPHONE 4G, 4S CRISTAL TEMPLADO</td>
+			 <td>5</td>
+			 <td>95</td>
+
+		     <td>95.00</td>
+		     <td>2017-04-12 13:18:54</td>
+		     <td>2017-04-12 13:25:41</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33592 L</td>
+		     <td>Angelina Coronado</td>
+		     <td>ANGELINACORONADO</td>
+
+		     <td>Codigo 610214630186</td>
+			 <td>CELULAR SAMSUNG GALAXY S5 G900/KITTED/16GB/NEGRO</td>
+			 <td>1</td>
+			 <td>3980.01</td>
+
+		     <td>3,980.01</td>
+		     <td>2017-04-12 13:16:57</td>
+		     <td>2017-04-12 13:27:38</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33568 L</td>
+		     <td>Miguel Angel Pimentel</td>
+		     <td>223597542</td>
+
+		     <td>Codigo MAN-GEN</td>
+			 <td>MANOS LIBRES GENERICO</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>3,299.01</td>
+		     <td>2017-04-12 13:15:30</td>
+		     <td>2017-04-12 15:39:51</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33568 L</td>
+		     <td>Miguel Angel Pimentel</td>
+		     <td>223597542</td>
+
+		     <td>Codigo 8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>3,299.01</td>
+		     <td>2017-04-12 13:15:30</td>
+		     <td>2017-04-12 15:39:51</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33568 L</td>
+		     <td>Miguel Angel Pimentel</td>
+		     <td>223597542</td>
+
+		     <td>Codigo 8841316130463</td>
+			 <td>CELULAR SAMSUNG GALAXY S5 /G900V/HSTO/16GB/WHITE</td>
+			 <td>1</td>
+			 <td>3299.01</td>
+
+		     <td>3,299.01</td>
+		     <td>2017-04-12 13:15:30</td>
+		     <td>2017-04-12 15:39:51</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33589 L</td>
+		     <td>Pilar Bisteni</td>
+		     <td>GARANTIA 32953</td>
+
+		     <td>Codigo ZZGZ0001</td>
+			 <td>GASTOS DE ENVIO LTM</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>0.00</td>
+		     <td>2017-04-12 13:13:34</td>
+		     <td>2017-04-12 17:03:35</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33575 A</td>
+		     <td>HARINERA DE IRAPUATO S.A. DE C.V.</td>
+		     <td></td>
+
+		     <td>Codigo 81.51.02</td>
+			 <td>LAMP 9XXX</td>
+			 <td>1</td>
+			 <td>16588</td>
+
+		     <td>19,488.00</td>
+		     <td>2017-04-12 13:11:05</td>
+		     <td>2017-04-12 18:14:00</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>33575 A</td>
+		     <td>HARINERA DE IRAPUATO S.A. DE C.V.</td>
+		     <td></td>
+
+		     <td>Codigo ZZGZ0018</td>
+			 <td>SERVICIO AGRO</td>
+			 <td>1</td>
+			 <td>2900</td>
+
+		     <td>19,488.00</td>
+		     <td>2017-04-12 13:11:05</td>
+		     <td>2017-04-12 18:14:00</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>33588 L</td>
+		     <td>Roxana Troncozo</td>
+		     <td>GARANTIA 30837</td>
+
+		     <td>Codigo ZZGZ0001</td>
+			 <td>GASTOS DE ENVIO LTM</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>0.00</td>
+		     <td>2017-04-12 13:08:03</td>
+		     <td>2017-04-12 17:01:51</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33587 L</td>
+		     <td>Erick Sanchez Ramirez</td>
+		     <td>GARANTIA 32115</td>
+
+		     <td>Codigo ZZGZ0001</td>
+			 <td>GASTOS DE ENVIO LTM</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>0.00</td>
+		     <td>2017-04-12 13:03:44</td>
+		     <td>2017-04-12 17:39:45</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33586 L</td>
+		     <td>Cesar Martinez</td>
+		     <td>GARANTIA 30879</td>
+
+		     <td>Codigo ZZGZ0001</td>
+			 <td>GASTOS DE ENVIO LTM</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>0.00</td>
+		     <td>2017-04-12 13:02:32</td>
+		     <td>2017-04-12 17:07:27</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33582 L</td>
+		     <td>Placido Gutierrez Hernandez</td>
+		     <td>PLACIDOGUTIERREZHERNANDEZ</td>
+
+		     <td>Codigo 736211948281</td>
+			 <td>PANTALLA SAMSUNG SMART TV 55' UN55J6201AFXZA FULL HD</td>
+			 <td>1</td>
+			 <td>9870</td>
+
+		     <td>9,870.00</td>
+		     <td>2017-04-12 13:01:29</td>
+		     <td>2017-04-12 14:00:10</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33573 L</td>
+		     <td>Heladio Martínez Ochoa</td>
+		     <td>JOSEANTONIOOLAVARRIETAVALDOV</td>
+
+		     <td>Codigo 736211948281</td>
+			 <td>PANTALLA SAMSUNG SMART TV 55' UN55J6201AFXZA FULL HD</td>
+			 <td>1</td>
+			 <td>9870</td>
+
+		     <td>9,870.00</td>
+		     <td>2017-04-12 12:59:42</td>
+		     <td>2017-04-12 14:03:09</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33585 L</td>
+		     <td>Arely Ramìrez</td>
+		     <td>RAAR4983265</td>
+
+		     <td>Codigo 889296132332</td>
+			 <td>IMPRESORA HP DESKJET INK ADVANTAGE 2135</td>
+			 <td>1</td>
+			 <td>788</td>
+
+		     <td>788.00</td>
+		     <td>2017-04-12 12:56:49</td>
+		     <td>2017-04-12 15:57:59</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33569 L</td>
+		     <td>Enrique Torres Hernández</td>
+		     <td>278287542</td>
+
+		     <td>Codigo MIC-NOTE4</td>
+			 <td>MICA DE CRISTAL TEMPLADO NOTE 4</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>4,950.00</td>
+		     <td>2017-04-12 12:54:44</td>
+		     <td>2017-04-12 13:56:03</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33569 L</td>
+		     <td>Enrique Torres Hernández</td>
+		     <td>278287542</td>
+
+		     <td>Codigo 8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>4,950.00</td>
+		     <td>2017-04-12 12:54:44</td>
+		     <td>2017-04-12 13:56:03</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33569 L</td>
+		     <td>Enrique Torres Hernández</td>
+		     <td>278287542</td>
+
+		     <td>Codigo MAN-GEN</td>
+			 <td>MANOS LIBRES GENERICO</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>4,950.00</td>
+		     <td>2017-04-12 12:54:44</td>
+		     <td>2017-04-12 13:56:03</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33569 L</td>
+		     <td>Enrique Torres Hernández</td>
+		     <td>278287542</td>
+
+		     <td>Codigo 088813131321</td>
+			 <td>CELULAR SAMSUNG GALAXY NOTE4 SM-N910P A/BSTOCK HSTO 32GB/BCO</td>
+			 <td>1</td>
+			 <td>4950</td>
+
+		     <td>4,950.00</td>
+		     <td>2017-04-12 12:54:44</td>
+		     <td>2017-04-12 13:56:03</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33576 L</td>
+		     <td>Roberto Acosta</td>
+		     <td>ACOSTAROBERTO68</td>
+
+		     <td>Codigo 8563286515</td>
+			 <td>CELULAR APPLE IPHONE 5C/A-HSTO/16GB/ROSA</td>
+			 <td>1</td>
+			 <td>3290</td>
+
+		     <td>3,290.00</td>
+		     <td>2017-04-12 12:51:55</td>
+		     <td>2017-04-12 15:31:38</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33576 L</td>
+		     <td>Roberto Acosta</td>
+		     <td>ACOSTAROBERTO68</td>
+
+		     <td>Codigo SPAREPARTS224</td>
+			 <td>KIT CARGADOR APPLE USB LIGHTNING</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>3,290.00</td>
+		     <td>2017-04-12 12:51:55</td>
+		     <td>2017-04-12 15:31:38</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33574 L</td>
+		     <td>Francisco Ruiz</td>
+		     <td>FRANCISCORUIZ045</td>
+
+		     <td>Codigo 0885909727377</td>
+			 <td>CELULAR APPLE IPHONE 5S 16GB HSO GOLD</td>
+			 <td>1</td>
+			 <td>4470</td>
+
+		     <td>4,470.00</td>
+		     <td>2017-04-12 12:50:19</td>
+		     <td>2017-04-12 13:18:01</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33574 L</td>
+		     <td>Francisco Ruiz</td>
+		     <td>FRANCISCORUIZ045</td>
+
+		     <td>Codigo SPAREPARTS224</td>
+			 <td>KIT CARGADOR APPLE USB LIGHTNING</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>4,470.00</td>
+		     <td>2017-04-12 12:50:19</td>
+		     <td>2017-04-12 13:18:01</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33567 L</td>
+		     <td>ELIFAS EMMANUEL KOYOC MAY</td>
+		     <td>228227542</td>
+
+		     <td>Codigo 821793048464</td>
+			 <td>CELULAR HTC DESIRE 530/16GB/KITTED/BLANCO</td>
+			 <td>1</td>
+			 <td>1990</td>
+
+		     <td>1,990.00</td>
+		     <td>2017-04-12 12:41:26</td>
+		     <td>2017-04-12 13:06:57</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33583 L</td>
+		     <td>Jaime Orozco</td>
+		     <td>JIMMY_OROZCO</td>
+
+		     <td>Codigo 821793048464</td>
+			 <td>CELULAR HTC DESIRE 530/16GB/KITTED/BLANCO</td>
+			 <td>1</td>
+			 <td>2180</td>
+
+		     <td>2,180.00</td>
+		     <td>2017-04-12 12:38:50</td>
+		     <td>2017-04-12 13:20:57</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33577 L</td>
+		     <td>Laureano Vilalobos</td>
+		     <td>LAUREANOVILALOBOS</td>
+
+		     <td>Codigo 29980</td>
+			 <td>DISCO DURO HITACHI 2TB 7200RPM SATA</td>
+			 <td>1</td>
+			 <td>935.01</td>
+
+		     <td>935.01</td>
+		     <td>2017-04-12 12:37:38</td>
+		     <td>2017-04-12 13:45:52</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33572 L</td>
+		     <td>Elias Guzman</td>
+		     <td>GUZMANELI2012</td>
+
+		     <td>Codigo 190780619803</td>
+			 <td>LAPTOP HP 14-an014LA/A8/500GB/4GB/14'/W10/BT</td>
+			 <td>1</td>
+			 <td>6890.01</td>
+
+		     <td>6,890.01</td>
+		     <td>2017-04-12 12:36:23</td>
+		     <td>2017-04-12 13:13:03</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33580 L</td>
+		     <td>Russel Martin Quiam Pech</td>
+		     <td>FAUSTMANIAKO</td>
+
+		     <td>Codigo 190780166017</td>
+			 <td>LAPTOP HP ENVY 17-SO13CA CI7 16GB 2TB NVIDIA-GF-940M 4GB TS</td>
+			 <td>1</td>
+			 <td>19990</td>
+
+		     <td>19,990.00</td>
+		     <td>2017-04-12 12:35:04</td>
+		     <td>2017-04-12 15:35:21</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33578 L</td>
+		     <td>Hiram Saul Hernandez Aradillas</td>
+		     <td>IBRAM10</td>
+
+		     <td>Codigo MIC-LGG3</td>
+			 <td>MICA CRISTAL TEMPLADO LG G3</td>
+			 <td>1</td>
+			 <td>69</td>
+
+		     <td>69.00</td>
+		     <td>2017-04-12 12:33:47</td>
+		     <td>2017-04-12 13:47:33</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33579 L</td>
+		     <td>Luis Alejandro Cabral Zapata</td>
+		     <td>CAAU6334870</td>
+
+		     <td>Codigo FUNDA-AGUA</td>
+			 <td>FUNDA CONTRA EL AGUA PARA CELULAR</td>
+			 <td>1</td>
+			 <td>79</td>
+
+		     <td>79.00</td>
+		     <td>2017-04-12 12:30:08</td>
+		     <td>2017-04-12 15:52:20</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33522 L</td>
+		     <td>Rodolfo Laines</td>
+		     <td>GARANTIA 29148</td>
+
+		     <td>Codigo ZZGZ0001</td>
+			 <td>GASTOS DE ENVIO LTM</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>0.00</td>
+		     <td>2017-04-12 12:28:33</td>
+		     <td>2017-04-12 16:58:57</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33510 L</td>
+		     <td>KARINA RUIZ SANTIESTEBAN</td>
+		     <td>889488369829</td>
+
+		     <td>Codigo 889488369829</td>
+			 <td>LAPTOP LENOVO B41-30/CEL N3050/ 2GB/500GB 14' HDMI</td>
+			 <td>26</td>
+			 <td>102569.94</td>
+
+		     <td>102,569.94</td>
+		     <td>2017-04-12 12:24:46</td>
+		     <td>2017-04-12 17:34:00</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33563 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 281667542</td>
+
+		     <td>Codigo 88300107407</td>
+			 <td>CK One by Calvin Klein Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>364.5</td>
+
+		     <td>729.00</td>
+		     <td>2017-04-12 12:24:20</td>
+		     <td>2017-04-12 13:01:11</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33563 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 281667542</td>
+
+		     <td>Codigo 88300104406</td>
+			 <td>CK BE CALVIN KLEIN EAU DE TOILETTE 100 ML</td>
+			 <td>1</td>
+			 <td>364.5</td>
+
+		     <td>729.00</td>
+		     <td>2017-04-12 12:24:20</td>
+		     <td>2017-04-12 13:01:11</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33564 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 273187542</td>
+
+		     <td>Codigo 31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>335</td>
+
+		     <td>335.00</td>
+		     <td>2017-04-12 12:23:43</td>
+		     <td>2017-04-12 13:50:33</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33581 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 245977542</td>
+
+		     <td>Codigo 31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>263</td>
+
+		     <td>789.00</td>
+		     <td>2017-04-12 12:23:02</td>
+		     <td>2017-04-12 13:53:40</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33581 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 245977542</td>
+
+		     <td>Codigo 3661163904016</td>
+			 <td>Nautica Classic For Men by Nautica Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>263</td>
+
+		     <td>789.00</td>
+		     <td>2017-04-12 12:23:02</td>
+		     <td>2017-04-12 13:53:40</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33581 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 245977542</td>
+
+		     <td>Codigo 3412242508027</td>
+			 <td>Nautica Blue For Men by Nautica Eau De Toilette 100ml</td>
+			 <td>1</td>
+			 <td>263</td>
+
+		     <td>789.00</td>
+		     <td>2017-04-12 12:23:02</td>
+		     <td>2017-04-12 13:53:40</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33481 L</td>
+		     <td>Victor H De La Cerda</td>
+		     <td>VICTORHDELACERDA</td>
+
+		     <td>Codigo 610214630186</td>
+			 <td>CELULAR SAMSUNG GALAXY S5 G900/KITTED/16GB/NEGRO</td>
+			 <td>1</td>
+			 <td>3980.01</td>
+
+		     <td>3,980.01</td>
+		     <td>2017-04-12 11:46:22</td>
+		     <td>2017-04-12 12:17:27</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33499 L</td>
+		     <td>Pedro Tovar Sandoval</td>
+		     <td>2007TSP</td>
+
+		     <td>Codigo 610214630186</td>
+			 <td>CELULAR SAMSUNG GALAXY S5 G900/KITTED/16GB/NEGRO</td>
+			 <td>1</td>
+			 <td>3980.01</td>
+
+		     <td>3,980.01</td>
+		     <td>2017-04-12 11:44:49</td>
+		     <td>2017-04-12 12:23:27</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33505 L</td>
+		     <td>Fidel Esparza</td>
+		     <td>GOMAS_32</td>
+
+		     <td>Codigo 0885909727377</td>
+			 <td>CELULAR APPLE IPHONE 5S 16GB HSO GOLD</td>
+			 <td>1</td>
+			 <td>4470</td>
+
+		     <td>4,470.00</td>
+		     <td>2017-04-12 11:43:39</td>
+		     <td>2017-04-12 11:51:50</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33505 L</td>
+		     <td>Fidel Esparza</td>
+		     <td>GOMAS_32</td>
+
+		     <td>Codigo 8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>4,470.00</td>
+		     <td>2017-04-12 11:43:39</td>
+		     <td>2017-04-12 11:51:50</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33493 L</td>
+		     <td>Jose Luis Aguilar Montes</td>
+		     <td>AGUILARMONTES</td>
+
+		     <td>Codigo 8806086224314</td>
+			 <td>CELULAR SAMSUNG GALAXY S6 EDGE SM-G925A/HSTO/32GB//GOLD</td>
+			 <td>1</td>
+			 <td>7384</td>
+
+		     <td>7,384.00</td>
+		     <td>2017-04-12 11:42:16</td>
+		     <td>2017-04-12 12:12:58</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33493 L</td>
+		     <td>Jose Luis Aguilar Montes</td>
+		     <td>AGUILARMONTES</td>
+
+		     <td>Codigo 8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>7,384.00</td>
+		     <td>2017-04-12 11:42:16</td>
+		     <td>2017-04-12 12:12:58</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33484 L</td>
+		     <td>Arianna Rodriguez</td>
+		     <td>ROAR07</td>
+
+		     <td>Codigo 6922309813591B</td>
+			 <td>CELULAR SAMSUNG GALAXY S6 G920V HSTO A-STOCK 32GB BLACK</td>
+			 <td>1</td>
+			 <td>6780</td>
+
+		     <td>6,780.00</td>
+		     <td>2017-04-12 11:39:25</td>
+		     <td>2017-04-12 12:19:25</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33484 L</td>
+		     <td>Arianna Rodriguez</td>
+		     <td>ROAR07</td>
+
+		     <td>Codigo 8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>6,780.00</td>
+		     <td>2017-04-12 11:39:25</td>
+		     <td>2017-04-12 12:19:25</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33495 L</td>
+		     <td>Sandra Elena Torres Zuñiga</td>
+		     <td>SANDRAELENATORRESZUIGA</td>
+
+		     <td>Codigo FUNDA-AGUA</td>
+			 <td>FUNDA CONTRA EL AGUA PARA CELULAR</td>
+			 <td>1</td>
+			 <td>79</td>
+
+		     <td>79.00</td>
+		     <td>2017-04-12 11:38:05</td>
+		     <td>2017-04-12 12:11:14</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33507 L</td>
+		     <td>JUAN MANUEL SÁNCHEZ DURÁN</td>
+		     <td>RESTECH</td>
+
+		     <td>Codigo 29980</td>
+			 <td>DISCO DURO HITACHI 2TB 7200RPM SATA</td>
+			 <td>1</td>
+			 <td>935.01</td>
+
+		     <td>935.01</td>
+		     <td>2017-04-12 11:33:54</td>
+		     <td>2017-04-12 11:54:09</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33515 L</td>
+		     <td>francisco coronel</td>
+		     <td>242267542</td>
+
+		     <td>Codigo MIC-NOTE4</td>
+			 <td>MICA DE CRISTAL TEMPLADO NOTE 4</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>4,899.00</td>
+		     <td>2017-04-12 11:32:22</td>
+		     <td>2017-04-12 11:49:52</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33515 L</td>
+		     <td>francisco coronel</td>
+		     <td>242267542</td>
+
+		     <td>Codigo 8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>4,899.00</td>
+		     <td>2017-04-12 11:32:22</td>
+		     <td>2017-04-12 11:49:52</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33515 L</td>
+		     <td>francisco coronel</td>
+		     <td>242267542</td>
+
+		     <td>Codigo MAN-GEN</td>
+			 <td>MANOS LIBRES GENERICO</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>4,899.00</td>
+		     <td>2017-04-12 11:32:22</td>
+		     <td>2017-04-12 11:49:52</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33515 L</td>
+		     <td>francisco coronel</td>
+		     <td>242267542</td>
+
+		     <td>Codigo 081232168532</td>
+			 <td>CELULAR SAMSUNG GALAXY NOTE4 SM-N910P A/BSTOCK HSTO 32GB NGO</td>
+			 <td>1</td>
+			 <td>4899</td>
+
+		     <td>4,899.00</td>
+		     <td>2017-04-12 11:32:22</td>
+		     <td>2017-04-12 11:49:52</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33486 L</td>
+		     <td>Francisco Hernandez Calderon</td>
+		     <td>PAKOH</td>
+
+		     <td>Codigo 29980</td>
+			 <td>DISCO DURO HITACHI 2TB 7200RPM SATA</td>
+			 <td>2</td>
+			 <td>1869.99</td>
+
+		     <td>1,869.99</td>
+		     <td>2017-04-12 11:30:43</td>
+		     <td>2017-04-12 12:21:41</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33485 L</td>
+		     <td>Esau Marcial</td>
+		     <td>ESAUMARCIAL</td>
+
+		     <td>Codigo 6922309813591B</td>
+			 <td>CELULAR SAMSUNG GALAXY S6 G920V HSTO A-STOCK 32GB BLACK</td>
+			 <td>1</td>
+			 <td>6780</td>
+
+		     <td>6,780.00</td>
+		     <td>2017-04-12 11:29:32</td>
+		     <td>2017-04-12 12:16:06</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33485 L</td>
+		     <td>Esau Marcial</td>
+		     <td>ESAUMARCIAL</td>
+
+		     <td>Codigo 8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>6,780.00</td>
+		     <td>2017-04-12 11:29:32</td>
+		     <td>2017-04-12 12:16:06</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33497 L</td>
+		     <td>Jesus Enrique Villafuerte Javier</td>
+		     <td>AUTOS AMERICANOS2011</td>
+
+		     <td>Codigo 08625892655</td>
+			 <td>CELULAR LG LEON H345T HSO/8GB/BLACK</td>
+			 <td>1</td>
+			 <td>1899</td>
+
+		     <td>1,899.00</td>
+		     <td>2017-04-12 11:28:02</td>
+		     <td>2017-04-12 11:32:40</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33497 L</td>
+		     <td>Jesus Enrique Villafuerte Javier</td>
+		     <td>AUTOS AMERICANOS2011</td>
+
+		     <td>Codigo 8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>1,899.00</td>
+		     <td>2017-04-12 11:28:02</td>
+		     <td>2017-04-12 11:32:40</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33553 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>GLUKY</td>
+
+		     <td>Codigo 88300162505</td>
+			 <td>EUPHORIA FOR WOMEN BY CALVIN KLEIN EAU DE PARFUM 100ML</td>
+			 <td>1</td>
+			 <td>788.89</td>
+
+		     <td>788.89</td>
+		     <td>2017-04-12 11:27:07</td>
+		     <td>2017-04-12 11:55:07</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33562 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 234287542</td>
+
+		     <td>Codigo 3607348816552</td>
+			 <td>KILLER QUEEN FOR WOMEN BY KATY PERRY EDP 100ML</td>
+			 <td>1</td>
+			 <td>385</td>
+
+		     <td>385.00</td>
+		     <td>2017-04-12 11:26:36</td>
+		     <td>2017-04-12 12:00:01</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33560 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 257697542</td>
+
+		     <td>Codigo 3607343191005</td>
+			 <td>Meow for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>324.5</td>
+
+		     <td>649.00</td>
+		     <td>2017-04-12 11:25:54</td>
+		     <td>2017-04-12 11:47:54</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33560 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 257697542</td>
+
+		     <td>Codigo 3607349312459</td>
+			 <td>Purr for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>324.5</td>
+
+		     <td>649.00</td>
+		     <td>2017-04-12 11:25:54</td>
+		     <td>2017-04-12 11:47:54</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33488 L</td>
+		     <td>Jairo Jesus Benitez Barriga</td>
+		     <td>JAIRO_BEN</td>
+
+		     <td>Codigo 610214630186</td>
+			 <td>CELULAR SAMSUNG GALAXY S5 G900/KITTED/16GB/NEGRO</td>
+			 <td>1</td>
+			 <td>3980.01</td>
+
+		     <td>3,980.01</td>
+		     <td>2017-04-12 11:25:39</td>
+		     <td>2017-04-12 12:09:05</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33556 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>GLUKY</td>
+
+		     <td>Codigo 667528031178</td>
+			 <td>PURE SEDUCTION FOR WOMEN BY VICTORIA'S SECRET FRAGANCE MIST</td>
+			 <td>1</td>
+			 <td>212.04</td>
+
+		     <td>212.04</td>
+		     <td>2017-04-12 11:25:21</td>
+		     <td>2017-04-12 11:44:18</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33477 L</td>
+		     <td>Artemio Ortiz Sotero</td>
+		     <td>ARTEORTI</td>
+
+		     <td>Codigo 885913100784N</td>
+			 <td>CELULAR LG G2 D800 HSTO STOCK-A NEGRO</td>
+			 <td>1</td>
+			 <td>2490</td>
+
+		     <td>2,490.00</td>
+		     <td>2017-04-12 11:24:14</td>
+		     <td>2017-04-12 11:30:29</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33477 L</td>
+		     <td>Artemio Ortiz Sotero</td>
+		     <td>ARTEORTI</td>
+
+		     <td>Codigo 8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>2,490.00</td>
+		     <td>2017-04-12 11:24:14</td>
+		     <td>2017-04-12 11:30:29</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33544 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>GLUKY</td>
+
+		     <td>Codigo 667528031116</td>
+			 <td>Sheer Love for Women by Victoria's Secret Fragance Mist</td>
+			 <td>1</td>
+			 <td>212.04</td>
+
+		     <td>212.04</td>
+		     <td>2017-04-12 11:23:47</td>
+		     <td>2017-04-12 12:11:31</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33547 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>GLUKY</td>
+
+		     <td>Codigo 3607349312459</td>
+			 <td>Purr for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>388.89</td>
+
+		     <td>388.89</td>
+		     <td>2017-04-12 11:22:59</td>
+		     <td>2017-04-12 11:49:20</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33504 L</td>
+		     <td>Enrique López</td>
+		     <td>LPEZENRIQUE28</td>
+
+		     <td>Codigo 08651654320</td>
+			 <td>CELULAR SAMSUNG GALAXY S5 G900P/HSTO/16GB/GOLD</td>
+			 <td>1</td>
+			 <td>3593</td>
+
+		     <td>3,593.00</td>
+		     <td>2017-04-12 11:22:54</td>
+		     <td>2017-04-12 12:13:18</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33504 L</td>
+		     <td>Enrique López</td>
+		     <td>LPEZENRIQUE28</td>
+
+		     <td>Codigo 8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>3,593.00</td>
+		     <td>2017-04-12 11:22:54</td>
+		     <td>2017-04-12 12:13:18</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33548 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>GLUKY</td>
+
+		     <td>Codigo 4085400291001</td>
+			 <td>DIESEL PLUS PLUS EDT FOR MEN 75ML</td>
+			 <td>1</td>
+			 <td>290.74</td>
+
+		     <td>290.74</td>
+		     <td>2017-04-12 11:22:25</td>
+		     <td>2017-04-12 11:35:16</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33555 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>GLUKY</td>
+
+		     <td>Codigo 4085400291001</td>
+			 <td>DIESEL PLUS PLUS EDT FOR MEN 75ML</td>
+			 <td>1</td>
+			 <td>290.74</td>
+
+		     <td>290.74</td>
+		     <td>2017-04-12 11:21:33</td>
+		     <td>2017-04-12 11:45:58</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33513 L</td>
+		     <td>Daniel Sanz</td>
+		     <td>SADA4029791</td>
+
+		     <td>Codigo MIC-IPH5</td>
+			 <td>MICA CRISTAL TEMPLADO IPHONE 5</td>
+			 <td>1</td>
+			 <td>69</td>
+
+		     <td>69.00</td>
+		     <td>2017-04-12 11:21:22</td>
+		     <td>2017-04-12 12:14:37</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33503 L</td>
+		     <td>Pedro Garza</td>
+		     <td>GUZVARO</td>
+
+		     <td>Codigo KUBE-WHITE</td>
+			 <td>REPORDUCTOR MP3 THE KUBE 4GB RAINBOW SERIES BLANCO</td>
+			 <td>6</td>
+			 <td>299.98</td>
+
+		     <td>299.98</td>
+		     <td>2017-04-12 11:20:11</td>
+		     <td>2017-04-12 12:08:56</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33545 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>GLUKY</td>
+
+		     <td>Codigo 3607348938230</td>
+			 <td>Nautica Voyage N-83 for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>332.41</td>
+
+		     <td>332.41</td>
+		     <td>2017-04-12 11:20:11</td>
+		     <td>2017-04-12 11:42:51</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33542 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>GLUKY</td>
+
+		     <td>Codigo 844061001176</td>
+			 <td>PERRY ELLIS 18 FOR MEN BY PERRY ELLIS EAU DE TOILETTE 100ML</td>
+			 <td>1</td>
+			 <td>471.3</td>
+
+		     <td>471.30</td>
+		     <td>2017-04-12 11:19:12</td>
+		     <td>2017-04-12 11:51:13</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33490 L</td>
+		     <td>Javier Acevedo Ramirez</td>
+		     <td>ACEVEDORAMIEZ</td>
+
+		     <td>Codigo 821793048464</td>
+			 <td>CELULAR HTC DESIRE 530/16GB/KITTED/BLANCO</td>
+			 <td>1</td>
+			 <td>2180</td>
+
+		     <td>2,180.00</td>
+		     <td>2017-04-12 11:18:55</td>
+		     <td>2017-04-12 12:07:12</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33552 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>GLUKY</td>
+
+		     <td>Codigo 719346021777</td>
+			 <td>Grey Flannel for Men by Georfrey Benne Eau de Toilette 240ML</td>
+			 <td>1</td>
+			 <td>382.41</td>
+
+		     <td>382.41</td>
+		     <td>2017-04-12 11:17:49</td>
+		     <td>2017-04-12 12:01:37</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33508 L</td>
+		     <td>Josue Gallegos</td>
+		     <td>GAJO202196</td>
+
+		     <td>Codigo 821793048464</td>
+			 <td>CELULAR HTC DESIRE 530/16GB/KITTED/BLANCO</td>
+			 <td>1</td>
+			 <td>2180</td>
+
+		     <td>2,180.00</td>
+		     <td>2017-04-12 11:16:36</td>
+		     <td>2017-04-12 12:17:38</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33546 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>GLUKY</td>
+
+		     <td>Codigo 3607341792068</td>
+			 <td>Guess for Women by Guess Eau de Parfum 75ML</td>
+			 <td>1</td>
+			 <td>341.67</td>
+
+		     <td>341.67</td>
+		     <td>2017-04-12 11:16:27</td>
+		     <td>2017-04-12 11:34:00</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33561 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 298797542</td>
+
+		     <td>Codigo 88300107407</td>
+			 <td>CK One by Calvin Klein Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>438</td>
+
+		     <td>438.00</td>
+		     <td>2017-04-12 11:15:46</td>
+		     <td>2017-04-12 11:57:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33514 L</td>
+		     <td>Adrian Rosales</td>
+		     <td>255327542</td>
+
+		     <td>Codigo 821793048464</td>
+			 <td>CELULAR HTC DESIRE 530/16GB/KITTED/BLANCO</td>
+			 <td>1</td>
+			 <td>2180</td>
+
+		     <td>2,180.00</td>
+		     <td>2017-04-12 11:15:16</td>
+		     <td>2017-04-12 12:02:06</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33554 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>GLUKY</td>
+
+		     <td>Codigo 844061000612</td>
+			 <td>360 FOR MEN BY PERRY ELLIS EAU DE TOILETTE 100ML</td>
+			 <td>1</td>
+			 <td>424.99</td>
+
+		     <td>828.69</td>
+		     <td>2017-04-12 11:15:06</td>
+		     <td>2017-04-12 11:20:33</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33554 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>GLUKY</td>
+
+		     <td>Codigo 3607343191005</td>
+			 <td>Meow for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>403.7</td>
+
+		     <td>828.69</td>
+		     <td>2017-04-12 11:15:06</td>
+		     <td>2017-04-12 11:20:33</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33543 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>GLUKY</td>
+
+		     <td>Codigo 31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>361.11</td>
+
+		     <td>361.11</td>
+		     <td>2017-04-12 11:14:39</td>
+		     <td>2017-04-12 11:24:33</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33549 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>GLUKY</td>
+
+		     <td>Codigo 3412242508027</td>
+			 <td>Nautica Blue For Men by Nautica Eau De Toilette 100ml</td>
+			 <td>1</td>
+			 <td>262.96</td>
+
+		     <td>262.96</td>
+		     <td>2017-04-12 11:13:41</td>
+		     <td>2017-04-12 11:22:24</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33491 L</td>
+		     <td>Jeanett Lucio</td>
+		     <td>JEANETTLUCIO</td>
+
+		     <td>Codigo 0885909727377</td>
+			 <td>CELULAR APPLE IPHONE 5S 16GB HSO GOLD</td>
+			 <td>1</td>
+			 <td>4470</td>
+
+		     <td>4,470.00</td>
+		     <td>2017-04-12 11:13:29</td>
+		     <td>2017-04-12 11:16:49</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33491 L</td>
+		     <td>Jeanett Lucio</td>
+		     <td>JEANETTLUCIO</td>
+
+		     <td>Codigo SPAREPARTS224</td>
+			 <td>KIT CARGADOR APPLE USB LIGHTNING</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>4,470.00</td>
+		     <td>2017-04-12 11:13:29</td>
+		     <td>2017-04-12 11:16:49</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33550 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>GLUKY</td>
+
+		     <td>Codigo 88300104406</td>
+			 <td>CK BE CALVIN KLEIN EAU DE TOILETTE 100 ML</td>
+			 <td>1</td>
+			 <td>319.19</td>
+
+		     <td>582.15</td>
+		     <td>2017-04-12 11:13:06</td>
+		     <td>2017-04-12 11:38:22</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33550 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>GLUKY</td>
+
+		     <td>Codigo 3412242508027</td>
+			 <td>Nautica Blue For Men by Nautica Eau De Toilette 100ml</td>
+			 <td>1</td>
+			 <td>262.96</td>
+
+		     <td>582.15</td>
+		     <td>2017-04-12 11:13:06</td>
+		     <td>2017-04-12 11:38:22</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33551 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>GLUKY</td>
+
+		     <td>Codigo 3607341792068</td>
+			 <td>Guess for Women by Guess Eau de Parfum 75ML</td>
+			 <td>1</td>
+			 <td>341.67</td>
+
+		     <td>341.67</td>
+		     <td>2017-04-12 11:12:29</td>
+		     <td>2017-04-12 12:05:26</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33512 L</td>
+		     <td>Paola Iveth Garate Valenzuela</td>
+		     <td>PAOLAIVETHGARATEVALENZUELA</td>
+
+		     <td>Codigo 736211947185</td>
+			 <td>PANTALLA SAMSUNG 40' LED SMART TV FULL HD 1080P</td>
+			 <td>1</td>
+			 <td>6590.01</td>
+
+		     <td>6,590.01</td>
+		     <td>2017-04-12 11:11:56</td>
+		     <td>2017-04-12 12:27:27</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33565 A</td>
+		     <td>AGRIBRANDS PURINA MEXICO S. DE R.L. DE C.V.</td>
+		     <td></td>
+
+		     <td>Codigo LFAFQETOH100K</td>
+			 <td>LF/AFQ-ETHANOL/QUANTITATIVE/GRAIN/100T</td>
+			 <td>1</td>
+			 <td>760.21</td>
+
+		     <td>760.21</td>
+		     <td>2017-04-12 11:06:16</td>
+		     <td>2017-04-12 16:03:04</td>
+		     <td>ISAYANAO</td></tr><tr class='odd gradeX'>
+		     <td>33566 A</td>
+		     <td>HARINERA DE CHIAPAS SA DE CV</td>
+		     <td></td>
+
+		     <td>Codigo ZZGZ0002</td>
+			 <td>GASTOS DE ENVIO AGRO</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>0.00</td>
+		     <td>2017-04-12 11:03:43</td>
+		     <td>2017-04-12 16:55:13</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>33570 L</td>
+		     <td>PUBLICO GENERAL</td>
+		     <td>R.P.</td>
+
+		     <td>Codigo 85225205202</td>
+			 <td>CELULAR SAMSUNG NOTE EDGE SM-N915T/HSTO/32GB/BLACK</td>
+			 <td>1</td>
+			 <td>5890</td>
+
+		     <td>5,890.00</td>
+		     <td>2017-04-12 11:03:43</td>
+		     <td>2017-04-12 18:06:05</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33570 L</td>
+		     <td>PUBLICO GENERAL</td>
+		     <td>R.P.</td>
+
+		     <td>Codigo 8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>5,890.00</td>
+		     <td>2017-04-12 11:03:43</td>
+		     <td>2017-04-12 18:06:05</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33502 L</td>
+		     <td>Victor Martinez</td>
+		     <td>VYKTORMARTINEZ</td>
+
+		     <td>Codigo 08495616513352</td>
+			 <td>CELULAR SAMSUNG GALAXY NOTE3 SM-N900V/N900T/HSTO/32GB/BCO</td>
+			 <td>1</td>
+			 <td>4398</td>
+
+		     <td>4,398.00</td>
+		     <td>2017-04-12 10:49:02</td>
+		     <td>2017-04-12 11:13:34</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33502 L</td>
+		     <td>Victor Martinez</td>
+		     <td>VYKTORMARTINEZ</td>
+
+		     <td>Codigo 8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>4,398.00</td>
+		     <td>2017-04-12 10:49:02</td>
+		     <td>2017-04-12 11:13:34</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33500 L</td>
+		     <td>Edi Reyes</td>
+		     <td>REYESEDI63</td>
+
+		     <td>Codigo 889899806968</td>
+			 <td>LAPTOP HP ENVY /13-D005LA/CI7/256SSD/8GB/W10/13.3'</td>
+			 <td>1</td>
+			 <td>16990</td>
+
+		     <td>16,990.00</td>
+		     <td>2017-04-12 10:30:01</td>
+		     <td>2017-04-12 10:39:25</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33559 C</td>
+		     <td>GRUPO CALZAPATO SA DE V</td>
+		     <td></td>
+
+		     <td>Codigo 888462832755</td>
+			 <td>IPAD PRO RETINA 9.7 128GB MLQ32CL/A</td>
+			 <td>1</td>
+			 <td>18955</td>
+
+		     <td>19,455.01</td>
+		     <td>2017-04-12 10:27:24</td>
+		     <td>2017-04-12 16:07:10</td>
+		     <td>MARCOSS</td></tr><tr class='odd gradeX'>
+		     <td>33559 C</td>
+		     <td>GRUPO CALZAPATO SA DE V</td>
+		     <td></td>
+
+		     <td>Codigo ZZGZ0001</td>
+			 <td>GASTOS DE ENVIO LTM</td>
+			 <td>1</td>
+			 <td>500.01</td>
+
+		     <td>19,455.01</td>
+		     <td>2017-04-12 10:27:24</td>
+		     <td>2017-04-12 16:07:10</td>
+		     <td>MARCOSS</td></tr><tr class='odd gradeX'>
+		     <td>33531 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>GLUKY</td>
+
+		     <td>Codigo 5045411327044</td>
+			 <td>BURBERRY BRIT FOR WOMEN BY BURBERRY EAU DE TOILETTTE 100ML</td>
+			 <td>1</td>
+			 <td>754.63</td>
+
+		     <td>754.63</td>
+		     <td>2017-04-12 10:15:21</td>
+		     <td>2017-04-12 11:01:23</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33529 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>GLUKY</td>
+
+		     <td>Codigo 3607341792068</td>
+			 <td>Guess for Women by Guess Eau de Parfum 75ML</td>
+			 <td>1</td>
+			 <td>341.67</td>
+
+		     <td>341.67</td>
+		     <td>2017-04-12 10:14:37</td>
+		     <td>2017-04-12 10:36:05</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33521 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 900216178</td>
+
+		     <td>Codigo 3607343811798</td>
+			 <td>CK One by Calvin Klein Eau de Toilette 200ML</td>
+			 <td>1</td>
+			 <td>619</td>
+
+		     <td>619.00</td>
+		     <td>2017-04-12 09:45:49</td>
+		     <td>2017-04-12 10:33:24</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33520 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 272767542</td>
+
+		     <td>Codigo 31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>263</td>
+
+		     <td>789.00</td>
+		     <td>2017-04-12 09:45:02</td>
+		     <td>2017-04-12 10:43:56</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33520 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 272767542</td>
+
+		     <td>Codigo 3661163904016</td>
+			 <td>Nautica Classic For Men by Nautica Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>263</td>
+
+		     <td>789.00</td>
+		     <td>2017-04-12 09:45:02</td>
+		     <td>2017-04-12 10:43:56</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33520 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 272767542</td>
+
+		     <td>Codigo 3412242508027</td>
+			 <td>Nautica Blue For Men by Nautica Eau De Toilette 100ml</td>
+			 <td>1</td>
+			 <td>263</td>
+
+		     <td>789.00</td>
+		     <td>2017-04-12 09:45:02</td>
+		     <td>2017-04-12 10:43:56</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33539 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>GLUKY</td>
+
+		     <td>Codigo 3607343191005</td>
+			 <td>Meow for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>403.7</td>
+
+		     <td>403.70</td>
+		     <td>2017-04-12 09:44:15</td>
+		     <td>2017-04-12 10:31:35</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33535 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>GLUKY</td>
+
+		     <td>Codigo 3607349312459</td>
+			 <td>Purr for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>388.89</td>
+
+		     <td>750.00</td>
+		     <td>2017-04-12 09:43:20</td>
+		     <td>2017-04-12 11:07:45</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33535 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>GLUKY</td>
+
+		     <td>Codigo 31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>361.11</td>
+
+		     <td>750.00</td>
+		     <td>2017-04-12 09:43:20</td>
+		     <td>2017-04-12 11:07:45</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33530 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>GLUKY</td>
+
+		     <td>Codigo 844061001176</td>
+			 <td>PERRY ELLIS 18 FOR MEN BY PERRY ELLIS EAU DE TOILETTE 100ML</td>
+			 <td>1</td>
+			 <td>471.3</td>
+
+		     <td>471.30</td>
+		     <td>2017-04-12 09:42:36</td>
+		     <td>2017-04-12 11:05:43</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33532 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>GLUKY</td>
+
+		     <td>Codigo 8411061602522</td>
+			 <td>212 Sexy for Men by Carolina Herrera Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>1054.63</td>
+
+		     <td>1,054.63</td>
+		     <td>2017-04-12 09:40:09</td>
+		     <td>2017-04-12 10:54:17</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33540 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>GLUKY</td>
+
+		     <td>Codigo 88300104406</td>
+			 <td>CK BE CALVIN KLEIN EAU DE TOILETTE 100 ML</td>
+			 <td>1</td>
+			 <td>435.19</td>
+
+		     <td>435.19</td>
+		     <td>2017-04-12 09:39:28</td>
+		     <td>2017-04-12 10:51:53</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33538 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>GLUKY</td>
+
+		     <td>Codigo 3607343811798</td>
+			 <td>CK One by Calvin Klein Eau de Toilette 200ML</td>
+			 <td>1</td>
+			 <td>520.38</td>
+
+		     <td>520.38</td>
+		     <td>2017-04-12 09:38:50</td>
+		     <td>2017-04-12 10:50:20</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33528 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>GLUKY</td>
+
+		     <td>Codigo 3607348938230</td>
+			 <td>Nautica Voyage N-83 for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>332.41</td>
+
+		     <td>332.41</td>
+		     <td>2017-04-12 09:38:08</td>
+		     <td>2017-04-12 10:59:44</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33533 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>GLUKY</td>
+
+		     <td>Codigo 88300107407</td>
+			 <td>CK One by Calvin Klein Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>369.45</td>
+
+		     <td>369.45</td>
+		     <td>2017-04-12 09:37:16</td>
+		     <td>2017-04-12 11:27:26</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33526 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>GLUKY</td>
+
+		     <td>Codigo 88300104406</td>
+			 <td>CK BE CALVIN KLEIN EAU DE TOILETTE 100 ML</td>
+			 <td>1</td>
+			 <td>435.19</td>
+
+		     <td>435.19</td>
+		     <td>2017-04-12 09:36:24</td>
+		     <td>2017-04-12 11:03:09</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33536 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>GLUKY</td>
+
+		     <td>Codigo 88300107407</td>
+			 <td>CK One by Calvin Klein Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>369.45</td>
+
+		     <td>369.45</td>
+		     <td>2017-04-12 09:35:43</td>
+		     <td>2017-04-12 10:57:49</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33527 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>GLUKY</td>
+
+		     <td>Codigo 3607349312459</td>
+			 <td>Purr for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>388.89</td>
+
+		     <td>388.89</td>
+		     <td>2017-04-12 09:33:57</td>
+		     <td>2017-04-12 10:56:26</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33534 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>GLUKY</td>
+
+		     <td>Codigo 085805390501</td>
+			 <td>5TH AVENUE ELIZABET ARDEN EDP FOR WOMEN 75ML</td>
+			 <td>1</td>
+			 <td>443.51</td>
+
+		     <td>443.51</td>
+		     <td>2017-04-12 09:33:10</td>
+		     <td>2017-04-12 10:48:13</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33541 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>GLUKY</td>
+
+		     <td>Codigo 737052006468</td>
+			 <td>Hugo Boss Selection for Men by hugo Boss Eau de Toilette 90M</td>
+			 <td>1</td>
+			 <td>769.44</td>
+
+		     <td>769.44</td>
+		     <td>2017-04-12 09:32:22</td>
+		     <td>2017-04-12 11:36:44</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33525 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>GLUKY</td>
+
+		     <td>Codigo 667528031185</td>
+			 <td>LOVE SPELL FOR WOMEN BY VICTORIA'S SECRET BODY MIST 250ML</td>
+			 <td>1</td>
+			 <td>212.04</td>
+
+		     <td>212.04</td>
+		     <td>2017-04-12 09:31:17</td>
+		     <td>2017-04-12 11:53:08</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33523 L</td>
+		     <td>DIANA LIZETH RUIZ MERCADO</td>
+		     <td></td>
+
+		     <td>Codigo ZZGZ0001</td>
+			 <td>GASTOS DE ENVIO LTM</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>0.00</td>
+		     <td>2017-04-12 09:28:55</td>
+		     <td>2017-04-12 10:29:37</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33519 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//GABRIELA GRANADA ZARZA (GABRIELAGRANADAZARZA)</td>
+
+		     <td>Codigo 3607349312459</td>
+			 <td>Purr for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>324.5</td>
+
+		     <td>649.00</td>
+		     <td>2017-04-11 16:41:56</td>
+		     <td>2017-04-11 16:45:17</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33519 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//GABRIELA GRANADA ZARZA (GABRIELAGRANADAZARZA)</td>
+
+		     <td>Codigo 3607343191005</td>
+			 <td>Meow for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>324.5</td>
+
+		     <td>649.00</td>
+		     <td>2017-04-11 16:41:56</td>
+		     <td>2017-04-11 16:45:17</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33517 A</td>
+		     <td>PRODUCTORA DE ALIMENTOS MEXICANOS S.A DE C.V</td>
+		     <td></td>
+
+		     <td>Codigo 024.090.00070</td>
+			 <td>MODULO PFRE01 FA64</td>
+			 <td>1</td>
+			 <td>479.38</td>
+
+		     <td>479.38</td>
+		     <td>2017-04-11 16:13:15</td>
+		     <td>2017-04-11 16:27:24</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>33511 A</td>
+		     <td>GRANELERAS BARTLETT S DE RL DE CV</td>
+		     <td></td>
+
+		     <td>Codigo ZZGZ0012</td>
+			 <td>GASTOS DE IMPORTACION</td>
+			 <td>1</td>
+			 <td>46.4</td>
+
+		     <td>846.80</td>
+		     <td>2017-04-11 16:11:58</td>
+		     <td>2017-04-11 16:24:08</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>33511 A</td>
+		     <td>GRANELERAS BARTLETT S DE RL DE CV</td>
+		     <td></td>
+
+		     <td>Codigo ZZGZ0002</td>
+			 <td>GASTOS DE ENVIO AGRO</td>
+			 <td>1</td>
+			 <td>185.6</td>
+
+		     <td>846.80</td>
+		     <td>2017-04-11 16:11:58</td>
+		     <td>2017-04-11 16:24:08</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>33511 A</td>
+		     <td>GRANELERAS BARTLETT S DE RL DE CV</td>
+		     <td></td>
+
+		     <td>Codigo B600-6009</td>
+			 <td>SEAL KIT CP CYL</td>
+			 <td>1</td>
+			 <td>614.8</td>
+
+		     <td>846.80</td>
+		     <td>2017-04-11 16:11:58</td>
+		     <td>2017-04-11 16:24:08</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>33498 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//Valeria Gonzalez (GOVA7937649)</td>
+
+		     <td>Codigo 31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>379</td>
+
+		     <td>379.00</td>
+		     <td>2017-04-11 14:19:46</td>
+		     <td>2017-04-11 15:34:57</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33496 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//Lupita Luna (LULU4843890)</td>
+
+		     <td>Codigo 3607343191005</td>
+			 <td>Meow for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>324.5</td>
+
+		     <td>649.00</td>
+		     <td>2017-04-11 14:19:26</td>
+		     <td>2017-04-11 15:39:31</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33496 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//Lupita Luna (LULU4843890)</td>
+
+		     <td>Codigo 3607349312459</td>
+			 <td>Purr for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>324.5</td>
+
+		     <td>649.00</td>
+		     <td>2017-04-11 14:19:26</td>
+		     <td>2017-04-11 15:39:31</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33494 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 291227542</td>
+
+		     <td>Codigo 88300107407</td>
+			 <td>CK One by Calvin Klein Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>364.5</td>
+
+		     <td>729.00</td>
+		     <td>2017-04-11 14:18:58</td>
+		     <td>2017-04-11 15:44:15</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33494 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 291227542</td>
+
+		     <td>Codigo 88300104406</td>
+			 <td>CK BE CALVIN KLEIN EAU DE TOILETTE 100 ML</td>
+			 <td>1</td>
+			 <td>364.5</td>
+
+		     <td>729.00</td>
+		     <td>2017-04-11 14:18:58</td>
+		     <td>2017-04-11 15:44:15</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33482 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 222998542</td>
+
+		     <td>Codigo 88300073627</td>
+			 <td>Truth for Men by Calvin Klein Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>559</td>
+
+		     <td>559.00</td>
+		     <td>2017-04-11 14:18:34</td>
+		     <td>2017-04-11 15:49:18</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33480 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 299938542</td>
+
+		     <td>Codigo 608940533369</td>
+			 <td>Can Can for Women by Paris Hilton Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>519</td>
+
+		     <td>519.00</td>
+		     <td>2017-04-11 14:18:12</td>
+		     <td>2017-04-11 15:52:15</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33479 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 214638542</td>
+
+		     <td>Codigo 31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>263</td>
+
+		     <td>789.00</td>
+		     <td>2017-04-11 14:17:38</td>
+		     <td>2017-04-11 15:42:17</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33479 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 214638542</td>
+
+		     <td>Codigo 3661163904016</td>
+			 <td>Nautica Classic For Men by Nautica Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>263</td>
+
+		     <td>789.00</td>
+		     <td>2017-04-11 14:17:38</td>
+		     <td>2017-04-11 15:42:17</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33479 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 214638542</td>
+
+		     <td>Codigo 3412242508027</td>
+			 <td>Nautica Blue For Men by Nautica Eau De Toilette 100ml</td>
+			 <td>1</td>
+			 <td>263</td>
+
+		     <td>789.00</td>
+		     <td>2017-04-11 14:17:38</td>
+		     <td>2017-04-11 15:42:17</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33471 L</td>
+		     <td>Induplas de Occidente S.A. DE C.V</td>
+		     <td>R.P.</td>
+
+		     <td>Codigo 7503021451439</td>
+			 <td>MONITOR LED GHIA 23.8' MG2416 VGA/DVI/HDMI/BOCINAS ESTEREO</td>
+			 <td>4</td>
+			 <td>9775.6</td>
+
+		     <td>9,775.60</td>
+		     <td>2017-04-11 14:15:46</td>
+		     <td>2017-04-11 17:07:33</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33465 L</td>
+		     <td>CARLOS FABIAN DE LEON VEGA</td>
+		     <td>Pedido # 20168 </td>
+
+		     <td>Codigo 0859635323</td>
+			 <td>MICA CRISTAL TEMPLADO SAMSUNG GALAXY S5</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>3,480.00</td>
+		     <td>2017-04-11 14:14:08</td>
+		     <td>2017-04-11 15:56:49</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33465 L</td>
+		     <td>CARLOS FABIAN DE LEON VEGA</td>
+		     <td>Pedido # 20168 </td>
+
+		     <td>Codigo 8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>3,480.00</td>
+		     <td>2017-04-11 14:14:08</td>
+		     <td>2017-04-11 15:56:49</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33465 L</td>
+		     <td>CARLOS FABIAN DE LEON VEGA</td>
+		     <td>Pedido # 20168 </td>
+
+		     <td>Codigo ZZGZ0001</td>
+			 <td>GASTOS DE ENVIO LTM</td>
+			 <td>1</td>
+			 <td>90</td>
+
+		     <td>3,480.00</td>
+		     <td>2017-04-11 14:14:08</td>
+		     <td>2017-04-11 15:56:49</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33465 L</td>
+		     <td>CARLOS FABIAN DE LEON VEGA</td>
+		     <td>Pedido # 20168 </td>
+
+		     <td>Codigo 08881654984321</td>
+			 <td>CELULAR SAMSUNG GALAXY S5 G900V/  HSTO/16GB/BLACK</td>
+			 <td>1</td>
+			 <td>3390</td>
+
+		     <td>3,480.00</td>
+		     <td>2017-04-11 14:14:08</td>
+		     <td>2017-04-11 15:56:49</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33452 L</td>
+		     <td>Giovanni García García</td>
+		     <td>283738542</td>
+
+		     <td>Codigo 696859967740</td>
+			 <td>PANTALLA LG  5OLF6090 LED 50' SMARTV</td>
+			 <td>1</td>
+			 <td>7990</td>
+
+		     <td>7,990.00</td>
+		     <td>2017-04-11 13:08:41</td>
+		     <td>2017-04-11 13:54:48</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33492 L</td>
+		     <td>DNK TELECOMUNICACIONES SA DE CV</td>
+		     <td></td>
+
+		     <td>Codigo 8155653132S</td>
+			 <td>CELULAR APPLE IPHONE 6 HSTO 64GB SILVER</td>
+			 <td>1</td>
+			 <td>7200</td>
+
+		     <td>7,200.00</td>
+		     <td>2017-04-11 12:59:27</td>
+		     <td>2017-04-11 17:08:38</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33492 L</td>
+		     <td>DNK TELECOMUNICACIONES SA DE CV</td>
+		     <td></td>
+
+		     <td>Codigo SPAREPARTS224</td>
+			 <td>KIT CARGADOR APPLE USB LIGHTNING</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>7,200.00</td>
+		     <td>2017-04-11 12:59:27</td>
+		     <td>2017-04-11 17:08:38</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33475 L</td>
+		     <td>JOHNNY OLAN OCHOA</td>
+		     <td>NANCHEMAN</td>
+
+		     <td>Codigo 842631006410</td>
+			 <td>CELULAR APPLE IPHONE 5C/HSTO/16GB/BLANCO</td>
+			 <td>1</td>
+			 <td>3290</td>
+
+		     <td>3,290.00</td>
+		     <td>2017-04-11 12:52:03</td>
+		     <td>2017-04-11 13:40:45</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33475 L</td>
+		     <td>JOHNNY OLAN OCHOA</td>
+		     <td>NANCHEMAN</td>
+
+		     <td>Codigo SPAREPARTS224</td>
+			 <td>KIT CARGADOR APPLE USB LIGHTNING</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>3,290.00</td>
+		     <td>2017-04-11 12:52:03</td>
+		     <td>2017-04-11 13:40:45</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33457 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//GLORIA MURGUIA (GLORIAMURGUIA)</td>
+
+		     <td>Codigo 3661163904016</td>
+			 <td>Nautica Classic For Men by Nautica Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>296.35</td>
+
+		     <td>889.01</td>
+		     <td>2017-04-11 12:45:33</td>
+		     <td>2017-04-11 13:43:04</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33457 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//GLORIA MURGUIA (GLORIAMURGUIA)</td>
+
+		     <td>Codigo 3412242508027</td>
+			 <td>Nautica Blue For Men by Nautica Eau De Toilette 100ml</td>
+			 <td>1</td>
+			 <td>296.33</td>
+
+		     <td>889.01</td>
+		     <td>2017-04-11 12:45:33</td>
+		     <td>2017-04-11 13:43:04</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33457 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//GLORIA MURGUIA (GLORIAMURGUIA)</td>
+
+		     <td>Codigo 31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>296.33</td>
+
+		     <td>889.01</td>
+		     <td>2017-04-11 12:45:33</td>
+		     <td>2017-04-11 13:43:04</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33476 L</td>
+		     <td>Luis Carlos Páez Lobeira</td>
+		     <td>LCPAELOB</td>
+
+		     <td>Codigo 85225205202</td>
+			 <td>CELULAR SAMSUNG NOTE EDGE SM-N915T/HSTO/32GB/BLACK</td>
+			 <td>1</td>
+			 <td>5975</td>
+
+		     <td>5,975.00</td>
+		     <td>2017-04-11 12:43:33</td>
+		     <td>2017-04-11 13:27:14</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33476 L</td>
+		     <td>Luis Carlos Páez Lobeira</td>
+		     <td>LCPAELOB</td>
+
+		     <td>Codigo 8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>5,975.00</td>
+		     <td>2017-04-11 12:43:33</td>
+		     <td>2017-04-11 13:27:14</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33468 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 233278542</td>
+
+		     <td>Codigo 3661163904016</td>
+			 <td>Nautica Classic For Men by Nautica Eau de Toilette 100ML</td>
+			 <td>2</td>
+			 <td>499.01</td>
+
+		     <td>499.01</td>
+		     <td>2017-04-11 12:43:00</td>
+		     <td>2017-04-11 14:26:56</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33473 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 285398542</td>
+
+		     <td>Codigo 608940533369</td>
+			 <td>Can Can for Women by Paris Hilton Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>519</td>
+
+		     <td>789.00</td>
+		     <td>2017-04-11 12:42:02</td>
+		     <td>2017-04-11 13:20:27</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33473 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 285398542</td>
+
+		     <td>Codigo 31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>263</td>
+
+		     <td>789.00</td>
+		     <td>2017-04-11 12:42:02</td>
+		     <td>2017-04-11 13:20:27</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33473 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 285398542</td>
+
+		     <td>Codigo 3661163904016</td>
+			 <td>Nautica Classic For Men by Nautica Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>263</td>
+
+		     <td>789.00</td>
+		     <td>2017-04-11 12:42:02</td>
+		     <td>2017-04-11 13:20:27</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33473 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 285398542</td>
+
+		     <td>Codigo 3412242508027</td>
+			 <td>Nautica Blue For Men by Nautica Eau De Toilette 100ml</td>
+			 <td>1</td>
+			 <td>263</td>
+
+		     <td>789.00</td>
+		     <td>2017-04-11 12:42:02</td>
+		     <td>2017-04-11 13:20:27</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33456 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//RAMIRO TERRAZAS (TERA7436784)</td>
+
+		     <td>Codigo 3607348938230</td>
+			 <td>Nautica Voyage N-83 for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>339</td>
+
+		     <td>339.00</td>
+		     <td>2017-04-11 12:40:52</td>
+		     <td>2017-04-11 14:03:29</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33453 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//Jose Javier Campos Aguilar (DAIKOBOT)</td>
+
+		     <td>Codigo 3607343191005</td>
+			 <td>Meow for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>324.5</td>
+
+		     <td>649.00</td>
+		     <td>2017-04-11 12:40:09</td>
+		     <td>2017-04-11 13:24:57</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33453 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//Jose Javier Campos Aguilar (DAIKOBOT)</td>
+
+		     <td>Codigo 3607349312459</td>
+			 <td>Purr for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>324.5</td>
+
+		     <td>649.00</td>
+		     <td>2017-04-11 12:40:09</td>
+		     <td>2017-04-11 13:24:57</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33472 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 900343578</td>
+
+		     <td>Codigo 3607343811798</td>
+			 <td>CK One by Calvin Klein Eau de Toilette 200ML</td>
+			 <td>1</td>
+			 <td>619</td>
+
+		     <td>619.00</td>
+		     <td>2017-04-11 12:38:50</td>
+		     <td>2017-04-11 13:47:19</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33452 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//RAMIRO TERRAZAS (TERA7436784)</td>
+
+		     <td>Codigo 3607343191005</td>
+			 <td>Meow for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>324.5</td>
+
+		     <td>649.00</td>
+		     <td>2017-04-11 12:30:45</td>
+		     <td>2017-04-11 13:35:16</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33452 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//RAMIRO TERRAZAS (TERA7436784)</td>
+
+		     <td>Codigo 3607349312459</td>
+			 <td>Purr for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>324.5</td>
+
+		     <td>649.00</td>
+		     <td>2017-04-11 12:30:45</td>
+		     <td>2017-04-11 13:35:16</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33464 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 242188542</td>
+
+		     <td>Codigo 3614221758786</td>
+			 <td>NAUTICA VOYAGE SPORT FOR MEN BY VOYAGE EDT 100ML</td>
+			 <td>1</td>
+			 <td>325</td>
+
+		     <td>325.00</td>
+		     <td>2017-04-11 12:23:31</td>
+		     <td>2017-04-11 14:13:49</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33474 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 271918542	</td>
+
+		     <td>Codigo 608940533369</td>
+			 <td>Can Can for Women by Paris Hilton Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>519</td>
+
+		     <td>519.00</td>
+		     <td>2017-04-11 12:22:50</td>
+		     <td>2017-04-11 14:22:44</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33469 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 234778542</td>
+
+		     <td>Codigo 31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>263</td>
+
+		     <td>789.00</td>
+		     <td>2017-04-11 12:22:09</td>
+		     <td>2017-04-11 14:10:24</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33469 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 234778542</td>
+
+		     <td>Codigo 3661163904016</td>
+			 <td>Nautica Classic For Men by Nautica Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>263</td>
+
+		     <td>789.00</td>
+		     <td>2017-04-11 12:22:09</td>
+		     <td>2017-04-11 14:10:24</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33469 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 234778542</td>
+
+		     <td>Codigo 3412242508027</td>
+			 <td>Nautica Blue For Men by Nautica Eau De Toilette 100ml</td>
+			 <td>1</td>
+			 <td>263</td>
+
+		     <td>789.00</td>
+		     <td>2017-04-11 12:22:09</td>
+		     <td>2017-04-11 14:10:24</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33466 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 248868542</td>
+
+		     <td>Codigo 3614221758786</td>
+			 <td>NAUTICA VOYAGE SPORT FOR MEN BY VOYAGE EDT 100ML</td>
+			 <td>1</td>
+			 <td>325</td>
+
+		     <td>325.00</td>
+		     <td>2017-04-11 12:21:30</td>
+		     <td>2017-04-11 14:06:59</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33470 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 231858542</td>
+
+		     <td>Codigo 3607343191005</td>
+			 <td>Meow for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>324.5</td>
+
+		     <td>649.00</td>
+		     <td>2017-04-11 12:13:41</td>
+		     <td>2017-04-11 14:20:18</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33470 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 231858542</td>
+
+		     <td>Codigo 3607349312459</td>
+			 <td>Purr for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>324.5</td>
+
+		     <td>649.00</td>
+		     <td>2017-04-11 12:13:41</td>
+		     <td>2017-04-11 14:20:18</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33467 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 261388542</td>
+
+		     <td>Codigo 3614221758786</td>
+			 <td>NAUTICA VOYAGE SPORT FOR MEN BY VOYAGE EDT 100ML</td>
+			 <td>1</td>
+			 <td>325</td>
+
+		     <td>325.00</td>
+		     <td>2017-04-11 12:12:51</td>
+		     <td>2017-04-11 14:18:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33459 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//juan carlos rodriguez (JKARLOZ_1)</td>
+
+		     <td>Codigo 88300107407</td>
+			 <td>CK One by Calvin Klein Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>444.5</td>
+
+		     <td>889.00</td>
+		     <td>2017-04-11 12:12:08</td>
+		     <td>2017-04-11 13:29:06</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33459 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//juan carlos rodriguez (JKARLOZ_1)</td>
+
+		     <td>Codigo 88300104406</td>
+			 <td>CK BE CALVIN KLEIN EAU DE TOILETTE 100 ML</td>
+			 <td>1</td>
+			 <td>444.5</td>
+
+		     <td>889.00</td>
+		     <td>2017-04-11 12:12:08</td>
+		     <td>2017-04-11 13:29:06</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33461 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//Guillermo Ramirez (RAGU2193073)</td>
+
+		     <td>Codigo 3607343191005</td>
+			 <td>Meow for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>388.99</td>
+
+		     <td>388.99</td>
+		     <td>2017-04-11 12:11:39</td>
+		     <td>2017-04-11 13:31:55</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33440 L</td>
+		     <td>Centro Integral de Mercadotecnia, Publicidad y Medios. S. C</td>
+		     <td></td>
+
+		     <td>Codigo 29980</td>
+			 <td>DISCO DURO HITACHI 2TB 7200RPM SATA</td>
+			 <td>2</td>
+			 <td>1870.01</td>
+
+		     <td>1,870.01</td>
+		     <td>2017-04-11 11:59:27</td>
+		     <td>2017-04-11 13:48:24</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33433 L</td>
+		     <td>Diego Garcia De La Paz</td>
+		     <td>DIEGOGARCIADELAPAZ</td>
+
+		     <td>Codigo CAR-02</td>
+			 <td>CARGADOR DE PARED GENERICO APPLE</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>1,990.00</td>
+		     <td>2017-04-11 11:58:21</td>
+		     <td>2017-04-11 17:09:37</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33433 L</td>
+		     <td>Diego Garcia De La Paz</td>
+		     <td>DIEGOGARCIADELAPAZ</td>
+
+		     <td>Codigo CAB-IPH4S</td>
+			 <td>CABLE DE DATOS USB PARA IPHONE4S</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>1,990.00</td>
+		     <td>2017-04-11 11:58:21</td>
+		     <td>2017-04-11 17:09:37</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33433 L</td>
+		     <td>Diego Garcia De La Paz</td>
+		     <td>DIEGOGARCIADELAPAZ</td>
+
+		     <td>Codigo 85131654112</td>
+			 <td>CELULAR APPLE IPHONE 4S 16GB NEGRO HSTO</td>
+			 <td>1</td>
+			 <td>1990</td>
+
+		     <td>1,990.00</td>
+		     <td>2017-04-11 11:58:21</td>
+		     <td>2017-04-11 17:09:37</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33327 L</td>
+		     <td>LUIS ENRIQUE FIGUEROA</td>
+		     <td>TRANSFERENCIA</td>
+
+		     <td>Codigo 889488369829</td>
+			 <td>LAPTOP LENOVO B41-30/CEL N3050/ 2GB/500GB 14' HDMI</td>
+			 <td>15</td>
+			 <td>65700.14</td>
+
+		     <td>65,700.14</td>
+		     <td>2017-04-11 11:57:11</td>
+		     <td>2017-04-12 17:20:20</td>
+		     <td>eduardoh</td></tr><tr class='odd gradeX'>
+		     <td>33327 L</td>
+		     <td>LUIS ENRIQUE FIGUEROA</td>
+		     <td>TRANSFERENCIA</td>
+
+		     <td>Codigo ZZGZ0001</td>
+			 <td>GASTOS DE ENVIO LTM</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>65,700.14</td>
+		     <td>2017-04-11 11:57:11</td>
+		     <td>2017-04-12 17:20:20</td>
+		     <td>eduardoh</td></tr><tr class='odd gradeX'>
+		     <td>33451 L</td>
+		     <td>MARCO ANTONIO OLVERA CARDENAS</td>
+		     <td>R.P.</td>
+
+		     <td>Codigo 08941322028</td>
+			 <td>CELULAR SAMSUNG GALAXY S5 G900/KITTED/16GB/BLUE</td>
+			 <td>1</td>
+			 <td>3980.01</td>
+
+		     <td>3,980.01</td>
+		     <td>2017-04-11 10:23:04</td>
+		     <td>2017-04-11 10:54:05</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33451 L</td>
+		     <td>MARCO ANTONIO OLVERA CARDENAS</td>
+		     <td>R.P.</td>
+
+		     <td>Codigo 0859635323</td>
+			 <td>MICA CRISTAL TEMPLADO SAMSUNG GALAXY S5</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>3,980.01</td>
+		     <td>2017-04-11 10:23:04</td>
+		     <td>2017-04-11 10:54:05</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33448 L</td>
+		     <td>Jorge Silva</td>
+		     <td>SIJO9911765</td>
+
+		     <td>Codigo 851515512</td>
+			 <td>CELULAR APPLE IPHONE 6 HSTO 16GB/SPACE GRAY</td>
+			 <td>1</td>
+			 <td>6790</td>
+
+		     <td>6,790.00</td>
+		     <td>2017-04-10 17:28:56</td>
+		     <td>2017-04-10 17:32:51</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33448 L</td>
+		     <td>Jorge Silva</td>
+		     <td>SIJO9911765</td>
+
+		     <td>Codigo SPAREPARTS224</td>
+			 <td>KIT CARGADOR APPLE USB LIGHTNING</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>6,790.00</td>
+		     <td>2017-04-10 17:28:56</td>
+		     <td>2017-04-10 17:32:51</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33418 L</td>
+		     <td>Delmy Clarisa Canul Chi</td>
+		     <td>YAZMINMARQUEZGONZALES</td>
+
+		     <td>Codigo MIC-LGG3</td>
+			 <td>MICA CRISTAL TEMPLADO LG G3</td>
+			 <td>1</td>
+			 <td>69</td>
+
+		     <td>69.00</td>
+		     <td>2017-04-10 16:56:10</td>
+		     <td>2017-04-10 17:03:11</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33447 L</td>
+		     <td>Lupita Martinez</td>
+		     <td>MALU2835732</td>
+
+		     <td>Codigo 081232168532</td>
+			 <td>CELULAR SAMSUNG GALAXY NOTE4 SM-N910P A/BSTOCK HSTO 32GB NGO</td>
+			 <td>1</td>
+			 <td>4980</td>
+
+		     <td>4,980.00</td>
+		     <td>2017-04-10 16:51:04</td>
+		     <td>2017-04-10 17:12:49</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33447 L</td>
+		     <td>Lupita Martinez</td>
+		     <td>MALU2835732</td>
+
+		     <td>Codigo 8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>4,980.00</td>
+		     <td>2017-04-10 16:51:04</td>
+		     <td>2017-04-10 17:12:49</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33441 L</td>
+		     <td>FROGTEK MEXICO SAPI DE CV</td>
+		     <td>TRANSFERENCIA</td>
+
+		     <td>Codigo 887276857503</td>
+			 <td>SAMSUNG GALAXY TAB 3 7' ANDROID 4.3 DC 8GB WIFI CAM BLANCA</td>
+			 <td>3</td>
+			 <td>5399.99</td>
+
+		     <td>16,199.96</td>
+		     <td>2017-04-10 16:49:04</td>
+		     <td>2017-04-10 16:59:48</td>
+		     <td>eduardoh</td></tr><tr class='odd gradeX'>
+		     <td>33441 L</td>
+		     <td>FROGTEK MEXICO SAPI DE CV</td>
+		     <td>TRANSFERENCIA</td>
+
+		     <td>Codigo 8806086125758</td>
+			 <td>TABLET SAMSUNG TAB4 T230/8GB/BLANCO</td>
+			 <td>6</td>
+			 <td>10799.97</td>
+
+		     <td>16,199.96</td>
+		     <td>2017-04-10 16:49:04</td>
+		     <td>2017-04-10 16:59:48</td>
+		     <td>eduardoh</td></tr><tr class='odd gradeX'>
+		     <td>33445 L</td>
+		     <td>Diego Leon Zarate</td>
+		     <td>DENETOR 2.0</td>
+
+		     <td>Codigo 821793048464</td>
+			 <td>CELULAR HTC DESIRE 530/16GB/KITTED/BLANCO</td>
+			 <td>1</td>
+			 <td>2180</td>
+
+		     <td>2,180.00</td>
+		     <td>2017-04-10 16:48:15</td>
+		     <td>2017-04-10 17:23:35</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33443 L</td>
+		     <td>Arturo Higareda</td>
+		     <td>HIGAREDAARTURO15</td>
+
+		     <td>Codigo 8806086890717</td>
+			 <td>CELULAR SAMSUNG GALAXY S6 EDGE SM-G925A HSTO 32GB BLACK</td>
+			 <td>1</td>
+			 <td>7386</td>
+
+		     <td>7,386.00</td>
+		     <td>2017-04-10 16:46:38</td>
+		     <td>2017-04-10 17:38:03</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33443 L</td>
+		     <td>Arturo Higareda</td>
+		     <td>HIGAREDAARTURO15</td>
+
+		     <td>Codigo 8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>7,386.00</td>
+		     <td>2017-04-10 16:46:38</td>
+		     <td>2017-04-10 17:38:03</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33444 L</td>
+		     <td>Victor Manuel Lopez}</td>
+		     <td>LOVI732810</td>
+
+		     <td>Codigo 08625892655</td>
+			 <td>CELULAR LG LEON H345T HSO/8GB/BLACK</td>
+			 <td>1</td>
+			 <td>1899</td>
+
+		     <td>1,899.00</td>
+		     <td>2017-04-10 16:44:29</td>
+		     <td>2017-04-10 17:06:31</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33444 L</td>
+		     <td>Victor Manuel Lopez}</td>
+		     <td>LOVI732810</td>
+
+		     <td>Codigo 8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>1,899.00</td>
+		     <td>2017-04-10 16:44:29</td>
+		     <td>2017-04-10 17:06:31</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33446 L</td>
+		     <td>JOR_MIRANDA</td>
+		     <td>JOR_MIRANDA</td>
+
+		     <td>Codigo 8563286515</td>
+			 <td>CELULAR APPLE IPHONE 5C/A-HSTO/16GB/ROSA</td>
+			 <td>1</td>
+			 <td>3390</td>
+
+		     <td>3,390.00</td>
+		     <td>2017-04-10 16:41:59</td>
+		     <td>2017-04-10 17:17:26</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33446 L</td>
+		     <td>JOR_MIRANDA</td>
+		     <td>JOR_MIRANDA</td>
+
+		     <td>Codigo SPAREPARTS224</td>
+			 <td>KIT CARGADOR APPLE USB LIGHTNING</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>3,390.00</td>
+		     <td>2017-04-10 16:41:59</td>
+		     <td>2017-04-10 17:17:26</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33442 L</td>
+		     <td>Daniel Torres</td>
+		     <td>TODA4864593</td>
+
+		     <td>Codigo MIC-SS4</td>
+			 <td>MICA CRISTAL TEMPLADO SAMSUNG GALAXY S4</td>
+			 <td>1</td>
+			 <td>69</td>
+
+		     <td>69.00</td>
+		     <td>2017-04-10 16:40:16</td>
+		     <td>2017-04-10 17:40:51</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33368 L</td>
+		     <td>ALEUX MEXICO S DE RL DE CV</td>
+		     <td></td>
+
+		     <td>Codigo ZZGZ0001</td>
+			 <td>GASTOS DE ENVIO LTM</td>
+			 <td>1</td>
+			 <td>260</td>
+
+		     <td>260.00</td>
+		     <td>2017-04-10 16:39:40</td>
+		     <td>2017-04-12 16:53:01</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33431 L</td>
+		     <td>Jose Luis</td>
+		     <td>LUISSANMAR</td>
+
+		     <td>Codigo 21865413218</td>
+			 <td>CELULAR APPLE IPHONE 5C/HSTO/16GB/AZUL</td>
+			 <td>1</td>
+			 <td>3290</td>
+
+		     <td>3,290.00</td>
+		     <td>2017-04-10 16:34:17</td>
+		     <td>2017-04-11 17:10:00</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33431 L</td>
+		     <td>Jose Luis</td>
+		     <td>LUISSANMAR</td>
+
+		     <td>Codigo SPAREPARTS224</td>
+			 <td>KIT CARGADOR APPLE USB LIGHTNING</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>3,290.00</td>
+		     <td>2017-04-10 16:34:17</td>
+		     <td>2017-04-11 17:10:00</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33428 A</td>
+		     <td>MOLINERA DEL FUERTE, S.A. DE C.V.</td>
+		     <td></td>
+
+		     <td>Codigo ZZGZ0016</td>
+			 <td>VIATICOS POR TRANSPORTE HOSPEDAJE Y ALIMENTOS</td>
+			 <td>1</td>
+			 <td>5742</td>
+
+		     <td>36,630.48</td>
+		     <td>2017-04-10 16:32:48</td>
+		     <td>2017-04-11 10:38:26</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>33428 A</td>
+		     <td>MOLINERA DEL FUERTE, S.A. DE C.V.</td>
+		     <td></td>
+
+		     <td>Codigo ZZGZ0015</td>
+			 <td>SERVICIO DE MANTENIMIENTO PREVENTIVO</td>
+			 <td>1</td>
+			 <td>10182.48</td>
+
+		     <td>36,630.48</td>
+		     <td>2017-04-10 16:32:48</td>
+		     <td>2017-04-11 10:38:26</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>33428 A</td>
+		     <td>MOLINERA DEL FUERTE, S.A. DE C.V.</td>
+		     <td></td>
+
+		     <td>Codigo ZZGZ0015</td>
+			 <td>SERVICIO DE MANTENIMIENTO PREVENTIVO</td>
+			 <td>1</td>
+			 <td>10767.12</td>
+
+		     <td>36,630.48</td>
+		     <td>2017-04-10 16:32:48</td>
+		     <td>2017-04-11 10:38:26</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>33428 A</td>
+		     <td>MOLINERA DEL FUERTE, S.A. DE C.V.</td>
+		     <td></td>
+
+		     <td>Codigo ZZGZ0015</td>
+			 <td>SERVICIO DE MANTENIMIENTO PREVENTIVO</td>
+			 <td>1</td>
+			 <td>9938.88</td>
+
+		     <td>36,630.48</td>
+		     <td>2017-04-10 16:32:48</td>
+		     <td>2017-04-11 10:38:26</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>33430 A</td>
+		     <td>ALMACENADORA UCAMAYO, S.A. DE C.V.</td>
+		     <td></td>
+
+		     <td>Codigo ZZGZ0015</td>
+			 <td>SERVICIO DE MANTENIMIENTO PREVENTIVO</td>
+			 <td>1</td>
+			 <td>10767.12</td>
+
+		     <td>15,697.12</td>
+		     <td>2017-04-10 16:31:09</td>
+		     <td>2017-04-11 11:03:33</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>33430 A</td>
+		     <td>ALMACENADORA UCAMAYO, S.A. DE C.V.</td>
+		     <td></td>
+
+		     <td>Codigo ZZGZ0016</td>
+			 <td>VIATICOS POR TRANSPORTE HOSPEDAJE Y ALIMENTOS</td>
+			 <td>1</td>
+			 <td>4930</td>
+
+		     <td>15,697.12</td>
+		     <td>2017-04-10 16:31:09</td>
+		     <td>2017-04-11 11:03:33</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>33432 C</td>
+		     <td>RICARDO MIGUEL REYES REYES</td>
+		     <td></td>
+
+		     <td>Codigo 610214635006</td>
+			 <td>CELULAR Lg Optimus F3q D520 SLIDER HSTO</td>
+			 <td>10</td>
+			 <td>7000.02</td>
+
+		     <td>7,500.00</td>
+		     <td>2017-04-10 16:27:15</td>
+		     <td>2017-04-10 16:54:29</td>
+		     <td>MARCOSS</td></tr><tr class='odd gradeX'>
+		     <td>33432 C</td>
+		     <td>RICARDO MIGUEL REYES REYES</td>
+		     <td></td>
+
+		     <td>Codigo ZZGZ0001</td>
+			 <td>GASTOS DE ENVIO LTM</td>
+			 <td>1</td>
+			 <td>499.98</td>
+
+		     <td>7,500.00</td>
+		     <td>2017-04-10 16:27:15</td>
+		     <td>2017-04-10 16:54:29</td>
+		     <td>MARCOSS</td></tr><tr class='odd gradeX'>
+		     <td>33437 A</td>
+		     <td>AGRIBRANDS PURINA MEXICO S. DE R.L. DE C.V.</td>
+		     <td></td>
+
+		     <td>Codigo LFFUMQETOH100K</td>
+			 <td>LF/FUMQ-ETHANOL/QUANTITATIVE/GRAIN/100T</td>
+			 <td>1</td>
+			 <td>838.1</td>
+
+		     <td>1,598.31</td>
+		     <td>2017-04-10 16:22:30</td>
+		     <td>2017-04-10 16:29:02</td>
+		     <td>ISAYANAO</td></tr><tr class='odd gradeX'>
+		     <td>33437 A</td>
+		     <td>AGRIBRANDS PURINA MEXICO S. DE R.L. DE C.V.</td>
+		     <td></td>
+
+		     <td>Codigo LFAFQETOH100K</td>
+			 <td>LF/AFQ-ETHANOL/QUANTITATIVE/GRAIN/100T</td>
+			 <td>1</td>
+			 <td>760.21</td>
+
+		     <td>1,598.31</td>
+		     <td>2017-04-10 16:22:30</td>
+		     <td>2017-04-10 16:29:02</td>
+		     <td>ISAYANAO</td></tr><tr class='odd gradeX'>
+		     <td>33412 A</td>
+		     <td>MOLINERA DE MEXICO S.A. DE C.V.</td>
+		     <td></td>
+
+		     <td>Codigo ZZGZ0015</td>
+			 <td>SERVICIO DE MANTENIMIENTO PREVENTIVO</td>
+			 <td>1</td>
+			 <td>10767.12</td>
+
+		     <td>10,767.12</td>
+		     <td>2017-04-10 15:02:20</td>
+		     <td>2017-04-11 10:59:38</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>33436 L</td>
+		     <td>Jorge Santibañez Hoffmann</td>
+		     <td>JORGESANTIHOFF</td>
+
+		     <td>Codigo 0885909727377</td>
+			 <td>CELULAR APPLE IPHONE 5S 16GB HSO GOLD</td>
+			 <td>1</td>
+			 <td>4470</td>
+
+		     <td>4,470.00</td>
+		     <td>2017-04-10 14:51:45</td>
+		     <td>2017-04-10 15:36:02</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33436 L</td>
+		     <td>Jorge Santibañez Hoffmann</td>
+		     <td>JORGESANTIHOFF</td>
+
+		     <td>Codigo SPAREPARTS224</td>
+			 <td>KIT CARGADOR APPLE USB LIGHTNING</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>4,470.00</td>
+		     <td>2017-04-10 14:51:45</td>
+		     <td>2017-04-10 15:36:02</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33435 L</td>
+		     <td>Enzo Hernández</td>
+		     <td>DKMICROSYSTEMS</td>
+
+		     <td>Codigo 821793048464</td>
+			 <td>CELULAR HTC DESIRE 530/16GB/KITTED/BLANCO</td>
+			 <td>1</td>
+			 <td>2180</td>
+
+		     <td>2,180.00</td>
+		     <td>2017-04-10 14:48:46</td>
+		     <td>2017-04-10 16:28:09</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33426 L</td>
+		     <td>Ernesto Rodríguez</td>
+		     <td>R.P.</td>
+
+		     <td>Codigo FUNDA-AGUA</td>
+			 <td>FUNDA CONTRA EL AGUA PARA CELULAR</td>
+			 <td>5</td>
+			 <td>95</td>
+
+		     <td>95.00</td>
+		     <td>2017-04-10 14:34:57</td>
+		     <td>2017-04-11 10:57:29</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33419 L</td>
+		     <td>Luis Alberto Piñón Flores</td>
+		     <td>LUISPFLORES</td>
+
+		     <td>Codigo 880608668334</td>
+			 <td>CARGADOR SAMSUNG GALAXY  WIRELESS NEGRO</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>7,980.00</td>
+		     <td>2017-04-10 14:28:28</td>
+		     <td>2017-04-11 10:57:56</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33419 L</td>
+		     <td>Luis Alberto Piñón Flores</td>
+		     <td>LUISPFLORES</td>
+
+		     <td>Codigo 8806086890717</td>
+			 <td>CELULAR SAMSUNG GALAXY S6 EDGE SM-G925A HSTO 32GB BLACK</td>
+			 <td>1</td>
+			 <td>7980</td>
+
+		     <td>7,980.00</td>
+		     <td>2017-04-10 14:28:28</td>
+		     <td>2017-04-11 10:57:56</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33429 L</td>
+		     <td>EMBOTELLADORA AGA DEL CENTRO SA DE CV</td>
+		     <td>QUIJANOLUIS</td>
+
+		     <td>Codigo 190151300637</td>
+			 <td>LAPTOP LENOVO IDEAPAD 100-14IBD CI3 4GB 500GB W10 14'</td>
+			 <td>1</td>
+			 <td>6690</td>
+
+		     <td>6,690.00</td>
+		     <td>2017-04-10 14:25:46</td>
+		     <td>2017-04-10 17:25:37</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33428 L</td>
+		     <td>José Jaime Bueno Verástegui</td>
+		     <td>JIMMYJAMES_2009</td>
+
+		     <td>Codigo 08625892655</td>
+			 <td>CELULAR LG LEON H345T HSO/8GB/BLACK</td>
+			 <td>1</td>
+			 <td>1899</td>
+
+		     <td>1,899.00</td>
+		     <td>2017-04-10 14:24:00</td>
+		     <td>2017-04-10 16:26:03</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33428 L</td>
+		     <td>José Jaime Bueno Verástegui</td>
+		     <td>JIMMYJAMES_2009</td>
+
+		     <td>Codigo 8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>1,899.00</td>
+		     <td>2017-04-10 14:24:00</td>
+		     <td>2017-04-10 16:26:03</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33427 L</td>
+		     <td>Salvador Esquivel</td>
+		     <td>ESSA5828848</td>
+
+		     <td>Codigo 610214630186</td>
+			 <td>CELULAR SAMSUNG GALAXY S5 G900/KITTED/16GB/NEGRO</td>
+			 <td>1</td>
+			 <td>3980.01</td>
+
+		     <td>3,980.01</td>
+		     <td>2017-04-10 14:22:32</td>
+		     <td>2017-04-10 17:15:09</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33425 L</td>
+		     <td>Reinaldo Barrios Dias</td>
+		     <td>REINALDOBARRIOSDIAS</td>
+
+		     <td>Codigo 894651318432</td>
+			 <td>CELULAR SAMSUNG NOTE 5 SM-N920P/HSTO/32GB/AZUL ZAFIRO</td>
+			 <td>1</td>
+			 <td>7995</td>
+
+		     <td>7,995.00</td>
+		     <td>2017-04-10 14:20:03</td>
+		     <td>2017-04-10 14:33:35</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33425 L</td>
+		     <td>Reinaldo Barrios Dias</td>
+		     <td>REINALDOBARRIOSDIAS</td>
+
+		     <td>Codigo 8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>7,995.00</td>
+		     <td>2017-04-10 14:20:03</td>
+		     <td>2017-04-10 14:33:35</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33423 L</td>
+		     <td>Abel Gallardo Ramirez</td>
+		     <td>DENO_1_3</td>
+
+		     <td>Codigo 821793048464</td>
+			 <td>CELULAR HTC DESIRE 530/16GB/KITTED/BLANCO</td>
+			 <td>1</td>
+			 <td>2180</td>
+
+		     <td>2,180.00</td>
+		     <td>2017-04-10 14:18:08</td>
+		     <td>2017-04-10 14:46:56</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33424 L</td>
+		     <td>Jose Daniel Martinez Estrella</td>
+		     <td>JOSEDANIELMARTINEZESTRELLA</td>
+
+		     <td>Codigo 889488369829</td>
+			 <td>LAPTOP LENOVO B41-30/CEL N3050/ 2GB/500GB 14' HDMI</td>
+			 <td>1</td>
+			 <td>4490</td>
+
+		     <td>4,490.00</td>
+		     <td>2017-04-10 14:12:56</td>
+		     <td>2017-04-10 17:09:48</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33422 L</td>
+		     <td>Francisco Javier Guitron Cradona</td>
+		     <td>DARKNEESUNO</td>
+
+		     <td>Codigo 08651654320</td>
+			 <td>CELULAR SAMSUNG GALAXY S5 G900P/HSTO/16GB/GOLD</td>
+			 <td>1</td>
+			 <td>3597</td>
+
+		     <td>3,597.00</td>
+		     <td>2017-04-10 14:04:35</td>
+		     <td>2017-04-10 14:35:28</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33422 L</td>
+		     <td>Francisco Javier Guitron Cradona</td>
+		     <td>DARKNEESUNO</td>
+
+		     <td>Codigo 8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>3,597.00</td>
+		     <td>2017-04-10 14:04:35</td>
+		     <td>2017-04-10 14:35:28</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33421 A</td>
+		     <td>HARINERA DE YUCATAN SA DE CV</td>
+		     <td></td>
+
+		     <td>Codigo ZZGZ0005</td>
+			 <td>ANTICIPO (AGRO)</td>
+			 <td>1</td>
+			 <td>30334</td>
+
+		     <td>30,334.00</td>
+		     <td>2017-04-10 14:03:25</td>
+		     <td>2017-04-10 16:18:10</td>
+		     <td>ISAYANAO</td></tr><tr class='odd gradeX'>
+		     <td>33420 A</td>
+		     <td>FONDO DE ASEGURAMIENTO AGRÍCOLA AAVYAC</td>
+		     <td></td>
+
+		     <td>Codigo ZZGZ0005</td>
+			 <td>ANTICIPO (AGRO)</td>
+			 <td>1</td>
+			 <td>314896.5</td>
+
+		     <td>314,896.50</td>
+		     <td>2017-04-10 14:01:48</td>
+		     <td>2017-04-10 16:35:32</td>
+		     <td>ISAYANAO</td></tr><tr class='odd gradeX'>
+		     <td>33409 A</td>
+		     <td>Tablex Miller, S. de R.L. de C.V.</td>
+		     <td></td>
+
+		     <td>Codigo 08.95.01</td>
+			 <td>INFRAMATIC 9500 110V</td>
+			 <td>1</td>
+			 <td>29000</td>
+
+		     <td>14,500.00</td>
+		     <td>2017-04-10 13:57:36</td>
+		     <td>2017-04-10 16:38:20</td>
+		     <td>ISAYANAO</td></tr><tr class='odd gradeX'>
+		     <td>33409 A</td>
+		     <td>Tablex Miller, S. de R.L. de C.V.</td>
+		     <td></td>
+
+		     <td>Codigo ZZGZ0005</td>
+			 <td>ANTICIPO (AGRO)</td>
+			 <td>1</td>
+			 <td>-14500</td>
+
+		     <td>14,500.00</td>
+		     <td>2017-04-10 13:57:36</td>
+		     <td>2017-04-10 16:38:20</td>
+		     <td>ISAYANAO</td></tr><tr class='odd gradeX'>
+		     <td>33417 L</td>
+		     <td>GUADALUPE LARA MOJICA</td>
+		     <td>R.P.</td>
+
+		     <td>Codigo MAN-GEN</td>
+			 <td>MANOS LIBRES GENERICO</td>
+			 <td>1</td>
+			 <td>21</td>
+
+		     <td>21.00</td>
+		     <td>2017-04-10 13:45:14</td>
+		     <td>2017-04-11 10:56:10</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33415 L</td>
+		     <td>Miguel Moreno</td>
+		     <td>MOMI6391539</td>
+
+		     <td>Codigo 8806084985583N</td>
+			 <td>CELULAR LG G4 H811 32GB NARANJA HSO</td>
+			 <td>1</td>
+			 <td>4998</td>
+
+		     <td>4,998.00</td>
+		     <td>2017-04-10 13:44:11</td>
+		     <td>2017-04-10 14:40:18</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33415 L</td>
+		     <td>Miguel Moreno</td>
+		     <td>MOMI6391539</td>
+
+		     <td>Codigo 8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>4,998.00</td>
+		     <td>2017-04-10 13:44:11</td>
+		     <td>2017-04-10 14:40:18</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33414 L</td>
+		     <td>Alexx Caamal Pool</td>
+		     <td>ALEXXCAAMALPOOL</td>
+
+		     <td>Codigo 885913100784</td>
+			 <td>CELULAR LG G2 D800 HSTO 32GB STOCK-A BLANCO</td>
+			 <td>1</td>
+			 <td>2490</td>
+
+		     <td>2,490.00</td>
+		     <td>2017-04-10 13:42:57</td>
+		     <td>2017-04-10 17:57:46</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33414 L</td>
+		     <td>Alexx Caamal Pool</td>
+		     <td>ALEXXCAAMALPOOL</td>
+
+		     <td>Codigo 8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>2,490.00</td>
+		     <td>2017-04-10 13:42:57</td>
+		     <td>2017-04-10 17:57:46</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33413 L</td>
+		     <td>Israel De Jesus Ruiz Luvian</td>
+		     <td>ISRAELRUIZ_LUVIAN</td>
+
+		     <td>Codigo 889488369829</td>
+			 <td>LAPTOP LENOVO B41-30/CEL N3050/ 2GB/500GB 14' HDMI</td>
+			 <td>1</td>
+			 <td>4490</td>
+
+		     <td>4,490.00</td>
+		     <td>2017-04-10 13:41:23</td>
+		     <td>2017-04-10 14:42:48</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33416 A</td>
+		     <td>Mario Alberto Rodriguez Caseña</td>
+		     <td></td>
+
+		     <td>Codigo ZZGZ0002</td>
+			 <td>GASTOS DE ENVIO AGRO</td>
+			 <td>1</td>
+			 <td>380</td>
+
+		     <td>380.00</td>
+		     <td>2017-04-10 13:40:03</td>
+		     <td>2017-04-10 15:34:23</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>33411 L</td>
+		     <td>David Covarrubias</td>
+		     <td>NEJEF</td>
+
+		     <td>Codigo 8563286515</td>
+			 <td>CELULAR APPLE IPHONE 5C/A-HSTO/16GB/ROSA</td>
+			 <td>1</td>
+			 <td>3290</td>
+
+		     <td>3,290.00</td>
+		     <td>2017-04-10 13:38:21</td>
+		     <td>2017-04-10 17:47:07</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33411 L</td>
+		     <td>David Covarrubias</td>
+		     <td>NEJEF</td>
+
+		     <td>Codigo SPAREPARTS224</td>
+			 <td>KIT CARGADOR APPLE USB LIGHTNING</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>3,290.00</td>
+		     <td>2017-04-10 13:38:21</td>
+		     <td>2017-04-10 17:47:07</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33410 L</td>
+		     <td>Gerardo Aguirre</td>
+		     <td>SHAKATSU</td>
+
+		     <td>Codigo MIC-SS4</td>
+			 <td>MICA CRISTAL TEMPLADO SAMSUNG GALAXY S4</td>
+			 <td>1</td>
+			 <td>69</td>
+
+		     <td>69.00</td>
+		     <td>2017-04-10 13:36:58</td>
+		     <td>2017-04-10 15:20:03</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33409 L</td>
+		     <td>Fatima Santander</td>
+		     <td>WENT2001</td>
+
+		     <td>Codigo 864467000238</td>
+			 <td>POWER CASE SQUIRL PARA IPHONE 6/6S/ROSA</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>6,890.01</td>
+		     <td>2017-04-10 13:35:22</td>
+		     <td>2017-04-10 14:45:15</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33409 L</td>
+		     <td>Fatima Santander</td>
+		     <td>WENT2001</td>
+
+		     <td>Codigo SPAREPARTS224</td>
+			 <td>KIT CARGADOR APPLE USB LIGHTNING</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>6,890.01</td>
+		     <td>2017-04-10 13:35:22</td>
+		     <td>2017-04-10 14:45:15</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33409 L</td>
+		     <td>Fatima Santander</td>
+		     <td>WENT2001</td>
+
+		     <td>Codigo 851515512</td>
+			 <td>CELULAR APPLE IPHONE 6 HSTO 16GB/SPACE GRAY</td>
+			 <td>1</td>
+			 <td>6890.01</td>
+
+		     <td>6,890.01</td>
+		     <td>2017-04-10 13:35:22</td>
+		     <td>2017-04-10 14:45:15</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33408 L</td>
+		     <td>Jose Aguirre</td>
+		     <td>AGJO898186</td>
+
+		     <td>Codigo 0886513298746</td>
+			 <td>CELULAR SAMSUNG GALAXY NOTE3 SM-N900T/N900V/HSTO 32GB/NGO</td>
+			 <td>1</td>
+			 <td>3950</td>
+
+		     <td>3,950.00</td>
+		     <td>2017-04-10 13:33:58</td>
+		     <td>2017-04-10 15:17:02</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33408 L</td>
+		     <td>Jose Aguirre</td>
+		     <td>AGJO898186</td>
+
+		     <td>Codigo 8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>3,950.00</td>
+		     <td>2017-04-10 13:33:58</td>
+		     <td>2017-04-10 15:17:02</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33402 L</td>
+		     <td>Vicente Nuñez Arellano</td>
+		     <td>VICENTENUEZARELLANO</td>
+
+		     <td>Codigo 851515512</td>
+			 <td>CELULAR APPLE IPHONE 6 HSTO 16GB/SPACE GRAY</td>
+			 <td>1</td>
+			 <td>6790</td>
+
+		     <td>6,790.00</td>
+		     <td>2017-04-10 12:33:41</td>
+		     <td>2017-04-10 12:48:04</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33402 L</td>
+		     <td>Vicente Nuñez Arellano</td>
+		     <td>VICENTENUEZARELLANO</td>
+
+		     <td>Codigo SPAREPARTS224</td>
+			 <td>KIT CARGADOR APPLE USB LIGHTNING</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>6,790.00</td>
+		     <td>2017-04-10 12:33:41</td>
+		     <td>2017-04-10 12:48:04</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33400 L</td>
+		     <td>Erick Abraham Chan Flores</td>
+		     <td>CHANFLORES</td>
+
+		     <td>Codigo 6922309813591B</td>
+			 <td>CELULAR SAMSUNG GALAXY S6 G920V HSTO A-STOCK 32GB BLACK</td>
+			 <td>1</td>
+			 <td>6780</td>
+
+		     <td>6,780.00</td>
+		     <td>2017-04-10 12:30:52</td>
+		     <td>2017-04-10 16:21:10</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33400 L</td>
+		     <td>Erick Abraham Chan Flores</td>
+		     <td>CHANFLORES</td>
+
+		     <td>Codigo 8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>6,780.00</td>
+		     <td>2017-04-10 12:30:52</td>
+		     <td>2017-04-10 16:21:10</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33399 L</td>
+		     <td>Pedro De Jesus Lopez Interiam</td>
+		     <td>DECORE23</td>
+
+		     <td>Codigo 610214635006</td>
+			 <td>CELULAR Lg Optimus F3q D520 SLIDER HSTO</td>
+			 <td>1</td>
+			 <td>900</td>
+
+		     <td>900.00</td>
+		     <td>2017-04-10 12:29:18</td>
+		     <td>2017-04-10 15:06:10</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33399 L</td>
+		     <td>Pedro De Jesus Lopez Interiam</td>
+		     <td>DECORE23</td>
+
+		     <td>Codigo 8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>900.00</td>
+		     <td>2017-04-10 12:29:18</td>
+		     <td>2017-04-10 15:06:10</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33396 L</td>
+		     <td>Victor Barajas</td>
+		     <td>BAVI3167220</td>
+
+		     <td>Codigo 894651318432</td>
+			 <td>CELULAR SAMSUNG NOTE 5 SM-N920P/HSTO/32GB/AZUL ZAFIRO</td>
+			 <td>1</td>
+			 <td>7995</td>
+
+		     <td>7,995.00</td>
+		     <td>2017-04-10 12:27:13</td>
+		     <td>2017-04-10 14:38:29</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33396 L</td>
+		     <td>Victor Barajas</td>
+		     <td>BAVI3167220</td>
+
+		     <td>Codigo 8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>7,995.00</td>
+		     <td>2017-04-10 12:27:13</td>
+		     <td>2017-04-10 14:38:29</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33392 L</td>
+		     <td>Centro Integral de Mercadotecnia, Publicidad y Medios.  S. C</td>
+		     <td>CRJO5250171</td>
+
+		     <td>Codigo 29980</td>
+			 <td>DISCO DURO HITACHI 2TB 7200RPM SATA</td>
+			 <td>1</td>
+			 <td>1870</td>
+
+		     <td>1,870.00</td>
+		     <td>2017-04-10 12:25:44</td>
+		     <td>2017-04-10 12:33:30</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33390 L</td>
+		     <td>Rene Gerardo Guillen Martinez</td>
+		     <td>RENE_GUILLEN</td>
+
+		     <td>Codigo 821793048464</td>
+			 <td>CELULAR HTC DESIRE 530/16GB/KITTED/BLANCO</td>
+			 <td>1</td>
+			 <td>2180</td>
+
+		     <td>2,180.00</td>
+		     <td>2017-04-10 12:24:30</td>
+		     <td>2017-04-10 12:39:00</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33388 L</td>
+		     <td>Antonio Centeno</td>
+		     <td>CEAN8013174</td>
+
+		     <td>Codigo 0885909727377</td>
+			 <td>CELULAR APPLE IPHONE 5S 16GB HSO GOLD</td>
+			 <td>1</td>
+			 <td>4470</td>
+
+		     <td>4,470.00</td>
+		     <td>2017-04-10 12:23:04</td>
+		     <td>2017-04-10 12:32:08</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33388 L</td>
+		     <td>Antonio Centeno</td>
+		     <td>CEAN8013174</td>
+
+		     <td>Codigo SPAREPARTS224</td>
+			 <td>KIT CARGADOR APPLE USB LIGHTNING</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>4,470.00</td>
+		     <td>2017-04-10 12:23:04</td>
+		     <td>2017-04-10 12:32:08</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33393 A</td>
+		     <td>LECHE 19 DIECINUEVE HERMANOS SA DE CV</td>
+		     <td></td>
+
+		     <td>Codigo SYRINGE1MLPKNS</td>
+			 <td>1ML SYRINGE/NS/20 PACK</td>
+			 <td>1</td>
+			 <td>10.86</td>
+
+		     <td>262.76</td>
+		     <td>2017-04-10 12:12:00</td>
+		     <td>2017-04-10 16:17:02</td>
+		     <td>ISAYANAO</td></tr><tr class='odd gradeX'>
+		     <td>33393 A</td>
+		     <td>LECHE 19 DIECINUEVE HERMANOS SA DE CV</td>
+		     <td></td>
+
+		     <td>Codigo ZZGZ0002</td>
+			 <td>GASTOS DE ENVIO AGRO</td>
+			 <td>1</td>
+			 <td>5.8</td>
+
+		     <td>262.76</td>
+		     <td>2017-04-10 12:12:00</td>
+		     <td>2017-04-10 16:17:02</td>
+		     <td>ISAYANAO</td></tr><tr class='odd gradeX'>
+		     <td>33393 A</td>
+		     <td>LECHE 19 DIECINUEVE HERMANOS SA DE CV</td>
+		     <td></td>
+
+		     <td>Codigo FIL045UMRC15</td>
+			 <td>0.45/SYRINGE FILTERS/RC15/20PK</td>
+			 <td>4</td>
+			 <td>159.24</td>
+
+		     <td>262.76</td>
+		     <td>2017-04-10 12:12:00</td>
+		     <td>2017-04-10 16:17:02</td>
+		     <td>ISAYANAO</td></tr><tr class='odd gradeX'>
+		     <td>33393 A</td>
+		     <td>LECHE 19 DIECINUEVE HERMANOS SA DE CV</td>
+		     <td></td>
+
+		     <td>Codigo PIP3ML100K</td>
+			 <td>3ML DISP TRANSFER PIPETS/100 BOX</td>
+			 <td>2</td>
+			 <td>24.13</td>
+
+		     <td>262.76</td>
+		     <td>2017-04-10 12:12:00</td>
+		     <td>2017-04-10 16:17:02</td>
+		     <td>ISAYANAO</td></tr><tr class='odd gradeX'>
+		     <td>33393 A</td>
+		     <td>LECHE 19 DIECINUEVE HERMANOS SA DE CV</td>
+		     <td></td>
+
+		     <td>Codigo CEN20MLTUBES100PK</td>
+			 <td>SUPERSPIN MICROCENTRIFUGE TUBES (100/PK)</td>
+			 <td>4</td>
+			 <td>62.73</td>
+
+		     <td>262.76</td>
+		     <td>2017-04-10 12:12:00</td>
+		     <td>2017-04-10 16:17:02</td>
+		     <td>ISAYANAO</td></tr><tr class='odd gradeX'>
+		     <td>33367 A</td>
+		     <td>MOLINO HARINERO SAN BLAS S.A. DE C.V.</td>
+		     <td></td>
+
+		     <td>Codigo ZZGZ0005</td>
+			 <td>ANTICIPO (AGRO)</td>
+			 <td>1</td>
+			 <td>79735.5</td>
+
+		     <td>79,735.50</td>
+		     <td>2017-04-10 12:10:54</td>
+		     <td>2017-04-10 16:38:09</td>
+		     <td>ISAYANAO</td></tr><tr class='odd gradeX'>
+		     <td>33369 A</td>
+		     <td>AGRIBRANDS PURINA MEXICO S. DE R.L. DE C.V.</td>
+		     <td></td>
+
+		     <td>Codigo FIL045UMRC15</td>
+			 <td>0.45/SYRINGE FILTERS/RC15/20PK</td>
+			 <td>3</td>
+			 <td>119.43</td>
+
+		     <td>119.43</td>
+		     <td>2017-04-10 12:09:19</td>
+		     <td>2017-04-10 16:11:13</td>
+		     <td>ISAYANAO</td></tr><tr class='odd gradeX'>
+		     <td>33408 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 239788542</td>
+
+		     <td>Codigo 88300139491</td>
+			 <td>Eternity Moment for Women by Calvin Klein Eau de Parfum 100M</td>
+			 <td>1</td>
+			 <td>659</td>
+
+		     <td>659.00</td>
+		     <td>2017-04-10 11:48:11</td>
+		     <td>2017-04-10 12:01:50</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33407 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 228968542</td>
+
+		     <td>Codigo 3661163904016</td>
+			 <td>Nautica Classic For Men by Nautica Eau de Toilette 100ML</td>
+			 <td>2</td>
+			 <td>499.01</td>
+
+		     <td>499.01</td>
+		     <td>2017-04-10 11:44:22</td>
+		     <td>2017-04-10 11:58:30</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33405 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 287828542</td>
+
+		     <td>Codigo 608940533369</td>
+			 <td>Can Can for Women by Paris Hilton Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>519</td>
+
+		     <td>519.00</td>
+		     <td>2017-04-10 11:43:54</td>
+		     <td>2017-04-10 11:55:07</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33406 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 279528542</td>
+
+		     <td>Codigo 3607348816552</td>
+			 <td>KILLER QUEEN FOR WOMEN BY KATY PERRY EDP 100ML</td>
+			 <td>2</td>
+			 <td>770.01</td>
+
+		     <td>770.01</td>
+		     <td>2017-04-10 11:43:26</td>
+		     <td>2017-04-10 12:18:53</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33404 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 286828542</td>
+
+		     <td>Codigo 31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>263</td>
+
+		     <td>789.00</td>
+		     <td>2017-04-10 11:40:57</td>
+		     <td>2017-04-10 12:46:25</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33404 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 286828542</td>
+
+		     <td>Codigo 3661163904016</td>
+			 <td>Nautica Classic For Men by Nautica Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>263</td>
+
+		     <td>789.00</td>
+		     <td>2017-04-10 11:40:57</td>
+		     <td>2017-04-10 12:46:25</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33404 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 286828542</td>
+
+		     <td>Codigo 3412242508027</td>
+			 <td>Nautica Blue For Men by Nautica Eau De Toilette 100ml</td>
+			 <td>1</td>
+			 <td>263</td>
+
+		     <td>789.00</td>
+		     <td>2017-04-10 11:40:57</td>
+		     <td>2017-04-10 12:46:25</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33403 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 233848542</td>
+
+		     <td>Codigo 88300107407</td>
+			 <td>CK One by Calvin Klein Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>438</td>
+
+		     <td>438.00</td>
+		     <td>2017-04-10 11:40:13</td>
+		     <td>2017-04-11 11:02:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33393 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 222119542</td>
+
+		     <td>Codigo 31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>263</td>
+
+		     <td>789.00</td>
+		     <td>2017-04-10 11:39:39</td>
+		     <td>2017-04-10 12:22:17</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33393 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 222119542</td>
+
+		     <td>Codigo 3661163904016</td>
+			 <td>Nautica Classic For Men by Nautica Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>263</td>
+
+		     <td>789.00</td>
+		     <td>2017-04-10 11:39:39</td>
+		     <td>2017-04-10 12:22:17</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33393 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 222119542</td>
+
+		     <td>Codigo 3412242508027</td>
+			 <td>Nautica Blue For Men by Nautica Eau De Toilette 100ml</td>
+			 <td>1</td>
+			 <td>263</td>
+
+		     <td>789.00</td>
+		     <td>2017-04-10 11:39:39</td>
+		     <td>2017-04-10 12:22:17</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33394 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 299919542</td>
+
+		     <td>Codigo 31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>2</td>
+			 <td>645.01</td>
+
+		     <td>645.01</td>
+		     <td>2017-04-10 11:39:00</td>
+		     <td>2017-04-10 12:13:40</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33397 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 223739542</td>
+
+		     <td>Codigo 31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>2</td>
+			 <td>645.01</td>
+
+		     <td>645.01</td>
+		     <td>2017-04-10 11:38:15</td>
+		     <td>2017-04-10 12:09:02</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33395 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 276439542</td>
+
+		     <td>Codigo 88300107407</td>
+			 <td>CK One by Calvin Klein Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>364.5</td>
+
+		     <td>729.00</td>
+		     <td>2017-04-10 11:37:48</td>
+		     <td>2017-04-10 12:26:59</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33395 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 276439542</td>
+
+		     <td>Codigo 88300104406</td>
+			 <td>CK BE CALVIN KLEIN EAU DE TOILETTE 100 ML</td>
+			 <td>1</td>
+			 <td>364.5</td>
+
+		     <td>729.00</td>
+		     <td>2017-04-10 11:37:48</td>
+		     <td>2017-04-10 12:26:59</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33391 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 286789542</td>
+
+		     <td>Codigo 3607349312459</td>
+			 <td>Purr for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>4</td>
+			 <td>1258</td>
+
+		     <td>1,258.00</td>
+		     <td>2017-04-10 11:37:10</td>
+		     <td>2017-04-10 11:53:22</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33401 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 265539542</td>
+
+		     <td>Codigo 3607343191005</td>
+			 <td>Meow for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>324.5</td>
+
+		     <td>649.00</td>
+		     <td>2017-04-10 11:36:36</td>
+		     <td>2017-04-10 12:04:05</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33401 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 265539542</td>
+
+		     <td>Codigo 3607349312459</td>
+			 <td>Purr for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>324.5</td>
+
+		     <td>649.00</td>
+		     <td>2017-04-10 11:36:36</td>
+		     <td>2017-04-10 12:04:05</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33398 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 252539542</td>
+
+		     <td>Codigo 3607342511101</td>
+			 <td>CK ONE SET 100ML</td>
+			 <td>1</td>
+			 <td>699</td>
+
+		     <td>699.00</td>
+		     <td>2017-04-10 11:36:02</td>
+		     <td>2017-04-10 12:59:38</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33392 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 267919542	</td>
+
+		     <td>Codigo 31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>2</td>
+			 <td>645.01</td>
+
+		     <td>645.01</td>
+		     <td>2017-04-10 11:28:29</td>
+		     <td>2017-04-10 12:29:43</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33389 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 246289542</td>
+
+		     <td>Codigo 3607349312459</td>
+			 <td>Purr for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>324.5</td>
+
+		     <td>649.00</td>
+		     <td>2017-04-10 10:45:09</td>
+		     <td>2017-04-10 10:55:26</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33389 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 246289542</td>
+
+		     <td>Codigo 3607343191005</td>
+			 <td>Meow for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>324.5</td>
+
+		     <td>649.00</td>
+		     <td>2017-04-10 10:45:09</td>
+		     <td>2017-04-10 10:55:26</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33387 L</td>
+		     <td>María Irma Patricia Navarro</td>
+		     <td>MARAIRMAPATRICIANAVARRO</td>
+
+		     <td>Codigo 3579430626875542</td>
+			 <td>CELULAR SAMSUNG GALAXY S6 G920A 32GB/KITTED/ WHITE</td>
+			 <td>1</td>
+			 <td>6970</td>
+
+		     <td>6,970.00</td>
+		     <td>2017-04-10 10:39:58</td>
+		     <td>2017-04-10 11:00:48</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33386 L</td>
+		     <td>Luis Reyes</td>
+		     <td>RELU1773384</td>
+
+		     <td>Codigo 889488369829</td>
+			 <td>LAPTOP LENOVO B41-30/CEL N3050/ 2GB/500GB 14' HDMI</td>
+			 <td>1</td>
+			 <td>4490</td>
+
+		     <td>4,490.00</td>
+		     <td>2017-04-10 10:37:58</td>
+		     <td>2017-04-10 10:52:15</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33385 L</td>
+		     <td>Naylea Lilián Loera Mendoza</td>
+		     <td>NAYLEALOERA</td>
+
+		     <td>Codigo 8894883698291T</td>
+			 <td>LAPTOP LENOVO B41-30/CEL N3050/ 8GB/1TB 14' HDMI</td>
+			 <td>1</td>
+			 <td>5998</td>
+
+		     <td>5,998.00</td>
+		     <td>2017-04-10 10:36:11</td>
+		     <td>2017-04-10 10:47:16</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33384 L</td>
+		     <td>Mario Montaño Castellanos</td>
+		     <td>MARIOMONTAOCASTELLANOS</td>
+
+		     <td>Codigo 889955573346</td>
+			 <td>LAPTOP LENOVO 100S ATOM Z3735F/32GB eMMC 2GB/11.6'/W10/RED</td>
+			 <td>1</td>
+			 <td>3570</td>
+
+		     <td>3,570.00</td>
+		     <td>2017-04-10 10:34:43</td>
+		     <td>2017-04-10 10:49:38</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33378 L</td>
+		     <td>Andres Reynoso</td>
+		     <td>REAN4879378</td>
+
+		     <td>Codigo 8853163165412</td>
+			 <td>CELULAR SAMSUNG GALAXY S6 G925A EDGE /KITTED/32GB/BLACK</td>
+			 <td>1</td>
+			 <td>7980</td>
+
+		     <td>7,980.00</td>
+		     <td>2017-04-10 10:33:03</td>
+		     <td>2017-04-10 11:12:53</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33366 L</td>
+		     <td>ruben brenist</td>
+		     <td>263419542</td>
+
+		     <td>Codigo 821793048464</td>
+			 <td>CELULAR HTC DESIRE 530/16GB/KITTED/BLANCO</td>
+			 <td>1</td>
+			 <td>2180</td>
+
+		     <td>2,180.00</td>
+		     <td>2017-04-10 10:30:11</td>
+		     <td>2017-04-10 10:43:59</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33364 L</td>
+		     <td>Jonathan Manuel Leal Diaz</td>
+		     <td>263159542</td>
+
+		     <td>Codigo 871125623321</td>
+			 <td>CELULAR SAMSUNG GALAXY S6 G920A 32GB KITTED/GOLD PLATINUM</td>
+			 <td>1</td>
+			 <td>5990</td>
+
+		     <td>5,990.00</td>
+		     <td>2017-04-10 10:28:10</td>
+		     <td>2017-04-10 10:39:28</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33364 L</td>
+		     <td>Jonathan Manuel Leal Diaz</td>
+		     <td>263159542</td>
+
+		     <td>Codigo 7501473166130</td>
+			 <td>LENTES DE REALIDAD VIRTUAL GEAR VR NECNON NVR-01</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>5,990.00</td>
+		     <td>2017-04-10 10:28:10</td>
+		     <td>2017-04-10 10:39:28</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33362 L</td>
+		     <td>sebastian alberto cordova juarez</td>
+		     <td>222979542</td>
+
+		     <td>Codigo CAR-02</td>
+			 <td>CARGADOR DE PARED GENERICO APPLE</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>2,199.00</td>
+		     <td>2017-04-10 10:24:53</td>
+		     <td>2017-04-10 11:15:14</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33362 L</td>
+		     <td>sebastian alberto cordova juarez</td>
+		     <td>222979542</td>
+
+		     <td>Codigo 89461251</td>
+			 <td>AUDIFONOS CON MICROFONO</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>2,199.00</td>
+		     <td>2017-04-10 10:24:53</td>
+		     <td>2017-04-10 11:15:14</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33362 L</td>
+		     <td>sebastian alberto cordova juarez</td>
+		     <td>222979542</td>
+
+		     <td>Codigo CAB-IPH4S</td>
+			 <td>CABLE DE DATOS USB PARA IPHONE4S</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>2,199.00</td>
+		     <td>2017-04-10 10:24:53</td>
+		     <td>2017-04-10 11:15:14</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33362 L</td>
+		     <td>sebastian alberto cordova juarez</td>
+		     <td>222979542</td>
+
+		     <td>Codigo 85131654112</td>
+			 <td>CELULAR APPLE IPHONE 4S 16GB NEGRO HSTO</td>
+			 <td>1</td>
+			 <td>2199</td>
+
+		     <td>2,199.00</td>
+		     <td>2017-04-10 10:24:53</td>
+		     <td>2017-04-10 11:15:14</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33361 L</td>
+		     <td>Fernando De Luna De Luna</td>
+		     <td>273589542</td>
+
+		     <td>Codigo MAN-GEN</td>
+			 <td>MANOS LIBRES GENERICO</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>2,799.00</td>
+		     <td>2017-04-10 10:22:55</td>
+		     <td>2017-04-10 10:27:54</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33361 L</td>
+		     <td>Fernando De Luna De Luna</td>
+		     <td>273589542</td>
+
+		     <td>Codigo 8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>2,799.00</td>
+		     <td>2017-04-10 10:22:55</td>
+		     <td>2017-04-10 10:27:54</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33361 L</td>
+		     <td>Fernando De Luna De Luna</td>
+		     <td>273589542</td>
+
+		     <td>Codigo 8461351265120</td>
+			 <td>CELULAR LG G3 VS985A/HSTO/32GB/WHITE</td>
+			 <td>1</td>
+			 <td>2799</td>
+
+		     <td>2,799.00</td>
+		     <td>2017-04-10 10:22:55</td>
+		     <td>2017-04-10 10:27:54</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>33383 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 232489542</td>
+
+		     <td>Codigo 31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>2</td>
+			 <td>645.01</td>
+
+		     <td>645.01</td>
+		     <td>2017-04-10 10:13:00</td>
+		     <td>2017-04-10 10:36:56</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33382 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 294729542</td>
+
+		     <td>Codigo 88300107407</td>
+			 <td>CK One by Calvin Klein Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>438</td>
+
+		     <td>438.00</td>
+		     <td>2017-04-10 10:01:12</td>
+		     <td>2017-04-10 10:24:21</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33381 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 252199542</td>
+
+		     <td>Codigo 88300107407</td>
+			 <td>CK One by Calvin Klein Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>364.5</td>
+
+		     <td>729.00</td>
+		     <td>2017-04-10 09:58:52</td>
+		     <td>2017-04-10 10:30:58</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33381 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 252199542</td>
+
+		     <td>Codigo 88300104406</td>
+			 <td>CK BE CALVIN KLEIN EAU DE TOILETTE 100 ML</td>
+			 <td>1</td>
+			 <td>364.5</td>
+
+		     <td>729.00</td>
+		     <td>2017-04-10 09:58:52</td>
+		     <td>2017-04-10 10:30:58</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33380 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 278349542</td>
+
+		     <td>Codigo 3607348816552</td>
+			 <td>KILLER QUEEN FOR WOMEN BY KATY PERRY EDP 100ML</td>
+			 <td>1</td>
+			 <td>385</td>
+
+		     <td>385.00</td>
+		     <td>2017-04-10 09:54:10</td>
+		     <td>2017-04-10 10:20:22</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33379 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>LINIO 254236542</td>
+
+		     <td>Codigo 88300104437</td>
+			 <td>CK BE CALVIN KLEIN EAU DE TOILETTE 200 ML</td>
+			 <td>1</td>
+			 <td>528</td>
+
+		     <td>528.00</td>
+		     <td>2017-04-10 09:53:51</td>
+		     <td>2017-04-10 10:04:52</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33378 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//alejandro barrientos (BAAL8659074)</td>
+
+		     <td>Codigo 88300107407</td>
+			 <td>CK One by Calvin Klein Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>444.5</td>
+
+		     <td>889.00</td>
+		     <td>2017-04-10 09:53:10</td>
+		     <td>2017-04-10 10:58:09</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33378 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//alejandro barrientos (BAAL8659074)</td>
+
+		     <td>Codigo 88300104406</td>
+			 <td>CK BE CALVIN KLEIN EAU DE TOILETTE 100 ML</td>
+			 <td>1</td>
+			 <td>444.5</td>
+
+		     <td>889.00</td>
+		     <td>2017-04-10 09:53:10</td>
+		     <td>2017-04-10 10:58:09</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33377 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//omar salas (SAOM2154096)</td>
+
+		     <td>Codigo 88300107407</td>
+			 <td>CK One by Calvin Klein Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>444.5</td>
+
+		     <td>889.00</td>
+		     <td>2017-04-10 09:45:06</td>
+		     <td>2017-04-10 11:17:38</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33377 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//omar salas (SAOM2154096)</td>
+
+		     <td>Codigo 88300104406</td>
+			 <td>CK BE CALVIN KLEIN EAU DE TOILETTE 100 ML</td>
+			 <td>1</td>
+			 <td>444.5</td>
+
+		     <td>889.00</td>
+		     <td>2017-04-10 09:45:06</td>
+		     <td>2017-04-10 11:17:38</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33376 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//Berenice Hernández Gallegos (BERENICEHERNNDEZGALLEGOS)</td>
+
+		     <td>Codigo 667528031178</td>
+			 <td>PURE SEDUCTION FOR WOMEN BY VICTORIA'S SECRET FRAGANCE MIST</td>
+			 <td>1</td>
+			 <td>198</td>
+
+		     <td>198.00</td>
+		     <td>2017-04-10 09:43:25</td>
+		     <td>2017-04-10 11:06:29</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33375 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//Guillermo Fernando Acevedo Delgado (HORUS_03)</td>
+
+		     <td>Codigo 31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>369.49</td>
+
+		     <td>739.00</td>
+		     <td>2017-04-10 09:42:59</td>
+		     <td>2017-04-10 10:00:19</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33375 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//Guillermo Fernando Acevedo Delgado (HORUS_03)</td>
+
+		     <td>Codigo 3614221758786</td>
+			 <td>NAUTICA VOYAGE SPORT FOR MEN BY VOYAGE EDT 100ML</td>
+			 <td>1</td>
+			 <td>369.51</td>
+
+		     <td>739.00</td>
+		     <td>2017-04-10 09:42:59</td>
+		     <td>2017-04-10 10:00:19</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33373 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//Cesar Gutierrez (GUCE4069034)</td>
+
+		     <td>Codigo 3607343811798</td>
+			 <td>CK One by Calvin Klein Eau de Toilette 200ML</td>
+			 <td>1</td>
+			 <td>629</td>
+
+		     <td>629.00</td>
+		     <td>2017-04-10 09:42:02</td>
+		     <td>2017-04-10 09:53:02</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33372 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//javier ochoa quintero (PITUFOS LOCOS)</td>
+
+		     <td>Codigo 3607349312459</td>
+			 <td>Purr for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>324.5</td>
+
+		     <td>649.00</td>
+		     <td>2017-04-10 09:41:25</td>
+		     <td>2017-04-10 11:19:33</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33372 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//javier ochoa quintero (PITUFOS LOCOS)</td>
+
+		     <td>Codigo 3607343191005</td>
+			 <td>Meow for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>324.5</td>
+
+		     <td>649.00</td>
+		     <td>2017-04-10 09:41:25</td>
+		     <td>2017-04-10 11:19:33</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33371 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//Rosario Montero (CHARITYNA)</td>
+
+		     <td>Codigo 3607349312459</td>
+			 <td>Purr for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>324.5</td>
+
+		     <td>649.00</td>
+		     <td>2017-04-10 09:40:57</td>
+		     <td>2017-04-10 11:23:19</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33371 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//Rosario Montero (CHARITYNA)</td>
+
+		     <td>Codigo 3607343191005</td>
+			 <td>Meow for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>324.5</td>
+
+		     <td>649.00</td>
+		     <td>2017-04-10 09:40:57</td>
+		     <td>2017-04-10 11:23:19</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33365 P</td>
+		     <td>MARIA HILDELISA MUÑOZ FRANCO</td>
+		     <td></td>
+
+		     <td>Codigo 88300100514</td>
+			 <td>ESCAPE FOR MEN BY CALVIN KLEIN EAU DE TOILETTE 100ML</td>
+			 <td>1</td>
+			 <td>580</td>
+
+		     <td>3,955.00</td>
+		     <td>2017-04-10 09:14:21</td>
+		     <td>2017-04-11 11:07:17</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33365 P</td>
+		     <td>MARIA HILDELISA MUÑOZ FRANCO</td>
+		     <td></td>
+
+		     <td>Codigo 3360372061830</td>
+			 <td>EMPORIO ARMANI FOR MEN BY GIORGIO ARMANI EAU DE TOILETTE 100</td>
+			 <td>1</td>
+			 <td>1040</td>
+
+		     <td>3,955.00</td>
+		     <td>2017-04-10 09:14:21</td>
+		     <td>2017-04-11 11:07:17</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33365 P</td>
+		     <td>MARIA HILDELISA MUÑOZ FRANCO</td>
+		     <td></td>
+
+		     <td>Codigo 3607343811798</td>
+			 <td>CK One by Calvin Klein Eau de Toilette 200ML</td>
+			 <td>1</td>
+			 <td>517</td>
+
+		     <td>3,955.00</td>
+		     <td>2017-04-10 09:14:21</td>
+		     <td>2017-04-11 11:07:17</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33365 P</td>
+		     <td>MARIA HILDELISA MUÑOZ FRANCO</td>
+		     <td></td>
+
+		     <td>Codigo 8011003809219</td>
+			 <td>VERSACE EROS C/SPRY EDT FOR MEN 100ML</td>
+			 <td>2</td>
+			 <td>1818</td>
+
+		     <td>3,955.00</td>
+		     <td>2017-04-10 09:14:21</td>
+		     <td>2017-04-11 11:07:17</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33363 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//wilfredo MARTINEZ (WMARTINEZ4960)</td>
+
+		     <td>Codigo 667528031185</td>
+			 <td>LOVE SPELL FOR WOMEN BY VICTORIA'S SECRET BODY MIST 250ML</td>
+			 <td>1</td>
+			 <td>198</td>
+
+		     <td>396.00</td>
+		     <td>2017-04-10 08:54:02</td>
+		     <td>2017-04-10 09:36:43</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33363 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td>ML//wilfredo MARTINEZ (WMARTINEZ4960)</td>
+
+		     <td>Codigo 667528031116</td>
+			 <td>Sheer Love for Women by Victoria's Secret Fragance Mist</td>
+			 <td>1</td>
+			 <td>198</td>
+
+		     <td>396.00</td>
+		     <td>2017-04-10 08:54:02</td>
+		     <td>2017-04-10 09:36:43</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>33360 L</td>
+		     <td>Pablo Tafurth</td>
+		     <td>GUIA DEVOLUCION</td>
+
+		     <td>Codigo ZZGZ0001</td>
+			 <td>GASTOS DE ENVIO LTM</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>0.00</td>
+		     <td>2017-04-10 08:37:40</td>
+		     <td>2017-04-10 08:45:16</td>
+		     <td>GLORIAS</td></tr></tbody></table></body></html>

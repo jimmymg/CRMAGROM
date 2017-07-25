@@ -1,0 +1,1836 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:x='urn:schemas-microsoft-com:office:excel' xmlns='http://www.w3.org/TR/REC-html40'><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>{worksheet}</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table id='tblExportar' style='display:none;'>
+		<tbody><tr>
+		 <th>Pedido</th>
+		 <th>Cliente</th>
+		 <th>Pseudonimo</th>
+		 <th>Codigo</th>
+		 <th>Producto</th>
+		 <th>Unidades</th>
+		 <th>Precio</th>
+		 <th>Total</th>
+		 <th>Creacion</th>
+		 <th>Ultima Modificacion</th>
+		 <th>Vendedor</th>
+		
+		</tr>  <tr class='odd gradeX'>
+		     <td>32728 C</td>
+		     <td>AMERICA BERENICE ALDRETE HERNANDEZ</td>
+		     <td></td>
+
+		     <td>8433131652123</td>
+			 <td>LAPTOP HP 15t-WQNJ CI7/1TB/12GB/15.6' TS/DVD/BT/W10</td>
+			 <td>1</td>
+			 <td>12590</td>
+
+		     <td>12,590.00</td>
+		     <td>2017-03-24 17:42:51</td>
+		     <td>2017-03-27 08:28:59</td>
+		     <td>MARCOSS</td></tr><tr class='odd gradeX'>
+		     <td>32718 L</td>
+		     <td>Yolanda González Arce</td>
+		     <td>GARANTIA 32367</td>
+
+		     <td>885913100784N</td>
+			 <td>CELULAR LG G2 D800 HSTO STOCK-A NEGRO</td>
+			 <td>1</td>
+			 <td>2490</td>
+
+		     <td>2,490.00</td>
+		     <td>2017-03-24 17:41:39</td>
+		     <td>2017-03-24 17:49:45</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>32718 L</td>
+		     <td>Yolanda González Arce</td>
+		     <td>GARANTIA 32367</td>
+
+		     <td>8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>2,490.00</td>
+		     <td>2017-03-24 17:41:39</td>
+		     <td>2017-03-24 17:49:45</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>32722 L</td>
+		     <td>Hugo Hernández</td>
+		     <td>GARANTIA 32491</td>
+
+		     <td>85225205202</td>
+			 <td>CELULAR SAMSUNG NOTE EDGE SM-N915T/HSTO/32GB/BLACK</td>
+			 <td>1</td>
+			 <td>5975</td>
+
+		     <td>5,975.00</td>
+		     <td>2017-03-24 17:08:22</td>
+		     <td>2017-03-24 17:41:46</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>32722 L</td>
+		     <td>Hugo Hernández</td>
+		     <td>GARANTIA 32491</td>
+
+		     <td>8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>5,975.00</td>
+		     <td>2017-03-24 17:08:22</td>
+		     <td>2017-03-24 17:41:46</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>32719 C</td>
+		     <td>COMERCIALIZADORA DIPAZO SA DE CV</td>
+		     <td></td>
+
+		     <td>190780619803</td>
+			 <td>LAPTOP HP 14-an014LA/A8/500GB/4GB/14'/W10/BT</td>
+			 <td>4</td>
+			 <td>22267.36</td>
+
+		     <td>22,467.34</td>
+		     <td>2017-03-24 17:01:00</td>
+		     <td>2017-03-24 17:06:26</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>32719 C</td>
+		     <td>COMERCIALIZADORA DIPAZO SA DE CV</td>
+		     <td></td>
+
+		     <td>ZZGZ0001</td>
+			 <td>GASTOS DE ENVIO LTM</td>
+			 <td>1</td>
+			 <td>199.98</td>
+
+		     <td>22,467.34</td>
+		     <td>2017-03-24 17:01:00</td>
+		     <td>2017-03-24 17:06:26</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>32720 A</td>
+		     <td>COMERCIALIZADORA DE GRANOS PATRON SA DE CV</td>
+		     <td></td>
+
+		     <td>000.05275</td>
+			 <td>CORREA SINCRONIZADA DE CAUCHO</td>
+			 <td>8</td>
+			 <td>1292.43</td>
+
+		     <td>4,484.21</td>
+		     <td>2017-03-24 16:55:32</td>
+		     <td>2017-03-24 17:00:23</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>32720 A</td>
+		     <td>COMERCIALIZADORA DE GRANOS PATRON SA DE CV</td>
+		     <td></td>
+
+		     <td>121.040.00043</td>
+			 <td>FACA SERR 250X25X2MM</td>
+			 <td>4</td>
+			 <td>285.55</td>
+
+		     <td>4,484.21</td>
+		     <td>2017-03-24 16:55:32</td>
+		     <td>2017-03-24 17:00:23</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>32720 A</td>
+		     <td>COMERCIALIZADORA DE GRANOS PATRON SA DE CV</td>
+		     <td></td>
+
+		     <td>301040194</td>
+			 <td>CORREIA TRANSP AFT60 AZUL</td>
+			 <td>2</td>
+			 <td>1110.96</td>
+
+		     <td>4,484.21</td>
+		     <td>2017-03-24 16:55:32</td>
+		     <td>2017-03-24 17:00:23</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>32720 A</td>
+		     <td>COMERCIALIZADORA DE GRANOS PATRON SA DE CV</td>
+		     <td></td>
+
+		     <td>124.080.00013</td>
+			 <td>MOLA DA RESISTENCIA</td>
+			 <td>10</td>
+			 <td>38.98</td>
+
+		     <td>4,484.21</td>
+		     <td>2017-03-24 16:55:32</td>
+		     <td>2017-03-24 17:00:23</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>32720 A</td>
+		     <td>COMERCIALIZADORA DE GRANOS PATRON SA DE CV</td>
+		     <td></td>
+
+		     <td>124.080.00001</td>
+			 <td>CINTA NIKROTHAL 80 3,00X0,30MM</td>
+			 <td>25</td>
+			 <td>147.32</td>
+
+		     <td>4,484.21</td>
+		     <td>2017-03-24 16:55:32</td>
+		     <td>2017-03-24 17:00:23</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>32720 A</td>
+		     <td>COMERCIALIZADORA DE GRANOS PATRON SA DE CV</td>
+		     <td></td>
+
+		     <td>308390076</td>
+			 <td>CORREA TRACAO AFS90 VERDE 20MM</td>
+			 <td>2</td>
+			 <td>39.12</td>
+
+		     <td>4,484.21</td>
+		     <td>2017-03-24 16:55:32</td>
+		     <td>2017-03-24 17:00:23</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>32720 A</td>
+		     <td>COMERCIALIZADORA DE GRANOS PATRON SA DE CV</td>
+		     <td></td>
+
+		     <td>122.032.00003</td>
+			 <td>PERFIL SILIC 5X3,5</td>
+			 <td>20</td>
+			 <td>186.3</td>
+
+		     <td>4,484.21</td>
+		     <td>2017-03-24 16:55:32</td>
+		     <td>2017-03-24 17:00:23</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>32720 A</td>
+		     <td>COMERCIALIZADORA DE GRANOS PATRON SA DE CV</td>
+		     <td></td>
+
+		     <td>122.032.00002</td>
+			 <td>PERFIL SILIC QD 7X7</td>
+			 <td>15</td>
+			 <td>267.26</td>
+
+		     <td>4,484.21</td>
+		     <td>2017-03-24 16:55:32</td>
+		     <td>2017-03-24 17:00:23</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>32720 A</td>
+		     <td>COMERCIALIZADORA DE GRANOS PATRON SA DE CV</td>
+		     <td></td>
+
+		     <td>000.02983</td>
+			 <td>PERFIL DE SILICON 3x3 mm</td>
+			 <td>20</td>
+			 <td>209.26</td>
+
+		     <td>4,484.21</td>
+		     <td>2017-03-24 16:55:32</td>
+		     <td>2017-03-24 17:00:23</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>32720 A</td>
+		     <td>COMERCIALIZADORA DE GRANOS PATRON SA DE CV</td>
+		     <td></td>
+
+		     <td>VTF-305-S-35MMX10</td>
+			 <td>CINTA VITRIFLON .005 ESTANDAR DE 35MM X 10MTS</td>
+			 <td>6</td>
+			 <td>256.13</td>
+
+		     <td>4,484.21</td>
+		     <td>2017-03-24 16:55:32</td>
+		     <td>2017-03-24 17:00:23</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>32720 A</td>
+		     <td>COMERCIALIZADORA DE GRANOS PATRON SA DE CV</td>
+		     <td></td>
+
+		     <td>ZZGZ0018</td>
+			 <td>SERVICIO AGRO</td>
+			 <td>5</td>
+			 <td>89.09</td>
+
+		     <td>4,484.21</td>
+		     <td>2017-03-24 16:55:32</td>
+		     <td>2017-03-24 17:00:23</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>32720 A</td>
+		     <td>COMERCIALIZADORA DE GRANOS PATRON SA DE CV</td>
+		     <td></td>
+
+		     <td>000.05971</td>
+			 <td>ROLLO DE TEFLON .60x4mm</td>
+			 <td>4</td>
+			 <td>63.57</td>
+
+		     <td>4,484.21</td>
+		     <td>2017-03-24 16:55:32</td>
+		     <td>2017-03-24 17:00:23</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>32720 A</td>
+		     <td>COMERCIALIZADORA DE GRANOS PATRON SA DE CV</td>
+		     <td></td>
+
+		     <td>VTF-310-S-50MMX10</td>
+			 <td>CINTA VITRIFLON .010 ESTANDAR DE 50 MM X 10 MTS</td>
+			 <td>4</td>
+			 <td>498.24</td>
+
+		     <td>4,484.21</td>
+		     <td>2017-03-24 16:55:32</td>
+		     <td>2017-03-24 17:00:23</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>32695 C</td>
+		     <td>BEST BUY STORES S DE RL DE CV</td>
+		     <td></td>
+
+		     <td>731969437582</td>
+			 <td>MEMORIA CENTON SODIMM DDR3 16GB PC3-10600 R1333SO8192K2</td>
+			 <td>3</td>
+			 <td>8279.62</td>
+
+		     <td>23,219.67</td>
+		     <td>2017-03-24 16:45:48</td>
+		     <td>2017-03-24 17:28:53</td>
+		     <td>MARCOSS</td></tr><tr class='odd gradeX'>
+		     <td>32695 C</td>
+		     <td>BEST BUY STORES S DE RL DE CV</td>
+		     <td></td>
+
+		     <td>731969402719</td>
+			 <td>MEMORIA CENTON SODIMM DDR3 4GB PC3-10600 1333MHZ R1333SO4096</td>
+			 <td>3</td>
+			 <td>2104.7</td>
+
+		     <td>23,219.67</td>
+		     <td>2017-03-24 16:45:48</td>
+		     <td>2017-03-24 17:28:53</td>
+		     <td>MARCOSS</td></tr><tr class='odd gradeX'>
+		     <td>32695 C</td>
+		     <td>BEST BUY STORES S DE RL DE CV</td>
+		     <td></td>
+
+		     <td>731969402696</td>
+			 <td>MEMORIA CENTON SODIMM DDR3 4GB PC3-8500 MAC RA1066SO4096</td>
+			 <td>12</td>
+			 <td>10730.65</td>
+
+		     <td>23,219.67</td>
+		     <td>2017-03-24 16:45:48</td>
+		     <td>2017-03-24 17:28:53</td>
+		     <td>MARCOSS</td></tr><tr class='odd gradeX'>
+		     <td>32695 C</td>
+		     <td>BEST BUY STORES S DE RL DE CV</td>
+		     <td></td>
+
+		     <td>731969409442</td>
+			 <td>MEMORIA CENTON DIMM DDR3 4GB PC3-10600 1333MHZ R1333PC4096</td>
+			 <td>3</td>
+			 <td>2104.7</td>
+
+		     <td>23,219.67</td>
+		     <td>2017-03-24 16:45:48</td>
+		     <td>2017-03-24 17:28:53</td>
+		     <td>MARCOSS</td></tr><tr class='odd gradeX'>
+		     <td>32697 C</td>
+		     <td>BEST BUY STORES S DE RL DE CV</td>
+		     <td></td>
+
+		     <td>731969402696</td>
+			 <td>MEMORIA CENTON SODIMM DDR3 4GB PC3-8500 MAC RA1066SO4096</td>
+			 <td>22</td>
+			 <td>24989.95</td>
+
+		     <td>104,509.46</td>
+		     <td>2017-03-24 16:44:40</td>
+		     <td>2017-03-24 17:28:18</td>
+		     <td>MARCOSS</td></tr><tr class='odd gradeX'>
+		     <td>32697 C</td>
+		     <td>BEST BUY STORES S DE RL DE CV</td>
+		     <td></td>
+
+		     <td>731969437582</td>
+			 <td>MEMORIA CENTON SODIMM DDR3 16GB PC3-10600 R1333SO8192K2</td>
+			 <td>10</td>
+			 <td>35057.87</td>
+
+		     <td>104,509.46</td>
+		     <td>2017-03-24 16:44:40</td>
+		     <td>2017-03-24 17:28:18</td>
+		     <td>MARCOSS</td></tr><tr class='odd gradeX'>
+		     <td>32697 C</td>
+		     <td>BEST BUY STORES S DE RL DE CV</td>
+		     <td></td>
+
+		     <td>731969402733</td>
+			 <td>MEMORIA CENTON SODIMM DDR3 8GB PC3-10600 R1333SO4096K2</td>
+			 <td>20</td>
+			 <td>35549.82</td>
+
+		     <td>104,509.46</td>
+		     <td>2017-03-24 16:44:40</td>
+		     <td>2017-03-24 17:28:18</td>
+		     <td>MARCOSS</td></tr><tr class='odd gradeX'>
+		     <td>32697 C</td>
+		     <td>BEST BUY STORES S DE RL DE CV</td>
+		     <td></td>
+
+		     <td>731969402719</td>
+			 <td>MEMORIA CENTON SODIMM DDR3 4GB PC3-10600 1333MHZ R1333SO4096</td>
+			 <td>10</td>
+			 <td>8911.82</td>
+
+		     <td>104,509.46</td>
+		     <td>2017-03-24 16:44:40</td>
+		     <td>2017-03-24 17:28:18</td>
+		     <td>MARCOSS</td></tr><tr class='odd gradeX'>
+		     <td>32693 A</td>
+		     <td>PRODUCTORA DE ALIMENTOS MEXICANOS S.A DE C.V</td>
+		     <td></td>
+
+		     <td>ZZGZ0002</td>
+			 <td>GASTOS DE ENVIO AGRO</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>0.00</td>
+		     <td>2017-03-24 16:39:46</td>
+		     <td>2017-03-24 16:48:51</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>32727 A</td>
+		     <td>PRODUCTORA DE ALIMENTOS MEXICANOS S.A DE C.V</td>
+		     <td></td>
+
+		     <td>024.090.00003</td>
+			 <td>MOD FLF 2.1 TARJETA</td>
+			 <td>1</td>
+			 <td>430.53</td>
+
+		     <td>430.53</td>
+		     <td>2017-03-24 16:37:57</td>
+		     <td>2017-03-24 16:45:57</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>32724 A</td>
+		     <td>BACHOCO, S.A. DE C.V.</td>
+		     <td></td>
+
+		     <td>ZZGZ0018</td>
+			 <td>SERVICIO AGRO</td>
+			 <td>1</td>
+			 <td>27840</td>
+
+		     <td>27,840.00</td>
+		     <td>2017-03-24 16:37:01</td>
+		     <td>2017-03-24 16:37:50</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>32721 L</td>
+		     <td>Elisa Mandujano Garcia</td>
+		     <td>GARANTIA 30386</td>
+
+		     <td>ZZGZ0001</td>
+			 <td>GASTOS DE ENVIO LTM</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>0.00</td>
+		     <td>2017-03-24 16:33:27</td>
+		     <td>2017-03-24 16:52:54</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>32713 A</td>
+		     <td>COMERCIALIZADORA DE GRANOS PATRON SA DE CV</td>
+		     <td></td>
+
+		     <td>000.07929</td>
+			 <td>CONJUNTO SOLDADURA HORIZONTAL TRASERA TG1000</td>
+			 <td>1</td>
+			 <td>278.21</td>
+
+		     <td>3,106.37</td>
+		     <td>2017-03-24 16:27:26</td>
+		     <td>2017-03-24 16:35:28</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>32713 A</td>
+		     <td>COMERCIALIZADORA DE GRANOS PATRON SA DE CV</td>
+		     <td></td>
+
+		     <td>ZZGZ0018</td>
+			 <td>SERVICIO AGRO</td>
+			 <td>1</td>
+			 <td>833.34</td>
+
+		     <td>3,106.37</td>
+		     <td>2017-03-24 16:27:26</td>
+		     <td>2017-03-24 16:35:28</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>32713 A</td>
+		     <td>COMERCIALIZADORA DE GRANOS PATRON SA DE CV</td>
+		     <td></td>
+
+		     <td>000.07929</td>
+			 <td>CONJUNTO SOLDADURA HORIZONTAL TRASERA TG1000</td>
+			 <td>1</td>
+			 <td>992.77</td>
+
+		     <td>3,106.37</td>
+		     <td>2017-03-24 16:27:26</td>
+		     <td>2017-03-24 16:35:28</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>32713 A</td>
+		     <td>COMERCIALIZADORA DE GRANOS PATRON SA DE CV</td>
+		     <td></td>
+
+		     <td>ZZGZ0018</td>
+			 <td>SERVICIO AGRO</td>
+			 <td>1</td>
+			 <td>1002.05</td>
+
+		     <td>3,106.37</td>
+		     <td>2017-03-24 16:27:26</td>
+		     <td>2017-03-24 16:35:28</td>
+		     <td>leticia.a</td></tr><tr class='odd gradeX'>
+		     <td>32693 C</td>
+		     <td>BEST BUY STORES S DE RL DE CV</td>
+		     <td></td>
+
+		     <td>731969437582</td>
+			 <td>MEMORIA CENTON SODIMM DDR3 16GB PC3-10600 R1333SO8192K2</td>
+			 <td>1</td>
+			 <td>0.37</td>
+
+		     <td>0.68</td>
+		     <td>2017-03-24 16:25:51</td>
+		     <td>2017-03-24 17:27:49</td>
+		     <td>MARCOSS</td></tr><tr class='odd gradeX'>
+		     <td>32693 C</td>
+		     <td>BEST BUY STORES S DE RL DE CV</td>
+		     <td></td>
+
+		     <td>731969402719</td>
+			 <td>MEMORIA CENTON SODIMM DDR3 4GB PC3-10600 1333MHZ R1333SO4096</td>
+			 <td>1</td>
+			 <td>0.09</td>
+
+		     <td>0.68</td>
+		     <td>2017-03-24 16:25:51</td>
+		     <td>2017-03-24 17:27:49</td>
+		     <td>MARCOSS</td></tr><tr class='odd gradeX'>
+		     <td>32693 C</td>
+		     <td>BEST BUY STORES S DE RL DE CV</td>
+		     <td></td>
+
+		     <td>731969402696</td>
+			 <td>MEMORIA CENTON SODIMM DDR3 4GB PC3-8500 MAC RA1066SO4096</td>
+			 <td>1</td>
+			 <td>0.13</td>
+
+		     <td>0.68</td>
+		     <td>2017-03-24 16:25:51</td>
+		     <td>2017-03-24 17:27:49</td>
+		     <td>MARCOSS</td></tr><tr class='odd gradeX'>
+		     <td>32693 C</td>
+		     <td>BEST BUY STORES S DE RL DE CV</td>
+		     <td></td>
+
+		     <td>731964909442</td>
+			 <td>MEMORIA CENTON SODIMM DDR3 4GB PC3-10600 R1333PC4096</td>
+			 <td>1</td>
+			 <td>0.09</td>
+
+		     <td>0.68</td>
+		     <td>2017-03-24 16:25:51</td>
+		     <td>2017-03-24 17:27:49</td>
+		     <td>MARCOSS</td></tr><tr class='odd gradeX'>
+		     <td>32698 A</td>
+		     <td>Tablex Miller, S. de R.L. de C.V.</td>
+		     <td></td>
+
+		     <td>ZZGZ0005</td>
+			 <td>ANTICIPO (AGRO)</td>
+			 <td>1</td>
+			 <td>14500</td>
+
+		     <td>14,500.00</td>
+		     <td>2017-03-24 16:13:11</td>
+		     <td>2017-03-24 16:14:04</td>
+		     <td>ISAYANAO</td></tr><tr class='odd gradeX'>
+		     <td>32709 L</td>
+		     <td>Jhonatan Lozano</td>
+		     <td>LOZANOJHONATAN</td>
+
+		     <td>889296132332</td>
+			 <td>IMPRESORA HP DESKJET INK ADVANTAGE 2135</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>6,999.00</td>
+		     <td>2017-03-24 16:06:27</td>
+		     <td>2017-03-24 16:07:47</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>32709 L</td>
+		     <td>Jhonatan Lozano</td>
+		     <td>LOZANOJHONATAN</td>
+
+		     <td>ZZGZ0003</td>
+			 <td>AUMENTO DE MEMORIA</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>6,999.00</td>
+		     <td>2017-03-24 16:06:27</td>
+		     <td>2017-03-24 16:07:47</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>32709 L</td>
+		     <td>Jhonatan Lozano</td>
+		     <td>LOZANOJHONATAN</td>
+
+		     <td>190151300637</td>
+			 <td>LAPTOP LENOVO IDEAPAD 100-14IBD CI3 4GB 500GB W10 14'</td>
+			 <td>1</td>
+			 <td>6999</td>
+
+		     <td>6,999.00</td>
+		     <td>2017-03-24 16:06:27</td>
+		     <td>2017-03-24 16:07:47</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>32714 L</td>
+		     <td>Saul Alcala</td>
+		     <td>POLINOVA2010</td>
+
+		     <td>887899705274</td>
+			 <td>MONITOR LED ACER 19.5' MOD-V206HQL VESA NEGRO</td>
+			 <td>1</td>
+			 <td>1380.01</td>
+
+		     <td>1,380.01</td>
+		     <td>2017-03-24 15:59:09</td>
+		     <td>2017-03-24 16:03:52</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>32716 L</td>
+		     <td>Guillermo Morales</td>
+		     <td>MORALES.GUILLERMO</td>
+
+		     <td>887899705274</td>
+			 <td>MONITOR LED ACER 19.5' MOD-V206HQL VESA NEGRO</td>
+			 <td>1</td>
+			 <td>1380.01</td>
+
+		     <td>1,380.01</td>
+		     <td>2017-03-24 15:54:36</td>
+		     <td>2017-03-24 16:00:43</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>32711 L</td>
+		     <td>Jorge Luis Montesinos E.</td>
+		     <td>ESCUALO64</td>
+
+		     <td>889894322524</td>
+			 <td>LAPTOP HP 14-AB155LA A8/4GB/1TB/W10/DVD/ROJA</td>
+			 <td>1</td>
+			 <td>8290</td>
+
+		     <td>8,290.00</td>
+		     <td>2017-03-24 15:52:53</td>
+		     <td>2017-03-24 15:58:46</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>32710 L</td>
+		     <td>IRVING
+ CASTILLO PEREZ</td>
+		     <td>IRVINGCASTILLOPEREZ</td>
+
+		     <td>010343920101</td>
+			 <td>MULTIFUNCIONAL DE INYECCION EPSON XP-431</td>
+			 <td>1</td>
+			 <td>1699.01</td>
+
+		     <td>1,699.01</td>
+		     <td>2017-03-24 15:42:42</td>
+		     <td>2017-03-24 15:48:53</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>32707 L</td>
+		     <td>Miguel Angel Morales Chincoya</td>
+		     <td>MIGUELANGELMORALESCHINCOYA</td>
+
+		     <td>865023156</td>
+			 <td>CELULAR APPLE IPHONE 5S 64GB/HSTO/SILVER</td>
+			 <td>1</td>
+			 <td>6390</td>
+
+		     <td>6,390.00</td>
+		     <td>2017-03-24 13:05:35</td>
+		     <td>2017-03-24 13:24:17</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>32707 L</td>
+		     <td>Miguel Angel Morales Chincoya</td>
+		     <td>MIGUELANGELMORALESCHINCOYA</td>
+
+		     <td>SPAREPARTS224</td>
+			 <td>KIT CARGADOR APPLE USB LIGHTNING</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>6,390.00</td>
+		     <td>2017-03-24 13:05:35</td>
+		     <td>2017-03-24 13:24:17</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>32708 L</td>
+		     <td>Sarah Hasenauer</td>
+		     <td>SARAHHASENAUER</td>
+
+		     <td>82653512352</td>
+			 <td>CELULAR SAMSUNG GALAXY S4 I545 HSTO 16GB BLANCO</td>
+			 <td>1</td>
+			 <td>2790</td>
+
+		     <td>2,790.00</td>
+		     <td>2017-03-24 13:03:43</td>
+		     <td>2017-03-24 13:32:19</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>32708 L</td>
+		     <td>Sarah Hasenauer</td>
+		     <td>SARAHHASENAUER</td>
+
+		     <td>8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>2,790.00</td>
+		     <td>2017-03-24 13:03:43</td>
+		     <td>2017-03-24 13:32:19</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>32706 L</td>
+		     <td>Aimeé Guerrero</td>
+		     <td>GUAI9856834</td>
+
+		     <td>8806086829229</td>
+			 <td>PANTALLA LED SAMSUNG  UN32J400AFXZX 32' HD 60HZ</td>
+			 <td>1</td>
+			 <td>3790</td>
+
+		     <td>3,790.00</td>
+		     <td>2017-03-24 13:01:41</td>
+		     <td>2017-03-24 13:39:44</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>32700 L</td>
+		     <td>Ray Samson Medina Franco</td>
+		     <td>MEDINAFRANCORAYSAMSON</td>
+
+		     <td>887899705274</td>
+			 <td>MONITOR LED ACER 19.5' MOD-V206HQL VESA NEGRO</td>
+			 <td>1</td>
+			 <td>1380.01</td>
+
+		     <td>1,380.01</td>
+		     <td>2017-03-24 13:00:07</td>
+		     <td>2017-03-24 13:13:45</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>32702 L</td>
+		     <td>Luis Mena</td>
+		     <td>MELU4319534</td>
+
+		     <td>889488369829</td>
+			 <td>LAPTOP LENOVO B41-30/CEL N3050/ 2GB/500GB 14' HDMI</td>
+			 <td>1</td>
+			 <td>4490</td>
+
+		     <td>4,490.00</td>
+		     <td>2017-03-24 12:57:46</td>
+		     <td>2017-03-24 13:11:16</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>32699 L</td>
+		     <td>Marcos Delgado Rios</td>
+		     <td>MDELGADO2</td>
+
+		     <td>851515512</td>
+			 <td>CELULAR APPLE IPHONE 6 HSTO 16GB/SPACE GRAY</td>
+			 <td>1</td>
+			 <td>7545</td>
+
+		     <td>7,545.00</td>
+		     <td>2017-03-24 12:56:31</td>
+		     <td>2017-03-24 13:05:00</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>32699 L</td>
+		     <td>Marcos Delgado Rios</td>
+		     <td>MDELGADO2</td>
+
+		     <td>SPAREPARTS224</td>
+			 <td>KIT CARGADOR APPLE USB LIGHTNING</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>7,545.00</td>
+		     <td>2017-03-24 12:56:31</td>
+		     <td>2017-03-24 13:05:00</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>32696 L</td>
+		     <td>Ana Gabriela Medina De La Sancha</td>
+		     <td>MEDINADELASANCHAANAGABRIEL</td>
+
+		     <td>321984320520</td>
+			 <td>CELULAR APPLE IPHONE 5C/HSTO/16GB/VERDE</td>
+			 <td>1</td>
+			 <td>3599</td>
+
+		     <td>3,599.00</td>
+		     <td>2017-03-24 12:55:02</td>
+		     <td>2017-03-24 13:10:39</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>32696 L</td>
+		     <td>Ana Gabriela Medina De La Sancha</td>
+		     <td>MEDINADELASANCHAANAGABRIEL</td>
+
+		     <td>SPAREPARTS224</td>
+			 <td>KIT CARGADOR APPLE USB LIGHTNING</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>3,599.00</td>
+		     <td>2017-03-24 12:55:02</td>
+		     <td>2017-03-24 13:10:39</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>32688 L</td>
+		     <td>Karina Acevedo Trejo</td>
+		     <td>KARINAACEVEDOTREJO</td>
+
+		     <td>865023156</td>
+			 <td>CELULAR APPLE IPHONE 5S 64GB/HSTO/SILVER</td>
+			 <td>1</td>
+			 <td>6290</td>
+
+		     <td>6,290.00</td>
+		     <td>2017-03-24 12:53:11</td>
+		     <td>2017-03-24 13:01:31</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>32688 L</td>
+		     <td>Karina Acevedo Trejo</td>
+		     <td>KARINAACEVEDOTREJO</td>
+
+		     <td>SPAREPARTS224</td>
+			 <td>KIT CARGADOR APPLE USB LIGHTNING</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>6,290.00</td>
+		     <td>2017-03-24 12:53:11</td>
+		     <td>2017-03-24 13:01:31</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>32687 L</td>
+		     <td>Mauricio Muñoz Garza</td>
+		     <td>MECATRONIX89</td>
+
+		     <td>82653512352</td>
+			 <td>CELULAR SAMSUNG GALAXY S4 I545 HSTO 16GB BLANCO</td>
+			 <td>1</td>
+			 <td>2790</td>
+
+		     <td>2,790.00</td>
+		     <td>2017-03-24 12:51:48</td>
+		     <td>2017-03-24 13:35:18</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>32687 L</td>
+		     <td>Mauricio Muñoz Garza</td>
+		     <td>MECATRONIX89</td>
+
+		     <td>8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>2,790.00</td>
+		     <td>2017-03-24 12:51:48</td>
+		     <td>2017-03-24 13:35:18</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>32686 L</td>
+		     <td>Ricardo Miguel Reyes Reyes</td>
+		     <td>RICARDO MREYES</td>
+
+		     <td>610214635006</td>
+			 <td>CELULAR Lg Optimus F3q D520 SLIDER HSTO</td>
+			 <td>1</td>
+			 <td>900</td>
+
+		     <td>900.00</td>
+		     <td>2017-03-24 12:50:12</td>
+		     <td>2017-03-24 13:36:54</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>32686 L</td>
+		     <td>Ricardo Miguel Reyes Reyes</td>
+		     <td>RICARDO MREYES</td>
+
+		     <td>8806085826304</td>
+			 <td>KIT CARGADOR SAMSUNG FAST CHARGE 15W USB 3.0 PARED</td>
+			 <td>1</td>
+			 <td>0</td>
+
+		     <td>900.00</td>
+		     <td>2017-03-24 12:50:12</td>
+		     <td>2017-03-24 13:36:54</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>32705 L</td>
+		     <td>MANUEL CARDENAS</td>
+		     <td></td>
+
+		     <td>6922309813591</td>
+			 <td>CELULAR SAMSUNG GALAXY S6 G920P HSTO A-STOCK 32GB WHITE</td>
+			 <td>1</td>
+			 <td>4999.99</td>
+
+		     <td>4,999.99</td>
+		     <td>2017-03-24 11:54:52</td>
+		     <td>2017-03-27 08:32:40</td>
+		     <td>c.robles</td></tr><tr class='odd gradeX'>
+		     <td>32704 L</td>
+		     <td>JAVIER BAEZA</td>
+		     <td></td>
+
+		     <td>736211948281</td>
+			 <td>PANTALLA SAMSUNG SMART TV 55' UN55J6201AFXZA FULL HD</td>
+			 <td>1</td>
+			 <td>12644</td>
+
+		     <td>12,644.00</td>
+		     <td>2017-03-24 11:45:57</td>
+		     <td>2017-03-24 16:39:39</td>
+		     <td>c.robles</td></tr><tr class='odd gradeX'>
+		     <td>32701 P</td>
+		     <td>HUGO ENRIQUE PEREA DELGADO</td>
+		     <td></td>
+
+		     <td>3607341792068</td>
+			 <td>Guess for Women by Guess Eau de Parfum 75ML</td>
+			 <td>1</td>
+			 <td>399.01</td>
+
+		     <td>399.01</td>
+		     <td>2017-03-24 11:32:28</td>
+		     <td>2017-03-24 11:32:28</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>88300139491</td>
+			 <td>Eternity Moment for Women by Calvin Klein Eau de Parfum 100M</td>
+			 <td>2</td>
+			 <td>1398.01</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3607343811798</td>
+			 <td>CK One by Calvin Klein Eau de Toilette 200ML</td>
+			 <td>3</td>
+			 <td>2097.01</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3607343811798</td>
+			 <td>CK One by Calvin Klein Eau de Toilette 200ML</td>
+			 <td>2</td>
+			 <td>1407.01</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>2</td>
+			 <td>339</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3412242508027</td>
+			 <td>Nautica Blue For Men by Nautica Eau De Toilette 100ml</td>
+			 <td>5</td>
+			 <td>1432.31</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>5</td>
+			 <td>1432.31</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>88300104437</td>
+			 <td>CK BE CALVIN KLEIN EAU DE TOILETTE 200 ML</td>
+			 <td>1</td>
+			 <td>699</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>88300104437</td>
+			 <td>CK BE CALVIN KLEIN EAU DE TOILETTE 200 ML</td>
+			 <td>2</td>
+			 <td>1349.01</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>88300105519</td>
+			 <td>Eternity for Men by Calvin Klein Eau de Toilette 100ML</td>
+			 <td>4</td>
+			 <td>2791.98</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>815980510018</td>
+			 <td>PURR FOR WOMEN BY KATY PERRY EDP 175ML</td>
+			 <td>1</td>
+			 <td>549</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>88300104437</td>
+			 <td>CK BE CALVIN KLEIN EAU DE TOILETTE 200 ML</td>
+			 <td>2</td>
+			 <td>1057.99</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>88300049479</td>
+			 <td>Truth for Women by Calvin Klein Eau de Parfum 100ML</td>
+			 <td>3</td>
+			 <td>1755</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>88300104437</td>
+			 <td>CK BE CALVIN KLEIN EAU DE TOILETTE 200 ML</td>
+			 <td>1</td>
+			 <td>599</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>88300105519</td>
+			 <td>Eternity for Men by Calvin Klein Eau de Toilette 100ML</td>
+			 <td>2</td>
+			 <td>1286</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>088300196944</td>
+			 <td>CK IN2U CALVIN KLEINT EDT SPRAY 5.0 OZ</td>
+			 <td>1</td>
+			 <td>599</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3661163904016</td>
+			 <td>Nautica Classic For Men by Nautica Eau de Toilette 100ML</td>
+			 <td>5</td>
+			 <td>1432.31</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>2</td>
+			 <td>678</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>4</td>
+			 <td>1258</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3607343811798</td>
+			 <td>CK One by Calvin Klein Eau de Toilette 200ML</td>
+			 <td>2</td>
+			 <td>1297.99</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>737052031415</td>
+			 <td>Dark Blue for Men by Hugo Boss Eau de Toilette 75ML</td>
+			 <td>2</td>
+			 <td>1190</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>737052036649</td>
+			 <td>The One for Men By Dolce Gabbana Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>1123.01</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3607342771215</td>
+			 <td>CK One Red Edition for Women by Calvin Klein Eau de Toilette</td>
+			 <td>3</td>
+			 <td>1869</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3607342539914</td>
+			 <td>Fame Black Fuid for Women by Lady Gaga Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>673</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3360373063680</td>
+			 <td>Amor Amor for Women by Cacharel Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>1029</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>608940521601</td>
+			 <td>Just Me for Women by Paris Hilton Eau de Parfum 100ML</td>
+			 <td>1</td>
+			 <td>479</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3607343191005</td>
+			 <td>Meow for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>5</td>
+			 <td>1872.47</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3607349312459</td>
+			 <td>Purr for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>5</td>
+			 <td>1872.47</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>88300104406</td>
+			 <td>CK BE CALVIN KLEIN EAU DE TOILETTE 100 ML</td>
+			 <td>14</td>
+			 <td>4822.96</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>88300107407</td>
+			 <td>CK One by Calvin Klein Eau de Toilette 100ML</td>
+			 <td>14</td>
+			 <td>4822.96</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3607343191005</td>
+			 <td>Meow for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>10</td>
+			 <td>3499.02</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3607349312459</td>
+			 <td>Purr for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>10</td>
+			 <td>3499.02</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3607341792068</td>
+			 <td>Guess for Women by Guess Eau de Parfum 75ML</td>
+			 <td>7</td>
+			 <td>2512.98</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>2</td>
+			 <td>698.99</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3607343811798</td>
+			 <td>CK One by Calvin Klein Eau de Toilette 200ML</td>
+			 <td>10</td>
+			 <td>5289.95</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>085805390501</td>
+			 <td>5TH AVENUE ELIZABET ARDEN EDP FOR WOMEN 75ML</td>
+			 <td>1</td>
+			 <td>469</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>737052031415</td>
+			 <td>Dark Blue for Men by Hugo Boss Eau de Toilette 75ML</td>
+			 <td>1</td>
+			 <td>503</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3661163904016</td>
+			 <td>Nautica Classic For Men by Nautica Eau de Toilette 100ML</td>
+			 <td>18</td>
+			 <td>3627.06</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>885483183941</td>
+			 <td>I LOVE LOVE FOR WOMEN BY MOSCHINO EAU DE TOILETTE 100 ML</td>
+			 <td>1</td>
+			 <td>749</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>4085400291001</td>
+			 <td>DIESEL PLUS PLUS EDT FOR MEN 75ML</td>
+			 <td>4</td>
+			 <td>996.02</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3661163904016</td>
+			 <td>Nautica Classic For Men by Nautica Eau de Toilette 100ML</td>
+			 <td>2</td>
+			 <td>518.01</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3412242508027</td>
+			 <td>Nautica Blue For Men by Nautica Eau De Toilette 100ml</td>
+			 <td>18</td>
+			 <td>4794.05</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>18</td>
+			 <td>4794.05</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>737052031415</td>
+			 <td>Dark Blue for Men by Hugo Boss Eau de Toilette 75ML</td>
+			 <td>1</td>
+			 <td>595</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3607343191005</td>
+			 <td>Meow for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>2</td>
+			 <td>798.01</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3607349312459</td>
+			 <td>Purr for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>2</td>
+			 <td>798.01</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>88300104406</td>
+			 <td>CK BE CALVIN KLEIN EAU DE TOILETTE 100 ML</td>
+			 <td>8</td>
+			 <td>2755.97</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>88300107407</td>
+			 <td>CK One by Calvin Klein Eau de Toilette 100ML</td>
+			 <td>8</td>
+			 <td>2755.97</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3607343191005</td>
+			 <td>Meow for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>2</td>
+			 <td>698</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3607341792068</td>
+			 <td>Guess for Women by Guess Eau de Parfum 75ML</td>
+			 <td>2</td>
+			 <td>717.99</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3607349312459</td>
+			 <td>Purr for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>2</td>
+			 <td>789.01</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3607343191005</td>
+			 <td>Meow for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>2</td>
+			 <td>789.01</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3661163904016</td>
+			 <td>Nautica Classic For Men by Nautica Eau de Toilette 100ML</td>
+			 <td>18</td>
+			 <td>4794.05</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3661163904016</td>
+			 <td>Nautica Classic For Men by Nautica Eau de Toilette 100ML</td>
+			 <td>1</td>
+			 <td>274.5</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3412242508027</td>
+			 <td>Nautica Blue For Men by Nautica Eau De Toilette 100ml</td>
+			 <td>1</td>
+			 <td>274.5</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>88300107407</td>
+			 <td>CK One by Calvin Klein Eau de Toilette 100ML</td>
+			 <td>4</td>
+			 <td>1457.98</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3607349312459</td>
+			 <td>Purr for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>8</td>
+			 <td>2759.96</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>88300104406</td>
+			 <td>CK BE CALVIN KLEIN EAU DE TOILETTE 100 ML</td>
+			 <td>4</td>
+			 <td>1457.98</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>719346021777</td>
+			 <td>Grey Flannel for Men by Georfrey Benne Eau de Toilette 240ML</td>
+			 <td>3</td>
+			 <td>1193.99</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3607343191005</td>
+			 <td>Meow for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>2</td>
+			 <td>798.01</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3607349312459</td>
+			 <td>Purr for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>2</td>
+			 <td>798.01</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3607343191005</td>
+			 <td>Meow for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>15</td>
+			 <td>5174.93</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3607343191005</td>
+			 <td>Meow for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>7</td>
+			 <td>2327.52</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>6</td>
+			 <td>1998.01</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3412241210303</td>
+			 <td>ADIDAS DEEP ENERGY EDT FOR MEN 100ML</td>
+			 <td>1</td>
+			 <td>299</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3412242508027</td>
+			 <td>Nautica Blue For Men by Nautica Eau De Toilette 100ml</td>
+			 <td>4</td>
+			 <td>1192.02</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3607349312459</td>
+			 <td>Purr for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>4</td>
+			 <td>1258</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>72</td>
+			 <td>23363.88</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>3607349312459</td>
+			 <td>Purr for Women by Katy Perry Eau de Parfum 100ML</td>
+			 <td>7</td>
+			 <td>2327.52</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>36</td>
+			 <td>11699.9</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32689 P</td>
+		     <td>E TRADE GOFE COMPANY SA DE CV</td>
+		     <td></td>
+
+		     <td>31655531908</td>
+			 <td>Nautica Voyage for Men by Nautica Eau de Toilette 100ML</td>
+			 <td>3</td>
+			 <td>1017</td>
+
+		     <td>150,325.68</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>2017-03-24 11:17:14</td>
+		     <td>ISABELG</td></tr><tr class='odd gradeX'>
+		     <td>32691 L</td>
+		     <td>CESAR OCTAVIO CRUZ AGUILAR</td>
+		     <td>R.P.</td>
+
+		     <td>889488369829</td>
+			 <td>LAPTOP LENOVO B41-30/CEL N3050/ 2GB/500GB 14' HDMI</td>
+			 <td>1</td>
+			 <td>4490</td>
+
+		     <td>4,490.00</td>
+		     <td>2017-03-24 11:00:23</td>
+		     <td>2017-03-24 11:19:05</td>
+		     <td>GLORIAS</td></tr><tr class='odd gradeX'>
+		     <td>32685 L</td>
+		     <td>Edgar Padilla</td>
+		     <td>MUNDOMAQUINITASGDL</td>
+
+		     <td>84631654130</td>
+			 <td>CELULAR SAMSUNG GALAXY S4 I337 ASTOCK/KITTED/16GB NEGRO</td>
+			 <td>1</td>
+			 <td>2980.01</td>
+
+		     <td>2,980.01</td>
+		     <td>2017-03-24 10:56:47</td>
+		     <td>2017-03-24 11:08:16</td>
+		     <td>GLORIAS</td></tr></tbody></table></body></html>
