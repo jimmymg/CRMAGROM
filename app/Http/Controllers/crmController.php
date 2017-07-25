@@ -116,22 +116,7 @@ class crmController extends Controller{
                                       'subject' => 'Esto es el subject',
                                       'html'    => 'Esto es el HTML'));
 
-		/*
-		$mail = new PHPMailer;
-	
-      	$mail->isSMTP(); // tell to use smtp
-        $mail->CharSet = "utf-8"; // set charset to utf8
-        $mail->SMTPAuth = true;  // use smpt auth
-        $mail->SMTPSecure = "ssl"; // or ssl
-        $mail->Host = "smtp.gmail.com";
-        $mail->Port = 465; // most likely something different for you. This is the mailtrap.io port i use for 	testing. 
-       	$mail->Username = "desarrollo2@omg.com.mx";
-       	$mail->Password = "morenog221";
-       	$mail->setFrom("desarrollo2@omg.com.mx", "Esto es una Prueba");
-       	$mail->Subject = "Test";
-       	$mail->MsgHTML("This is a test");
-       	$mail->addAddress("jaime.110194@gmail.com", "Jimmy");
-       	$mail->send();*/
+		
 	}
 
     public function GC()
