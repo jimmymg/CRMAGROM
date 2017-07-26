@@ -16,7 +16,7 @@ class Fase1Controller extends Controller
         $this->middleware('guest');
         
     }
-
+    /*Algun comentario X*/
     public function index()
     {
 
