@@ -89,6 +89,9 @@ Route::get('Archivos/{tipoArchivo}/proyecto/{proyecto}','crmController@archivos'
 	Route::get( 'Fase1/Cliente/Empresa/{proyecto}' , 'Fase1Controller@clientesEmpresa' );
 	Route::get( 'Fase1/ContactosExtras/Proyecto/{proyecto}' , 'Fase1Controller@ContactosExtras' );
 	Route::post( 'Fase1/AñadirContacto' , 'Fase1Controller@nuevoContacto' );
+
+	/*Seccion de Editar*/
+	Route::post( 'Fase1/Editar' , 'Fase1Controller@editarProyecto' );
 //############################################################
 /*Fase2:*/
 	Route::get('Fase2','Fase2Controller@index')->middleware('Fase2');
@@ -177,3 +180,5 @@ Route::get('Archivos/{tipoArchivo}/proyecto/{proyecto}','crmController@archivos'
 	Route::get('Configuracion/getMonedas','ConfiguracionController@getMonedas');
 	Route::post('Configuracion/postMoneda','ConfiguracionController@insertarMoneda');
 //############################################################
+/*Consultar Informacion*/
+	Route::get('Informacion/Fase1/{proyecto}' , 'InformacionController@Fase1')->middleware('guest');

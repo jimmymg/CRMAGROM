@@ -12,6 +12,7 @@
      <!-- Plugin DateTimePicker CSS -->
     <link href="{{url('plugins/bootstrap-datetimepicker-malot/css/bootstrap-datetimepicker.css')}}" rel="stylesheet" />
     
+    
 </head>
 
 <body >
@@ -129,25 +130,42 @@
                     </button>
                 </div>
                 <div class="modal-body col-sm-12">
- 
+                    <input type="hidden" id="data-proyecto">
                     <div class="col-sm-6">
                         <div class="form-horizontal">
                             <div class="form-group form-group-lg">
-                                <label class="col-sm-3 control-label" for="inputLarge">Proyecto:</label>
+                                <label class="col-sm-3 control-label" for="inputDefault">
+                                    <button id="editar_proyecto" type="button" class="btn btn-primary btn-sm">
+                                        <span class="glyphicon glyphicon-edit"></span>
+                                    Proyecto:
+                                    </button>
+                                </label>
                                 <div class="col-sm-9">
-                                    <h2><strong id="look_proyecto">Es un Proyecto</strong></h2>
+                                    <h2><strong id="look_proyecto"></strong></h2>
                                 </div>
                             </div>
 
                             <div class="form-group form-group-lg">
                                 <label class="col-sm-3 control-label" for="inputDefault">
-                                <button id="editar_descripcion" type="button" class="btn btn-primary btn-sm">
-                                    <span class="glyphicon glyphicon-edit"></span>
+                                    <button id="editar_descripcion" type="button" class="btn btn-primary btn-sm">
+                                        <span class="glyphicon glyphicon-edit"></span>
                                     Descripcion:
-                                </button>
+                                    </button>
                                 </label>
                                 <div class="col-sm-9">
-                                    <h3 id="look_descripcion">Una Descripcion</h3>
+                                    <h3 id="look_descripcion"></h3>
+                                </div>
+                            </div>
+
+                            <div class="form-group form-group-lg">
+                                <label class="col-sm-3 control-label" for="inputDefault">
+                                    <button id="editar_valor" type="button" class="btn btn-primary btn-sm">
+                                        <span class="glyphicon glyphicon-edit"></span>
+                                    Valor:
+                                    </button>
+                                </label>
+                                <div class="col-sm-9">
+                                    <h3 id="look_valor"></h3>
                                 </div>
                             </div>
 
@@ -266,8 +284,10 @@
                         <div id="descargar_cotizacion">
                         </div>
 
-                        <input id="cotizacion" name="archivos[]" type="file" multiple class="file-loading">
-                        
+                        <div id="palce_of_cotizacion">
+                            <input id="cotizacion" name="archivos[]" type="file" multiple class="file-loading">
+                        </div>
+
                         <h4>Orden De Compra Cliente(Obligatorio)
                             <button class="btn waves-effect">
                                 <span class="glyphicon glyphicon-folder-open"></span>
@@ -557,7 +577,7 @@
 
     <script src="{{url('js/vistaArchivos.js')}}"></script>
     <!-- JS  -->
-    <script src="{{url('js/Fase1/editar_descripcion.js')}}"></script>
+    <script src="{{url('js/Fase1/editar_proyecto_general.js')}}"></script>
     <script src="{{url('js/Fase1/contactos_extras.js')}}"></script>
     <!-- End JS  -->
     <script>
@@ -890,12 +910,22 @@
             }
         });
 
+        $("#modalProyecto").on( "hidden.bs.modal" , function(){
+            $("#palce_of_cotizacion").html('');
+        });
+
         $(document).on("click",".verProyecto", function(){
-            
+            //Aqui es dodne empieza todo
             var id = $(this).attr("data-proyecto");
             $("#agendar_el_recordatorio").attr("data-proyecto",id);
-            $("#editar_descripcion").attr("data-proyecto",id);
-            archivos(id , 0);
+            //#####Editar
+            $("#data-proyecto").val(id);
+            //########
+            archivos( $("#data-proyecto").val() , 0);
+
+            $("#palce_of_cotizacion").html(
+                    '<input id="cotizacion" name="archivos[]" type="file" multiple class="file-loading">'
+                );
 
             $("#cotizacion").fileinput({
                     showCaption : true ,
@@ -904,14 +934,14 @@
                     showPreview : false ,
                     uploadExtraData: {
                         tipo: 1 ,
-                        proyecto :id ,
+                        proyecto : $("#data-proyecto").val() ,
                     }
                 });
 
             $("#cotizacion").on('fileuploaded',function(){
                     /*Archivos Subidos*/
                     
-                    archivos(id , 1);
+                    archivos($("#data-proyecto").val() , 1);
                 });
 
             $("#ordencompra").fileinput({
@@ -921,14 +951,14 @@
                     showPreview : false ,
                     uploadExtraData : {
                         tipo : 2 ,
-                        proyecto :id ,
+                        proyecto :$("#data-proyecto").val() ,
                     }
                 });
 
             $("#ordencompra").on('fileuploaded',function(){
                     /*Archivos Subidos*/
                     
-                    archivos(id , 2);
+                    archivos($("#data-proyecto").val() , 2);
                 });
 
             $("#ordenproveedor").fileinput({
@@ -938,31 +968,29 @@
                     showPreview : false ,
                     uploadExtraData : {
                         tipo : 3 ,
-                        proyecto : id ,
+                        proyecto : $("#data-proyecto").val() ,
                     }
                 });
 
             $("#ordenproveedor").on('fileuploaded',function(){
                     /*Archivos Subidos*/
-                    
-                    archivos(id , 3);
+                    archivos( $("#data-proyecto").val() , 3);
                 });
 
             $("#formatopedido").fileinput({
-                    showCaption : true ,
-                    uploadUrl   : 'Fase1/Ver_Proyecto/Archivos',
-                    uploadAsync: true  ,
-                    showPreview: false ,
+                    showCaption : true  ,
+                    uploadUrl   : 'Fase1/Ver_Proyecto/Archivos' ,
+                    uploadAsync: true   ,
+                    showPreview: false  ,
                     uploadExtraData: {
-                        tipo: 4 ,
-                        proyecto :id ,
+                        tipo: 4         ,
+                        proyecto : $("#data-proyecto").val() ,
                     }
                 });
 
             $("#formatopedido").on('fileuploaded',function(){
                     /*Archivos Subidos*/
-                    
-                    archivos(id , 4);
+                    archivos( $("#data-proyecto").val() , 4);
                 });
             
 
@@ -979,6 +1007,7 @@
 
                 $("#look_proyecto").html(proyecto.nombre);
                 $("#look_descripcion").html(proyecto.descripcion);
+                $("#look_valor").html(proyecto.valor);
                 $("#look_tipo").html(proyecto.tipo);
                 $("#look_moneda").html(proyecto.moneda);
                 $("#look_area").html(proyecto.area);

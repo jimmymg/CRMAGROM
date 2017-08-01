@@ -11,13 +11,25 @@
                 
             </style>
             <div class="modal-body">
-                
+                <div id="cargando-Campo-A-Editar">
+                    <div style="margin-left:45%" class="cargando2">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-primary" id="guardar_editado">Guardar</button>
+                <div style="float:right;" id="place_of_gardar_editado">
+                    <button type="button" class="btn btn-primary" id="guardar_editado">Guardar</button>
+                </div>
+                
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
             
             </div>
         </div>
     </div>
 </div>
+

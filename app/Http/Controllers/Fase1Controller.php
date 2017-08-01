@@ -173,7 +173,8 @@ class Fase1Controller extends Controller
     {
     	$elproyecto =
     	DB::SELECT("
-    		SELECT proyectos.id , proyectos .nombre , proyectos .descripcion , proyecto_tipos.`nombre` AS tipo , moneda.`nombre` AS moneda , proyecto_areas.`nombre` AS area ,
+    		SELECT proyectos.id , proyectos .nombre , proyectos .descripcion ,
+             proyectos.valor , proyecto_tipos.`nombre` AS tipo , moneda.`nombre` AS moneda , proyecto_areas.`nombre` AS area ,
 
        			clientes.`nombre` AS cliente , clientes.correo1 , clientes.correo2 , clientes.telefono , clientes.celular , clientes.activo ,
 
@@ -481,7 +482,7 @@ class Fase1Controller extends Controller
         $proyectoinfo = 
         DB::SELECT("SELECT proyectos.id , proyectos.nombre , proyectos.descripcion , 
                     proyecto_tipos.nombre as tipo , proyecto_areas.nombre as area , 
-                    fuentes.nombre as fuente
+                    fuentes.nombre as fuente , proyectos.valor
                     FROM proyectos
                     INNER JOIN proyecto_tipos ON proyectos.id_proyecto_tipo = proyecto_tipos.id 
                     INNER JOIN proyecto_areas ON proyectos.id_proyecto_area = proyecto_areas.id
@@ -639,8 +640,8 @@ class Fase1Controller extends Controller
         if( $validar[0]->id_cliente != $cliente  AND empty($contactos) ) 
         {
             DB::TABLE('contactos_extra')->INSERT([
-                'id_proyecto' => $proyecto ,
-                'id_cliente'  => $cliente ,
+                'id_proyecto' => $proyecto        ,
+                'id_cliente'  => $cliente         ,
                 'id_usuario'  => Auth::user()->id
             ]);
         }else{
@@ -659,7 +660,42 @@ class Fase1Controller extends Controller
        
         return $contactos;  
 
+    }
+    /////////////////////////////////////////////////////////////////////////////////////////
+    //////Editar
 
+    public function editarProyecto(Request $request)
+    {
+       $campo    = $request->input('campo'); 
+       $proyecto = $request->input('proyecto');
+       $nuevo    = $request->input('nuevo'); 
+
+       switch ($campo) {
+            case 'NOMBRE':
+               # code...
+                DB::TABLE('proyectos')->WHERE('id',$proyecto)->UPDATE([
+                        'nombre' => $nuevo
+                    ]);
+                break;
+           
+            case 'DESCRIPCION':
+               # code...
+                DB::TABLE('proyectos')->WHERE('id',$proyecto)->UPDATE([
+                        'descripcion' => $nuevo
+                    ]);
+               break;
+
+            case 'VALOR':
+               # code...
+                DB::TABLE('proyectos')->WHERE('id',$proyecto)->UPDATE([
+                        'valor' => $nuevo
+                    ]);
+               break;
+
+            case 'value':
+               # code...
+               break;
+       }
     }
 
 }
