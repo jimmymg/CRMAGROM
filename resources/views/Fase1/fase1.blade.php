@@ -49,7 +49,7 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <div id="place_of_dataTables-index" class="row">
                     <div class="col-md-12">
                     <!-- Advanced Tables -->
                         <div class="panel panel-default">
@@ -60,7 +60,7 @@
                             <div class="panel-body">
                                 <div class="table-responsive">
                                     <table class="table table-striped table-bordered table-hover" 
-                                    id="dataTables-example">
+                                    id="dataTables-index">
                                         <thead>
                                             <tr>
                                                 <th>#</th>
@@ -79,30 +79,7 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            @foreach( $proyectos as $proyecto )
-                                            <tr>
-                                                <td>{{$contador++}}</td>
-                                                <td>
-                                                    <button data-target="#modalProyecto" data-toggle="modal" type="button" class="btn verProyecto" data-proyecto="{{$proyecto->id}}">
-                                                        <span class="glyphicon glyphicon-search"></span>
-                                                    </button>
-                                                    {{$proyecto->nombre}}
-                                                </td>
-                                                <td>{{$proyecto->tipo}}</td>
-                                                <td>{{$proyecto->moneda}}</td>
-                                                <td>{{number_format($proyecto->valor)}}</td>
-                                                <td>{{$proyecto->area}}</td>
-                                                <td>{{$proyecto->cliente}}</td>
-                                                <td>{{$proyecto->empresa}}</td>
-                                                <td>{{$proyecto->estado}}</td>
-                                                <td>{{$proyecto->usuario}}</td>
-                                                <td>{{$proyecto->fuente}}</td>
-                                                <td>{{$proyecto->created_at}}</td>
-                                                <td>
-                                                    <button id="cancelar" data-proyecto="{{$proyecto->id}}" class="btn btn-danger">Cancelar</button>
-                                                </td>
-                                            </tr>
-                                            @endforeach
+                                           
                                         </tbody>
                                     </table>
                                 </div>
@@ -578,19 +555,24 @@
     <script src="{{url('js/vistaArchivos.js')}}"></script>
     <!-- JS  -->
     <script src="{{url('js/Fase1/editar_proyecto_general.js')}}"></script>
+    <script src="{{url('js/Fase1/cargar_tabla.js')}}"></script>
     <script src="{{url('js/Fase1/contactos_extras.js')}}"></script>
     <!-- End JS  -->
     <script>
         Waves.init();
         $('#main-menu').metisMenu();
-            
-            $(window).bind("load resize", function () {
-                if ($(this).width() < 768) {
-                    $('div.sidebar-collapse').addClass('collapse')
-                } else {
+        
+        $(window).bind("load resize", function () {
+            if ($(this).width() < 768) {
+                $('div.sidebar-collapse').addClass('collapse')
+            } else {
                     $('div.sidebar-collapse').removeClass('collapse')
-                }
+            }
         });
+            
+        responsivo_ChangeDataTable('place_of_dataTables-index');
+
+
             var f = new Date();
             //alert(f.getFullYear() + "-" + (f.getMonth() +1) + "-" + f.getDate() + " " + f.getHours() + ":" + f.getMinutes() +":00" );
         $(".form_datetime").datetimepicker({

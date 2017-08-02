@@ -19,7 +19,7 @@ class Fase1Controller extends Controller
     /*Algun comentario X*/
     public function index()
     {
-
+/*
         $cargo = Auth::user()->id;
 
         if( Auth::user()->id_area > 1 )
@@ -64,7 +64,57 @@ class Fase1Controller extends Controller
 
     	$proyectos =
     	DB::SELECT($consulta);
-    	return view('Fase1.fase1')->with(["proyectos" => $proyectos , "contador" => 1]);
+        */
+    	//return view('Fase1.fase1')->with(["proyectos" => $proyectos , "contador" => 1]);
+        return view('Fase1.fase1');
+    }
+
+    public function ProyectosIndex()
+    {
+        $cargo = Auth::user()->id;
+
+        if( Auth::user()->id_area > 1 )
+        {   //Solo sus proyectos y los que este involucrado
+
+            $consulta = "SELECT proyectos.id , proyectos .nombre , proyectos .descripcion , proyecto_tipos.`nombre` AS tipo , moneda.`nombre` AS moneda , proyecto_areas.`nombre` AS area ,
+                clientes.`nombre` AS cliente , empresas.`nombre` AS empresa , proyecto_estados.`nombre` AS estado , usuarios.`nombre` AS usuario , fuentes.`nombre` AS fuente ,
+                proyectos.`created_at` , proyectos.valor 
+                FROM proyectos  
+                INNER JOIN  proyecto_tipos  ON proyectos.`id_proyecto_tipo` = proyecto_tipos.`id`
+                INNER JOIN moneda           ON proyectos.`id_moneda` = moneda.`id`
+                INNER JOIN proyecto_areas   ON proyectos.`id_proyecto_area` = proyecto_areas.id
+                INNER JOIN clientes         ON proyectos.`id_cliente` = clientes.`id`
+                LEFT JOIN empresas          ON clientes.`id_empresa` = empresas.`id`
+                INNER JOIN proyecto_estados ON proyectos.`id_proyecto_estado` = proyecto_estados.`id`
+                INNER JOIN usuarios         ON proyectos.`id_usuario` = usuarios.`id`
+                INNER JOIN fuentes          ON proyectos.`id_fuente` = fuentes.`id`
+                INNER JOIN proyectos_administradores ON proyectos.id = proyectos_administradores.id_proyecto
+                WHERE fase = 1 and proyectos_administradores.id_a_cargo = $cargo and proyectos.id_proyecto_Estado = 1
+                ORDER BY proyectos.created_at DESC";
+
+                
+            //$condicion = "  proyectos.id_usuario == ".$Auth::user()->id;
+        }else{
+            //Todos Admin
+            $consulta = "SELECT proyectos.id , proyectos .nombre , proyectos .descripcion , proyecto_tipos.`nombre` AS tipo , moneda.`nombre` AS moneda , proyecto_areas.`nombre` AS area ,
+                clientes.`nombre` AS cliente , empresas.`nombre` AS empresa , proyecto_estados.`nombre` AS estado , usuarios.`nombre` AS usuario , fuentes.`nombre` AS fuente ,
+                proyectos.`created_at` , proyectos.valor
+                FROM proyectos  
+                INNER JOIN  proyecto_tipos  ON proyectos.`id_proyecto_tipo` = proyecto_tipos.`id`
+                INNER JOIN moneda           ON proyectos.`id_moneda` = moneda.`id`
+                INNER JOIN proyecto_areas   ON proyectos.`id_proyecto_area` = proyecto_areas.id
+                INNER JOIN clientes         ON proyectos.`id_cliente` = clientes.`id`
+                LEFT JOIN empresas          ON clientes.`id_empresa` = empresas.`id`
+                INNER JOIN proyecto_estados ON proyectos.`id_proyecto_estado` = proyecto_estados.`id`
+                INNER JOIN usuarios         ON proyectos.`id_usuario` = usuarios.`id`
+                INNER JOIN fuentes          ON proyectos.`id_fuente` = fuentes.`id`
+                WHERE fase = 1 and proyectos.id_proyecto_Estado = 1
+                ORDER BY proyectos.created_at DESC" ;
+        }
+
+
+       
+       return DB::SELECT($consulta);
     }
 
     public function getAdministradores()

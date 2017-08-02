@@ -240,14 +240,15 @@
                         ]).draw();
                 }
                 //+35 por el margin y el padding 10 y 10 de page-inner, y + 15 por el padding de page-wrapper
-
+                responsivo_DataTable();
+                /*
                 $("#page-wrapper").css("height", $("#page-inner").height() + 35 );
                 $("#page-inner").css("margin-bottom",0);
                 $("#page-inner").css("padding-bottom",0);
                 
 
                $("html").css("background-color","white");
-               $("body").css("background-color","white");
+               $("body").css("background-color","white");*/
             })
             .error(function(error){
                 alert("Error al Cargar Empresas");

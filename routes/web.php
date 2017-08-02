@@ -53,7 +53,7 @@ Route::post('addEvent' , 'crmController@event');
 Route::get('Archivos/{tipoArchivo}/proyecto/{proyecto}','crmController@archivos');
 //############################################################
 /*Fase1:*/
-	
+	Route::get('ProyectosALL' , 'Fase1Controller@ProyectosIndex');
 	Route::get('Fase1','Fase1Controller@index')->middleware('guest');
 	Route::get('Fase1/getAdministradores','Fase1Controller@getAdministradores');
 	Route::get('Fase1/getCamposGenerales','Fase1Controller@getCamposGenerales');
