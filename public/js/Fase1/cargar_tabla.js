@@ -31,7 +31,7 @@ function ProyectosIndex(){
                	data[x].estado ,
                	data[x].usuario ,
                	data[x].fuente ,
-               	data[x].created_at ,
+               	data[x].created_at , ""
                	/*'<button id="cancelar" data-proyecto="'+data[x].id+'" class="btn btn-danger">Cancelar</button>'*/
             ]).draw();	
 
