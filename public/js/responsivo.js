@@ -41,10 +41,51 @@ function responsivo_DataTable()
 function responsivo_ChangeDataTable(div)
 {   
     $('#'+div).change( function () {
+        var alto_ventana = window.innerHeight;
+        var new_height =  $("#page-inner").height() + 35;
         //+35 por el margin y el padding 10 y 10 de page-inner, y + 15 por el padding de page-wrapper
-        $("#page-wrapper").css("height", $("#page-inner").height() + 35 );
+        
+        if( alto_ventana > new_height )
+        {
+            $("#page-wrapper").css( "height", alto_ventana - 60 );
+        }else{
+            $("#page-wrapper").css( "height", new_height );
+        }
+        
+       //alert("Window - 60: "+(alto_ventana - 60)+" new_height: "+new_height);
         /*$("#page-inner").css("margin-bottom"  , 0);
         $("#page-inner").css("padding-bottom" , 0);
         $("#page-inner").css("padding-top"    , 0);*/
     });
+
+    $('#'+div).keyup( function () {
+
+        var alto_ventana = window.innerHeight;
+        var new_height   = $("#page-inner").height() + 35;
+        //+35 por el margin y el padding 10 y 10 de page-inner, y + 15 por el padding de page-wrapper
+        
+        if( alto_ventana > new_height )
+        {
+            $("#page-wrapper").css( "height", alto_ventana - 60 );
+        }else{
+            $("#page-wrapper").css( "height", new_height );
+        }
+        
+    });
+
+    $('#'+div).click( function () {
+
+        var alto_ventana = window.innerHeight;
+        var new_height   = $("#page-inner").height() + 35;
+        //+35 por el margin y el padding 10 y 10 de page-inner, y + 15 por el padding de page-wrapper
+        
+        if( alto_ventana > new_height )
+        {
+            $("#page-wrapper").css( "height", alto_ventana - 60 );
+        }else{
+            $("#page-wrapper").css( "height", new_height );
+        }
+        
+    });
+
 }
