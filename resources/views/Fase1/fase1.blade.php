@@ -63,8 +63,8 @@
                                     id="dataTables-index">
                                         <thead>
                                             <tr>
-                                                <th>#</th>
-                                                <th>Proyecto</th>
+                                                <th width="5%">#</th>
+                                                <th width="30%">Proyecto</th>
                                                 <th>Tipo</th>
                                                 <th>Moneda</th>
                                                 <th>Valor</th>
