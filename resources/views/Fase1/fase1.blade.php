@@ -320,220 +320,10 @@
         </div>
     </div>
 
-    <div class="modal fade " id="modalNuevo" tabindex="-1" role="dialog"     aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Nuevo Proyecto</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-                        
-                            <div class="col-sm-12">
-                                <span><strong>Nombre del Proyecto</strong></span>
-                                <input id="proyecto" type="text" class="form-control">
-                            </div>
-
-                            <div class="col-sm-12">
-                                <span><strong>Descripcion del Proyecto</strong></span>
-                                <textarea id="descripcion" class="form-control"></textarea>
-                            </div>
-
-                            <div class="col-sm-12">
-                                <h4 id="money_display"></h4>
-                                <span><strong>Valor</strong></span>
-                                <input  id="money" class="form-control" >
-                            </div>
-
-                            <div class="col-sm-4">
-                                <span><strong>Tipo de Proyecto</strong></span>
-                                <select class="form-control" id="cmb_Tipo">
-                                </select>
-                            </div>
-
-                            <div class="col-sm-4">
-                                
-                                <span><strong>Valor de la Oportunidad</strong></span>
-                                <select class="form-control" id="cmb_Valor">
-                                </select>
-                            </div>
-
-                            <div class="col-sm-4">
-                                <span><strong>Area</strong></span>
-                                <select class="form-control" id="cmb_Area">
-                                </select>
-                            </div>
-
-                            <div class="col-sm-12">
-                                <span><strong>Marcas</strong></span>
-                                <button type="button" class="btn btn-primary waves-effect" data-target="#modalMarcas" data-toggle="modal">
-                                    <i class="material-icons">grade</i> 
-                                </button>
-                            </div>
-
-                            <div class="col-sm-12" id="lugar_marcas">
-                            
-                            </div>
-
-                            <div class="col-sm-12">
-                            <span><strong>Cliente</strong></span>
-                                <button type="button" class="btn btn-primary waves-effect" data-target="#modalClientes" data-toggle="modal">
-                                    <span class="glyphicon glyphicon-user"></span> 
-                                </button>
-                            </div>
-
-                            <div class="col-sm-12" >
-                               
-                                <div class="col-sm-5" id="cliente_seleccionado">
-                                    <h4>Cliente: </h4>
-                                    <span>Correo 1: </span>
-                                    <span>Correo 2: </span>
-                                    <span>Telefono: </span>
-                                    <span>Celular: </span>
-                                </div>
-
-                                <div class="col-sm-5" id="empresa_seleccionada">
-                                    <h4>Empresa: </h4>
-                                    <span>Giro: </span>
-                                    <span>Direccion: </span>
-                                    <span>Ciudad: </span>
-                                </div>
-                            </div>
-
-                            <div class="col-sm-6">
-                                <span><strong>Estatus del Proyecto</strong></span>
-                                <select class="form-control" id="cmb_Estatus">
-                                    
-                                </select>
-                            </div>
-
-                            <div class="col-sm-6">
-                                <span><strong>Fuentes</strong></span>
-                                <select class="form-control" id="cmb_Fuentes">
-                                    
-                                </select>
-                            </div>
-
-                            <div class="col-sm-12" style="margin-top: 10px;">
-                                <button data-toggle="modal" data-target="#modalAdministradores" type="button" class="btn btn-primary col-sm-12 waves-effect">Administradores</button>
-                            </div>
-
-                            <div class="col-sm-12" id="lugar_administradores">
-                                
-                            </div>
-                       
-                    </div>
-                </div>
-                <div class="modal-footer ">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                    <button id="guardar_Nuevo_Proyecto" type="button" class="btn btn-primary">Guardar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade " id="modalMarcas" tabindex="-1" role="dialog"     aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-sm">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Seleccionar Marcas</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="table-responsive">
-                        <table class="table table-striped table-bordered table-hover" 
-                                    id="dataTables-Marcas">
-                            <thead>
-                                <tr>
-                                    <th>Marca</th>
-                                    <th>Seleccionar</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                               
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                <div class="modal-footer ">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade " id="modalClientes" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-md">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Seleccionar Cliente</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="table-responsive">
-                        <table class="table table-striped table-bordered table-hover" 
-                                    id="dataTables-Clientes">
-                            <thead>
-                                <tr>
-                                    <th>#</th>
-                                    <th>Cliente</th>
-                                    <th>Empresa</th>
-                                    <th>Ciudad</th>
-                                    <th>Estado</th>
-                                    <th>Seleccionar</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                               
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                <div class="modal-footer ">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade " id="modalAdministradores" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-md">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Seleccionar Administrador</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="table-responsive">
-                        <table class="table table-striped table-bordered table-hover" 
-                                    id="dataTables-Administradores">
-                            <thead>
-                                <tr>
-                                    <th>Usuario</th>
-                                    <th>Seleccionar</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                               
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                <div class="modal-footer ">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('Fase1.fase1Modals.NuevoProyecto')
+    @include('Fase1.fase1Modals.Marcas')
+    @include('Fase1.fase1Modals.Clientes')
+    @include('Fase1.fase1Modals.Administradores')
     @include('Fase1.proyectosModals.agendar')
     @include('Fase1.fase1Modals.vistaArchivos')
     @include('Fase1.fase1Modals.Editar')
@@ -683,6 +473,8 @@
                 cargar_campos_generales();
                 $("#agendar_seguimiento").hide();
                 
+                $("#modalNuevo").find('.modal-footer').find('.cargando2').hide();
+
             });
 
 
@@ -740,6 +532,9 @@
 
         $("#guardar_Nuevo_Proyecto").click(function(){
 
+            $(this).hide();
+            $("#modalNuevo").find('.modal-footer').find('.cargando2').show();
+
             var proyecto    = $("#proyecto").val();
             var descripcion = $("#descripcion").val();
             var cmb_Tipo    = $("#cmb_Tipo").val();
@@ -763,11 +558,14 @@
             var administradores = [];
 
             $("#lugar_administradores").find(".col-sm-3").each(function(n){
+
                 var admin = $(this).attr("data-administrador");
 
                 administradores.push(admin);
             });
+
             var error = false;
+
             if( proyecto == "" || descripcion == "" || arr_marcas.length == 0 || administradores.length == 0 ){
                 error = true;
             }
@@ -794,11 +592,16 @@
                 console.log(data);
             })
             .error(function(error){
-                alert("Error al Guardar Proyecto");
+                $("#guardar_Nuevo_Proyecto").show();
+                $("#modalNuevo").find('.modal-footer').find('.cargando2').hide();
+                alert("Error Llame a jimmy o intentelo otra vez");
             });
 
             }else{
-                alert("Llene todos los campos");
+                swal('Error','¡Llene todos los Campos!','error')
+                $("#guardar_Nuevo_Proyecto").show();
+                $("#modalNuevo").find('.modal-footer').find('.cargando2').hide();
+               
             }
         });
 
