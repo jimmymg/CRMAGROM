@@ -26,6 +26,10 @@ function ProyectosIndex(){
 
             dias = ( data[x].ultimo_seguimiento == null )? data[x].origen  : data[x].ultimo_seguimiento;
             //alert("Origin: "+data[x].origen+" Ultimo Seguimiento: "+data[x].ultimo_seguimiento );
+            if( dias < 7  )
+            {
+                color = "white";
+            }
             if( dias > 7 && dias < 16 )
             {
                 color = "green";
