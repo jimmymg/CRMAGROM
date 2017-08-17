@@ -78,7 +78,7 @@ class Fase1Controller extends Controller
 
             $consulta = "SELECT proyectos.id , proyectos .nombre , proyectos .descripcion , proyecto_tipos.`nombre` AS tipo , moneda.`nombre` AS moneda , proyecto_areas.`nombre` AS area ,
                 clientes.`nombre` AS cliente , empresas.`nombre` AS empresa , proyecto_estados.`nombre` AS estado , usuarios.`nombre` AS usuario , fuentes.`nombre` AS fuente ,
-                proyectos.`created_at` , proyectos.valor 
+                proyectos.`created_at` , proyectos.valor  , A1.created_at AS ultimo_seguimiento
                 FROM proyectos  
                 INNER JOIN  proyecto_tipos  ON proyectos.`id_proyecto_tipo` = proyecto_tipos.`id`
                 INNER JOIN moneda           ON proyectos.`id_moneda` = moneda.`id`
@@ -89,6 +89,9 @@ class Fase1Controller extends Controller
                 INNER JOIN usuarios         ON proyectos.`id_usuario` = usuarios.`id`
                 INNER JOIN fuentes          ON proyectos.`id_fuente` = fuentes.`id`
                 INNER JOIN proyectos_administradores ON proyectos.id = proyectos_administradores.id_proyecto
+
+                LEFT JOIN ( SELECT * FROM seguimientos GROUP BY id_proyecto ORDER BY created_at ) AS A1 ON A1.id_proyecto = proyectos.`id`
+
                 WHERE fase = 1 and proyectos_administradores.id_a_cargo = $cargo and proyectos.id_proyecto_Estado = 1
                 ORDER BY proyectos.created_at DESC";
 
@@ -98,7 +101,7 @@ class Fase1Controller extends Controller
             //Todos Admin
             $consulta = "SELECT proyectos.id , proyectos .nombre , proyectos .descripcion , proyecto_tipos.`nombre` AS tipo , moneda.`nombre` AS moneda , proyecto_areas.`nombre` AS area ,
                 clientes.`nombre` AS cliente , empresas.`nombre` AS empresa , proyecto_estados.`nombre` AS estado , usuarios.`nombre` AS usuario , fuentes.`nombre` AS fuente ,
-                proyectos.`created_at` , proyectos.valor
+                proyectos.`created_at` , proyectos.valor , A1.created_at AS ultimo_seguimiento
                 FROM proyectos  
                 INNER JOIN  proyecto_tipos  ON proyectos.`id_proyecto_tipo` = proyecto_tipos.`id`
                 INNER JOIN moneda           ON proyectos.`id_moneda` = moneda.`id`
@@ -108,6 +111,9 @@ class Fase1Controller extends Controller
                 INNER JOIN proyecto_estados ON proyectos.`id_proyecto_estado` = proyecto_estados.`id`
                 INNER JOIN usuarios         ON proyectos.`id_usuario` = usuarios.`id`
                 INNER JOIN fuentes          ON proyectos.`id_fuente` = fuentes.`id`
+
+                LEFT JOIN ( SELECT * FROM seguimientos GROUP BY id_proyecto ORDER BY created_at ) AS A1 ON A1.id_proyecto = proyectos.`id`
+
                 WHERE fase = 1 and proyectos.id_proyecto_Estado = 1
                 ORDER BY proyectos.created_at DESC" ;
         }

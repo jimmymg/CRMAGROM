@@ -20,18 +20,20 @@ function ProyectosIndex(){
             '</button>';
 
             tabla.row.add([
-                x+1 ,
+                x+1                ,
+                data[x].ultimo_seguimiento                 ,
                 ver+data[x].nombre ,
-               	data[x].tipo ,
-               	data[x].moneda ,
-               	data[x].valor ,
-               	data[x].area ,
-               	data[x].cliente ,
-               	data[x].empresa ,
-               	data[x].estado ,
-               	data[x].usuario ,
-               	data[x].fuente ,
-               	data[x].created_at , ""
+               	data[x].tipo       ,
+               	data[x].moneda     ,
+               	data[x].valor      ,
+               	data[x].area       ,
+               	data[x].cliente    ,
+               	data[x].empresa    ,
+               	data[x].estado     ,
+               	data[x].usuario    ,
+               	data[x].fuente     ,  
+               	data[x].created_at , 
+                ""
                	/*'<button id="cancelar" data-proyecto="'+data[x].id+'" class="btn btn-danger">Cancelar</button>'*/
             ]).draw();	
 
