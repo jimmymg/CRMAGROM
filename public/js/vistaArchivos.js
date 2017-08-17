@@ -4,6 +4,24 @@ $("#archivos_cotizacion").click(function(){
 	cargarArchivos( proyecto , 1 );
 });
 
+$("#archivos_orden_compra_cliente").click(function(){
+	$("#vistaArchivosModal").modal('show');
+	var proyecto = $("#siguiente_fase").attr("data-proyecto");
+	cargarArchivos( proyecto , 2 );
+});
+
+$("#archivos_orden_compra_proveedor").click(function(){
+	$("#vistaArchivosModal").modal('show');
+	var proyecto = $("#siguiente_fase").attr("data-proyecto");
+	cargarArchivos( proyecto , 3 );
+});
+
+$("#archivos_formato_pedido").click(function(){
+	$("#vistaArchivosModal").modal('show');
+	var proyecto = $("#siguiente_fase").attr("data-proyecto");
+	cargarArchivos( proyecto , 4 );
+});
+
 $("#vistaArchivosModal").on('hidden.bs.modal' , function(e){
             $("body").addClass("modal-open");
  });

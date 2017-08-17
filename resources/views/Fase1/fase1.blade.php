@@ -267,7 +267,7 @@
                         </div>
 
                         <h4>Orden De Compra Cliente(Obligatorio)
-                            <button class="btn waves-effect">
+                            <button class="btn waves-effect" id="archivos_orden_compra_cliente">
                                 <span class="glyphicon glyphicon-folder-open"></span>
                             </button> 
                         </h4>
@@ -277,7 +277,7 @@
                         <input id="ordencompra" name="archivos[]" type="file" multiple class="file-loading">
 
                         <h4>Orden De Compra Proveedor
-                            <button class="btn waves-effect">
+                            <button class="btn waves-effect" id="archivos_orden_compra_proveedor">
                                 <span class="glyphicon glyphicon-folder-open"></span>
                             </button> 
                         </h4>
@@ -287,7 +287,7 @@
                         <input id="ordenproveedor" name="archivos[]" type="file" multiple class="file-loading">
 
                         <h4>Adjunto Formato Pedido
-                            <button class="btn waves-effect">
+                            <button class="btn waves-effect" id="archivos_formato_pedido">
                                 <span class="glyphicon glyphicon-folder-open"></span>
                             </button> 
                         </h4>
@@ -707,6 +707,7 @@
             //#####Editar
             $("#data-proyecto").val(id);
             //########
+            //alert( $("#data-proyecto").val());
             archivos( $("#data-proyecto").val() , 0);
 
             $("#palce_of_cotizacion").html(
@@ -718,9 +719,9 @@
                     uploadUrl   : 'Fase1/Ver_Proyecto/Archivos',
                     uploadAsync : true  ,
                     showPreview : false ,
-                    uploadExtraData: {
-                        tipo: 1 ,
-                        proyecto : $("#data-proyecto").val() ,
+                    uploadExtraData: function(previewId , index) {
+
+                        return { "tipo" : 1 , "proyecto" : $("#data-proyecto").val() };
                     }
                 });
 
@@ -735,9 +736,11 @@
                     uploadUrl   : 'Fase1/Ver_Proyecto/Archivos',
                     uploadAsync : true  ,
                     showPreview : false ,
-                    uploadExtraData : {
-                        tipo : 2 ,
-                        proyecto :$("#data-proyecto").val() ,
+                    uploadExtraData : function(previewId , index) {
+
+                        return { "tipo" : 2 , "proyecto" : $("#data-proyecto").val() };
+                       /* tipo : 2 ,
+                        proyecto : ,*/
                     }
                 });
 
@@ -752,9 +755,11 @@
                     uploadUrl   : 'Fase1/Ver_Proyecto/Archivos',
                     uploadAsync : true  ,
                     showPreview : false ,
-                    uploadExtraData : {
-                        tipo : 3 ,
-                        proyecto : $("#data-proyecto").val() ,
+                    uploadExtraData : function(previewId , index) {
+
+                        return { "tipo" : 3 , "proyecto" : $("#data-proyecto").val() };
+                       /* tipo : 2 ,
+                        proyecto : ,*/
                     }
                 });
 
@@ -768,9 +773,11 @@
                     uploadUrl   : 'Fase1/Ver_Proyecto/Archivos' ,
                     uploadAsync: true   ,
                     showPreview: false  ,
-                    uploadExtraData: {
-                        tipo: 4         ,
-                        proyecto : $("#data-proyecto").val() ,
+                    uploadExtraData: function(previewId , index) {
+
+                        return { "tipo" : 4 , "proyecto" : $("#data-proyecto").val() };
+                       /* tipo : 2 ,
+                        proyecto : ,*/
                     }
                 });
 

@@ -88,6 +88,11 @@ animation-delay: .8s;
     50% {height:5px;transform:translateY(0px);background:#9b59b6;}
     100% {height:5px;transform:translateY(0px);background:#9b59b6;}
 }
+
+#dataTables-Contactos-Extras_wrapper {
+    padding-left:  20px;
+    padding-right: 20px;
+}
 </style>
 
 <div class="modal fade" id="ModalCEClientes" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
