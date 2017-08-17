@@ -64,8 +64,8 @@
                                         <thead>
                                             <tr>
                                                 <th width="5%">#</th>
-                                                <th>Inicador</th>
-                                                <th width="30%">Proyecto</th>
+                                                <th>Actividad</th>
+                                                <th width="20%">Proyecto</th>
                                                 <th>Tipo</th>
                                                 <th>Moneda</th>
                                                 <th>Valor</th>

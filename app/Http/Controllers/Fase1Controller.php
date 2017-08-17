@@ -78,7 +78,10 @@ class Fase1Controller extends Controller
 
             $consulta = "SELECT proyectos.id , proyectos .nombre , proyectos .descripcion , proyecto_tipos.`nombre` AS tipo , moneda.`nombre` AS moneda , proyecto_areas.`nombre` AS area ,
                 clientes.`nombre` AS cliente , empresas.`nombre` AS empresa , proyecto_estados.`nombre` AS estado , usuarios.`nombre` AS usuario , fuentes.`nombre` AS fuente ,
-                proyectos.`created_at` , proyectos.valor  , A1.created_at AS ultimo_seguimiento
+                proyectos.`created_at` , proyectos.valor  , 
+       IFNULL(  DATEDIFF(  DATE(NOW()) , DATE( proyectos.`created_at`) ) , DATEDIFF(  DATE(NOW()) , DATE(A1.created_at) ) ) 
+       
+       AS ultimo_seguimiento , DATEDIFF(  DATE(NOW()) , DATE(A1.created_at) )  AS FECHA
                 FROM proyectos  
                 INNER JOIN  proyecto_tipos  ON proyectos.`id_proyecto_tipo` = proyecto_tipos.`id`
                 INNER JOIN moneda           ON proyectos.`id_moneda` = moneda.`id`
@@ -101,7 +104,10 @@ class Fase1Controller extends Controller
             //Todos Admin
             $consulta = "SELECT proyectos.id , proyectos .nombre , proyectos .descripcion , proyecto_tipos.`nombre` AS tipo , moneda.`nombre` AS moneda , proyecto_areas.`nombre` AS area ,
                 clientes.`nombre` AS cliente , empresas.`nombre` AS empresa , proyecto_estados.`nombre` AS estado , usuarios.`nombre` AS usuario , fuentes.`nombre` AS fuente ,
-                proyectos.`created_at` , proyectos.valor , A1.created_at AS ultimo_seguimiento
+                proyectos.`created_at` , proyectos.valor , 
+       IFNULL(  DATEDIFF(  DATE(NOW()) , DATE( proyectos.`created_at`) ) , DATEDIFF(  DATE(NOW()) , DATE(A1.created_at) ) ) 
+       
+       AS ultimo_seguimiento , DATEDIFF(  DATE(NOW()) , DATE(A1.created_at) )  AS FECHA
                 FROM proyectos  
                 INNER JOIN  proyecto_tipos  ON proyectos.`id_proyecto_tipo` = proyecto_tipos.`id`
                 INNER JOIN moneda           ON proyectos.`id_moneda` = moneda.`id`
