@@ -16,3 +16,5 @@
     <link href='https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.5/sweetalert2.css' rel='stylesheet' type='text/css' />
     <link href="{{url('js/dataTables/dataTables.bootstrap.css')}}">
     <link href="{{url('css/second_preloader.css')}}" rel="stylesheet">
+
+    <link href="{{url('css/animate.css')}}" rel="stylesheet">

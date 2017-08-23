@@ -108,6 +108,16 @@
                     </button>
                 </div>
                 <div class="modal-body col-sm-12">
+                    <div id="cargando-Proyecto">
+                        <div style="margin-left:45%" id="preloader_1">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+
                     <input type="hidden" id="data-proyecto">
                     <div class="col-sm-6">
                         <div class="form-horizontal">
@@ -297,7 +307,10 @@
                         <input id="formatopedido" name="archivos[]" type="file" multiple class="file-loading">
 
                      
-                        <button id="siguiente_fase" style="margin-top:20px" type="button" class=" col-sm-12 waves-effect btn btn-success btn-lg">Siguiente Fase</button>
+                        <button id="siguiente_fase" style="margin-top:20px;display: grid;" type="button" class=" col-sm-12 waves-effect btn btn-success btn-lg">
+                        <i class="glyphicon glyphicon-credit-card fa-2x"></i>
+                        Siguiente Fase Anticipos y Adminpaq
+                        </button>
                         
                     </div>
                     <div class="col-sm-12">
@@ -702,6 +715,13 @@
 
         $(document).on("click",".verProyecto", function(){
             //Aqui es dodne empieza todo
+            $("#cargando-Proyecto").show();
+            //$("#cargando-Proyecto").parent().find("div:nth-child(2)").hide();
+            $("#cargando-Proyecto").parent().find("div:nth-child(3)").hide();
+            $("#cargando-Proyecto").parent().find("div:nth-child(4)").hide();
+            $("#cargando-Proyecto").parent().find("div:nth-child(5)").hide();
+            $("#cargando-Proyecto").parent().find("input").hide();
+
             var id = $(this).attr("data-proyecto");
             $("#agendar_el_recordatorio").attr("data-proyecto",id);
             //#####Editar
@@ -848,11 +868,17 @@
                 $("#proyecto_marcas").html(html_marcas);
                 $("#proyecto_administradores").html(html_admin);
 
+            $("#cargando-Proyecto").hide();
+            $("#cargando-Proyecto").parent().find("div:nth-child(3)").show();
+            $("#cargando-Proyecto").parent().find("div:nth-child(4)").show();
+            $("#cargando-Proyecto").parent().find("div:nth-child(5)").show();
+            $("#cargando-Proyecto").parent().find("input").show();
+
             })
             .error(function(error){
                 alert("Error al Cargar Proyecto");
             });
-        });
+        });//VerProyecto
 
         $("#guardar_seguimiento").click(function(){
             var texto = $("#seguimiento_texto").val();
@@ -902,15 +928,40 @@
         $("#siguiente_fase").click(function(){
             var proyecto = $(this).attr("data-proyecto");
 
-            $.post("Fase1/Ver_Proyecto/siguienteFase",{
-                proyecto : proyecto
-            })
-            .done(function(){
-                window.location.href = "Fase1";
-            })
-            .error(function(error){
+            //Validar que aya Cotizacion y Orden de Compra
 
-            });
+            
+
+            swal({
+                title: '¿Quieres Cambiar de Fase?',
+                showCancelButton: true,
+                confirmButtonText: 'Si',
+                showLoaderOnConfirm: true,
+                preConfirm: function () {
+                   
+                        $.post("Fase1/Ver_Proyecto/siguienteFase",{
+                            proyecto : proyecto
+                        })
+                        .done(function(){
+                            resolve()
+                            window.location.href = "Fase1";
+                        })
+                        .error(function(error){
+            
+                        });                      
+                       
+                    
+                },
+                allowOutsideClick: false
+                }).then(function () {
+                    swal({
+                        type: 'success',
+                        title: 'Listo',
+                        html: 'Pedido Cambiado a Fase 2' , animation: false , customClass: 'animated hinge' ,
+                        timer: 2000
+                    })
+                })
+
         });
 
         /*################################################################################*/
@@ -1114,12 +1165,17 @@
 
         function archivos(proyecto , tipo)
         {   
-        
+            //Explicacion del if tipo = 0; es para que cuando uno le de click en ver el proyecto se despliegue los archivos que ya se subieron, en dado caso que sea diferente de 0 quiere decir que el usuario subio un archivo y para que le aparesca cual subio se envia del 1 al 4 y solo pone la url de ese
             $.get("Fase1/Ver_Proyecto/getarchivos/"+proyecto+"/"+tipo)
             .done(function(data){
                 console.log("Archivos");
                 console.log(data);
-                console.log("/////////////////////")
+                console.log("/////////////////////");
+
+                //Archivos Importantes
+                var important1 = false;
+                var important2 = false;
+
                 //Si es cero quiere decir que en el data hay de todos los tipos
                 var html = "";
                 if( tipo == 0 )
@@ -1159,6 +1215,8 @@
                                         '<a href="'+url+'" download>Ultima Cotizacion'+resultado[x].created_at+'</a>';
                                         $("#descargar_cotizacion").html(html);
                                        uno = true;
+
+                                       important1 = true;
                                     } 
 
                                 break;
@@ -1172,7 +1230,7 @@
                                         '<a href="'+url+'" download>Ultima Orden de Compra'+resultado[x].created_at+'</a>';
                                         $("#descargar_ordencompra").html(html);
                                        dos = true;
-
+                                            important2 = true;
                                         } 
                                 break;
                                 case 3:
@@ -1221,7 +1279,7 @@
                                         '<a href="'+url+'" download>Ultima Cotizacion'+resultado[x].created_at+'</a>';
                                         $("#descargar_cotizacion").html(html);
                                     
-                                    
+                                        important1 = true;
                                 break;
                                 case 2:
                                 
@@ -1232,7 +1290,7 @@
 
                                         '<a href="'+url+'" download>Ultima Orden de Compra'+resultado[x].created_at+'</a>';
                                         $("#descargar_ordencompra").html(html);
-                                        
+                                        important1 = true;
                                 break;
                                 case 3:
                                         $("#descargar_ordenproveedor").html('');
@@ -1257,6 +1315,18 @@
                                      
                                     break;
                             }
+                }
+////Solo funciona cuando lo estas abriendo, si lo subes alli, no funciona :(
+                if( tipo == 0 )
+                {
+                    //Si los dos son true remove disabled
+                    $("#siguiente_fase").attr("disabled","disabled");
+                }else{
+
+                    //Si se sube uno checar si ya se subio el otro
+
+                    $("#siguiente_fase").removeAttr("disabled");
+
                 }
             })
             .error(function(){

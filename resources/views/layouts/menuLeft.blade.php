@@ -13,7 +13,7 @@
                             </li>
                             @if( Auth::user()->id_area == 1 || Auth::user()->id_area == 3 || Auth::user()->id_area == 4 )
                             <li>
-                                <a href="{{url('/Fase2')}}" class="waves-effect">Anticipos y AdminPac</a>
+                                <a href="{{url('/Fase2')}}" class="waves-effect">Anticipos y AdminPaq</a>
                             </li>
                             @endif
 
