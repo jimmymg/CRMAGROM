@@ -48,15 +48,16 @@
                                             <tr>
                                                 <th width="10%">#</th>
                                                 <th width="20%">Nombre</th>
+                                                <th>Cargo</th>
                                                 <th >Correo</th>
                                                 <th>Correo Alt.</th>
-                                                    <th>Telefono</th>
-                                                 <th>Celular</th>
-                                                 <th>Empresa</th>
+                                                <th>Telefono</th>
+                                                <th>Celular</th>
+                                                <th>Empresa</th>
                                             </tr>
                                         </thead>
                                         <tbody>
-                           
+                                            
                                         </tbody>
                                     </table>
                                 </div>
@@ -90,6 +91,8 @@
                     
                     <span>Nombre</span>
                     <input type="text" id="cliente_nombre" class="form-control">
+                    <span>Cargo</span>
+                    <input type="text" id="cliente_cargo" class="form-control">
                     <span>Correo</span>
                     <input type="text" id="cliente_correo" class="form-control">
                     <span>Correo Alternativo</span>
@@ -184,6 +187,7 @@
         $("#guardar_Cliente").click(function(){
 
             var nombre     = $("#cliente_nombre").val();
+            var cargo      = $("#cliente_cargo").val();
             var correo1    = $("#cliente_correo").val();
             var correo2    = $("#cliente_correoA").val();
             var telefono   = $("#cliente_telefono").val();
@@ -196,7 +200,7 @@
                 errorEmpresa = true;
             }
 
-            if( nombre == "" || correo1 == "" || correo2 == "" || telefono == "" || celular == "" )
+            if( nombre == "" || correo1 == "" || telefono == "" || celular == "" || cargo == "" )
             {
                 errorGenerico= true;
                 errorEmpresa   = true;
@@ -209,6 +213,7 @@
 
                 $.post("Clientes/AgregarCliente",{
                     nombre     : nombre     ,
+                    cargo      : cargo      ,
                     correo1    : correo1    ,
                     correo2    : correo2    ,
                     telefono   : telefono   ,
@@ -323,6 +328,7 @@
                     tabla.row.add([
                             x+1 ,
                             data[x].nombre   ,
+                            data[x].cargo    ,
                             data[x].correo1  ,
                             data[x].correo2  ,
                             data[x].telefono ,

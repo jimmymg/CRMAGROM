@@ -366,6 +366,9 @@
         Waves.init();
         $('#main-menu').metisMenu();
         
+        var important1 = false;
+        var important2 = false;
+
         $(window).bind("load resize", function () {
             if ($(this).width() < 768) {
                 $('div.sidebar-collapse').addClass('collapse')
@@ -715,6 +718,10 @@
 
         $(document).on("click",".verProyecto", function(){
             //Aqui es dodne empieza todo
+            //Archivos Importantes
+                important1 = false;
+                important2 = false;
+
             $("#cargando-Proyecto").show();
             //$("#cargando-Proyecto").parent().find("div:nth-child(2)").hide();
             $("#cargando-Proyecto").parent().find("div:nth-child(3)").hide();
@@ -1161,8 +1168,6 @@
             $("#lugar_comentarios").html(html);
         }
 
-
-
         function archivos(proyecto , tipo)
         {   
             //Explicacion del if tipo = 0; es para que cuando uno le de click en ver el proyecto se despliegue los archivos que ya se subieron, en dado caso que sea diferente de 0 quiere decir que el usuario subio un archivo y para que le aparesca cual subio se envia del 1 al 4 y solo pone la url de ese
@@ -1171,10 +1176,6 @@
                 console.log("Archivos");
                 console.log(data);
                 console.log("/////////////////////");
-
-                //Archivos Importantes
-                var important1 = false;
-                var important2 = false;
 
                 //Si es cero quiere decir que en el data hay de todos los tipos
                 var html = "";
@@ -1290,7 +1291,7 @@
 
                                         '<a href="'+url+'" download>Ultima Orden de Compra'+resultado[x].created_at+'</a>';
                                         $("#descargar_ordencompra").html(html);
-                                        important1 = true;
+                                        important2 = true;
                                 break;
                                 case 3:
                                         $("#descargar_ordenproveedor").html('');
@@ -1317,17 +1318,17 @@
                             }
                 }
 ////Solo funciona cuando lo estas abriendo, si lo subes alli, no funciona :(
-                if( tipo == 0 )
-                {
+              
                     //Si los dos son true remove disabled
-                    $("#siguiente_fase").attr("disabled","disabled");
-                }else{
-
-                    //Si se sube uno checar si ya se subio el otro
-
-                    $("#siguiente_fase").removeAttr("disabled");
-
-                }
+                    
+                    if( important1 == true && important2 == true  )
+                    {
+                        $("#siguiente_fase").removeAttr("disabled");
+                    }else{
+                        $("#siguiente_fase").attr("disabled","disabled");
+                    }
+                    
+                
             })
             .error(function(){
                 alert("Error Al Consultar las Cotizaciones");

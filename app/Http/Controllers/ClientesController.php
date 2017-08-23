@@ -22,7 +22,7 @@ class ClientesController extends Controller
 
     public function getClientes()
     {
-    	return DB::select("SELECT clientes.id , clientes.nombre , clientes.correo1 , clientes.correo2 , clientes.telefono , clientes.celular , empresas.nombre as empresa , empresas.giro, empresas.direccion , empresas.ciudad , empresas.estado , clientes.created_at
+    	return DB::select("SELECT clientes.id , clientes.nombre , clientes.cargo ,clientes.correo1 , clientes.correo2 , clientes.telefono , clientes.celular , empresas.nombre as empresa , empresas.giro, empresas.direccion , empresas.ciudad , empresas.estado , clientes.created_at
     						FROM clientes
     						LEFT JOIN empresas ON empresas.id = clientes.id_empresa
     						ORDER BY created_at desc");
@@ -33,6 +33,7 @@ class ClientesController extends Controller
     public function insertarCliente(Request $request)
     {
     	$nombre     = $request->input('nombre');
+        $cargo      = $request->input('cargo');
     	$correo1    = $request->input('correo1');
     	$correo2    = $request->input('correo2');
     	$telefono   = $request->input('telefono');
@@ -46,6 +47,7 @@ class ClientesController extends Controller
     	
     	DB::table("clientes")->insert([
     			"id_empresa" => $id_empresa ,
+                "cargo"      => $cargo      ,
     			"nombre"     => $nombre     ,
     			"correo1"    => $correo1    ,
     			"correo2"    => $correo2    ,
