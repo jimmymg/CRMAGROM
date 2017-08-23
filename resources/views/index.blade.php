@@ -25,6 +25,11 @@
                     </div>
                 </div>
                 <!-- /. ROW  -->
+                <style>
+                    .titulo_fase {
+                        font-size:15pt;display: grid;
+                    }
+                </style>
 
                 <div class="row">
 
@@ -37,6 +42,7 @@
                                 <h3>{{$activos}} Activos</h3>
                             </div>
                             <div class="panel-footer back-footer-green">
+                                <strong class="titulo_fase" > Fase 1 </strong>
                                 Oportunidades
 
                             </div>
@@ -51,7 +57,8 @@
                                 <h3> Pendientes</h3>
                             </div>
                             <div class="panel-footer back-footer-blue">
-                                Anticipos y Adminpac
+                                <strong class="titulo_fase" > Fase 2 </strong>
+                                Anticipos y Adminpaq
 
                             </div>
                         </div>
@@ -66,6 +73,7 @@
                                 <h3> Pendientes</h3>
                             </div>
                             <div class="panel-footer back-footer-red">
+                                <strong class="titulo_fase" > Fase 3 </strong>
                                 Facturacion
 
                             </div>
@@ -80,8 +88,9 @@
                                 <h3> Pendientes</h3>
                             </div>
                             <div class="panel-footer back-footer-brown">
+                                <strong class="titulo_fase" > Fase 4 </strong>
                                 Logistica
-
+                                
                             </div>
                         </div>
                     </div>
@@ -98,6 +107,7 @@
                                 <h3> Pendientes</h3>
                             </div>
                             <div class="panel-footer back-footer-green">
+                                <strong class="titulo_fase" > Fase 5 </strong>
                                 Pendientes Administrativos
 
                             </div>
@@ -112,6 +122,7 @@
                                 <h3>15 Pendientes</h3>
                             </div>
                             <div class="panel-footer back-footer-blue">
+                                <strong class="titulo_fase" > Fase 6 </strong>
                                 Instalacion y Arranque
 
                             </div>
@@ -126,6 +137,7 @@
                                 <h3> Pendientes</h3>
                             </div>
                             <div class="panel-footer back-footer-red">
+                                <strong class="titulo_fase" > Fase 6 </strong>
                                 Post Venta
 
                             </div>
