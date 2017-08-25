@@ -945,7 +945,8 @@
                 confirmButtonText: 'Si',
                 showLoaderOnConfirm: true,
                 preConfirm: function () {
-                   
+                   return new Promise(function (resolve, reject) {
+                    
                         $.post("Fase1/Ver_Proyecto/siguienteFase",{
                             proyecto : proyecto
                         })
@@ -954,10 +955,10 @@
                             window.location.href = "Fase1";
                         })
                         .error(function(error){
-            
-                        });                      
-                       
-                    
+                            alert("Error al Cambiar de Fase");
+                            reject();
+                        });                     
+                    })
                 },
                 allowOutsideClick: false
                 }).then(function () {

@@ -21,6 +21,22 @@ $("#archivos_formato_pedido").click(function(){
 	var proyecto = $("#siguiente_fase").attr("data-proyecto");
 	cargarArchivos( proyecto , 4 );
 });
+//FASE 2
+$("#archivos_anticipo_cliente").click(function(){
+	//alert("click");
+	$("#vistaArchivosModal").modal('show');
+	var proyecto = $("#data-proyecto").val();
+	cargarArchivos( proyecto , 5 );
+});
+
+$("#archivos_anticipo_proveedor").click(function(){
+	//alert("click");
+
+	$("#vistaArchivosModal").modal('show');
+	var proyecto = $("#data-proyecto").val();
+	cargarArchivos( proyecto , 6 );
+});
+
 
 $("#vistaArchivosModal").on('hidden.bs.modal' , function(e){
             $("body").addClass("modal-open");
@@ -30,9 +46,9 @@ function cargarArchivos( $proyecto , $tipoArchivo )
 {
 	$.get('Archivos/'+$tipoArchivo+'/proyecto/'+$proyecto)
 	.done(function(data){
-		console.log("||||Archivos:");
+		console.log("||||Archivos:||||");
 		console.log(data);
-
+ $("#dataTables-Archivos tbody").html("");
 		var tabla = $("#dataTables-Archivos").DataTable();
 		tabla.clear();
 		for( var x = 0 ; x < Object.keys(data).length ; x++ )

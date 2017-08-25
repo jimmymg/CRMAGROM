@@ -61,7 +61,10 @@
                     </li> 
                     <li>
                         <a href='{{url("/GoogleCalendar")}}' class="waves-effect"><i  class="glyphicon glyphicon-calendar"></i>Google Calendar Recordatorio</a>
-                    </li>        
+                    </li>  
+                    <li>
+                        <a href='{{url("/MisRecordatorios")}}' class="waves-effect"><i  class="glyphicon glyphicon-time"></i>Mis Recordatorios CRM</a>
+                    </li>       
                 </ul>
 
             </div>

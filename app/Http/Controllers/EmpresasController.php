@@ -38,7 +38,8 @@ class EmpresasController extends Controller
     			"giro"      => $giro      ,
     			"direccion" => $direccion ,
     			"ciudad"    => $ciudad    ,
-                "estado"    => $estado
+                "estado"    => $estado    ,
+                "created_by" => Auth::user()->id
     		]);
     }
 
@@ -61,7 +62,7 @@ class EmpresasController extends Controller
                 "giro"      => $giro      ,
                 "direccion" => $direccion ,
                 "ciudad"    => $ciudad    ,
-                "estado"    => $estado
+                "estado"    => $estado    
             ]);
     }
 

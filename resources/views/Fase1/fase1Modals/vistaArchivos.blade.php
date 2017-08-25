@@ -2,17 +2,21 @@
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Vista de Archivos</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <style>
                 th { text-align: center; }
+                #dataTables-Archivos_wrapper{
+                        padding-left: 15px;
+                        padding-right: 15px;
+                }
             </style>
             <div class="modal-body">
                 <div class="table-responsive">
-                    <table class="table table-striped table-bordered table-hover" 
+                    <table style="padding-left: 10px; padding-right: 10px;" class="table table-striped table-bordered table-hover" 
                                 id="dataTables-Archivos">
                         <thead>
                             <tr>

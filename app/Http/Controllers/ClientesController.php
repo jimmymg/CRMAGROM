@@ -22,10 +22,21 @@ class ClientesController extends Controller
 
     public function getClientes()
     {
-    	return DB::select("SELECT clientes.id , clientes.nombre , clientes.cargo ,clientes.correo1 , clientes.correo2 , clientes.telefono , clientes.celular , empresas.nombre as empresa , empresas.giro, empresas.direccion , empresas.ciudad , empresas.estado , clientes.created_at
+    	return DB::select("SELECT clientes.id , clientes.nombre , clientes.cargo ,clientes.correo1 , clientes.correo2 , clientes.telefono , clientes.celular , empresas.nombre as empresa , empresas.giro, empresas.direccion , empresas.ciudad , empresas.estado , clientes.created_at , CB.nombre as created_by , UB.nombre as updated_by
     						FROM clientes
     						LEFT JOIN empresas ON empresas.id = clientes.id_empresa
+                            left join usuarios as CB on clientes.created_by = CB.id
+                            left join usuarios UB on clientes.updated_by = UB.id
     						ORDER BY created_at desc");
+    }
+
+    public function getCliente($cliente)
+    {
+        return DB::SELECT('SELECT clientes.id , clientes.nombre , clientes.cargo ,clientes.correo1 , clientes.correo2 , clientes.telefono, clientes.celular , empresas.id as id_empresa , empresas.nombre as empresa , empresas.giro, empresas.direccion , empresas.ciudad ,                     empresas.estado , clientes.created_at
+                            FROM clientes
+                            LEFT JOIN empresas ON empresas.id = clientes.id_empresa
+                        
+                            WHERE clientes.id='.$cliente);
     }
 
 
@@ -45,6 +56,10 @@ class ClientesController extends Controller
     		$id_empresa = null; 
     	}
     	
+        if( empty($correo2) ){
+            $correo2 = 'N/A';
+        }
+
     	DB::table("clientes")->insert([
     			"id_empresa" => $id_empresa ,
                 "cargo"      => $cargo      ,
@@ -52,9 +67,35 @@ class ClientesController extends Controller
     			"correo1"    => $correo1    ,
     			"correo2"    => $correo2    ,
     			"telefono"   => $telefono   ,
-    			"celular"    => $celular
+    			"celular"    => $celular    ,
+                "created_by" => Auth::user()->id
     		]);
     		
+    }
+
+    public function actualizarCliente(Request $request)
+    {
+        $cliente    = $request->input('cliente');
+        $nombre     = $request->input('nombre');
+        $cargo      = $request->input('cargo');
+        $correo     = $request->input('correo');
+        $correoA    = $request->input('correoA');
+        $telefono   = $request->input('telefono');
+        $celular    = $request->input('celular');
+        $empresa    = $request->input('empresa');
+
+        DB::TABLE("clientes")->WHERE("id",$cliente)->UPDATE([
+                "id_empresa" => $empresa ,
+                "nombre"     => $nombre  ,
+                "cargo"      => $cargo   ,
+                "correo1"    => $correo  ,
+                "correo2"    => $correoA ,
+                "telefono"   => $telefono ,
+                "celular"    => $celular ,
+                "updated_by" => Auth::user()->id
+            ]);
+
+
     }
 
 }

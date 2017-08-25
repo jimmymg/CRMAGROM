@@ -7,7 +7,6 @@
     <!-- Bootstrap Styless-->
     @include("layouts.css")
     <link href="{{url('css/fileinput.min.css')}}" rel="stylesheet" />
-    <link href="{{url('js/dataTables/dataTables.bootstrap.css')}}" rel="stylesheet" />
     <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
 </head>
 
@@ -58,7 +57,7 @@
                                             <tr>
                                                 <td>{{$contador++}}</td>
                                                 <td>
-                                                    <button data-target="#modalProyecto" data-toggle="modal" type="button" class="btn verProyecto" data-proyecto="{{$proyecto->id}}">
+                                                    <button data-target="#modalProyecto" data-toggle="modal" type="button" class="btn verProyecto btn-primary" data-proyecto="{{$proyecto->id}}">
                                                         <span class="glyphicon glyphicon-search"></span>
                                                     </button>
                                                     {{$proyecto->nombre}}
@@ -102,8 +101,19 @@
                 <div class="modal-body col-sm-12">
                     <!-- Seccion de Fase 2 -->
 
+                    <div id="cargando-Proyecto">
+                        <div style="margin-left:45%" class="cargando2">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+
+                    <input type="hidden" id="data-proyecto" value="">
                     <div class="col-sm-12">
-                        <h2 style="text-align: center;">SERVICIO</h2>
+                        <h2 id="titulo" style="text-align: center;">SERVICIO</h2>
                     </div>
 
                     <div class="col-sm-12">
@@ -122,7 +132,7 @@
                                 <input id="cliente_abono" type="text" class="form-control">
                                 <span>Pendiente por Pagar:</span>
                                 <input id="cliente_pendiente" type="text" class="form-control">
-                                <span>Fecha de Pago Del Cliente</span>
+                                <span>Fecha del Siguiente Pago Del Cliente</span>
                                 <input id="cliente_fecha" class="form-control" type="date">
                                 <span>Comentarios Sobre Acuerdo de Pago</span>
                                 <textarea id="cliente_acuerdo" class="form-control"></textarea>
@@ -145,7 +155,7 @@
                                 <input id="proveedor_abono" type="text" class="form-control">
                                 <span>Pendiente por Pagar:</span>
                                 <input id="proveedor_pendiente" type="text" class="form-control">
-                                <span>Fecha de Pago Al Proveedor</span>
+                                <span>Fecha del Siguiente Pago Al Proveedor</span>
                                 <input id="proveedor_fecha" class="form-control" type="date">
                                 <span>Comentarios Sobre Acuerdo de Pago</span>
                                 <textarea id="proveedor_acuerdo" class="form-control"></textarea>
@@ -170,7 +180,7 @@
 
                         <h3>Archivos</h3>
                         <h4>Anticipo Cliente
-                            <button class="btn waves-effect">
+                            <button type="button" class="btn waves-effect" id="archivos_anticipo_cliente">
                                 <span class="glyphicon glyphicon-folder-open"></span>
                             </button> 
                         </h4>
@@ -179,7 +189,7 @@
                         <input id="file_anticipo_cliente" name="archivos[]" type="file" multiple class="file-loading">
 
                         <h4>Anticipo Proveedor
-                            <button class="btn waves-effect">
+                            <button type="button" class="btn waves-effect" id="archivos_anticipo_proveedor">
                                 <span class="glyphicon glyphicon-folder-open"></span>
                             </button> 
                         </h4>
@@ -200,16 +210,20 @@
         </div>
     </div>
 
-
+    @include('Fase1.fase1Modals.vistaArchivos')
    
     <!-- /. WRAPPER  -->
     <!-- JS Scripts-->
     <!-- jQuery Js -->
     @include('layouts.js')
+    
     <script src="{{url('js/fileinput.min.js')}}"></script>
     <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
     <script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
     <script>tinymce.init({ selector:'#comentario' });</script>
+    <script src="{{url('js/vistaArchivos.js')}}"></script>
+
+
     <script>
         Waves.init();
         $('#main-menu').metisMenu();
@@ -249,9 +263,20 @@
             });
 
             $(document).on("click",".verProyecto", function(){
-                $("#siguiente_fase").attr("data-proyecto",$(this).attr("data-proyecto"));
-                cargar_proyecto($(this).attr("data-proyecto"));
-                var id = $(this).attr("data-proyecto");
+               
+                $("#cargando-Proyecto").show();
+               // $("#cargando-Proyecto").parent().find("div:nth-child(2)").hide();
+                $("#cargando-Proyecto").parent().find("div:nth-child(3)").hide();
+                $("#cargando-Proyecto").parent().find("div:nth-child(4)").hide();
+                $("#cargando-Proyecto").parent().find("div:nth-child(5)").hide();
+
+                $("#data-proyecto").val($(this).attr("data-proyecto"));
+                var id = $("#data-proyecto").val();
+                //$("#siguiente_fase").attr("data-proyecto",$(this).attr("data-proyecto"));
+
+                cargar_proyecto(id);
+
+                //Sirve para ver si ya se subio un archivo
                 archivos( id , 0);
 
                 $("#file_anticipo_cliente").fileinput({
@@ -259,12 +284,13 @@
                     uploadUrl   : 'Fase2/Ver_Proyecto/Archivos',
                     uploadAsync : true  ,
                     showPreview : false ,
-                    uploadExtraData: {
-                        tipo: 5 ,
-                        proyecto :id ,
+                    uploadExtraData: function(previewId , index) {
+
+                        return { "tipo" : 5 , "proyecto" : id };
                     }
                 });
 
+                //Sirva para que cuando se suba un archivo lo muestre solo ese archivo
                 $("#file_anticipo_cliente").on('fileuploaded',function(){
                     /*Archivos Subidos*/
                     
@@ -276,9 +302,9 @@
                     uploadUrl   : 'Fase2/Ver_Proyecto/Archivos',
                     uploadAsync : true  ,
                     showPreview : false ,
-                    uploadExtraData: {
-                        tipo: 6 ,
-                        proyecto :id ,
+                    uploadExtraData: function(previewId , index) {
+
+                        return { "tipo" : 6 , "proyecto" : id };
                     }
                 });
 
@@ -288,14 +314,16 @@
                     archivos(id, 6);
                 });
 
-            });
+                
+
+            });//verProyecto
 
             $("#siguiente_fase").click(function(){
 
                 var cliente_s   = $("#anticipo_cliente").val();
                 var proveedor_s = $("#anticipo_proveedor").val();
 
-                var proyecto  = $(this).attr("data-proyecto");
+                var proyecto  = $("#data-proyecto").val();
                 
                 var cliente = false;
                 var cliente_total = "";
@@ -303,6 +331,7 @@
                 var cliente_pendiente = "";
                 var cliente_fecha_de_pago = "";
                 var cliente_comentario = "";
+
                 var proveedor = false;
                 var proveedor_total = "";
                 var proveedor_abono = "";
@@ -310,7 +339,6 @@
                 var proveedor_fecha_de_pago = "";
                 var proveedor_comentario = "";
 
-                var proyecto = $(this).attr("data-proyecto");
                 var numero_admin = $("#numero_adminpac").val();
 
                 var cliente_error = false;
@@ -323,7 +351,7 @@
                     cliente_fecha_de_pago = $("#cliente_fecha").val();
                     cliente_comentario    = $("#cliente_acuerdo").val();
 
-                    if( cliente_total == "" || cliente_abono == "" || cliente_pendiente == "" || cliente_fecha_depago == "" || cliente_comentario == ""  )
+                    if( cliente_total == "" || cliente_abono == "" || cliente_pendiente == "" || cliente_fecha_de_pago == "" || cliente_comentario == ""  )
                     {
                         cliente_error = true;
                     }
@@ -403,7 +431,7 @@
 
                 }
 
-            });
+            });//End Siguiente Fase
 
             function cargar_proyecto(proyecto)
             {
@@ -412,6 +440,7 @@
                     console.log(data);
                     var html = "";
                     var administradores = data["administradores"];
+                    var proyecto        = data['proyecto'][0];
                     for( var x = 0 ; x < Object.keys(administradores).length  ; x++)
                     {
 
@@ -423,9 +452,16 @@
                                 '</div>';
                          
                     }
-
+                    $("#titulo").html(proyecto.tipo);
                     $("#proyecto_administradores").html(html);
 
+                    $("#cargando-Proyecto").hide();
+                    $("#cargando-Proyecto").parent().find("div:nth-child(3)").show();
+                    $("#cargando-Proyecto").parent().find("div:nth-child(4)").show();
+                    $("#cargando-Proyecto").parent().find("div:nth-child(5)").show();
+
+                    $("#anticipo_cliente").parent().find("div").hide();
+                    $("#anticipo_proveedor").parent().find("div").hide();
                 })
                 .error(function(error){
                     alert("Error al Cargar el Proyecto")

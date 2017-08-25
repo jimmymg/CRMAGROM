@@ -93,8 +93,8 @@
 
                                     <button id="showinformacion" style="margin-top:10px;" type="button" class="btn btn-primary">Informacion</button>
 
-                                    <h4>Pago del Cliente: <strong>{{$proyecto->a_c}}</strong></h4>
-                                    <h4>Pago al Proveedor: <strong>{{$proyecto->a_p}}</strong></h4>
+                                    <h4>Siguiente Pago del Cliente: <strong>{{$proyecto->a_c}}</strong></h4>
+                                    <h4>Siguiente Pago al Proveedor: <strong>{{$proyecto->a_p}}</strong></h4>
                                 </div>
                                 <div class="col-sm-12">
                                     <button id="cambiar_pausado" type="button" class="btn btn-warning col-sm-12">PAUSAR</button>
@@ -309,8 +309,8 @@
 
                             '<button id="showinformacion" style="margin-top:10px;" type="button" class="btn btn-primary">Informacion</button>'+
                             
-                            '<h4>Pago del Cliente: <strong>'+abono_cliente+'</strong></h4>'+
-                            '<h4>Pago al Proveedor: <strong>'+abono_proveedor+'</strong></h4>'+
+                            '<h4>Siguiente Pago del Cliente: <strong>'+abono_cliente+'</strong></h4>'+
+                            '<h4>Siguiente Pago al Proveedor: <strong>'+abono_proveedor+'</strong></h4>'+
                         '</div>'+
                         '<div class="col-sm-12">'+
                             '<button id="cambiar_pausado" type="button" class="btn btn-warning col-sm-12">PAUSAR</button>'+

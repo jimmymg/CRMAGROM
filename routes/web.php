@@ -152,7 +152,9 @@ Route::get('Archivos/{tipoArchivo}/proyecto/{proyecto}','crmController@archivos'
 /*Clientes:*/
 	Route::get('Clientes','ClientesController@index');
 	Route::get('Clientes/getClientes','ClientesController@getClientes');
+	Route::get('Clientes/getCliente/{cliente}' , 'ClientesController@getCliente');
 	Route::post('Clientes/AgregarCliente','ClientesController@insertarCliente');
+	Route::post('Clientes/ActualizarCliente' , 'ClientesController@actualizarCliente');
 //############################################################
 /*Empresas:*/
 	Route::get('Empresas','EmpresasController@index');
@@ -182,3 +184,6 @@ Route::get('Archivos/{tipoArchivo}/proyecto/{proyecto}','crmController@archivos'
 //############################################################
 /*Consultar Informacion*/
 	Route::get('Informacion/Fase1/{proyecto}' , 'InformacionController@Fase1')->middleware('guest');
+//############################################################
+/*Mis Recordatorios*/
+	Route::get('MisRecordatorios' , 'MisRecordatoriosController@index');
