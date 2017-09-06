@@ -112,8 +112,10 @@
                     </div>
 
                     <input type="hidden" id="data-proyecto" value="">
+
                     <div class="col-sm-12">
                         <h2 id="titulo" style="text-align: center;">SERVICIO</h2>
+                        <h3 id="nombre_proyecto" style="text-align: center;"></h3> 
                     </div>
 
                     <div class="col-sm-12">
@@ -179,9 +181,26 @@
                         <input id="numero_adminpac" style="margin-top:10px" type="text" class="form-control">
 
                         <h3>Archivos</h3>
+
+                        <a id="place_c" download href="">
+                            <span  class="glyphicon glyphicon-save-file fa-4" aria-hidden="true"></span>
+                        Cotizacion</a>
+                        
+                        <a id="place_occ" download href="">
+                            <span  class="glyphicon glyphicon-save-file fa-4" aria-hidden="true"></span>
+                        Orden de Compra del Cliente</a>
+
+                        <a id="place_ocp" download href="">
+                            <span  class="glyphicon glyphicon-save-file fa-4" aria-hidden="true"></span>
+                        Orden de Compra del Proveedor</a>
+
+                        <a id="place_afp" download href="">
+                            <span  class="glyphicon glyphicon-save-file fa-4" aria-hidden="true"></span>
+                        Adjunto Formao Pedido</a>
+
                         <h4>Anticipo Cliente
                             <button type="button" class="btn waves-effect" id="archivos_anticipo_cliente">
-                                <span class="glyphicon glyphicon-folder-open"></span>
+                                <span class="glyphicon glyphicon-folder-open" style="font-size:20px"></span>
                             </button> 
                         </h4>
                         
@@ -286,7 +305,7 @@
                     showPreview : false ,
                     uploadExtraData: function(previewId , index) {
 
-                        return { "tipo" : 5 , "proyecto" : id };
+                        return { "tipo" : 5 , "proyecto" : $("#data-proyecto").val() };
                     }
                 });
 
@@ -304,7 +323,7 @@
                     showPreview : false ,
                     uploadExtraData: function(previewId , index) {
 
-                        return { "tipo" : 6 , "proyecto" : id };
+                        return { "tipo" : 6 , "proyecto" : $("#data-proyecto").val() };
                     }
                 });
 
@@ -313,8 +332,6 @@
                     
                     archivos(id, 6);
                 });
-
-                
 
             });//verProyecto
 
@@ -405,9 +422,9 @@
                     })
                     .done(function(data){
 
-                        if( data == "Error Campos Vacios" || data == "Error Numero AdminPac Vacio" )
+                        if( data == "Error Numero AdminPac Vacio" )
                         {
-                            alert("Error no selecciono ninguno de los dos Anticipos o Numero de AdminPac esta vacio");
+                            swal("Error","Numero Adminpaq esta vacio","error");
                         }else{
 
                             window.location.href = "Fase2";
@@ -468,16 +485,55 @@
                 });
             }
 
+            function ver_archivos(archivos)
+            {
+                var info = archivos.resultado;
+                console.log(archivos);
+                var url = archivos.url+"/";
+                    $("#place_c").hide();
+                    $("#place_occ").hide();
+                    $("#place_ocp").hide();
+                    $("#place_afp").hide();
+                
+
+                for( var x = 0 ; x < Object.keys(info).length ; x++ )
+                {
+                    if( info[x].id_tipo == 1 )
+                    {
+                        $("#place_c").show();
+                        $("#place_c").attr("href",url+""+info[x].ruta);
+                    }
+
+                    if( info[x].id_tipo == 2 )
+                    {
+                        $("#place_occ").show();
+                        $("#place_occ").attr("href",url+""+info[x].ruta);
+                    }
+
+                    if( info[x].id_tipo == 3 )
+                    {
+                        $("#place_ocp").show();
+                        $("#place_ocp").attr("href",url+""+info[x].ruta);
+                    }
+
+                    if( info[x].id_tipo == 4 )
+                    {
+                        $("#place_afp").show();
+                        $("#place_afp").attr("href",url+""+info[x].ruta);
+                    }
+                }
+            }
+
             function archivos(proyecto , tipo)
             {   
 
-            
-
             $.get("Fase2/Ver_Proyecto/getarchivos/"+proyecto+"/"+tipo)
             .done(function(data){
+                /*
                 console.log("Archivos");
-                console.log(data);
+                console.log(data);*/
                 //Si es cero quiere decir que en el data hay de todos los tipos
+                ver_archivos(data);
                 var html = "";
                 if( tipo == 0 )
                 {

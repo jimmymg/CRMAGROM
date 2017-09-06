@@ -73,7 +73,7 @@ class Fase2Controller extends Controller
 
         if( empty($numero_admin) ){ return "Error Numero AdminPac Vacio"; }
 
-        if( $cliente == false and $proveedor == false ){ return "Error Campos Vacios"; }
+        //if( $cliente == false and $proveedor == false ){ return "Error Campos Vacios"; }
 
         	DB::TABLE("proyectos")->where("id",$proyecto)->update([
     			"fase" => 3
@@ -176,6 +176,8 @@ class Fase2Controller extends Controller
         $ext    = explode(".", $name);
         $cantidad = count($ext);
         $b      = getcwd();
+
+
 
         $destino      = $b."/archivos/".$dateToFiles.".".$ext[$cantidad-1];    
         $destino_save =     "archivos/".$dateToFiles.".".$ext[$cantidad-1];
