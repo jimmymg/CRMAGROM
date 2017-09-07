@@ -367,7 +367,8 @@
             });//verProyecto
 
             $("#siguiente_fase").click(function(){
-
+                alert("Deshabilitado");
+                return 0;
                 var cliente_s   = $("#anticipo_cliente").val();
                 var proveedor_s = $("#anticipo_proveedor").val();
 
