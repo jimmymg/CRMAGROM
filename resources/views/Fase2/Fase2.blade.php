@@ -118,8 +118,8 @@
                         <h3 id="nombre_proyecto" style="text-align: center;"></h3> 
                     </div>
 
-                    <div class="col-sm-12">
-                        <div class="col-sm-6">
+                    <div class="col-sm-12" >
+                        <div class="col-sm-6" id="place_anticipo_cliente">
                             
                             <h3 style="text-align: center;">Anticipo Cliente</h3>
                             <select id="anticipo_cliente" class="form-control">
@@ -172,8 +172,14 @@
                         <h3 style="text-align: center;"><strong>Administradores</strong></h3>
                         <div id="proyecto_administradores" class="col-sm-12" style="margin-top:10px;">
                             
-                           
+                        </div>
 
+                        <div class="col-lg-12">
+                            <div class="material-switch pull-left">
+                                <input id="contado" name="someSwitchOption001" type="checkbox"/>
+                                <label for="contado" class="label-success"></label>
+                            </div>
+                            <label style="margin-left: 10px">Pago de Contado</label>
 
                         </div>
 
@@ -198,14 +204,16 @@
                             <span  class="glyphicon glyphicon-save-file fa-4" aria-hidden="true"></span>
                         Adjunto Formao Pedido</a>
 
-                        <h4>Anticipo Cliente
-                            <button type="button" class="btn waves-effect" id="archivos_anticipo_cliente">
-                                <span class="glyphicon glyphicon-folder-open" style="font-size:20px"></span>
-                            </button> 
-                        </h4>
+                        <div id="place_file_ac">
+                            <h4>Anticipo Cliente
+                                <button type="button" class="btn waves-effect" id="archivos_anticipo_cliente">
+                                    <span class="glyphicon glyphicon-folder-open" ></span>
+                                </button> 
+                            </h4>
                         
-                        <div id="descargar_ac"></div>
-                        <input id="file_anticipo_cliente" name="archivos[]" type="file" multiple class="file-loading">
+                            <div id="descargar_ac"></div>
+                            <input id="file_anticipo_cliente" name="archivos[]" type="file" multiple class="file-loading">
+                        </div>
 
                         <h4>Anticipo Proveedor
                             <button type="button" class="btn waves-effect" id="archivos_anticipo_proveedor">
@@ -217,6 +225,17 @@
                         <input id="file_anticipo_proveedor" name="archivos[]" type="file" multiple class="file-loading">
 
                         <button id="siguiente_fase" style="margin-top:20px" type="button" class=" col-sm-12 waves-effect btn btn-success btn-lg">Siguiente Fase</button>
+
+                        <div class="col-sm-12">
+                            <h3 style="margin-top: 10px; margin-bottom:10px;">Comentarios y Seguimientos</h3>
+                            <textarea id="comentario"></textarea>
+
+                            <button style="margin-top: 10px;" id="guardar_comentario" type="button" class="btn btn-warning">Guardar Comentario</button>
+
+                            <div id="lugar_comentarios" style="margin-top:10px;">
+                            
+                            </div>
+                        </div>
                         
                     </div>
                 
@@ -281,8 +300,19 @@
                 }
             });
 
+            $("#contado").change(function(){
+                if( $(this).is(":checked") )
+                {   
+                    $("#place_anticipo_cliente").hide();
+                    $("#place_file_ac").hide();
+                }else{
+                    $("#place_anticipo_cliente").show();
+                    $("#place_file_ac").show();
+                }
+            });
+
             $(document).on("click",".verProyecto", function(){
-               
+                
                 $("#cargando-Proyecto").show();
                // $("#cargando-Proyecto").parent().find("div:nth-child(2)").hide();
                 $("#cargando-Proyecto").parent().find("div:nth-child(3)").hide();
@@ -291,6 +321,7 @@
 
                 $("#data-proyecto").val($(this).attr("data-proyecto"));
                 var id = $("#data-proyecto").val();
+                consultar_seguimientos(id);
                 //$("#siguiente_fase").attr("data-proyecto",$(this).attr("data-proyecto"));
 
                 cargar_proyecto(id);
@@ -618,6 +649,56 @@
             });
         }
 
+        function consultar_seguimientos(proyecto)
+        {
+            $.get("Fase1/Ver_Proyecto/cargar_com_seg/"+proyecto)
+            .done(function(data){
+                console.log("Cargar Seguimientos:");
+                console.log(data);
+                
+                write_seguimientos(data);
+                
+
+
+            })
+            .error(function(){
+                alert("Error al cargar los comentarios y los seguientos");
+            });
+        }
+
+        function write_seguimientos(data)
+        {
+            var html = "";
+
+            for( var x = 0 ; x < Object.keys(data).length ; x++ )
+            {
+                
+                if( data[x].via == null )
+                {
+                   //Es un Comentario
+                    html+= '<div class="panel panel-primary">'+
+                                '<div style="text-align: left; font-size: 10pt;margin-left:10px;margin-top:10px;">'+data[x].created_at+' <strong>'+data[x].nombre+'</strong> Comentario:</div>'+
+                                '<div  style="font-size: 14pt;margin-left:20px;margin-bottom:10px;">'+data[x].seguimiento+'</div>'+
+                            '</div>';
+                }else{
+                    //Es un Seguimiento
+                 
+                    var via = "Telefono";
+                    
+                    if( data[x].via == 1){ via = "Correo"; }
+
+                html +=    '<div class="panel panel-danger" >'+
+                                '<div style="text-align: left; font-size: 10pt;margin-left:10px;margin-top:10px;">'+data[x].fecha+' <strong>'+data[x].nombre+'</strong> Seguimiento (Via: '+via+')'+
+                                '</div>'+
+                                '<div  style="font-size: 14pt;margin-left:20px;margin-bottom:10px;">'+
+                                data[x].seguimiento+
+                                '</div>'+
+                            '</div>';
+                }
+            }
+            
+            $("#lugar_comentarios").html(html);
+        }
     </script>
 
 </body>

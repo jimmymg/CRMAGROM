@@ -94,7 +94,7 @@ Route::get('Archivos/{tipoArchivo}/proyecto/{proyecto}','crmController@archivos'
 	Route::post( 'Fase1/Editar' , 'Fase1Controller@editarProyecto' );
 //############################################################
 /*Fase2:*/
-	Route::get('Fase2','Fase2Controller@index')->middleware('Fase2');
+	Route::get('Fase2','Fase2Controller@index')->middleware('guest')->middleware('Fase2');
 	Route::post('Fase2/siguienteFase','Fase2Controller@siguienteFase');
 	Route::get('Fase2/Ver_Proyecto/{proyecto}','Fase2Controller@verProyecto');
 
@@ -102,7 +102,7 @@ Route::get('Archivos/{tipoArchivo}/proyecto/{proyecto}','crmController@archivos'
 	Route::get('Fase2/Ver_Proyecto/getarchivos/{proyecto}/{tipo}','Fase2Controller@archivos_mostrar');
 //############################################################
 /*Fase3:*/
-	Route::get('Fase3','Fase3Controller@index');
+	Route::get('Fase3','Fase3Controller@index')->middleware('guest');
 	Route::get('Fase3/Ver_Proyecto/{proyecto}','Fase3Controller@verProyecto');
 	Route::post('Fase3/Ver_Proyecto/GuardarComentario','Fase1Controller@guardarComentario');
 	Route::post('Fase3/siguienteFase','Fase3Controller@siguienteFase');
@@ -111,11 +111,11 @@ Route::get('Archivos/{tipoArchivo}/proyecto/{proyecto}','crmController@archivos'
 	Route::get('Fase3/Ver_Proyecto/getarchivos/{proyecto}/{tipo}','Fase3Controller@archivos_mostrar');
 //############################################################
 /*Fase4:Logistica*/
-	Route::get('Fase4','Fase4Controller@index');
+	Route::get('Fase4','Fase4Controller@index')->middleware('guest');
 	Route::post('Fase4/siguienteFase','Fase4Controller@siguienteFase');
 //############################################################
 /*Fase5:*/
-	Route::get('Fase5','Fase5Controller@index');
+	Route::get('Fase5','Fase5Controller@index')->middleware('guest');
 	Route::get('Fase5/Ver_Proyecto/{proyecto}','Fase5Controller@verProyecto');
 	Route::post('Fase5/siguienteFase','Fase5Controller@siguienteFase');
 	Route::get('Fase5/Ver_Proyecto/seguimientos/{proyecto}','Fase5Controller@getSeguimientos');
@@ -125,7 +125,7 @@ Route::get('Archivos/{tipoArchivo}/proyecto/{proyecto}','crmController@archivos'
 	Route::get('Fase5/Ver_Proyecto/getarchivos/{proyecto}/{tipo}','Fase5Controller@archivos_mostrar');
 //############################################################
 /*Fase6:Instalacion y Arranque*/
-	Route::get('Fase6','Fase6Controller@index');
+	Route::get('Fase6','Fase6Controller@index')->middleware('guest');
 	Route::get('Fase6/Ver_Proyecto/{proyecto}','Fase6Controller@verProyecto');
 	Route::get('Fase6/Ver_Proyecto/seguimientos/{proyecto}','Fase6Controller@getSeguimientos');
 	Route::post('Fase6/Ver_Proyecto/GuardarSeguimiento','Fase6Controller@guardarSeguimiento');
@@ -138,7 +138,7 @@ Route::get('Archivos/{tipoArchivo}/proyecto/{proyecto}','crmController@archivos'
 //############################################################
 /*Fase7:PostVenta*/
 
-	Route::get('Fase7','Fase7Controller@index');
+	Route::get('Fase7','Fase7Controller@index')->middleware('guest');
 	Route::get('Fase7/Ver_Proyecto/{proyecto}','Fase7Controller@verProyecto');
 	Route::get('Fase7/Ver_Proyecto/seguimientos/{proyecto}','Fase7Controller@getSeguimientos');
 	Route::post('Fase7/Ver_Proyecto/GuardarComentario','Fase7Controller@guardarComentario');
@@ -150,27 +150,27 @@ Route::get('Archivos/{tipoArchivo}/proyecto/{proyecto}','crmController@archivos'
 	Route::post('Usuarios/insertar','UsuariosController@insertarUsuario');
 //############################################################
 /*Clientes:*/
-	Route::get('Clientes','ClientesController@index');
+	Route::get('Clientes','ClientesController@index')->middleware('guest');
 	Route::get('Clientes/getClientes','ClientesController@getClientes');
 	Route::get('Clientes/getCliente/{cliente}' , 'ClientesController@getCliente');
 	Route::post('Clientes/AgregarCliente','ClientesController@insertarCliente');
 	Route::post('Clientes/ActualizarCliente' , 'ClientesController@actualizarCliente');
 //############################################################
 /*Empresas:*/
-	Route::get('Empresas','EmpresasController@index');
+	Route::get('Empresas','EmpresasController@index')->middleware('guest');
 	Route::get('Empresas/getEmpresas','EmpresasController@getEmpresas');
 	Route::get('Empresas/empresa/{empresa}','EmpresasController@getEmpresa');
 	Route::post('Empresas/AgregarEmpresa','EmpresasController@insertarEmpresa');
 	Route::post('Empresas/EditarEmpresa','EmpresasController@editarEmpresa');
 //############################################################
 /*Marcas:*/
-	Route::get('Marcas','MarcasController@index');
+	Route::get('Marcas','MarcasController@index')->middleware('guest');
 	Route::post('Marcas/AgregarMarca','MarcasController@insertarMarca');
 	Route::get('Marcas/getMarcas','MarcasController@getMarcas');
 //############################################################
 /*Configuracion:*/
 	
-	Route::get('Configuracion','ConfiguracionController@index');
+	Route::get('Configuracion','ConfiguracionController@index')->middleware('guest');
 	Route::get('Configuracion/getTipos','ConfiguracionController@getTipos');
 	Route::post('Configuracion/postTipo','ConfiguracionController@insertarTipo');
 	Route::get('Configuracion/getAreas','ConfiguracionController@getAreas');
@@ -186,4 +186,4 @@ Route::get('Archivos/{tipoArchivo}/proyecto/{proyecto}','crmController@archivos'
 	Route::get('Informacion/Fase1/{proyecto}' , 'InformacionController@Fase1')->middleware('guest');
 //############################################################
 /*Mis Recordatorios*/
-	Route::get('MisRecordatorios' , 'MisRecordatoriosController@index');
+	Route::get('MisRecordatorios' , 'MisRecordatoriosController@index')->middleware('guest');

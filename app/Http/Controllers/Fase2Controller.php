@@ -22,14 +22,16 @@ class Fase2Controller extends Controller
         //Si no es ni 3 ni 4 es un SUPER USUARIO
         // 3 Ventas y 4 Servicios EN LAS AREAS
         // 5 VENTAS Y 6 sERVICIOS EN LA TABLA DE PROYECTOS TIPOS
+        
         if( Auth::user()->id_area == 3 )
         {
-            $condicion = " AND id_proyecto_tipo = 5 ";
+            //$condicion = " AND id_proyecto_tipo = 5 ";
+            $condicion   = " AND proyectos_administradores.id_acargo = ".Auth::user()->id;
         }
 
         if( Auth::user()->id_area == 4 )
         {
-            $condicion = " AND id_proyecto_tipo = 6 ";
+            $condicion = " AND proyectos_administradores.id_acargo = ".Auth::user()->id;
         }
 
     	$proyectos =
@@ -46,8 +48,11 @@ class Fase2Controller extends Controller
 				INNER JOIN proyecto_estados ON proyectos.`id_proyecto_estado` = proyecto_estados.`id`
 				INNER JOIN usuarios        	ON proyectos.`id_usuario` = usuarios.`id`
 				INNER JOIN fuentes         	ON proyectos.`id_fuente` = fuentes.`id`
+                INNER JOIN proyectos_administradores ON proyectos_administradores.id_proyecto = proyectos.id
+
 				WHERE fase = 2 and proyectos.id_proyecto_Estado = 1 ".$condicion."
-				ORDER BY proyectos.created_at DESC
+                GROUP BY proyectos.id
+				ORDER BY proyectos.created_at DESC 
     		");
 
     	return view('Fase2.Fase2')->with(["proyectos" => $proyectos , "contador" => 1 ]);

@@ -18,3 +18,4 @@
     <link href="{{url('css/second_preloader.css')}}" rel="stylesheet">
 
     <link href="{{url('css/animate.css')}}" rel="stylesheet">
+    <link href="{{url('css/checkbox.css')}}" rel="stylesheet">
