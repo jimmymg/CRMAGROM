@@ -25,15 +25,16 @@ class Fase2Controller extends Controller
         
         if( Auth::user()->id_area == 3 )
         {
-            //$condicion = " AND id_proyecto_tipo = 5 ";
-            $condicion   = " AND proyectos_administradores.id_acargo = ".Auth::user()->id;
+            $condicion = " AND id_proyecto_tipo = 5 ";
+           // $condicion   = " AND proyectos_administradores.id_acargo = ".Auth::user()->id;
         }
 
         if( Auth::user()->id_area == 4 )
         {
-            $condicion = " AND proyectos_administradores.id_acargo = ".Auth::user()->id;
+            $condicion = " AND id_proyecto_tipo = 6 ";
+           // $condicion = " AND proyectos_administradores.id_acargo = ".Auth::user()->id;
         }
-
+/*INNER JOIN proyectos_administradores ON proyectos_administradores.id_proyecto = proyectos.id GROUP BY proyectos.id*/
     	$proyectos =
     	DB::SELECT("
     		SELECT proyectos.id , proyectos .nombre , proyectos .descripcion , proyecto_tipos.`nombre` AS tipo , moneda.`nombre` AS moneda , proyecto_areas.`nombre` AS area ,
@@ -48,10 +49,8 @@ class Fase2Controller extends Controller
 				INNER JOIN proyecto_estados ON proyectos.`id_proyecto_estado` = proyecto_estados.`id`
 				INNER JOIN usuarios        	ON proyectos.`id_usuario` = usuarios.`id`
 				INNER JOIN fuentes         	ON proyectos.`id_fuente` = fuentes.`id`
-                INNER JOIN proyectos_administradores ON proyectos_administradores.id_proyecto = proyectos.id
 
 				WHERE fase = 2 and proyectos.id_proyecto_Estado = 1 ".$condicion."
-                GROUP BY proyectos.id
 				ORDER BY proyectos.created_at DESC 
     		");
 
@@ -75,6 +74,9 @@ class Fase2Controller extends Controller
 
         $proyecto                = $Request->input('proyecto');
         $numero_admin            = $Request->input('numero_admin');
+
+        $contado_cliente         = $Request->input('contado_cliente');
+        $contado_proveedor       = $Request->input('contado_proveedor');
 
         if( empty($numero_admin) ){ return "Error Numero AdminPac Vacio"; }
 
@@ -131,6 +133,21 @@ class Fase2Controller extends Controller
     			"seguimiento" => "FASE 2: Anticipo Proveedor ".$proveedor_comentario
     		]);
         }
+
+        if( $contado_cliente )
+        {   
+
+            DB::TABLE("proyectos")->WHERE("id",$proyecto)->UPDATE([
+                    "contado_cliente" => 1
+                ]);
+        }
+
+        if( $contado_provedor )
+        {
+            DB::TABLE("proyectos")->WHERE("id",$proyecto)->UPDATE([
+                    "contado_proveedor" => 1
+                ]);
+        }  
     }
 
     public function verProyecto($proyecto)

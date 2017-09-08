@@ -142,7 +142,7 @@
                             </div>
                         </div>
 
-                        <div class="col-sm-6">
+                        <div class="col-sm-6" id="place_anticipo_proveedor">
 
                             <h3 style="text-align: center;">Anticipo Proveedor</h3>
                             <select id="anticipo_proveedor" class="form-control">
@@ -176,10 +176,18 @@
 
                         <div class="col-lg-12">
                             <div class="material-switch pull-left">
-                                <input id="contado" name="someSwitchOption001" type="checkbox"/>
-                                <label for="contado" class="label-success"></label>
+                                <input id="contado_c" name="someSwitchOption001" type="checkbox"/>
+                                <label for="contado_c" class="label-primary"></label>
                             </div>
-                            <label style="margin-left: 10px">Pago de Contado</label>
+                            <label style="margin-left: 10px">Pago de Contado Cliente</label>
+
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="material-switch pull-left">
+                                <input id="contado_p" name="someSwitchOption001" type="checkbox"/>
+                                <label for="contado_p" class="label-primary"></label>
+                            </div>
+                            <label style="margin-left: 10px">Pago de Contado al Proveedor</label>
 
                         </div>
 
@@ -214,17 +222,18 @@
                             <div id="descargar_ac"></div>
                             <input id="file_anticipo_cliente" name="archivos[]" type="file" multiple class="file-loading">
                         </div>
+                        <div id="place_file_ap">
+                            <h4>Anticipo Proveedor
+                                <button type="button" class="btn waves-effect" id="archivos_anticipo_proveedor">
+                                    <span class="glyphicon glyphicon-folder-open"></span>
+                                </button> 
+                            </h4>
 
-                        <h4>Anticipo Proveedor
-                            <button type="button" class="btn waves-effect" id="archivos_anticipo_proveedor">
-                                <span class="glyphicon glyphicon-folder-open"></span>
-                            </button> 
-                        </h4>
+                            <div id="descargar_ap"></div>
+                            <input id="file_anticipo_proveedor" name="archivos[]" type="file" multiple class="file-loading">
 
-                        <div id="descargar_ap"></div>
-                        <input id="file_anticipo_proveedor" name="archivos[]" type="file" multiple class="file-loading">
-
-                        <button id="siguiente_fase" style="margin-top:20px" type="button" class=" col-sm-12 waves-effect btn btn-success btn-lg">Siguiente Fase</button>
+                            <button id="siguiente_fase" style="margin-top:20px" type="button" class=" col-sm-12 waves-effect btn btn-success btn-lg">Siguiente Fase</button>
+                        </div>
 
                         <div class="col-sm-12">
                             <h3 style="margin-top: 10px; margin-bottom:10px;">Comentarios y Seguimientos</h3>
@@ -300,7 +309,7 @@
                 }
             });
 
-            $("#contado").change(function(){
+            $("#contado_c").change(function(){
                 if( $(this).is(":checked") )
                 {   
                     $("#place_anticipo_cliente").hide();
@@ -308,6 +317,17 @@
                 }else{
                     $("#place_anticipo_cliente").show();
                     $("#place_file_ac").show();
+                }
+            });
+
+            $("#contado_p").change(function(){
+                if( $(this).is(":checked") )
+                {   
+                    $("#place_anticipo_proveedor").hide();
+                    $("#place_file_ap").hide();
+                }else{
+                    $("#place_file_ap").show();
+                    $("#place_anticipo_proveedor").show();
                 }
             });
 
@@ -366,9 +386,28 @@
 
             });//verProyecto
 
+            $("#guardar_comentario").click(function(){
+
+                var comentario = tinyMCE.get('comentario').getContent();
+                var proyecto   = $("#data-proyecto").val();
+    
+                $.post("Fase1/Ver_Proyecto/GuardarComentario",{
+                    comentario : comentario ,
+                    proyecto   : proyecto
+                })
+                .done(function(){
+                    //Recargar los Comentario y limpiar la caja de texto
+                    consultar_seguimientos(proyecto);
+                    tinyMCE.activeEditor.setContent('');
+                })
+                .error(function(){
+                    alert("Error al Guardar el Comentario");
+                });
+            });
+
             $("#siguiente_fase").click(function(){
-                alert("Deshabilitado");
-                return 0;
+
+                
                 var cliente_s   = $("#anticipo_cliente").val();
                 var proveedor_s = $("#anticipo_proveedor").val();
 
@@ -434,7 +473,22 @@
                     tipo_error = 2;
                 }
 
-                if( tipo_error == 0 ){
+                swal({
+                    title: 'Are you sure?',
+                    text: "You won't be able to revert this!",
+                    type: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#3085d6',
+                    cancelButtonColor: '#d33',
+                    confirmButtonText: 'Ok!',
+                    cancelButtonText: 'Cancelar',
+                    confirmButtonClass: 'btn btn-success',
+                    cancelButtonClass: 'btn btn-danger',
+                    buttonsStyling: false
+                }).then(function () {
+                    alert("Se hace");
+                    if( tipo_error == 0 ){
+                    /*
                     $.post("Fase2/siguienteFase",{
                         cliente                 : cliente_s                ,
                         cliente_total           : cliente_total           ,
@@ -450,35 +504,45 @@
                         proveedor_comentario    : proveedor_comentario    ,
 
                         proyecto                : proyecto                ,
-                        numero_admin            : numero_admin
+                        numero_admin            : numero_admin            ,
+
+                        contado_cliente         : $("#contado_c").is(":checked"),
+                        contado_proveedor       : $("contado_p").is(":checked")
                     })
                     .done(function(data){
-
+                        console.log(data);
                         if( data == "Error Numero AdminPac Vacio" )
                         {
                             swal("Error","Numero Adminpaq esta vacio","error");
                         }else{
 
-                            window.location.href = "Fase2";
+                            //window.location.href = "Fase2";
 
                         }
                     })
                     .error(function(error){
                         alert("Error al Guardar la Informacion");
-                    });
-                }else{
-                    switch(tipo_error)
-                    {
-                        case 1:
-                            swal("Error","Un Campo en Cliente esta Vacio","error")
-                        break;
+                    });*/
+                    }else{
+                        switch(tipo_error)
+                        {
+                            case 1:
+                                swal("Error","Un Campo en Cliente esta Vacio","error")
+                            break;
+    
+                            case 2:
+                                swal("Error","Un Campo en Proveedor esta Vacio","error")
+                            break;
+                        }
 
-                        case 2:
-                            swal("Error","Un Campo en Proveedor esta Vacio","error")
-                        break;
                     }
+                }, function () {
+                    // dismiss can be 'cancel', 'overlay',
+                    // 'close', and 'timer'
+                    
+                })
+               
 
-                }
 
             });//End Siguiente Fase
 
