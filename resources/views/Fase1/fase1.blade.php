@@ -55,12 +55,11 @@
                         <div class="panel panel-default">
                             <div class="panel-heading">
                                 Oportunidades
-                                <button class="btn">Filtrar</button>
+                                <button class="btn" data-target="#ModalFiltro" data-toggle="modal">Filtrar</button>
                             </div>
                             <div class="panel-body">
                                 <div class="table-responsive">
-                                    <table class="table table-striped table-bordered table-hover" 
-                                    id="dataTables-index">
+                                    <table class="table table-striped table-bordered table-hover" id="dataTables-index">
                                         <thead>
                                             <tr>
                                                 <th width="5%">#</th>
@@ -343,6 +342,7 @@
     @include('Fase1.fase1Modals.Editar')
     @include('Fase1.fase1Modals.ContactosExtras')
     @include('Fase1.fase1Modals.GoogleCalendar')
+    @include('Fase1.fase1Modals.Filtros')
     <!-- /. WRAPPER  -->
     <!-- JS Scripts-->
     <!-- jQuery Js -->
