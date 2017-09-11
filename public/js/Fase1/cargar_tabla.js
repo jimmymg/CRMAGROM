@@ -3,7 +3,7 @@ $(document).ready(function(){
 });
 
 $("#filtro_0").click(function(){
-    alert("click");
+    
     ProyectosIndex(0);
 });
 
@@ -35,7 +35,8 @@ function ProyectosIndex(filtro){
 		
         switch(filtro)
         {
-            case 0: filtroPrincipal(data,0);
+            case 0: 
+                filtroPrincipal(data,0);
             break;
 
             case 1: 
