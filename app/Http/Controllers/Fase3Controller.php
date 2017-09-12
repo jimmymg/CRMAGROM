@@ -45,10 +45,34 @@ class Fase3Controller extends Controller
     				INNER JOIN usuarios ON usuarios.id =  proyectos_administradores.id_a_cargo
     				WHERE id_proyecto = $proyecto");
 
-    	$numeroFactura = 
-    	DB::SELECT("SELECT * FROM anticipo WHERE id_proyecto = $proyecto LIMIT 1");
+    	$anticipo_cliente = 
+    	DB::SELECT("SELECT * FROM anticipo WHERE id_proyecto = $proyecto and tipo = 1");
+        $anticipo_proveedor =
+        DB::SELECT("SELECT * FROM anticipo WHERE id_proyecto = $proyecto and tipo = 2");
 
-    	return [ "administradores" => $administradores , "factura" => $numeroFactura];
+        $elproyecto =
+        DB::SELECT("
+                SELECT proyectos.id , proyectos.nombre , proyectos.descripcion , proyectos.contado_cliente , proyectos.contado_proveedor , proyectos.en_stock , proyectos.pedido ,
+                proyectos.valor , proyecto_tipos.`nombre` AS tipo , moneda.`nombre` AS moneda , proyecto_areas.`nombre` AS area ,
+
+                clientes.`nombre` AS cliente , clientes.correo1 , clientes.correo2 , clientes.telefono , clientes.celular , clientes.activo ,
+
+                 empresas.`nombre` AS empresa , empresas.giro , empresas.direccion , empresas.ciudad , empresas.estado as estado ,
+
+                 proyecto_estados.`nombre` AS status , usuarios.`nombre` AS usuario , fuentes.`nombre` AS fuente ,
+                proyectos.`created_at`
+                FROM proyectos  
+                INNER JOIN  proyecto_tipos  ON proyectos.`id_proyecto_tipo` = proyecto_tipos.`id`
+                INNER JOIN moneda           ON proyectos.`id_moneda` = moneda.`id`
+                INNER JOIN proyecto_areas   ON proyectos.`id_proyecto_area` = proyecto_areas.id
+                INNER JOIN clientes         ON proyectos.`id_cliente` = clientes.`id`
+                LEFT JOIN empresas          ON clientes.`id_empresa` = empresas.`id`
+                INNER JOIN proyecto_estados ON proyectos.`id_proyecto_estado` = proyecto_estados.`id`
+                INNER JOIN usuarios         ON proyectos.`id_usuario` = usuarios.`id`
+                INNER JOIN fuentes          ON proyectos.`id_fuente` = fuentes.`id`
+                WHERE proyectos.id = $proyecto ");
+
+    	return [ "administradores" => $administradores , "anticipo_cliente" => $anticipo_cliente , "anticipo_proveedor" => $anticipo_proveedor , "proyecto" => $elproyecto , "user" => Auth::user()->id ];
     }
 
     public function guardarComentario(Request $request)

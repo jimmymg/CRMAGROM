@@ -95,7 +95,8 @@
                     </button>
                 </div>
                 <div class="modal-body col-sm-12">
-                    
+                    <input type="text" id="data-proyecto">
+
                     <div class="col-sm-12">
                        
                         <h3 style="text-align: center;"><strong>Administradores del Proyecto</strong></h3>
@@ -105,25 +106,91 @@
 
                         </div>
 
-                        <h4>NUMERO DE LA FACTURA POR NUMERO ADMINPAC</h4>
-                        <h2 style="text-align: center;" id="factura"></h2>
+                        <div class="col-lg-12">
+                            <h4>Folio del Pedido: <strong id="place_pedido"></strong></h4>
+                        </div>
 
-                        <h3>Factura Anticipo o Finiquito</h3>
-                        <div style="margin-top:20px" id="descargar_anticipo"></div>
-                        <input  id="file_anticipo" name="archivos[]" type="file" multiple class="file-loading">
+                        <div class="col-lg-12">
+                            <table class="table" style="border: 2px" id="table-opciones">
+                                <thead>
+                                    <tr>
+                                        <th>Anticipo del Cliente</th>
+                                        <th>Anticipo del Proveedor</th>
+                                        <th>Pago de Contado del Cliente</th>
+                                        <th>Pago de Contado al Proveedor</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td style="background-color: green "></td>
+                                        <td style="background-color: red "></td>
+                                        <td style="background-color: green "></td>
+                                        <td style="background-color: green "></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                       
+                        </div>
 
-                        <h3>XML</h3>
-                        <div style="margin-top:20px" id="descargar_xml"></div>
-                        <input id="file_xml" name="archivos[]" type="file" multiple class="file-loading">
+                        <div id="info_anticipo_cliente" class="col-lg-12 place_karla" style="text-align:center;border-radius: 25px;background: #b0bec5;padding: 20px; ">
+                            <h3>Informacion del Anticipo del Cliente de Fase 2</h3>
+                            <p>Total:<br> <strong>500</strong></p>
+                            <p>Abono:<br> <strong></strong></p>
+                            <p>Pendiente por Pagar:<br> <strong></strong></p>
+                            <p>Fecha del Siguiente Pago del Cliente:<br> <strong></strong></p>
+                            <p>Comentaios Sobre Acuerdo de Pago:<br> <strong>laasd asd asldmaslkdj jasd kas djkljasd lkjas dkljasdaskj asjdkl asdasd  as dasd</strong></p>
+                        </div>
 
-                        <h3>Anticipo o Pago Proveedor ( Solo Mary )</h3>
-                        <div style="margin-top:20px" id="descargar_pago_proveedor"></div>
-                        <input id="file_pago_proveedor" name="archivos[]" type="file" multiple class="file-loading">
-                     
+                        <div id="info_anticipo_proveedor" class="col-lg-12 place_mary" style="margin-top:10px;text-align:center;border-radius: 25px;background: #b0bec5;padding: 20px; ">
+                            <h3>Informacion del Anticipo al Proveedor de Fase 2</h3>
+                            <p>Total:<br> <strong>500</strong></p>
+                            <p>Abono:<br> <strong></strong></p>
+                            <p>Pendiente por Pagar:<br> <strong></strong></p>
+                            <p>Fecha del Siguiente Pago del Cliente:<br> <strong></strong></p>
+                            <p>Comentaios Sobre Acuerdo de Pago:<br> <strong>laasd asd asldmaslkdj jasd kas djkljasd lkjas dkljasdaskj asjdkl asdasd  as dasd</strong></p>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <label>Factura</label>
+                            <input type="input" class="form-control" id="factura">
+                        </div>
+
+                        <div class="col-lg-12">
+                            <div class="place_karla">
+                                <h3>Factura</h3>
+                                <div style="margin-top:20px" id="descargar_anticipo"></div>
+                                <input  id="file_anticipo" name="archivos[]" type="file" multiple class="file-loading">
+                   
+                                <h3>XML</h3>
+                                <div style="margin-top:20px" id="descargar_xml"></div>
+                                <input id="file_xml" name="archivos[]" type="file" multiple class="file-loading">
+                            </div>
+
+                            <div class="place_mary">
+                                <h3>Anticipo o Pago Proveedor ( Solo Mary )</h3>
+                                <div style="margin-top:20px" id="descargar_pago_proveedor"></div>
+                                <input id="file_pago_proveedor" name="archivos[]" type="file" multiple class="file-loading">
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12 place_karla" id="comprobante_anticipo_cliente">
+                            <div class="col-lg-6">
+                                <label>Comprobante de Anticipo del Cliente</label>
+                                <a href="" download>Descargar</a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-12 place_mary" id="comprobante_anticipo_proveedor">
+                            <div class="col-lg-6">
+                                <label>Comprobante de Anticipo al Proveedor</label>
+                                <a href="" download>Descargar</a>
+                            </div>
+                        </div>
+
                         <button id="siguiente_fase" style="margin-top:20px" type="button" class=" col-sm-12 waves-effect btn btn-success btn-lg">Cambiar de Fase</button>
                         
                     </div>
-                    
+
                     <div class="col-sm-12">
                         <h3 style="margin-top: 10px; margin-bottom:10px;">Comentarios y Seguimientos</h3>
                         <textarea id="comentario"></textarea>
@@ -169,13 +236,19 @@
             });
 
             $(document).on("click",".verProyecto", function(){
-                $("#siguiente_fase").attr("data-proyecto",$(this).attr("data-proyecto"));
-                $("#guardar_comentario").attr("data-proyecto",$(this).attr("data-proyecto"));
-                cargaproyecto($(this).attr("data-proyecto"));
-                consultar_seguimientos($(this).attr("data-proyecto"));
 
-                var id = $(this).attr("data-proyecto");
-                archivos(id, 0);
+                $("#data-proyecto").val($(this).attr("data-proyecto"));
+/*
+                $("#siguiente_fase").attr("data-proyecto",$(this).attr("data-proyecto"));
+                $("#guardar_comentario").attr("data-proyecto",$(this).attr("data-proyecto"));*/
+
+
+
+                cargaproyecto($("#data-proyecto").val());
+                consultar_seguimientos($("#data-proyecto").val());
+
+               //var id = $(this).attr("data-proyecto");
+                archivos($("#data-proyecto").val(), 0);
                 
                 $("#file_anticipo").fileinput({
                     showCaption : true ,
@@ -184,7 +257,7 @@
                     showPreview : false ,
                     uploadExtraData: {
                         tipo: 7 ,
-                        proyecto :id ,
+                        proyecto : $("#data-proyecto").val(),
                     }
                 });
 
@@ -201,7 +274,7 @@
                     showPreview : false ,
                     uploadExtraData: {
                         tipo: 8 ,
-                        proyecto :id ,
+                        proyecto : $("#data-proyecto").val() ,
                     }
                 });
 
@@ -218,7 +291,7 @@
                     showPreview : false ,
                     uploadExtraData: {
                         tipo: 9 ,
-                        proyecto :id ,
+                        proyecto : $("#data-proyecto").val() ,
                     }
                 });
 
@@ -253,19 +326,17 @@
             $("#siguiente_fase").click(function(){
 
                 var proyecto = $(this).attr("data-proyecto");
-/*
+
                 $.post("Fase3/siguienteFase",{
                     proyecto : proyecto
                 }).done(function(data){
 
-
-                        window.location.href = "Fase3";
-
+                    window.location.href = "Fase3";
                     
                 })
                 .error(function(error){
                     alert("Error al Guardar la Informacion");
-                });*/
+                });
 
             });
 
@@ -274,8 +345,28 @@
             $.get("Fase3/Ver_Proyecto/"+proyecto)
             .done(function(data){
 
+                console.log(data);
                 var html = "";
-                $("#factura").html( data["factura"][0].numero_adminpac );
+                var proyecto = data['proyecto'][0];
+
+                var anticipo_cliente   = data["anticipo_cliente"];
+                var anticipo_proveedor = data["anticipo_proveedor"];
+
+                var contado_cliente    = proyecto["contado_cliente"];
+                var contado_proveedor  = proyecto["contado_proveedor"];
+                var en_stock           = proyecto["en_stock"];
+
+                if( Object.keys(anticipo_cliente).length == 0 )
+                {
+                    $("#info_anticipo_cliente").hide();
+                }
+
+                if( Object.keys(anticipo_proveedor).length == 0 )
+                {
+                    $("#info_anticipo_proveedor").hide();
+                }
+
+               $("#place_pedido").html( proyecto.pedido );
 
                 var administradores = data["administradores"];
                 for( var x = 0  ; x < Object.keys(administradores).length ; x++ )

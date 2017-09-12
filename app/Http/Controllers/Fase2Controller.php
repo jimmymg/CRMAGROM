@@ -85,9 +85,6 @@ class Fase2Controller extends Controller
         //return 0;
         //if( $cliente == false and $proveedor == false ){ return "Error Campos Vacios"; }
 
-        	DB::TABLE("proyectos")->where("id",$proyecto)->update([
-    			"fase" => 3
-    		]);
 
     	$usuario = DB::SELECT("SELECT * FROM usuarios WHERE id = ".Auth::user()->id);
     	//Comentario Automatico
@@ -106,8 +103,7 @@ class Fase2Controller extends Controller
         			"abono"        => $cliente_abono ,
         			"pendiente"    => $cliente_pendiente ,
         			"fecha_pago"   => $cliente_fecha_de_pago ,
-        			"acuerdo_pago" => $cliente_comentario ,
-        			"numero_adminpac" => $numero_admin
+        			"acuerdo_pago" => $cliente_comentario
         		]);
 
         	DB::TABLE("seguimientos")->insert([
@@ -126,8 +122,7 @@ class Fase2Controller extends Controller
         			"abono"        => $proveedor_abono ,
         			"pendiente"    => $proveedor_pendiente ,
         			"fecha_pago"   => $proveedor_fecha_de_pago ,
-        			"acuerdo_pago" => $proveedor_comentario ,
-        			"numero_adminpac" => $numero_admin
+        			"acuerdo_pago" => $proveedor_comentario 
         		]);
 
         	DB::TABLE("seguimientos")->insert([
@@ -138,9 +133,11 @@ class Fase2Controller extends Controller
         }
  
             DB::TABLE("proyectos")->WHERE("id",$proyecto)->UPDATE([
-                    "contado_cliente" => $contado_cliente ,
+                    "contado_cliente"   => $contado_cliente ,
                     "contado_proveedor" =>  $contado_provedor ,
-                    "en_stock" => $en_stock
+                    "en_stock"          => $en_stock ,
+                    "pedido"            => $numero_admin ,
+                    "fase"              => 3
                 ]);
         
     }

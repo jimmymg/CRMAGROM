@@ -179,7 +179,7 @@
                                 <input id="contado_c" name="someSwitchOption001" type="checkbox"/>
                                 <label for="contado_c" class="label-primary"></label>
                             </div>
-                            <label style="margin-left: 10px">Pago de Contado Cliente</label>
+                            <label style="margin-left: 10px">Pago de Contado del Cliente</label>
 
                         </div>
                         <div class="col-lg-12">
@@ -199,8 +199,12 @@
 
                         </div>
 
-                        <h3>NUMERO ADMINPAQ</h3>
-                        <input id="numero_adminpac" style="margin-top:10px" type="text" class="form-control">
+                        <div class="col-lg-12">
+                            <div class="col-lg-6">
+                                <h3>Folio del Pedido</h3>
+                                <input id="numero_adminpac" style="margin-top:10px" type="text" class="form-control">
+                            </div>
+                        </div>
 
                         <h3>Archivos</h3>
 
@@ -510,11 +514,14 @@
                     buttonsStyling: false
                 }).then(function () {
                     
+                    
                     if( numero_admin == "" )
                     {
-                        swal("Error","Numero Adminpaq esta vacio","error");
+                        swal("Error","Numero del Pedido esta vacio","error");
                         return 0;
                     }
+
+
 
                     if( tipo_error == 0 ){
                     
@@ -542,7 +549,7 @@
                     .done(function(data){
                         console.log(data);
                       
-                            //window.location.href = "Fase2";
+                            window.location.href = "Fase2";
 
                         
                     })
