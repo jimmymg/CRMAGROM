@@ -253,7 +253,7 @@
             $("#siguiente_fase").click(function(){
 
                 var proyecto = $(this).attr("data-proyecto");
-
+/*
                 $.post("Fase3/siguienteFase",{
                     proyecto : proyecto
                 }).done(function(data){
@@ -265,7 +265,7 @@
                 })
                 .error(function(error){
                     alert("Error al Guardar la Informacion");
-                });;
+                });*/
 
             });
 

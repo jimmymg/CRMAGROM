@@ -240,7 +240,9 @@
                             <div id="descargar_ap"></div>
                             <input id="file_anticipo_proveedor" name="archivos[]" type="file" multiple class="file-loading">
                         </div>
-                            <button id="siguiente_fase" style="margin-top:20px" type="button" class=" col-sm-12 waves-effect btn btn-success btn-lg">Siguiente Fase</button>
+                            <button id="siguiente_fase" style="margin-top:20px;display:grid;" type="button" class=" col-sm-12 waves-effect btn btn-success btn-lg">
+                            <i class="glyphicon glyphicon glyphicon-check fa-2x"></i>
+                            Cambiar a Fase 3 Faccturacion</button>
                         
 
                         <div class="col-sm-12">
@@ -495,8 +497,8 @@
                 }
 
                 swal({
-                    title: 'Are you sure?',
-                    text: "You won't be able to revert this!",
+                    title: '¿Estas Seguro?',
+                    text: "El Proyecto se Cambiara a la Fase 3 Facturacion",
                     type: 'warning',
                     showCancelButton: true,
                     confirmButtonColor: '#3085d6',
@@ -511,6 +513,7 @@
                     if( numero_admin == "" )
                     {
                         swal("Error","Numero Adminpaq esta vacio","error");
+                        return 0;
                     }
 
                     if( tipo_error == 0 ){
