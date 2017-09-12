@@ -76,10 +76,13 @@ class Fase2Controller extends Controller
         $numero_admin            = $Request->input('numero_admin');
 
         $contado_cliente         = $Request->input('contado_cliente');
-        $contado_proveedor       = $Request->input('contado_proveedor');
+        $contado_provedor       = $Request->input('contado_proveedor');
+        $en_stock                = $Request->input('en_stock');
 
-        if( empty($numero_admin) ){ return "Error Numero AdminPac Vacio"; }
-
+        echo $contado_cliente;
+        echo $contado_provedor;
+        echo $en_stock;
+        //return 0;
         //if( $cliente == false and $proveedor == false ){ return "Error Campos Vacios"; }
 
         	DB::TABLE("proyectos")->where("id",$proyecto)->update([
@@ -133,21 +136,13 @@ class Fase2Controller extends Controller
     			"seguimiento" => "FASE 2: Anticipo Proveedor ".$proveedor_comentario
     		]);
         }
-
-        if( $contado_cliente )
-        {   
-
+ 
             DB::TABLE("proyectos")->WHERE("id",$proyecto)->UPDATE([
-                    "contado_cliente" => 1
+                    "contado_cliente" => $contado_cliente ,
+                    "contado_proveedor" =>  $contado_provedor ,
+                    "en_stock" => $en_stock
                 ]);
-        }
-
-        if( $contado_provedor )
-        {
-            DB::TABLE("proyectos")->WHERE("id",$proyecto)->UPDATE([
-                    "contado_proveedor" => 1
-                ]);
-        }  
+        
     }
 
     public function verProyecto($proyecto)

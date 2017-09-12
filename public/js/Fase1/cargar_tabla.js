@@ -8,7 +8,7 @@ $("#filtro_0").click(function(){
 });
 
 $("#filtro_1").click(function(){
-    alert("click");
+    
     ProyectosIndex(1);
 });
 

@@ -21,7 +21,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h1 class="page-header">
-                            Fase 2 <small>Anticipos y Adminpac</small>
+                            Fase 2 <small>Anticipos y Adminpaq</small>
                         </h1>
                     </div>
                 </div>
@@ -31,7 +31,7 @@
                     <!-- Advanced Tables -->
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                Anticipos y Adminpac
+                                Anticipos y Adminpaq
                                 <button class="btn">Filtrar</button>
                             </div>
                             <div class="panel-body">
@@ -93,7 +93,7 @@
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLongTitle">Fase2 Anticipos y Adminpac</h5>
+                    <h5 class="modal-title" id="exampleModalLongTitle">Fase2 Anticipos y Adminpaq</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -190,8 +190,16 @@
                             <label style="margin-left: 10px">Pago de Contado al Proveedor</label>
 
                         </div>
+                        <div class="col-lg-12">
+                            <div class="material-switch pull-left">
+                                <input id="producto_stock" name="someSwitchOption001" type="checkbox"/>
+                                <label for="producto_stock" class="label-primary"></label>
+                            </div>
+                            <label style="margin-left: 10px">Ya se cuenta con el producto</label>
 
-                        <h3>NUMERO ADMINPAC</h3>
+                        </div>
+
+                        <h3>NUMERO ADMINPAQ</h3>
                         <input id="numero_adminpac" style="margin-top:10px" type="text" class="form-control">
 
                         <h3>Archivos</h3>
@@ -231,9 +239,9 @@
 
                             <div id="descargar_ap"></div>
                             <input id="file_anticipo_proveedor" name="archivos[]" type="file" multiple class="file-loading">
-
-                            <button id="siguiente_fase" style="margin-top:20px" type="button" class=" col-sm-12 waves-effect btn btn-success btn-lg">Siguiente Fase</button>
                         </div>
+                            <button id="siguiente_fase" style="margin-top:20px" type="button" class=" col-sm-12 waves-effect btn btn-success btn-lg">Siguiente Fase</button>
+                        
 
                         <div class="col-sm-12">
                             <h3 style="margin-top: 10px; margin-bottom:10px;">Comentarios y Seguimientos</h3>
@@ -323,6 +331,19 @@
             $("#contado_p").change(function(){
                 if( $(this).is(":checked") )
                 {   
+                    $("#producto_stock").prop("checked",false);
+                    $("#place_anticipo_proveedor").hide();
+                    $("#place_file_ap").hide();
+                }else{
+                    $("#place_file_ap").show();
+                    $("#place_anticipo_proveedor").show();
+                }
+            });
+
+            $("#producto_stock").change(function(){
+                if( $(this).is(":checked") )
+                {   
+                    $("#contado_p").prop("checked",false);
                     $("#place_anticipo_proveedor").hide();
                     $("#place_file_ap").hide();
                 }else{
@@ -486,9 +507,14 @@
                     cancelButtonClass: 'btn btn-danger',
                     buttonsStyling: false
                 }).then(function () {
-                    alert("Se hace");
+                    
+                    if( numero_admin == "" )
+                    {
+                        swal("Error","Numero Adminpaq esta vacio","error");
+                    }
+
                     if( tipo_error == 0 ){
-                    /*
+                    
                     $.post("Fase2/siguienteFase",{
                         cliente                 : cliente_s                ,
                         cliente_total           : cliente_total           ,
@@ -506,23 +532,21 @@
                         proyecto                : proyecto                ,
                         numero_admin            : numero_admin            ,
 
-                        contado_cliente         : $("#contado_c").is(":checked"),
-                        contado_proveedor       : $("contado_p").is(":checked")
+                        contado_cliente         : ($("#contado_c").is(":checked"))?1:0 ,
+                        contado_proveedor       : ($("#contado_p").is(":checked") )?1:0,
+                        en_stock                : ($("#producto_stock").is(":checked"))?1:0
                     })
                     .done(function(data){
                         console.log(data);
-                        if( data == "Error Numero AdminPac Vacio" )
-                        {
-                            swal("Error","Numero Adminpaq esta vacio","error");
-                        }else{
-
+                      
                             //window.location.href = "Fase2";
 
-                        }
+                        
                     })
                     .error(function(error){
                         alert("Error al Guardar la Informacion");
-                    });*/
+                    });
+
                     }else{
                         switch(tipo_error)
                         {
