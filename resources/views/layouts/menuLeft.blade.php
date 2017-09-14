@@ -66,7 +66,7 @@
                         <a href='{{url("/MisRecordatorios")}}' class="waves-effect"><i  class="glyphicon glyphicon-time"></i>Mis Recordatorios CRM</a>
                     </li> 
                     <li>
-                        <a href="http://172.16.200.249/OhMyREST/vfp/documentos/conceptos" class="waves-effect">Facturas de los Clientes Admipaq</a>
+                        <a href="http://172.16.200.249/OhMyREST/vfp/documentos/conceptos" target="_blank" class="waves-effect">Facturas de los Clientes Admipaq</a>
                     </li>      
                 </ul>
 
