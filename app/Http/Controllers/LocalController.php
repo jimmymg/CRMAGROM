@@ -22,14 +22,14 @@ class LocalController extends Controller
     	return view('local.facturas');
     }
 
-    public function get_Facturas($opcion , $valor)
+    public function get_Facturas($opcion , $valor , $mes , $anio)
     {	//http://172.16.200.249/OhMyREST/vfp/agro/cliente/codigo/11492
 
-    	$url = "http://172.16.200.249/OhMyREST/vfp/agro/cliente/".$valor;
+    	$url = "http://172.16.200.249/OhMyREST/vfp/agro/cliente/".$valor."/mes/".$mes."/anio/".$anio;
 
     	if( $opcion == "codigo" )
     	{
-    		
+    		ini_set('max_execution_time', 180); //3 minutes
     		$url = "http://172.16.200.249/OhMyREST/vfp/agro/cliente/codigo/".$valor;
     	}
 
@@ -72,6 +72,7 @@ class LocalController extends Controller
             }
 
             array_push($result[$key]["facturas"] , [
+                    "agente"      => $info[$x]['agente'] ,
                     "serie"       =>  $info[$x]['serie'] ,
                     "folio"         =>  $info[$x]['folio'] ,
                     "iddocumento"   =>  $info[$x]['iddocumento'] ,

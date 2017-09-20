@@ -10,7 +10,44 @@
      <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
     
 </head>
-
+<style type="text/css">
+   #preloader_3{
+    position:relative;
+}
+#preloader_3:before{
+    width:20px;
+    height:20px;
+    border-radius:20px;
+    background:blue;
+    content:'';
+    position:absolute;
+    background:#9b59b6;
+    animation: preloader_3_before 1.5s infinite ease-in-out;
+}
+ 
+#preloader_3:after{
+    width:20px;
+    height:20px;
+    border-radius:20px;
+    background:blue;
+    content:'';
+    position:absolute;
+    background:#2ecc71;
+    left:22px;
+    animation: preloader_3_after 1.5s infinite ease-in-out;
+}
+ 
+@keyframes preloader_3_before {
+    0% {transform: translateX(0px) rotate(0deg)}
+    50% {transform: translateX(50px) scale(1.2) rotate(260deg); background:#2ecc71;border-radius:0px;}
+      100% {transform: translateX(0px) rotate(0deg)}
+}
+@keyframes preloader_3_after {
+    0% {transform: translateX(0px)}
+    50% {transform: translateX(-50px) scale(1.2) rotate(-260deg);background:#9b59b6;border-radius:0px;}
+    100% {transform: translateX(0px)}
+}
+</style>
 <body>
     @include("layouts.cargando")
     <div id="wrapper" style="display: none">
@@ -36,12 +73,42 @@
 
                         <div  class="col-md-4" style="margin-left:10px;">
                             <input id="texto" class="form-control" type="text" >
-                        </div>  
+                        </div>
+
+                        <div class="col-sm-1">
+                            <input id="anio" type="text" class="form-control" placeholder="Año">
+                        </div>
+
+                        <div class="col-sm-2">
+                            <select id="mes" class="form-control">
+                                <option value="1" >Enero</option>
+                                <option value="2" >Febrero</option>
+                                <option value="3" >Marzo</option>
+                                <option value="4" >Abril</option>
+                                <option value="5" >Mayo</option>
+                                <option value="6" >Junio</option>
+                                <option value="7" >Julio</option>
+                                <option value="8" >Agosto</option>
+                                <option value="9" >Septiembre</option>
+                                <option value="10" >Octubre</option>
+                                <option value="11" >Noviembre</option>
+                                <option value="12" >Diciembre</option>
+                            </select>
+                        </div>
+
                     </div>
 
                     <div class="col-lg-12" style="margin-bottom: 10px;margin-top: 10px">
-                        <button id="buscar" type="button" class=" btn btn-primary">Buscar</button>
+                        <div class="col-lg-1">
+                            <button id="buscar" type="button" class=" btn btn-primary">Buscar</button>
+                        </div>
+                        <div class="col-lg-8" >
+                            <div id="preloader_3" style="margin-top: 7px;"></div>
+                        </div>
                     </div>
+
+
+                    
 
                 </div>
 
@@ -84,8 +151,8 @@
     </div>
 
     <!-- Modals -->
-
-    
+    @include("local.ModalFacturas")
+    @include("local.ModalMovimientos")
 
  
     <!-- /. WRAPPER  -->
@@ -105,7 +172,27 @@
                 }
         });
 
-        $("#buscar").click(function(){
+        $(document).ready(function(){
+            $("#preloader_3").hide();
+            var d = new Date();
+            
+            $("#anio").val(d.getFullYear());
+
+            $("#mes").find("option").each(function(n){
+                
+                if($(this).val() == (d.getMonth()+1) )
+                {
+                    $(this).prop('selected', true)
+                }
+            });
+            
+        });
+
+        var facturas = [];
+
+        $("#buscar").click(function(event){
+            event.preventDefault();
+            $("#preloader_3").show();
             var texto = $("#texto").val();
             var opcion = ($("#opcion").is(":checked") )?'cliente':'codigo';
             var url = "http://172.16.200.249/crm.agro/Local/getFacturas/opcion/cliente/valor/"+texto;
@@ -119,23 +206,26 @@
                 url = "http://172.16.200.249/crm.agro/Local/getFacturas/opcion/codigo/valor/"+texto;
             }
 
-            $.get(url)
+            $.get(url+"/mes/"+$("#mes").val()+"/anio/"+$("#anio").val())
             .done(function(data){
+                $("#preloader_3").hide();
                 console.log(data);
                 //dataTable-facturas-adminpaq
                 var table = $("#dataTable-facturas-adminpaq tbody");
-             
+                facturas = data;
                 var saldo_pendiente_mxn = 0;
                 var saldo_pendiente_usd = 0;
                 var cantidad_facturas_pendientes = 0;
                 var tbody = "";
+
+
+
                 for(var x = 0 ; x < Object.keys(data).length ; x++)
                 {   
 
                     for( var y = 0 ; y < data[x]['facturas'].length ; y++ )
                     {   
                         
-
                         if( data[x]['facturas'][y].pendiente > 0 )
                         {
                             cantidad_facturas_pendientes += 1;
@@ -155,10 +245,10 @@
                             "<td>"+data[x]['codigo']+"</td>"+
                             "<td>"+data[x]['razon_social']+"</td>"+
                             "<td>"+data[x]['rfc'].trim()+"</td>"+
-                            "<td>"+data[x]['facturas'].length+"</td>"+
+                            "<td><button key='"+x+"' data-target='#modalFacturas' data-toggle='modal' type='button' class='btn btn-primary verFacturas'>"+data[x]['facturas'].length+"</button></td>"+
                             "<td>"+saldo_pendiente_mxn+"</td>"+
                             "<td>"+saldo_pendiente_usd+"</td>"+
-                            "<td>"+cantidad_facturas_pendientes+"</td>"+
+                            "<td><button type='button' class='btn btn-primary'>"+cantidad_facturas_pendientes+"</button></td>"+
                         "</tr>"; 
 
                     var saldo_pendiente_mxn = 0;
@@ -170,8 +260,119 @@
 
             })
             .error(function(data){
+                $("#preloader_3").hide();
                 alert("Error al Consultar las Facuras de Agro");
+                console.log(data);
             });
+        });
+
+
+        $("body").on("click", ".verFacturas" , function(){
+            var key = $(this).attr("key");
+            $("#key").val(key);
+            var data = facturas[key]['facturas'];
+            //console.log(data);
+            
+            var table = $("#dataTables-Facturas tbody");
+            var tbody = "";
+            var agentes = [];
+
+            for( var x = 0 ; x < data.length ; x++ )
+            {
+                tbody += 
+                "<tr>"+
+                    "<td>"+(x+1)+"</td>"+
+                    "<td>"+data[x].agente+"</td>"+
+                    "<td>"+data[x].fecha+"</td>"+
+                    "<td>"+data[x].serie+"</td>"+
+                    "<td>"+data[x].folio+"</td>"+
+                    "<td>"+data[x].idmoneda+"</td>"+
+                    "<td>"+data[x].tipocambio+"</td>"+
+                    "<td>"+data[x].metodopago+"</td>"+
+                    "<td>"+data[x].total+"</td>"+
+                    "<td>"+data[x].neto+"</td>"+
+                    "<td>"+data[x].pendiente+"</td>"+
+                    "<td><button data-toggle='modal' data-target='#modalMovimientos' key-factura='"+x+"' class='btn btn-primary verMovimientos'>"+data[x]['movimientos'].length+"</button></td>"+
+                "</tr>";
+
+                if( agentes.indexOf(data[x].agente) == -1 )
+                {
+                    agentes.push(data[x].agente);
+                }
+            }
+
+            var body_select = "<option value='-1'>Todos</option>";
+
+            for( var x = 0 ; x < agentes.length ; x++ )
+            {
+
+                body_select += "<option value='"+agentes[x]+"' >"+agentes[x]+"</option>";
+            }
+
+            $("#filter_agente").html(body_select);
+
+            table.html(tbody);
+        });
+
+        $("#filter_agente").change(function(){
+
+            var key = $("#key").val();
+            var data = facturas[key]['facturas'];
+            //console.log(data);
+            var agente_seleccionado = $(this).val();
+  
+            var table = $("#dataTables-Facturas tbody");
+            var tbody = "";
+
+            for( var x = 0 ; x < data.length ; x++ )
+            {   
+                if( data[x].agente == agente_seleccionado || agente_seleccionado == -1 )
+                    tbody += 
+                    "<tr>"+
+                        "<td>"+(x+1)+"</td>"+
+                        "<td>"+data[x].agente+"</td>"+
+                        "<td>"+data[x].fecha+"</td>"+
+                        "<td>"+data[x].serie+"</td>"+
+                        "<td>"+data[x].folio+"</td>"+
+                        "<td>"+data[x].idmoneda+"</td>"+
+                        "<td>"+data[x].tipocambio+"</td>"+
+                        "<td>"+data[x].metodopago+"</td>"+
+                        "<td>"+data[x].total+"</td>"+
+                        "<td>"+data[x].neto+"</td>"+
+                        "<td>"+data[x].pendiente+"</td>"+
+                        "<td><button data-toggle='modal' data-target='#modalMovimientos' key-factura='"+x+"' class='btn btn-primary verMovimientos'>"+data[x]['movimientos'].length+"</button></td>"+
+                    "</tr>";
+            }
+
+            table.html(tbody);
+        });
+
+        $("body").on("click",".verMovimientos" , function(){
+            var key = $("#key").val();
+            var key_factura = $(this).attr("key-factura");
+            var data = facturas[key]['facturas'][key_factura]['movimientos'];
+            console.log(data);
+            var tbody = " ";
+            var table = $("#dataTables-Movimientos tbody");
+            for( var x = 0 ; x < data.length ; x++ )
+            {
+                tbody +=
+                    "<tr>"+
+                        "<td>"+(x+1)+"</td>"+
+                        "<td>"+data[x]['codigo']+"</td>"+
+                        "<td>"+data[x]['producto']+"</td>"+
+                        "<td>"+data[x]['neto']+"</td>"+
+                        "<td>"+data[x]['precio']+"</td>"+
+                        "<td>"+data[x]['texto_extra']+"</td>"+
+                    "</tr>"
+            }
+
+            table.html(tbody);
+        });
+
+        $("#modalMovimientos").on("hidden.bs.modal" , function(){
+            
+            $("body").addClass("modal-open");
         });
     </script>
 </body>
