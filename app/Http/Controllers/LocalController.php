@@ -36,6 +36,11 @@ class LocalController extends Controller
     	$data = file_get_contents($url);
     	$info = json_decode($data,true);
 
+        if( isset($info[0]["index"]) )
+        {
+            echo $url;
+            return 0;
+        }
 
     	$result = [];
         $index_clientes = [];

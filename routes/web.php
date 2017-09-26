@@ -181,9 +181,11 @@ Route::get('Archivos/{tipoArchivo}/proyecto/{proyecto}','crmController@archivos'
 	Route::post('Configuracion/postFuente' , 'ConfiguracionController@insertarFuente');
 	Route::get('Configuracion/getMonedas','ConfiguracionController@getMonedas');
 	Route::post('Configuracion/postMoneda','ConfiguracionController@insertarMoneda');
-#################
+#################Local
 	Route::get('Local/Facturas' , 'LocalController@index');
 	Route::get( 'Local/getFacturas/opcion/{opcion}/valor/{valor}/mes/{mes}/anio/{anio}' , 'LocalController@get_Facturas' );
+	Route::get( 'Local/Facturar' , 'FacturaRapidaController@index' );
+
 //############################################################
 /*Consultar Informacion*/
 	Route::get('Informacion/Fase1/{proyecto}' , 'InformacionController@Fase1')->middleware('guest');

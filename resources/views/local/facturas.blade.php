@@ -210,6 +210,11 @@
             .done(function(data){
                 $("#preloader_3").hide();
                 console.log(data);
+                if( data == 0 )
+                {   
+                    swal("Se hizo la Peticion","No se encontro a ningun cliente","warning");
+                    return 0;
+                }
                 //dataTable-facturas-adminpaq
                 var table = $("#dataTable-facturas-adminpaq tbody");
                 facturas = data;
@@ -257,6 +262,17 @@
                 }
 
                 table.html(tbody);
+                var alto_ventana = window.innerHeight;
+                var new_height =  $("#page-inner").height() + 35;
+                //+35 por el margin y el padding 10 y 10 de page-inner, y + 15 por el padding de page-wrapper
+        
+                if( alto_ventana > new_height )
+                {
+                    $("#page-wrapper").css( "height", alto_ventana - 60 );
+                }else{
+                    responsivo_DataTable();
+                }
+                //responsivo_DataTable();
 
             })
             .error(function(data){
