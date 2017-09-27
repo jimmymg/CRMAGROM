@@ -528,7 +528,7 @@
                     {
                         var type= resultado[x].id_tipo;
                         html = "";
-                       
+                       alert("for");
                             switch(type)
                             {
                                 case 7:
@@ -547,20 +547,21 @@
                                 case 8:
                                 
                                         if( ocho == false ){
-                                        var url = data["url"]+"/"+resultado[x].ruta;
-                                        html +=
-                                        '<span class="glyphicon glyphicon-file"></span>'+
+                                            var url = data["url"]+"/"+resultado[x].ruta;
+                                            html +=
+                                                '<span class="glyphicon glyphicon-file"></span>'+
 
-                                        '<a href="'+url+'" download>XML '+resultado[x].created_at+'</a>';
-                                        $("#descargar_xml").html(html);
-                                       ocho = true;
+                                                '<a href="'+url+'" download>XML '+resultado[x].created_at+'</a>';
+                                                $("#descargar_xml").html(html);
+                                            ocho = true;
 
                                         } 
                                 break;
 
                                 case 9:
-                                
+                                    alert("Entro case");
                                         if( nueve == false ){
+                                            alert("Entro if");
                                         var url = data["url"]+"/"+resultado[x].ruta;
                                         html +=
                                         '<span class="glyphicon glyphicon-file"></span>'+
