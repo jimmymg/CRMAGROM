@@ -186,6 +186,8 @@ Route::get('Archivos/{tipoArchivo}/proyecto/{proyecto}','crmController@archivos'
 	Route::get( 'Local/getFacturas/opcion/{opcion}/valor/{valor}/mes/{mes}/anio/{anio}' , 'LocalController@get_Facturas' );
 	Route::get( 'Local/Facturar' , 'FacturaRapidaController@index' );
 
+	
+
 //############################################################
 /*Consultar Informacion*/
 	Route::get('Informacion/Fase1/{proyecto}' , 'InformacionController@Fase1')->middleware('guest');

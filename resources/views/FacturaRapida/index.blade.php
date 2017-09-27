@@ -45,8 +45,11 @@
                              
                                 <br>
                                
-                                <div class="col-lg-3">
-                                    <button type="button" class="btn btn-success">Buscar Pedido</button>
+                                <div class="col-lg-1">
+                                    <button type="button" class="btn btn-primary">Buscar Pedido</button>
+                                </div>
+                                <div class="col-lg-1">
+                                    <button type="button" class="btn btn-success">Guardar Pedido</button>
                                 </div>
                             </div>
                         </div>
