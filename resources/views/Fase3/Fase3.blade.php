@@ -506,11 +506,12 @@
             .done(function(data){
                 console.log("Archivos");
                 console.log(data);
-               
+
                 //Si es cero quiere decir que en el data hay de todos los tipos
                 var html = "";
                 if( tipo == 0 )
                 {
+                    alert("entro");
                     var siete    = false;
                     var ocho     = false;
                     var nueve    = false;
