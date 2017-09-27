@@ -511,12 +511,14 @@
                 var html = "";
                 if( tipo == 0 )
                 {
-                    alert("entro");
+
                     var siete    = false;
                     var ocho     = false;
                     var nueve    = false;
 
                     var resultado = data["resultado"];
+                    console.log("??????????????");
+                    console.log(resultado);
 
                     $("#descargar_anticipo").html('');
                     $("#descargar_xml").html('');
