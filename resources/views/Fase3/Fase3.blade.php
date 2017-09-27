@@ -529,7 +529,7 @@
                         var type= resultado[x].id_tipo;
                         html = "";
                        alert("for");
-                            switch(type)
+                            switch(parseInt(type))
                             {
                                 case 7:
 
