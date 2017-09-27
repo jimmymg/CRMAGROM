@@ -244,7 +244,7 @@
                 cargaproyecto($("#data-proyecto").val());
                 consultar_seguimientos($("#data-proyecto").val());
 
-               //var id = $(this).attr("data-proyecto");
+               var id = $("#data-proyecto").val();
                 archivos($("#data-proyecto").val(), 0);
                 
                 $("#file_anticipo").fileinput({
@@ -441,6 +441,10 @@
                             '<td '+cuatro+'></td>'+
                         '</tr>'
                     );
+
+                /////////////////////
+
+
             })
             .error(function(error){
                 alert("Error al Cargar el Proyecto");
@@ -502,6 +506,7 @@
             .done(function(data){
                 console.log("Archivos");
                 console.log(data);
+               
                 //Si es cero quiere decir que en el data hay de todos los tipos
                 var html = "";
                 if( tipo == 0 )
@@ -573,6 +578,13 @@
                     var x = 0;
                     switch(tipo)
                             {
+                                case 2:
+                                break;
+
+                                case 3:
+                                break;
+
+
                                 case 7:
                                         $("#descargar_anticipo").html('');
                                     
@@ -596,7 +608,9 @@
 
                                 case 9:
                                         $("#descargar_pago_proveedor").html('');
+
                                         var url = data["url"]+"/"+resultado[x].ruta;
+                                        alert(url);
                                         html +=
                                         '<span class="glyphicon glyphicon-file"></span>'+
 
