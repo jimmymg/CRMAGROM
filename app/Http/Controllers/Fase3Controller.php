@@ -60,7 +60,8 @@ class Fase3Controller extends Controller
                  empresas.`nombre` AS empresa , empresas.giro , empresas.direccion , empresas.ciudad , empresas.estado as estado ,
 
                  proyecto_estados.`nombre` AS status , usuarios.`nombre` AS usuario , fuentes.`nombre` AS fuente ,
-                proyectos.`created_at`
+                proyectos.`created_at` , contado_cliente , contado_proveedor , en_stock
+
                 FROM proyectos  
                 INNER JOIN  proyecto_tipos  ON proyectos.`id_proyecto_tipo` = proyecto_tipos.`id`
                 INNER JOIN moneda           ON proyectos.`id_moneda` = moneda.`id`
@@ -90,9 +91,31 @@ class Fase3Controller extends Controller
     public function siguienteFase(Request $Request)
     {
     	 $proyecto = $Request->input('proyecto');
-
+         $factura = $Request->input('factura');
     	 $usuario = DB::SELECT("SELECT * FROM usuarios WHERE id = ".Auth::user()->id);
-    	//Comentario Automatico
+    	
+         $info = DB::SELECT("SELECT * FROM proyectos WHERE id = ".$proyecto);
+         print_r($info);
+         $contado_cliente = $info[0]->contado_cliente;
+         //$contado_proveedor = $info[0]->contado_proveedor;
+
+         //$en_stock = $info[0]->en_stock;
+
+         if($contado_cliente == 1)
+         {
+            //Quiere decir que la factura se guardara en el proyecto
+            DB::TABLE('proyectos')->WHERE('id',$proyecto)->UPDATE([
+                    "factura" => $factura
+                ]);
+         }else{
+            //quiere decir que la factura se guardara en el anticipo cliente
+            $anticipo = DB::SELECT("SELECT * FROM anticipo WHERE tipo = 1 AND id_proyecto=".$proyecto);
+            DB::TABLE('proyectos')->WHERE('id',$anticipo[0]->id)->UPDATE([
+                    "factura" =>$factura
+                ]);
+         }
+
+        //Comentario Automatico
     	DB::TABLE("seguimientos")->insert([
     			"id_proyecto" =>  $proyecto ,
     			"id_usuario"  =>  Auth::user()->id ,

@@ -22,7 +22,7 @@ class Fase4Controller extends Controller
     	DB::SELECT("
     		SELECT proyectos.id , proyectos .nombre , proyectos .descripcion , proyecto_tipos.`nombre` AS tipo , moneda.`nombre` AS moneda , proyecto_areas.`nombre` AS area ,
        			clientes.`nombre` AS cliente , empresas.`nombre` AS empresa , proyecto_estados.`nombre` AS estado , usuarios.`nombre` AS usuario , fuentes.`nombre` AS fuente ,
-       			proyectos.`created_at` , ( SELECT numero_adminpac FROM anticipo WHERE id_proyecto = proyectos.id LIMIT 1 ) as factura
+       			proyectos.`created_at` , ( SELECT factura FROM anticipo WHERE id_proyecto = proyectos.id LIMIT 1 ) as factura
 				FROM proyectos  
 				INNER JOIN  proyecto_tipos 	ON proyectos.`id_proyecto_tipo` = proyecto_tipos.`id`
 				INNER JOIN moneda          	ON proyectos.`id_moneda` = moneda.`id`

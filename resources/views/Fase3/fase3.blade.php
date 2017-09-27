@@ -95,7 +95,7 @@
                     </button>
                 </div>
                 <div class="modal-body col-sm-12">
-                    <input type="text" id="data-proyecto">
+                    <input type="hidden" id="data-proyecto">
 
                     <div class="col-sm-12">
                        
@@ -121,12 +121,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <tr>
-                                        <td style="background-color: green "></td>
-                                        <td style="background-color: red "></td>
-                                        <td style="background-color: green "></td>
-                                        <td style="background-color: green "></td>
-                                    </tr>
+                                    
                                 </tbody>
                             </table>
                        
@@ -232,7 +227,9 @@
         });
         
             $(document).ready(function(){
-               
+                $(".place_mary").show();
+                $("#comprobante_anticipo_cliente").show();
+                $("#comprobante_anticipo_proveedor").show();
             });
 
             $(document).on("click",".verProyecto", function(){
@@ -325,8 +322,33 @@
 
             $("#siguiente_fase").click(function(){
 
-                var proyecto = $(this).attr("data-proyecto");
+                var proyecto = $("#data-proyecto").val();
+                var factura = $("#factura").val();
+                
 
+                if( factura == "" ){ swal("Error","Factura esta vacio","error"); return; }
+                swal({
+                    title: '¿Quieres Cambiar de Fase?',
+                    text: "El proyecto se cambiara a Fase 4",
+                    type: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#3085d6',
+                    cancelButtonColor: '#d33',
+                    confirmButtonText: 'Si!'
+                }).then(function () {
+                    $.post("Fase3/siguienteFase",{
+                        factura : factura ,
+                        proyecto : proyecto
+                    }).done(function(data){
+                        swal("Exito","El Proyecto se Cambio de Fase","success")
+                        //window.location.href = "Fase3";
+                    
+                    })
+                    .error(function(error){
+                        alert("Error al Guardar la Informacion y Cambiar de Fase");
+                    });
+                })
+/*
                 $.post("Fase3/siguienteFase",{
                     proyecto : proyecto
                 }).done(function(data){
@@ -336,7 +358,7 @@
                 })
                 .error(function(error){
                     alert("Error al Guardar la Informacion");
-                });
+                });*/
 
             });
 
@@ -380,6 +402,45 @@
                 }
 
                 $("#proyecto_administradores").html(html);
+
+                var contado_cliente = proyecto['contado_cliente'];
+                var contado_proveedor = proyecto['contado_proveedor'];
+                var stock = proyecto['en_stock'];
+                var uno = 'style="background-color: red "' ;
+                var dos = 'style="background-color: red "';
+                var tres = 'style="background-color: red "';
+                var cuatro = 'style="background-color: red "';
+
+                if( contado_cliente == 1 )
+                {
+                    tres = 'style="background-color: green "';
+                    $("#comprobante_anticipo_cliente").hide();
+                }else{
+                    uno = 'style="background-color: green "';
+                }
+
+                if( contado_proveedor == 1 )
+                {
+                    cuatro = 'style="background-color: green "';
+                    $("#comprobante_anticipo_proveedor").hide();
+                }else{
+                    dos = 'style="background-color: green "';
+                }
+
+                if( en_stock == 1 )
+                {
+                    $(".place_mary").hide();
+                     cuatro = 'style="background-color: red "';
+                }
+
+                $("#table-opciones tbody").html(
+                        '<tr>'+
+                            '<td '+uno+'></td>'+
+                            '<td '+dos+'></td>'+
+                            '<td '+tres+'></td>'+
+                            '<td '+cuatro+'></td>'+
+                        '</tr>'
+                    );
             })
             .error(function(error){
                 alert("Error al Cargar el Proyecto");
