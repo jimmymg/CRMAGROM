@@ -22,7 +22,7 @@ class Fase3Controller extends Controller
     	DB::SELECT("
     		SELECT proyectos.id , proyectos .nombre , proyectos .descripcion , proyecto_tipos.`nombre` AS tipo , moneda.`nombre` AS moneda , proyecto_areas.`nombre` AS area ,
        			clientes.`nombre` AS cliente , empresas.`nombre` AS empresa , proyecto_estados.`nombre` AS estado , usuarios.`nombre` AS usuario , fuentes.`nombre` AS fuente ,
-       			proyectos.`created_at`
+       			proyectos.`created_at`  , remision
 				FROM proyectos  
 				INNER JOIN  proyecto_tipos 	ON proyectos.`id_proyecto_tipo` = proyecto_tipos.`id`
 				INNER JOIN moneda          	ON proyectos.`id_moneda` = moneda.`id`
@@ -60,7 +60,7 @@ class Fase3Controller extends Controller
                  empresas.`nombre` AS empresa , empresas.giro , empresas.direccion , empresas.ciudad , empresas.estado as estado ,
 
                  proyecto_estados.`nombre` AS status , usuarios.`nombre` AS usuario , fuentes.`nombre` AS fuente ,
-                proyectos.`created_at` , contado_cliente , contado_proveedor , en_stock
+                proyectos.`created_at` , contado_cliente , contado_proveedor , en_stock , remision
 
                 FROM proyectos  
                 INNER JOIN  proyecto_tipos  ON proyectos.`id_proyecto_tipo` = proyecto_tipos.`id`
@@ -92,15 +92,31 @@ class Fase3Controller extends Controller
     {
     	 $proyecto = $Request->input('proyecto');
          $factura = $Request->input('factura');
+
+
     	 $usuario = DB::SELECT("SELECT * FROM usuarios WHERE id = ".Auth::user()->id);
     	
          $info = DB::SELECT("SELECT * FROM proyectos WHERE id = ".$proyecto);
-         print_r($info);
+         //print_r($info);
          $contado_cliente = $info[0]->contado_cliente;
          //$contado_proveedor = $info[0]->contado_proveedor;
 
-         //$en_stock = $info[0]->en_stock;
+         $en_stock = $info[0]->en_stock;
 
+         if( $en_stock == 0 )
+         {
+           // return "etro";
+            $validar = DB::SELECT("SELECT * FROM archivos WHERE id_tipo = 9 AND id_proyecto=".$proyecto);
+          
+           
+            if( empty($validar) )
+            {
+                return "error";
+            
+            }
+            
+         }
+    
          if($contado_cliente == 1)
          {
             //Quiere decir que la factura se guardara en el proyecto

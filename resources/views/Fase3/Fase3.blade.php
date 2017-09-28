@@ -105,11 +105,19 @@
                             
 
                         </div>
-
+                    @if( Auth::user()->id_area != 6 )
                         <div class="col-lg-12">
-                            <h4>Folio del Pedido: <strong id="place_pedido"></strong></h4>
-                        </div>
 
+                            <div class="col-lg-6">
+                                <h4>Folio del Pedido: <strong id="place_pedido"></strong></h4>
+                            </div>
+
+                            <div class="col-lg-6">
+                                <h4>Folio de la Remision: <strong id="place_remision"></strong></h4>
+                            </div>
+
+                        </div>  
+                    @endif
                         <div class="col-lg-12">
                             <table class="table" style="border: 2px" id="table-opciones">
                                 <thead>
@@ -126,7 +134,7 @@
                             </table>
                        
                         </div>
-
+                    @if( Auth::user()->id_area != 6 )
                         <div id="info_anticipo_cliente" class="col-lg-12 place_karla" style="text-align:center;border-radius: 25px;background: #b0bec5;padding: 20px; ">
                             <h3>Informacion del Anticipo del Cliente de Fase 2</h3>
                             <p>Total:<br> <strong>500</strong></p>
@@ -135,7 +143,8 @@
                             <p>Fecha del Siguiente Pago del Cliente:<br> <strong></strong></p>
                             <p>Comentaios Sobre Acuerdo de Pago:<br> <strong>laasd asd asldmaslkdj jasd kas djkljasd lkjas dkljasdaskj asjdkl asdasd  as dasd</strong></p>
                         </div>
-
+                    @endif
+                    @if( Auth::user()->id_area != 5 )
                         <div id="info_anticipo_proveedor" class="col-lg-12 place_mary" style="margin-top:10px;text-align:center;border-radius: 25px;background: #b0bec5;padding: 20px; ">
                             <h3>Informacion del Anticipo al Proveedor de Fase 2</h3>
                             <p>Total:<br> <strong>500</strong></p>
@@ -144,13 +153,15 @@
                             <p>Fecha del Siguiente Pago del Cliente:<br> <strong></strong></p>
                             <p>Comentaios Sobre Acuerdo de Pago:<br> <strong>laasd asd asldmaslkdj jasd kas djkljasd lkjas dkljasdaskj asjdkl asdasd  as dasd</strong></p>
                         </div>
-
+                    @endif
+                        @if( Auth::user()->id_area != 6 )
                         <div class="col-lg-6">
                             <label>Factura</label>
                             <input type="input" class="form-control" id="factura">
                         </div>
-
+                        @endif
                         <div class="col-lg-12">
+                            @if( Auth::user()->id_area != 6 )
                             <div class="place_karla">
                                 <h3>Factura</h3>
                                 <div style="margin-top:20px" id="descargar_anticipo"></div>
@@ -160,29 +171,36 @@
                                 <div style="margin-top:20px" id="descargar_xml"></div>
                                 <input id="file_xml" name="archivos[]" type="file" multiple class="file-loading">
                             </div>
-
+                            @endif
+                            @if( Auth::user()->id_area != 5 )
                             <div class="place_mary">
                                 <h3>Anticipo o Pago Proveedor ( Solo Mary )</h3>
                                 <div style="margin-top:20px" id="descargar_pago_proveedor"></div>
                                 <input id="file_pago_proveedor" name="archivos[]" type="file" multiple class="file-loading">
                             </div>
+                            @endif
                         </div>
 
-                        <div class="col-lg-12 place_karla" id="comprobante_anticipo_cliente">
-                            <div class="col-lg-6">
-                                <label>Comprobante de Anticipo del Cliente</label>
-                                <a href="" download>Descargar</a>
-                            </div>
+                        <h2 class="col-sm-12" style="text-align: center;"><strong>Archivos</strong></h2>
+                        @if( Auth::user()->id_area != 6 )
+                        <div style="margin-top: 20px;" class="col-lg-12 place_karla">
+                            <h3>Cliente</h3>
+                            <div id="descargar_occ"></div>
+                            <div id="descargar_ac"></div>
+                            <div id="comprobante_anticipo_cliente"></div>
                         </div>
-
-                        <div class="col-lg-12 place_mary" id="comprobante_anticipo_proveedor">
-                            <div class="col-lg-6">
-                                <label>Comprobante de Anticipo al Proveedor</label>
-                                <a href="" download>Descargar</a>
-                            </div>
+                        @endif
+                        @if( Auth::user()->id_area != 5 )
+                        <div class="col-lg-12 ">
+                            <h3>Proveedor</h3>
+                            <div id="descargar_ocp"></div>
+                            <div id="descargar_ap"></div>
+                            <div id="comprobante_anticipo_proveedor"></div>
                         </div>
-
-                        <button id="siguiente_fase" style="margin-top:20px" type="button" class=" col-sm-12 waves-effect btn btn-success btn-lg">Cambiar de Fase</button>
+                        @endif
+                        @if( Auth::user()->id_area != 6 )
+                            <button id="siguiente_fase" style="margin-top:20px" type="button" class=" col-sm-12 waves-effect btn btn-success btn-lg">Cambiar de Fase</button>
+                        @endif
                         
                     </div>
 
@@ -212,7 +230,7 @@
     @include('layouts.js')
     <script src="{{url('js/fileinput.min.js')}}"></script>
     <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
-    <script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
+    <script src="{{url('js/tinymce/tinymce.min.js')}}"></script>
     <script>tinymce.init({ selector:'#comentario' });</script>
     <script>
         Waves.init();
@@ -246,7 +264,7 @@
 
                var id = $("#data-proyecto").val();
                 archivos($("#data-proyecto").val(), 0);
-                
+             
                 $("#file_anticipo").fileinput({
                     showCaption : true ,
                     uploadUrl   : 'Fase3/Ver_Proyecto/Archivos',
@@ -260,7 +278,6 @@
 
                 $("#file_anticipo").on('fileuploaded',function(){
                     /*Archivos Subidos*/
-                    
                     archivos(id, 7);
                 });
 
@@ -305,8 +322,9 @@
             $("#guardar_comentario").click(function(){
 
                     var comentario = tinyMCE.get('comentario').getContent();
-                    var proyecto   = $(this).attr("data-proyecto");
+                    var proyecto   = $("#data-proyecto").val();
 
+                    tinyMCE.activeEditor.setContent('');
                     $.post("Fase3/Ver_Proyecto/GuardarComentario",{
                         comentario : comentario ,
                         proyecto   : proyecto
@@ -340,8 +358,17 @@
                         factura : factura ,
                         proyecto : proyecto
                     }).done(function(data){
-                        swal("Exito","El Proyecto se Cambio de Fase","success")
-                        //window.location.href = "Fase3";
+
+                        if( data == "error" )
+                        {
+                            swal( "Error" , "El Comprobante de Pago no se ha subido, hablar con mary" , "error" )
+                            return ;
+                        }else{
+                            swal("Exito","El Proyecto se Cambio de Fase","success")
+                            window.location.href = "Fase3";
+                        }
+
+                    
                     
                     })
                     .error(function(error){
@@ -363,7 +390,8 @@
             });
 
         function cargaproyecto(proyecto)
-        {
+        {   
+            $(".place_mary").show();
             $.get("Fase3/Ver_Proyecto/"+proyecto)
             .done(function(data){
 
@@ -389,6 +417,7 @@
                 }
 
                $("#place_pedido").html( proyecto.pedido );
+               $("#place_remision").html( proyecto.remision );
 
                 var administradores = data["administradores"];
                 for( var x = 0  ; x < Object.keys(administradores).length ; x++ )
@@ -411,6 +440,11 @@
                 var tres = 'style="background-color: red "';
                 var cuatro = 'style="background-color: red "';
 
+                archivos($("#data-proyecto").val() , 2);
+                
+                //archivos($("#data-proyecto").val() , 5);
+                //archivos($("#data-proyecto").val() , 6);
+
                 if( contado_cliente == 1 )
                 {
                     tres = 'style="background-color: green "';
@@ -430,7 +464,10 @@
                 if( en_stock == 1 )
                 {
                     $(".place_mary").hide();
+                    dos = 'style="background-color: red "';
                      cuatro = 'style="background-color: red "';
+                }else{
+                    archivos($("#data-proyecto").val() , 3);
                 }
 
                 $("#table-opciones tbody").html(
@@ -517,8 +554,7 @@
                     var nueve    = false;
 
                     var resultado = data["resultado"];
-                    console.log("??????????????");
-                    console.log(resultado);
+                    
 
                     $("#descargar_anticipo").html('');
                     $("#descargar_xml").html('');
@@ -528,7 +564,7 @@
                     {
                         var type= resultado[x].id_tipo;
                         html = "";
-                       alert("for");
+                  
                             switch(parseInt(type))
                             {
                                 case 7:
@@ -559,16 +595,17 @@
                                 break;
 
                                 case 9:
-                                    alert("Entro case");
+                                 
                                         if( nueve == false ){
-                                            alert("Entro if");
-                                        var url = data["url"]+"/"+resultado[x].ruta;
-                                        html +=
-                                        '<span class="glyphicon glyphicon-file"></span>'+
+                                          
+                                            var url = data["url"]+"/"+resultado[x].ruta;
 
-                                        '<a href="'+url+'" download>Anticipo o Pago Proveedor '+resultado[x].created_at+'</a>';
-                                        $("#descargar_pago_proveedor").html(html);
-                                       nueve = true;
+                                            html +=
+                                                '<span class="glyphicon glyphicon-file"></span>'+
+
+                                                '<a href="'+url+'" download>Anticipo o Pago Proveedor '+resultado[x].created_at+'</a>';
+                                            $("#descargar_pago_proveedor").html(html);
+                                            nueve = true;
 
                                         } 
                                 break;
@@ -577,17 +614,63 @@
                     }
 
                 }else{
+                    
 
                     var resultado = data["resultado"];
+                    if( resultado.length == 0 ){ 
+
+                        $("#descargar_ocp").html('');
+                        $("#descargar_occ").html('');
+                        $("#descargar_ac").html('');
+                        $("#descargar_ap").html('');
+                        $("#descargar_anticipo").html('');
+                        $("#descargar_xml").html('');
+                        $("#descargar_pago_proveedor").html('');
+                    }
+
                     var x = 0;
                     switch(tipo)
                             {
                                 case 2:
-                                break;
+                                    $("#descargar_occ").html('');
+                                    var url = data["url"]+"/"+resultado[x].ruta;
+                                        html +=
+                                        '<span class="glyphicon glyphicon-file"></span>'+
 
+                                        '<a href="'+url+'" download>Orden de Compra Cliente '+resultado[x].created_at+'</a>';
+                                    $("#descargar_occ").html(html);
+                                break;
+                                //descargar_ocp
                                 case 3:
+
+                                    $("#descargar_ocp").html('');
+                                    var url = data["url"]+"/"+resultado[x].ruta;
+                                        html +=
+                                        '<span class="glyphicon glyphicon-file"></span>'+
+
+                                        '<a href="'+url+'" download>Orden de Compra Proveedor '+resultado[x].created_at+'</a>';
+                                    $("#descargar_ocp").html(html);
                                 break;
 
+                                case 5:
+                                    $("#descargar_ac").html('');
+                                    var url = data["url"]+"/"+resultado[x].ruta;
+                                        html +=
+                                        '<span class="glyphicon glyphicon-file"></span>'+
+
+                                        '<a href="'+url+'" download>Anticipo del Cliente'+resultado[x].created_at+'</a>';
+                                        $("#descargar_ac").html(html);
+                                break;
+
+                                case 6:
+                                    $("#descargar_ap").html('');
+                                    var url = data["url"]+"/"+resultado[x].ruta;
+                                        html +=
+                                        '<span class="glyphicon glyphicon-file"></span>'+
+
+                                        '<a href="'+url+'" download>Anticipo del Proveedor '+resultado[x].created_at+'</a>';
+                                        $("#descargar_ap").html(html);
+                                break;
 
                                 case 7:
                                         $("#descargar_anticipo").html('');
@@ -614,7 +697,7 @@
                                         $("#descargar_pago_proveedor").html('');
 
                                         var url = data["url"]+"/"+resultado[x].ruta;
-                                        alert(url);
+                                        
                                         html +=
                                         '<span class="glyphicon glyphicon-file"></span>'+
 

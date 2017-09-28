@@ -135,7 +135,7 @@
     <!-- jQuery Js -->
     @include('layouts.js')
     <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
-    <script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
+    <script src="{{url('js/tinymce/tinymce.min.js')}}"></script>
     <script>tinymce.init({ selector:'#comentario' });</script>
     <script>
         Waves.init();
@@ -167,22 +167,36 @@
                 var guia          = $("#guia").val();
                 var proyecto      = $(this).attr("data-proyecto");
 
-                $.post("Fase4/siguienteFase",{
+                swal({
+                    title: '¿Estas Seguro?',
+                    text: "El proyecto cambiara a Fase 5",
+                    type: 'warning',
+                    showCancelButton: true,
+                    confirmButtonColor: '#3085d6',
+                    cancelButtonColor: '#d33',
+                    confirmButtonText: 'Si'
+                }).then(function () {
+/*
+                    $.post("Fase4/siguienteFase",{
 
-                    importacion   : importacion   ,
-                    transporte    : transporte    ,
-                    numero_compra : numero_compra ,
-                    fecha_ingreso : fecha_ingreso ,
-                    fecha_entrega : fecha_entrega ,
-                    guia          : guia          ,
-                    proyecto      : proyecto
+                        importacion   : importacion   ,
+                        transporte    : transporte    ,
+                        numero_compra : numero_compra ,
+                        fecha_ingreso : fecha_ingreso ,
+                        fecha_entrega : fecha_entrega ,
+                        guia          : guia          ,
+                        proyecto      : proyecto
+                    })
+                    .done(function(data){
+                        window.location.href = "Fase4";
+                    })
+                    .error(function(error){
+                        alert("Error al Cambiar de Fase");
+                    }); */
+
                 })
-                .done(function(data){
-                    window.location.href = "Fase4";
-                })
-                .error(function(error){
-                    alert("Error al Cambiar de Fase");
-                }); 
+
+                
 
             });
     </script>

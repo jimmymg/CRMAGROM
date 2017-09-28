@@ -313,6 +313,7 @@
                         
                     </div>
                     <div class="col-sm-12">
+                        <p><strong>*Comentar la Cantidad de la Compra</strong></p>
                         <h3 style="margin-top: 10px; margin-bottom:10px;">Comentarios y Seguimientos</h3>
                         <textarea id="comentario"></textarea>
 
@@ -353,7 +354,9 @@
     <!-- END plugin datetimepicker JS -->
     <script src="{{url('js/fileinput.min.js')}}"></script>
     <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
-    <script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
+
+    <script src="{{url('js/tinymce/tinymce.min.js')}}"></script>
+
     <script>tinymce.init({ selector:'#comentario' });</script>
 
     <script src="{{url('js/vistaArchivos.js')}}"></script>

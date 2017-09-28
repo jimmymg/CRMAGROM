@@ -204,6 +204,11 @@
                                 <h3>Folio del Pedido</h3>
                                 <input id="numero_adminpac" style="margin-top:10px" type="text" class="form-control">
                             </div>
+
+                            <div class="col-lg-6">
+                                <h3>Folio de la Remision</h3>
+                                <input id="remision" style="margin-top:10px" type="text" class="form-control">
+                            </div>
                         </div>
 
                         <h3>Archivos</h3>
@@ -280,7 +285,7 @@
     
     <script src="{{url('js/fileinput.min.js')}}"></script>
     <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
-    <script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
+    <script src="{{url('js/tinymce/tinymce.min.js')}}"></script>
     <script>tinymce.init({ selector:'#comentario' });</script>
     <script src="{{url('js/vistaArchivos.js')}}"></script>
 
@@ -500,6 +505,12 @@
                     tipo_error = 2;
                 }
 
+                if( $("#remision").val() == '' )
+                {
+                    swal( "Error" , "Remision esta vacio" , "error" )
+                    return ;
+                }
+
                 swal({
                     title: '¿Estas Seguro?',
                     text: "El Proyecto se Cambiara a la Fase 3 Facturacion",
@@ -541,6 +552,7 @@
 
                         proyecto                : proyecto                ,
                         numero_admin            : numero_admin            ,
+                        remision                : $("#remision").val()    ,
 
                         contado_cliente         : ($("#contado_c").is(":checked"))?1:0 ,
                         contado_proveedor       : ($("#contado_p").is(":checked") )?1:0,

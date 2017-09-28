@@ -74,9 +74,10 @@ class Fase2Controller extends Controller
 
         $proyecto                = $Request->input('proyecto');
         $numero_admin            = $Request->input('numero_admin');
+        $remision                = $Request->input('remision');
 
         $contado_cliente         = $Request->input('contado_cliente');
-        $contado_provedor       = $Request->input('contado_proveedor');
+        $contado_provedor        = $Request->input('contado_proveedor');
         $en_stock                = $Request->input('en_stock');
 
         echo $contado_cliente;
@@ -137,6 +138,7 @@ class Fase2Controller extends Controller
                     "contado_proveedor" =>  $contado_provedor ,
                     "en_stock"          => $en_stock ,
                     "pedido"            => $numero_admin ,
+                    "remision"         => $remision ,
                     "fase"              => 3
                 ]);
         
