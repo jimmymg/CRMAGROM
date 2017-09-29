@@ -95,27 +95,67 @@
                     </button>
                 </div>
                 <div class="modal-body col-sm-12">
+                    
+                    <div class="col-lg-6">
+                  
+                        <div class="col-lg-12" style="display: block;">
+                            <div class="material-switch pull-left">
+                                <input id="importacion" name="someSwitchOption001" type="checkbox">
+                                <label for="importacion" class="label-primary"></label>
+                            </div>
+                            <label style="margin-left: 10px">Importacion</label>
+
+                        </div>
+
+                        <div class="col-lg-12" id="form_importacion">
+                            <h4>Numero de Factura de la Compra: <strong>3000</strong></h4>
+                            <h4>Gastos de Importacion Real</h4>
+                            <input id="importacion" style="margin-top:10px" type="number" class="form-control">
+
+                            <h4>Gastos de Transporte Real</h4>
+                            <input id="transporte" style="margin-top:10px" type="number" class="form-control">
+
+                            <h4>Fecha de Ingreso del Producto</h4>
+                            <input id="fecha_ingreso" type="date" class="form-control">
+
+                            <h4>Contacto para Realizar Seguimiento</h4>
+                            <input id="contacto" style="margin-top:10px" type="text" class="form-control">
+
+                        </div>
+
+
                  
+                    </div>
+
+                    <div class="col-lg-6">
+
+                        <div class="col-lg-12" style="display: block;">
+                            <div class="material-switch pull-left">
+                                <input id="servicio" name="someSwitchOption001" type="checkbox">
+                                <label for="servicio" class="label-primary"></label>
+                            </div>
+                            <label style="margin-left: 10px">Servicio</label>
+
+                        </div>
+
+                        <div class="col-lg-12" id="form_servicio">
+
+                            <h4>Gastos de Transporte Real</h4>
+                            <input id="transporte" style="margin-top:10px" type="number" class="form-control">
+
+                            <h4>Notificar Fecha de Entrega del Producto</h4>
+                            <span style="margin-top: 5px; margin-bottom: 10px">(Administrador del Proyecto Informa al Cliente)</span>
+                            <input id="fecha_entrega" type="date" class="form-control">
+
+                            <h4>Numero de Guia</h4>
+                            <input id="guia" type="text" class="form-control">
+
+                        </div>
+
+                    </div>
+
                     <div class="col-sm-12">
                         
-                        <h4>Gastos de Importacion Real</h4>
-                        <input id="importacion" style="margin-top:10px" type="number" class="form-control">
-
-                        <h4>Gastos de Transporte Real</h4>
-                        <input id="transporte" style="margin-top:10px" type="number" class="form-control">
-
-                        <h4>Numero de Compra del Producto en Sistema</h4>
-                        <input id="numero_compra" style="margin-top:10px" type="text" class="form-control">
-
-                        <h4>Notificar Fecha de Ingreso del Producto</h4>
-                        <input id="fecha_ingreso" type="text" class="form-control">
-
-                        <h4>Notificar Fecha de Entrega del Producto</h4>
-                        <span style="margin-top: 5px; margin-bottom: 10px">(Administrador del Proyecto Informa al Cliente)</span>
-                        <input id="fecha_entrega" type="text" class="form-control">
-
-                        <h4>Numero de Guia</h4>
-                        <input id="guia" type="text" class="form-control">
                      
                         <button id="siguiente_fase" style="margin-top:20px" type="button" class=" col-sm-12 waves-effect btn btn-success btn-lg">Cambiar de Fase</button>
                         
@@ -150,7 +190,28 @@
         });
         
             $(document).ready(function(){
-               
+               $("#form_servicio").hide();
+               $("#form_importacion").hide();
+            });
+
+            $("#importacion").change(function(){
+
+                if( $(this).is(":checked") )
+                {
+                    $("#form_importacion").show();
+                }else{
+                    $("#form_importacion").hide();
+                }
+            });
+
+            $("#servicio").change(function(){
+
+                if( $(this).is(":checked") )
+                {
+                    $("#form_servicio").show();
+                }else{
+                    $("#form_servicio").hide();
+                }
             });
 
             $(document).on("click",".verProyecto", function(){
