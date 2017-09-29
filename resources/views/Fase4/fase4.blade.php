@@ -108,6 +108,11 @@
                         </div>
 
                         <div class="col-lg-12" id="form_importacion">
+
+                            <select class="form-control">
+                                <option>Seleccionar Linea Transportista</option>
+                            </select>
+
                             <h4>Numero de Factura de la Compra: <strong>3000</strong></h4>
                             <h4>Gastos de Importacion Real</h4>
                             <input id="importacion" style="margin-top:10px" type="number" class="form-control">
@@ -139,6 +144,10 @@
                         </div>
 
                         <div class="col-lg-12" id="form_servicio">
+
+                            <select class="form-control">
+                                <option>Seleccionar Paqueteria</option>
+                            </select>
 
                             <h4>Gastos de Transporte Real</h4>
                             <input id="transporte" style="margin-top:10px" type="number" class="form-control">
