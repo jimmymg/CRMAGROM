@@ -109,11 +109,15 @@
 
                         <div class="col-lg-12" id="form_importacion">
 
-                            <select class="form-control">
-                                <option>Seleccionar Linea Transportista</option>
-                            </select>
 
                             <h4>Numero de Factura de la Compra: <strong>3000</strong></h4>
+
+                            <h4>#Pedimento</h4>
+                            <input id="pedimento" style="margin-top:10px" type="number" class="form-control">
+
+                            <h4>#Guia</h4>
+                            <input id="guia_importacion" style="margin-top:10px" type="number" class="form-control">
+
                             <h4>Gastos de Importacion Real</h4>
                             <input id="importacion" style="margin-top:10px" type="number" class="form-control">
 

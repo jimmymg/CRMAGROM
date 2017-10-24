@@ -8,7 +8,7 @@
     @include("layouts.css")
     <link href="{{url('css/fileinput.min.css')}}" rel="stylesheet" />
      <link href="{{url('js/dataTables/dataTables.bootstrap.css')}}" rel="stylesheet" />
-     <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+    
     
 </head>
 
@@ -126,7 +126,7 @@
     <!-- jQuery Js -->
     @include('layouts.js')
     <script src="{{url('js/fileinput.min.js')}}"></script>
-    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+    
     <script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
    
     <script>

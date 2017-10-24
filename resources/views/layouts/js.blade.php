@@ -16,3 +16,4 @@
     <script src="{{url('js/dataTables/dataTables.bootstrap.js')}}"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.5/sweetalert2.js"></script>
     <script src="{{url('js/responsivo.js')}}"></script>
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>

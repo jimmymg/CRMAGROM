@@ -93,6 +93,35 @@ Route::get('Archivos/{tipoArchivo}/proyecto/{proyecto}','crmController@archivos'
 	/*Seccion de Editar*/
 	Route::post( 'Fase1/Editar' , 'Fase1Controller@editarProyecto' );
 //############################################################
+/*Ventas:*/
+	Route::get( 'ventas' , function(){
+		return view('ventas.index');
+	} )->middleware('guest');
+	Route::get( 'ventas/nueva' , function(){
+		return view('ventas.nueva');
+	} );
+
+	Route::get( "ventas/solicitudes/{venta}" , "VentasController@get_facturas" );
+
+	Route::get( 'ventas/nueva/getOrden/{orden}/proyecto/{proyecto}', 'VentasController@buscarorden' );
+	Route::get( 'ventas/cargar' , 'VentasController@cargarProyectos' );
+	Route::post( 'ventas/nueva/guardar' , 'VentasController@guardar' );
+	Route::post( 'ventas/nueva/altaProducto' , 'VentasController@guardarNuevoProducto' );
+	Route::get( 'ventas/nueva/getProductos' , 'VentasController@getProductos' );
+	Route::post( 'ventas/nueva/orden/addproduct' , 'VentasController@addproduct_to_order' );
+	Route::get( 'ventas/nueva/orden/{orden}/productos' , 'VentasController@productos_orden' );
+	Route::get( 'ventas/nueva/calcular/orden/{orden}' , 'VentasController@calcular' );
+	Route::post( 'ventas/nueva/solicitarFactura' , 'VentasController@solicitar_factura' );
+//############################################################
+/*Facturar:*/
+	Route::get( 'facturar' , "FacturarController@index" );
+	Route::get( 'facturar/solicitudes' , 'FacturarController@solicitudes' );
+	Route::get( 'facturar/solicitud/{solicitud}' , 'FacturarController@get_soliciud' );
+//############################################################
+/*Productos:*/
+	Route::get( 'productos' , 'ProductosController@index' );
+	Route::get( 'productos/todos' , 'ProductosController@consultaProductos' );
+//############################################################
 /*Fase2:*/
 	Route::get('Fase2','Fase2Controller@index')->middleware('guest')->middleware('Fase2');
 	Route::post('Fase2/siguienteFase','Fase2Controller@siguienteFase');
