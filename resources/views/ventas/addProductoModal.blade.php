@@ -404,6 +404,7 @@ $("#add_product").click(function(event){
           
         }
         $("#add_product").show();
+        calcular_total($("#solicitud_id").val());
         llenar_tablas_productos($("#solicitud_id").val());
     })
     .error(function(){
@@ -617,7 +618,13 @@ function llenar_tablas_productos(orden)
         var button = "";
         for( var x = 0 ; x < data.length ; x++ )
         {   
-            button = "<button type='button' class='btn btn-primary verSeries'>Series ("+data[x].cantidad+")</button>";
+            if( data[x].lleva_series == 1 )
+            {
+                button = "<button type='button' class='btn btn-primary verSeries'>Series ("+data[x].cantidad+")</button>";
+            }else{
+                button = "N/A";
+            }
+            
 
             tbody +=    "<tr>"+
                             "<td>"+(x+1)+"</td>"+

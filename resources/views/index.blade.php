@@ -33,8 +33,8 @@
 
                 <div class="row">
 
-
-               
+                    <button type="button" id="prueba">Click!</button>
+                <a class="action no-select" contenteditable="false" data-id="Congratulate">Congratulate</a>
                     <div class="col-md-3 col-sm-12 col-xs-12 waves-effect" id="oportunidades">
                         <div class="panel panel-primary text-center no-boder bg-color-green">
                             <div class="panel-body">
@@ -318,6 +318,17 @@
             window.location.href = 'GoogleCalendar';
         });
         //Prueba de Google Calendar
+
+        $("#prueba").click(function(){
+         
+            console.log(clippy);/*
+             clippy.ready('Clippy', function(agent) {
+       
+        agent.moveTo(200,200);
+        
+        });*/
+
+        });
     </script>
 
 </body>

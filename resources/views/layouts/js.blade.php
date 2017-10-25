@@ -17,3 +17,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.5/sweetalert2.js"></script>
     <script src="{{url('js/responsivo.js')}}"></script>
     <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/clippy.js/1.0/clippy.min.js">
+    </script>
+    <script>
+        
+        $(document).ready(function(){
+            clippy.load('Clippy', function(agent) {
+        agent.show();
+        agent.moveTo(200,200);
+        
+    });
+        });
+    </script>
+
+
+

@@ -65,6 +65,8 @@
                         <label>Numero de la Remision AdminPAQ</label>
                         <input id="folio_remision" type="text" class="form-control">
 
+                        <label>Factura: <strong id="factura"></strong></label>
+
                          <button style="margin-top: 15px;" type="button" class="btn btn-success col-lg-12" id="solicitar_factura" >Solicitar Factura</button>
                         
                     </div>
@@ -107,7 +109,7 @@
     function cargar_info_modal(id)
     {
         
-        $.get("facturar/solicitud/"+id)
+        $.get("solcitarFactura/solicitud/"+id)
         .done(function(data){
             console.log(data);
             var tamano = Object.keys(data).length
@@ -130,6 +132,26 @@
             $("#porcentaje label strong").html( info.porcentaje+"%" );
             $("#numero_orden strong").html( info.orden_compra );
             $("#vendedor").html( info.usuario );
+      
+            if( info.pedido != null )
+            {
+                $("#factura").parent().show();
+                $("#solicitar_factura").hide();
+
+                $("#folio_pedido").val(info.pedido);
+                $("#folio_remision").val(info.remision);
+
+                if( info.factura !=null )
+                {
+                    $("#factura").html(info.factura);
+                }else{
+                    $("#factura").html("Factura Solicitada");
+                }
+            }else{
+                $("#factura").parent().hide();
+                $("#solicitar_factura").show();
+            }
+
             var porcentaje = info.porcentaje;
 
             if( porcentaje == 100 )

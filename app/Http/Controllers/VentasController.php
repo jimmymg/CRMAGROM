@@ -89,8 +89,8 @@ class VentasController extends Controller
         $series             = $request->input('series');
         $id_numero_orden    = $request->input('numero_orden');
 
-        $validar = DB::SELECT('SELECT * FROM movimiento_productos WHERE id_producto = '.$producto);
-
+        $validar = DB::SELECT('SELECT * FROM movimiento_productos WHERE id_producto = '.$producto.' AND id_venta ='.$id_numero_orden);
+        //Falta Validar si ya se hizo una factura anteriormente para evitar que se agreguen mas productos
         if( !empty($validar) )
         {
             return "validar";

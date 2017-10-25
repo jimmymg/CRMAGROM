@@ -113,10 +113,16 @@ Route::get('Archivos/{tipoArchivo}/proyecto/{proyecto}','crmController@archivos'
 	Route::get( 'ventas/nueva/calcular/orden/{orden}' , 'VentasController@calcular' );
 	Route::post( 'ventas/nueva/solicitarFactura' , 'VentasController@solicitar_factura' );
 //############################################################
-/*Facturar:*/
-	Route::get( 'facturar' , "FacturarController@index" );
-	Route::get( 'facturar/solicitudes' , 'FacturarController@solicitudes' );
-	Route::get( 'facturar/solicitud/{solicitud}' , 'FacturarController@get_soliciud' );
+/*Solicitar Factura y Facturar:*/
+	Route::get( 'solcitarFactura' , "FacturarController@index" );
+	Route::get( 'facturar' , function(){
+		return view('Facturar.facturar');
+	} );
+	Route::get( 'solcitarFactura/solicitudes' , 'FacturarController@solicitudes' );
+	Route::get( 'solcitarFactura/solicitud/{solicitud}' , 'FacturarController@get_soliciud' );
+	Route::post( 'solicitarFactura/solicitar' , 'FacturarController@solicitar_factura' );
+	Route::get( 'solicitarFactura/pendientes' , 'FacturarController@pendiente_facturar' );
+	Route::post( 'solicitarFactura/facturar' , 'FacturarController@facturar' );
 //############################################################
 /*Productos:*/
 	Route::get( 'productos' , 'ProductosController@index' );

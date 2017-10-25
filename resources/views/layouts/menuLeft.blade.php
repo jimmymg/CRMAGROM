@@ -67,7 +67,20 @@
                     </li> 
                     <li>
                         <a href="http://172.16.200.249/crm.agro/Local/Facturas" target="_blank" class="waves-effect">Facturas de los Clientes Admipaq</a>
-                    </li>      
+                    </li> 
+                    <li>
+                        <a href='{{url("/ventas")}}'  class="waves-effect">Ventas</a>
+                    </li> 
+                     @if( Auth::user()->id_area == 1 || Auth::user()->id_area == 3 || Auth::user()->id_area == 4 )     
+                    <li>
+                        <a href='{{url("/solcitarFactura")}}'  class="waves-effect">Solicitar Factura</a>
+                    </li> 
+                    @endif  
+                    @if( Auth::user()->id_area == 1  || Auth::user()->id_area == 5 || Auth::user()->id_area == 6 )
+                    <li>
+                        <a href='{{url("/facturar")}}'  class="waves-effect">Facturar</a>
+                    </li> 
+                    @endif
                 </ul>
 
             </div>

@@ -157,7 +157,7 @@
                         </div>
                     </div>   
 
-                    <h1 style="text-align: center;margin-bottom: 10px;" id="nc" >Numero de Compra:<strong></strong></h1>
+                   
                     
                     <div class="col-sm-12" id="card_solicitudes">
                     <!-- Advanced Tables -->
@@ -378,7 +378,7 @@
                 if( data['respuesta'] == 'error' ){ 
                     swal( "Error" , "Ese Numero de Compra ya existe con otro Proyecto" , "error" )
                     return; }
-
+                    
                 if(data['respuesta'] == "nuevo")
                 {
                     //Funcion para Aparecer los Campos 
@@ -393,11 +393,14 @@
                     $("#product_total").val('0');
                 }else{
                     //Funcion para Apareer los Cmapos  
+
                     $("#guardar").show();
                     ed_campos(1);
                     $("#solicitud_id").val(data['orden_id']);
                     calcular_total(data['orden_id']);
                 }
+
+                $("#porc").val(0);
 
                 cargar_solicitudes($("#solicitud_id").val());
                 llenar_tablas_productos($("#solicitud_id").val());
@@ -544,8 +547,16 @@
 
         $("#seleccionarProyecto").change(function(){
             ed_campos(2);
+
+            $("#table-solicitudes tbody").html("");
+            $("#guardar").attr("disabled","disabled");
             $("#numero_orden").val('');
+            $(".subtotal_anticipo").html(0);
+            $(".iva_anticipo").html(0);
+            $(".total_anticipo").html(0);
+
             var id = $(this).val();
+
 
             var orden = '';
             $("#seleccionarProyecto").find('option').each(function(n){
@@ -604,6 +615,11 @@
              .done(function(data){
 
                 var total = data;
+                if( total == "" )
+                {
+                    swal("Error","No hay un Producto Agregado","warning")
+                    return ;
+                }
                 var anticipo = $("#porc").val();
                 $("#subtotal_input").val(total);
                 //alert(total);
@@ -700,9 +716,17 @@
             $.get("nueva/calcular/orden/"+orden)
             .done(function(data){
                 console.log(data);
-                var subtotal = (data == null)?0:data;
+                var subtotal = (data == null || data == "")?0:data;
                 var iva      = subtotal * .16;
                 var total    = subtotal * 1.16;
+
+                if( subtotal == 0 )
+                {
+                    $(".subtotal").html(0);
+                    $(".iva").html(0);
+                    $(".total").html(0);
+                        return;
+                }
 
                 var subtotal = subtotal.replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,");
              
@@ -729,12 +753,16 @@
                 var tbody = "";
                 var moneda = "";
                 var facturado  = "";
+                var color = "";
                 for( var x = 0 ; x < Object.keys(data).length ; x++ )
                 {   
                     moneda = (data[x].moneda == 2)?"USD":"MN";
                     facturado = ( data[x].facturado == 1 )?"Facturado":"Pendiente";
-                    facturado = ( data[x].cancelado == 1 )?"Cancelado":facturado;
-                    tbody +=    "<tr>"+
+                    facturado = ( data[x].cancelado == 1 )?"Cancelado":"Facturado"; 
+
+                    if( data[x].facturado == 1 ){ color="green"; }
+
+                    tbody +=    "<tr style='background-color:"+color+"'>"+
                                     "<td>"+(x+1)+"</td>"+
                                     "<td>"+data[x].fecha_solicitud+"</td>"+
                                     "<td>"+data[x].razon+"</td>"+
@@ -755,6 +783,11 @@
             .error(function(){
                 alert("Error al Cargar las Solicitudes");
             });
+        }
+
+        function cargar_facturas(id_venta)
+        {
+            alert("venta");
         }
     </script>
 </body>

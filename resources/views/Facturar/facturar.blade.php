@@ -28,7 +28,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h1 class="page-header">
-                            Facturacion <small>Recordar que ustedes crean Pedido y Remision, los que Facturan son los de Contabilidad</small>
+                            Facturacion <small>Contabilidad</small>
                         </h1>
                     </div>
                 </div>
@@ -43,47 +43,25 @@
                     <!-- Advanced Tables -->
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                Pendientes de Solicitar Facturas
+                                Pendientes de Facturar
                             </div>
                             <div class="panel-body">
 
                                 <div class="col-lg-12">
-                                    <div class="col-lg-3">
-                                        <label>N° Compra</label>
-                                        <input type="text" class="form-control" id="numero_compra_filter">
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <label>Fecha</label>
-                                        <input type="date" class="form-control" id="fecha_filter">
-                                    </div>
-                                    <div class="col-lg-3">
-                                        <label>Estado</label>
-                                        <select class="form-control">
-                                            <option>Pendiente</option>
-                                        </select>
-                                    </div>
-
-                                    <div class="col-lg-12" style="margin-top:15px;margin-bottom: 15px;">
-                                        <button type="button" class="waves-effect btn btn-primary col-lg-11">Filtrar</button>
-                                        <button type="button" class="waves-effect btn btn-success col-lg-1">Todos</button>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-12">
                                     <div class="table-responsive">
-                                        <table class="table" id="table-solicitudes">
+                                        <table class="table" id="table-pendietes-facturar">
                                             <thead>
                                                 <tr>
                                                     <th>#</th>
-                                                    <th>Orden de Compra</th>
-                                                    <th>Fecha</th>
-                                                    <th>Solicitado Por</th>
-                                                    <th>Estado</th>
-                                                    <th>Do it!</th>
+                                                    <th>Pedido</th>
+                                                    <th>Remision</th>
+                                                    <th>Factura</th>
+                                                    <th>Cliente</th>
+                                                    <th>Total</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
-                                            
+                                               
                                             </tbody>
                                         </table>
                                     </div>
@@ -102,7 +80,7 @@
     </div>
 
     <!-- MODALS -->
-    @include('Facturar.Do_It_Modal')
+   
 
     <!-- /. WRAPPER  -->
     <!-- JS Scripts-->
@@ -133,71 +111,87 @@
                     $('div.sidebar-collapse').removeClass('collapse')
             }
         });
+        
         $(document).ready(function(){
             cargar_solicitudes();
-        });  
+        });
 
-     function cargar_solicitudes()
-     {
-        $.get("facturar/solicitudes")
-        .done(function(data){
-            console.log(data);
+        $(document).on("click",".facturar",function(event){
+                event.preventDefault();
 
-            var table = $("#table-solicitudes tbody");
-            var tbody ="";
-            var facturado = "";
-            var estado = "";
-
-            for( var x = 0 ; x < Object.keys(data).length ; x++ )
-            {   
-
-                facturado = data[x].facturado;
-                estado = ( facturado == 0)?"Pendiente":facturado;
-                estado = ( data[x].cancelado == 0 )?estado:"Cancelado";
+            var $this = $(this);
+            $this.hide();
+            var id = $(this).attr("data-factura");
+            var factura = $(this).parent().parent().find("input").val();
 
 
-                tbody += 
-                "<tr>"+
-                    "<td>"+(x+1)+"</td>"+
-                    "<td>"+data[x].orden_compra+"</td>"+
-                    "<td>"+data[x].fecha_solicitud+"</td>"+
-                    "<td>"+data[x].usuario+"</td>"+
-                    "<td>"+estado+"</td>"+
-                    "<td> <button data-id='"+data[x].id+"' type='button' class='doIt btn btn-warning waves-effect'>Do It!</button> </td>"+
-                "</tr>";
+            if( factura == "" )
+            {
+                swal("Error","Factura Vacia","error")
+                return ;
             }
 
-            table.html(tbody);
-        })
-        .error(function(){
-            alert("Error al Cargar las Solicitudes");
+            $.post('solicitarFactura/facturar',
+            {
+                id : id ,
+                factura : factura ,
+            })
+            .done(function(data){
+                cargar_solicitudes();
+
+                swal("Facturado","Factura Guardada con Existo" , "success")
+            })
+            .error(function(){
+                alert("Error al Facturar");
+                 $this.show();
+            });
+
         });
-     }
 
-     $(document).on("click",".doIt" , function(){
-        $("#modalFacturar").modal();
-        var id = $(this).attr("data-id");
-        $("#id_solicitud").val(id);
-        cargar_info_modal(id);
-
-     });
-
-    $("#solicitar_factura").click(function(){
-        var id_solicitud =   $("#id_solicitud").val();
-        alert(id_solicitud);
-        var pedido = $("#folio_pedido").val();
-        var remision = $("#folio_remision").val();
-        
-        if( pedido == "" || remision == "" )
+        function cargar_solicitudes()
         {
-            swal("Error","Pedido o Remision estan vacios!","error")
-            return;
+            $.get("solicitarFactura/pendientes")
+            .done(function(data){
+                console.log(data);
+             
+                var table = $("#table-pendietes-facturar tbody");
+
+                var tbody = "";
+                var boton = "";
+                for( var x = 0 ; x < Object.keys(data).length ; x++ )
+                {   
+                    if( data[x].factura == null )
+                    {
+                        boton = '<div class="col-lg-8">'+
+                                    '<input type="text" class="form-control">'+
+                                '</div>'+
+                                '<div class="col-lg-4">'+
+                                    '<button data-factura="'+data[x].id+'" type="button" class="facturar btn btn-primary waves-effect">Guardar</button>'+
+                                '</div>';
+                    }else{
+                        boton = data[x].factura;
+                    }
+
+                    tbody +=
+                    "<tr>"+
+                        "<td>"+(x+1)+"</td>"+
+                        "<td>"+data[x].pedido+"</td>"+
+                        "<td>"+data[x].remision+"</td>"+
+
+                        "<td class='col-lg-4'>"+boton+"</td>"+
+
+                        "<td>"+data[x].razon+"</td>"+
+                        "<td>"+data[x].total+"</td>"+
+
+                    "</tr>";
+                }
+
+                table.html(tbody);
+            })
+            .error(function(){
+                alert("Error al Consular las Solicitudes Pendientes");
+            });
         }
-
-
-
-    });
-
     </script>
 </body>
 </html>
