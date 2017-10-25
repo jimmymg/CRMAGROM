@@ -591,7 +591,7 @@ function llenar_seleccionar_producto()
 
         for( var x = 0 ; x < Object.keys(data).length ; x++ )
         {   
-            valor = (data[x].lleva_series)?"Si":"No";
+            valor = (data[x].lleva_series == "1")?"Si":"No";
 
             global_index_all_productos.push( data[x].id );
             global_all_productos.push( { "id":data[x].id , "serie":data[x].lleva_series } );
