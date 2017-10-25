@@ -297,7 +297,7 @@ $("#seleccionar_producto").on("change",function(e){
     var index = global_index_all_productos.indexOf( val );
    
     var serie = global_all_productos[index].serie;
-    if( serie )
+    if( serie == "1" )
     {
         $("#al-series").show();
         $("#add_series").show();
@@ -538,7 +538,7 @@ function llenar_table_all_productos()
         for(var x = 0 ; x < Object.keys(data).length ; x++)
         {   
 
-            valor = ( data[x].lleva_series )?"Si":"No";
+            valor = ( data[x].lleva_series == "1" )?"Si":"No";
 
             tbody +=    "<tr>"+
                             "<td>"+(x+1)+"</td>"+
@@ -626,7 +626,7 @@ function llenar_tablas_productos(orden)
         var button = "";
         for( var x = 0 ; x < data.length ; x++ )
         {   
-            if( data[x].lleva_series == 1 )
+            if( data[x].lleva_series == "1" )
             {
                 button = "<button type='button' class='btn btn-primary verSeries'>Series ("+data[x].cantidad+")</button>";
             }else{
