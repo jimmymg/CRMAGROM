@@ -286,8 +286,9 @@ $("#seleccionar_producto").on("change",function(e){
     $("#cantidad_productos").val('');
     $("#lista_series ul").html('');
     $("#APM_add_series").find("h3").find("strong").html('');
-
+console.log(global_all_productos);
     var index = global_index_all_productos.indexOf( parseInt($("#seleccionar_producto").val()) );
+    alert(index);
     var serie = global_all_productos[index].serie;
     if( serie )
     {
