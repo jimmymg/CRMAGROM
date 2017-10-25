@@ -291,7 +291,7 @@ console.log(global_all_productos);
     console.log(global_index_all_productos);
     alert(parseInt($("#seleccionar_producto").val()));
 
-    var index = global_index_all_productos.indexOf( parseInt($("#seleccionar_producto").val()) );
+    var index = global_index_all_productos.indexOf( $("#seleccionar_producto").val() );
     alert(index);
     var serie = global_all_productos[index].serie;
     if( serie )
