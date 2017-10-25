@@ -50,7 +50,7 @@ class FacturarController extends Controller
     {
     	$info_solicitud =
     	DB::SELECT("
-    		SELECT solicitud.`id` ,
+    		SELECT solicitud.`id` as id_solicitud,
     			id_venta ,
     			fecha_solicitud ,
     			razon ,
@@ -75,7 +75,7 @@ class FacturarController extends Controller
     	 	INNER JOIN usuarios ON solicitud.created_by = usuarios.id
     		WHERE solicitud.id=".$solicitud);
 
-    	$productos = BD::SELECT("SELECT 
+    	$productos = DB::SELECT("SELECT 
 			movimiento_productos.id_venta ,
 			movimiento_productos.id_producto ,
 			movimiento_productos.cantidad ,
@@ -84,26 +84,29 @@ class FacturarController extends Controller
 			producto.lleva_series 
 		 	FROM movimiento_productos 
     		INNER JOIN producto ON producto.id = movimiento_productos.id_producto
-    		WHERE movimiento_productos.id_venta = ".$solicitud);
+    		WHERE movimiento_productos.id_venta = ".$info_solicitud[0]->id_venta);
+    
 		$series = [];
 		$result = [];
     	foreach($productos as $producto)
-    	{
+    	{	
+    		$series = [];
     		$series = DB::SELECT("SELECT * 
     			FROM movimiento_series
     			INNER JOIN series ON movimiento_series.`id_serie` = series.id
-				WHERE movimiento_series.id_venta = $solicitud AND series.`id_producto`= ".$producto['id_producto']);
+				WHERE movimiento_series.id_venta = ".$info_solicitud[0]->id_venta." AND series.`id_producto`= ".
+				$producto->id_producto);
 
 				array_push( $result , [ 
-					"id_producto" => $producto['id_producto']  ,
-					"producto" => $producto['producto'],
-					"lleva_series" => $producto['lleva_series'],
- 					"cantidad" => $producto['cantidad'] ,
-					"total" => $producto['total'],
+					"id_producto" => $producto->id_producto  ,
+					"producto" => $producto->producto,
+					"lleva_series" => $producto->lleva_series,
+ 					"cantidad" => $producto->cantidad ,
+					"total" => $producto->total,
 					"series" => $series
 				 ]);
 		}
-		
+	
 		array_push($result , $info_solicitud);
 
 		return $result;

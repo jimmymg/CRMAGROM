@@ -28,7 +28,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h1 class="page-header">
-                            Facturar <small>Recordar que ustedes crean Pedido y Remision, los que Facturan son los de Contabilidad</small>
+                            Facturacion <small>Recordar que ustedes crean Pedido y Remision, los que Facturan son los de Contabilidad</small>
                         </h1>
                     </div>
                 </div>
@@ -43,7 +43,7 @@
                     <!-- Advanced Tables -->
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                Pendientes de Facturar
+                                Pendientes de Solicitar Facturas
                             </div>
                             <div class="panel-body">
 
@@ -177,10 +177,26 @@
      $(document).on("click",".doIt" , function(){
         $("#modalFacturar").modal();
         var id = $(this).attr("data-id");
-
+        $("#id_solicitud").val(id);
         cargar_info_modal(id);
 
      });
+
+    $("#solicitar_factura").click(function(){
+        var id_solicitud =   $("#id_solicitud").val();
+        alert(id_solicitud);
+        var pedido = $("#folio_pedido").val();
+        var remision = $("#folio_remision").val();
+        
+        if( pedido == "" || remision == "" )
+        {
+            swal("Error","Pedido o Remision estan vacios!","error")
+            return;
+        }
+
+
+
+    });
 
     </script>
 </body>
