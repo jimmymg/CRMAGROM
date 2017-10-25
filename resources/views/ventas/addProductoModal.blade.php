@@ -286,13 +286,16 @@ $("#seleccionar_producto").on("change",function(e){
     $("#cantidad_productos").val('');
     $("#lista_series ul").html('');
     $("#APM_add_series").find("h3").find("strong").html('');
-console.log(global_all_productos);
-    console.log("Globla_index:");
-    console.log(global_index_all_productos);
-    alert(parseInt($("#seleccionar_producto").val()));
+    var domain = location.host;
+    var val = $("#seleccionar_producto").val();
 
-    var index = global_index_all_productos.indexOf( $("#seleccionar_producto").val() );
-    alert(index);
+    if( domain == "localhost" )
+    {
+        val = parseInt(val);
+    }
+    console.log(location.host);
+    var index = global_index_all_productos.indexOf( val );
+   
     var serie = global_all_productos[index].serie;
     if( serie )
     {
