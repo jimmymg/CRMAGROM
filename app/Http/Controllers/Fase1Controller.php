@@ -733,6 +733,12 @@ class Fase1Controller extends Controller
         $linea_transportista  =  $request->input('linea_transportista');  
         $proyecto             =  $request->input('proyecto');
 
+        $validar = DB::SELECT("SELECT * FROM configuracion WHERE id_proyecto = ".$proyecto);
+        if( !empty($validar) )
+        {
+            return "validar";
+        }
+
         DB::TABLE("configuracion")->INSERT([
             "stock"                 => $stock ,
             "contado_proveedor"     => $contado_proveedor,

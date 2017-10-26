@@ -1083,8 +1083,9 @@
             }
         });
 
-        $("#guardar_config").click(function(){
-            
+        $("#guardar_config").click(function(event){
+            event.preventDefault();
+            $(this).hide();
             var stock               = ( $("#en_stock").is(":checked") )?1:0;
             var contado_proveedor   = ( $("#contado_proveedor").is(":checked") )?1:0;
             var anticipo_proveedor  = ( $("#anticipo_proveedor").is(":checked") )?1:0;
@@ -1104,11 +1105,21 @@
                 linea_transportista : linea_transportista ,
                 proyecto : proyecto
             })
-            .done(function(){
-                swal("Guardado","Configuracion Guardado","success")
+            .done(function(data){
+                if( data == "validar" )
+                {
+                    swal("Error","Ese protyecto ya tiene una configuracion guardada","error")
+                }else{
+                    swal("Guardado","Configuracion Guardado","success")
+                    
+                }
+                
+                $("#guardar_config").show();
+                
             })
             .error(function(){
                 alert("Error al Guardar las Configuracion del Proyecto");
+                $("#guardar_config").show();
             });
             
         });
