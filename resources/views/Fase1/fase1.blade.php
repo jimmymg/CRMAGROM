@@ -305,10 +305,81 @@
 
                         <input id="formatopedido" name="archivos[]" type="file" multiple class="file-loading">
 
-                     
+
+
+                        <div class="col-lg-12">
+
+                        <div class="col-lg-12">
+                                <div class="col-lg-10">
+                                    <label style="margin-top: 10px;">¿Producto en Stock?</label>
+                                </div>
+                                <div class="col-lg-2">
+                                    <input type="checkbox" id="en_stock" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="col-lg-10">
+                                    <label style="margin-top: 10px;">¿Pago de Contado al Proveedor?</label>
+                                </div>
+                                <div class="col-lg-2">
+                                    <input type="checkbox" id="contado_proveedor" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="col-lg-10">
+                                    <label style="margin-top: 10px;">¿Anticipo al Proveedor?</label>
+                                </div>
+                                <div class="col-lg-2">
+                                    <input type="checkbox" id="anticipo_proveedor" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="col-lg-10">
+                                    <label style="margin-top: 10px;">¿Se necesita Importación?</label>
+                                </div>
+                                <div class="col-lg-2">
+                                    <input type="checkbox" id="importacion" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="col-lg-10">
+                                    <label style="margin-top: 10px;">¿Se necesita Flete?</label>
+                                </div>
+                                <div class="col-lg-2">
+                                    <input type="checkbox" id="flete" class="form-control">
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="col-lg-10">
+                                    <label style="margin-top: 10px;">¿Cual?</label>
+                                </div>
+                                <div class="col-lg-12">
+                                    
+                                    <label class="col-lg-4">Lineas Transportistas</label>
+                                    <div class="col-lg-2">
+                                        <input type="checkbox" id="linea_t" class="form-control col-lg-2">
+                                    </div>
+                                    <label class="col-lg-4">Paqueteria</label>
+                                    <div class="col-lg-2">
+                                        <input type="checkbox" id="paqueteria" class="form-control col-lg-2">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <button type="button" id="guardar_config" class="btn-primary btn col-lg-12">Guardar Configuracion</button>
+                            </div>
+
+                        </div>
+
                         <button id="siguiente_fase" style="margin-top:20px;display: grid;" type="button" class=" col-sm-12 waves-effect btn btn-success btn-lg">
                         <i class="glyphicon glyphicon-credit-card fa-2x"></i>
-                        Siguiente Fase Anticipos y Adminpaq
+                        Siguiente Fase Ventas
                         </button>
                         
                     </div>
@@ -494,7 +565,7 @@
                 $("#agendar_seguimiento").hide();
                 
                 $("#modalNuevo").find('.modal-footer').find('.cargando2').hide();
-
+                $("#linea_t").parent().parent().parent().hide();
             });
 
 
@@ -973,6 +1044,73 @@
                     })
                 })
 
+        });
+
+        $("#en_stock").change(function(){
+           
+            if( $(this).is(":checked") )
+            {
+                $("#contado_proveedor").parent().parent().hide();
+                $("#anticipo_proveedor").parent().parent().hide();
+                $("#contado_proveedor").prop("checked",false);
+                $("#anticipo_proveedor").prop("checked",false);
+            }else{
+                $("#contado_proveedor").parent().parent().show();
+                $("#anticipo_proveedor").parent().parent().show();
+            }
+        });
+
+        $("#flete").change(function(){
+            if( $(this).is(":checked") )
+            {
+                $("#linea_t").parent().parent().parent().show();
+            }else{
+                $("#linea_t").parent().parent().parent().hide();
+            }
+        });
+
+        $("#contado_proveedor").change(function(){
+            if( $(this).is(":checked") )
+            { 
+                $("#anticipo_proveedor").prop("checked",false);
+            }
+        });
+
+        $("#anticipo_proveedor").change(function(){
+            if( $(this).is(":checked") )
+            { 
+                $("#contado_proveedor").prop("checked",false);
+            }
+        });
+
+        $("#guardar_config").click(function(){
+            
+            var stock               = ( $("#en_stock").is(":checked") )?1:0;
+            var contado_proveedor   = ( $("#contado_proveedor").is(":checked") )?1:0;
+            var anticipo_proveedor  = ( $("#anticipo_proveedor").is(":checked") )?1:0;
+            var importacion         = ( $("#importacion").is(":checked") )?1:0;
+            var flete               = ( $("#flete").is(":checked") )?1:0;
+            var paqueteria          = ( $("#paqueteria").is(":checked") )?1:0;
+            var linea_transportista = ( $("#linea_t").is(":checked") )?1:0;
+            var proyecto            = $("#data-proyecto").val();
+
+            $.post("Fase1/GuardarConfiguracion",{
+                stock : stock ,
+                contado_proveedor : contado_proveedor ,
+                anticipo_proveedor : anticipo_proveedor ,
+                importacion : importacion ,
+                flete : flete ,
+                paqueteria : paqueteria ,
+                linea_transportista : linea_transportista ,
+                proyecto : proyecto
+            })
+            .done(function(){
+                swal("Guardado","Configuracion Guardado","success")
+            })
+            .error(function(){
+                alert("Error al Guardar las Configuracion del Proyecto");
+            });
+            
         });
 
         /*################################################################################*/

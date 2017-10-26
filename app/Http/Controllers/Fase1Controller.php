@@ -721,6 +721,30 @@ class Fase1Controller extends Controller
         return $contactos;  
 
     }
+
+    public function guardarConfiguracion(Request $request)
+    {
+        $stock                =  $request->input('stock'); 
+        $contado_proveedor    =  $request->input('contado_proveedor');  
+        $anticipo_proveedor   =  $request->input('anticipo_proveedor'); 
+        $importacion          =  $request->input('importacion');  
+        $flete                =  $request->input('flete');  
+        $paqueteria           =  $request->input('paqueteria');  
+        $linea_transportista  =  $request->input('linea_transportista');  
+        $proyecto             =  $request->input('proyecto');
+
+        DB::TABLE("configuracion")->INSERT([
+            "stock"                 => $stock ,
+            "contado_proveedor"     => $contado_proveedor,
+            "anticipo_proveedor"    => $anticipo_proveedor,
+            "importacion"           => $importacion,
+            "flete"                 => $flete,
+            "paqueteria"            => $paqueteria,
+            "linea_transportista"   => $linea_transportista,
+            "id_proyecto"           => $proyecto
+        ]);
+    }
+
     /////////////////////////////////////////////////////////////////////////////////////////
     //////Editar
 

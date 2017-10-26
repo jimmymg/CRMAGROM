@@ -602,7 +602,6 @@
                     var proyecto        = data['proyecto'][0];
                     for( var x = 0 ; x < Object.keys(administradores).length  ; x++)
                     {
-
                         html+= '<div class="col-sm-3 waves-effect" >'+
                                     '<div class="panel panel-primary text-center no-boder bg-color-green">'+
                                         '<div class="panel-footer back-footer-green">'+administradores[x].nombre+

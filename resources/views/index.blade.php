@@ -33,8 +33,6 @@
 
                 <div class="row">
 
-                    <button type="button" id="prueba">Click!</button>
-                <a class="action no-select" contenteditable="false" data-id="Congratulate">Congratulate</a>
                     <div class="col-md-3 col-sm-12 col-xs-12 waves-effect" id="oportunidades">
                         <div class="panel panel-primary text-center no-boder bg-color-green">
                             <div class="panel-body">
@@ -48,7 +46,7 @@
                             </div>
                         </div>
                     </div>
-                
+                <!--
                 @if( Auth::user()->id_area == 1 || Auth::user()->id_area == 3 || Auth::user()->id_area == 4 )
                     <div class="col-md-3 col-sm-12 col-xs-12 waves-effect" id="anticipos_adminpac">
                         <div class="panel panel-primary text-center no-boder bg-color-blue">
@@ -144,7 +142,7 @@
                         </div>
                     </div>
                 @endif
-                    
+                -->                    
                 </div>
 
                 <div class="row">  

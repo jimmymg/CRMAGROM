@@ -355,7 +355,6 @@ $("#save_new_product").click(function(event){
 });
 
 $("#add_product").click(function(event){
-
     event.preventDefault();
     $(this).hide();
 
@@ -385,12 +384,20 @@ $("#add_product").click(function(event){
     if( lleva_serie == true )
     {
 
+       
+
         $("#lista_series ul").find('li').each(function(n){
-     
+            hay = n+1;
             //recuerde que comienza a contar desde 0
             series.push($(this).find("strong").html() );  
         
-        });  
+        });
+
+        if( hay < cantidad )
+        {
+            swal("Error","Faltan Series por Capturar","Error")
+            return;
+        }  
     }
 
     $.post('nueva/orden/addproduct',{

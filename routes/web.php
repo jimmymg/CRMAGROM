@@ -90,6 +90,8 @@ Route::get('Archivos/{tipoArchivo}/proyecto/{proyecto}','crmController@archivos'
 	Route::get( 'Fase1/ContactosExtras/Proyecto/{proyecto}' , 'Fase1Controller@ContactosExtras' );
 	Route::post( 'Fase1/AñadirContacto' , 'Fase1Controller@nuevoContacto' );
 
+	Route::post( 'Fase1/GuardarConfiguracion' , 'Fase1Controller@guardarConfiguracion' );
+
 	/*Seccion de Editar*/
 	Route::post( 'Fase1/Editar' , 'Fase1Controller@editarProyecto' );
 //############################################################
