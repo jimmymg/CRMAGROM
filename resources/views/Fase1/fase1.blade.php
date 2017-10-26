@@ -374,13 +374,16 @@
                             <div class="col-lg-12">
                                 <button type="button" id="guardar_config" class="btn-primary btn col-lg-12">Guardar Configuracion</button>
                             </div>
-
+                            <div class="col-lg-12" style="margin-top:15px;">
+                                <button type="button" onclick="window.location.href='ventas'" class="btn-success btn col-lg-12">Ir a Ventas</button>
+                            </div>
                         </div>
-
+                        <!--
                         <button id="siguiente_fase" style="margin-top:20px;display: grid;" type="button" class=" col-sm-12 waves-effect btn btn-success btn-lg">
                         <i class="glyphicon glyphicon-credit-card fa-2x"></i>
                         Siguiente Fase Ventas
                         </button>
+                        -->
                         
                     </div>
                     <div class="col-sm-12">

@@ -94,7 +94,7 @@ class Fase1Controller extends Controller
 
                 LEFT JOIN ( SELECT * FROM ( SELECT * FROM seguimientos ORDER BY created_at DESC ) AS A1  GROUP BY A1.id_proyecto ) AS A1 ON A1.id_proyecto = proyectos.`id`
 
-                WHERE fase = 1 and proyectos_administradores.id_a_cargo = $cargo and proyectos.id_proyecto_Estado = 1
+                WHERE fase = 1 and ventas = 0 and proyectos_administradores.id_a_cargo = $cargo and proyectos.id_proyecto_Estado = 1
                 ORDER BY proyectos.created_at DESC";
 
                 
@@ -118,7 +118,7 @@ class Fase1Controller extends Controller
 
                 LEFT JOIN ( SELECT * FROM ( SELECT * FROM seguimientos ORDER BY created_at DESC ) AS A1  GROUP BY A1.id_proyecto ) AS A1 ON A1.id_proyecto = proyectos.`id`
 
-                WHERE fase = 1 and proyectos.id_proyecto_Estado = 1
+                WHERE fase = 1 and ventas = 0 and proyectos.id_proyecto_Estado = 1
                 ORDER BY proyectos.created_at DESC" ;
         }
 

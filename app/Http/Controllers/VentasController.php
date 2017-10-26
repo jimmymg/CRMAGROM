@@ -18,23 +18,34 @@ class VentasController extends Controller
 		WHERE orden_compra='$orden' 
     	 ");
 
+        //Validar que ese proyecto ya tenga una orden
+        $validar_proyecto = DB::SELECT("select * from ventas WHERE id_proyecto = ".$proyecto);
 
+        if( !empty($validar_proyecto) && $orden != $validar_proyecto[0]->orden_compra )
+        {
+            return [ "respuesta" => "proyecto" , "orden_id" => $validar_proyecto[0]->id , "numero" =>  $validar_proyecto[0]->orden_compra ];
+        }
 
     	if( empty($validar) )
     	{  
-            //Insertar esa Orden
+            //Insertar esa Orden y Actualizar al proyecto
+             DB::TABLE("proyectos")->WHERE("id", $proyecto )->UPDATE([
+                "ventas" => 1
+            ]);
+
             $id = DB::TABLE('ventas')->INSERTGETID([
                     "id_proyecto"   => $proyecto ,
                      "id_usuario"   => Auth::user()->id ,
                      "orden_compra" => $orden
                 ]);
 
+           
     		return [ "respuesta" => "nuevo" , "orden_id" => $id ];
     	}else{
 
             if( $proyecto == $validar[0]->id_proyecto )
             {
-                return [ "respuesta" => "existe" , "orden_id" => $validar[0]->id ];
+                return [ "respuesta" => "existe" , "orden_id" => $validar[0]->id , "numero" => $validar[0]->orden_compra ];
             }else{
                 return [ "respuesta" => "error" , "orden_id" => $validar[0]->id ];
             }

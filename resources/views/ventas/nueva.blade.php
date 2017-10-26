@@ -378,7 +378,19 @@
                 if( data['respuesta'] == 'error' ){ 
                     swal( "Error" , "Ese Numero de Compra ya existe con otro Proyecto" , "error" )
                     return; }
-                    
+                
+                if( data["respuesta"] == "proyecto" )
+                {
+                     //Funcion para Apareer los Cmapos  
+                     swal("Error","Este proyecto ya tiene un numero de orden y no es el: "+$("#numero_orden").val()+", es "+data["numero"] , "error")
+                  /*   $("#numero_orden").val(data['numero']);
+                    $("#guardar").show();
+                    ed_campos(1);
+                    $("#solicitud_id").val(data['orden_id']);
+                    calcular_total(data['orden_id']);*/
+                    return;
+                }
+
                 if(data['respuesta'] == "nuevo")
                 {
                     //Funcion para Aparecer los Campos 
@@ -393,7 +405,7 @@
                     $("#product_total").val('0');
                 }else{
                     //Funcion para Apareer los Cmapos  
-
+                    
                     $("#guardar").show();
                     ed_campos(1);
                     $("#solicitud_id").val(data['orden_id']);
