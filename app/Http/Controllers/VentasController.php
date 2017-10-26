@@ -26,7 +26,7 @@ class VentasController extends Controller
             return [ "respuesta" => "proyecto" , "orden_id" => $validar_proyecto[0]->id , "numero" =>  $validar_proyecto[0]->orden_compra ];
         }
 
-    	if( empty($validar) )
+        if( empty($validar) )
     	{  
             //Insertar esa Orden y Actualizar al proyecto
              DB::TABLE("proyectos")->WHERE("id", $proyecto )->UPDATE([

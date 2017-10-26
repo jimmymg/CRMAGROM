@@ -84,6 +84,10 @@
                                         <button id="buscar_orden" style="margin-top:10px" type="button" class="btn btn-primary col-lg-12 waves-effect">Buscar y Guardar Orden de Compra</button>
                                     </div>
 
+                                    <div class="col-lg-12" id="solicitar_form">
+                                        <button type="button" class="btn btn-warning col-lg-12">Solicitud de una Factura</button>
+                                    </div>
+
                                     <div class="col-lg-12" id="card_comun">
                                         <label>Fecha de Solicitud</label>
                                         <input type="date" class="form-control" id="fecha_solicitud">
@@ -357,6 +361,13 @@
         $("document").ready(function(){
             cargar_proyectos();
             $("#alerta").hide();
+            $("#solicitar_form").hide();
+            $("#card_add_pagos").hide();
+                $("#guardar").hide();
+                $("#card_comun").hide();
+                $("#card_facturacion").hide();
+                $("#card_cobranza").hide();
+            $("#guardar").parent().hide();
         });
 
 
@@ -403,6 +414,7 @@
 
                     $("#cantidad_productos").val('0');
                     $("#product_total").val('0');
+                    $("#solicitar_form").showe();
                 }else{
                     //Funcion para Apareer los Cmapos  
                     
@@ -410,6 +422,7 @@
                     ed_campos(1);
                     $("#solicitud_id").val(data['orden_id']);
                     calcular_total(data['orden_id']);
+                    $("#solicitar_form").show();
                 }
 
                 $("#porc").val(0);
@@ -673,24 +686,24 @@
         function ed_campos(opcion)
         {
             if( opcion == 1 )
-            {   
+            {   /*
                 $("#card_add_pagos").show();
                 $("#guardar").show();
                 $("#card_comun").show();
                 $("#card_facturacion").show();
                 $("#card_cobranza").show();
-                
+                */
                 $("#card_productos").show();
                 $("#card_pagos").show();
                 $("#card_facturas").show();
                 $("#card_total").show();
-            }else{
+            }else{/*
                 $("#card_add_pagos").hide();
                 $("#guardar").hide();
                 $("#card_comun").hide();
                 $("#card_facturacion").hide();
                 $("#card_cobranza").hide();
-                $
+                */
                 $("#card_productos").hide();
                 $("#card_pagos").hide();
                 $("#card_facturas").hide();
@@ -700,6 +713,15 @@
 
             responsivo();
         }
+
+        $("#solicitar_form").click(function(){
+            $("#card_add_pagos").toggle();
+                $("#guardar").toggle();
+                $("#card_comun").toggle();
+                $("#card_facturacion").toggle();
+                $("#card_cobranza").toggle();
+                $("#guardar").parent().toggle();
+        });
 
         function cargar_proyectos()
         {
