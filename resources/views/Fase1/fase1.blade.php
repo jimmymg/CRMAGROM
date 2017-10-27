@@ -117,7 +117,7 @@
                         </div>
                     </div>
 
-                    <input type="hidden" id="data-proyecto">
+                    <input type="text" id="data-proyecto">
                     <div class="col-sm-6">
                         <div class="form-horizontal">
                             <div class="form-group form-group-lg">
@@ -368,6 +368,15 @@
                                     <div class="col-lg-2">
                                         <input type="checkbox" id="paqueteria" class="form-control col-lg-2">
                                     </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-12">
+                                <div class="col-lg-10">
+                                    <label style="margin-top: 10px;">¿Requiere Instalacion?</label>
+                                </div>
+                                <div class="col-lg-2">
+                                    <input type="checkbox" id="instalacion" class="form-control">
                                 </div>
                             </div>
 
@@ -1055,11 +1064,14 @@
             {
                 $("#contado_proveedor").parent().parent().hide();
                 $("#anticipo_proveedor").parent().parent().hide();
+                $("#importacion").parent().parent().hide();
                 $("#contado_proveedor").prop("checked",false);
                 $("#anticipo_proveedor").prop("checked",false);
+                $("#importacion").prop("checked",false);
             }else{
                 $("#contado_proveedor").parent().parent().show();
                 $("#anticipo_proveedor").parent().parent().show();
+                $("#importacion").parent().parent().show();
             }
         });
 
@@ -1087,6 +1099,7 @@
         });
 
         $("#guardar_config").click(function(event){
+      
             event.preventDefault();
             $(this).hide();
             var stock               = ( $("#en_stock").is(":checked") )?1:0;
@@ -1097,7 +1110,18 @@
             var paqueteria          = ( $("#paqueteria").is(":checked") )?1:0;
             var linea_transportista = ( $("#linea_t").is(":checked") )?1:0;
             var proyecto            = $("#data-proyecto").val();
+            var instalacion         = ( $("#instalacion").is(":checked") )?1:0;
+            
+            //Validar la seleccion y la subida de archivos
+            if( stock == 0 && contado_proveedor == 0 && anticipo_proveedor == 0 && importacion == 0 && 
+            flete == 0 && paqueteria == 0 && linea_transportista == 0 && instalacion == 0 )
+            {
+                swal("Error","Debe de seleccionar algunas opciones","error");
+                $("#guardar_config").show();
+                return;
+            }
 
+           
             $.post("Fase1/GuardarConfiguracion",{
                 stock : stock ,
                 contado_proveedor : contado_proveedor ,
@@ -1106,9 +1130,23 @@
                 flete : flete ,
                 paqueteria : paqueteria ,
                 linea_transportista : linea_transportista ,
-                proyecto : proyecto
+                proyecto : proyecto ,
+                instalacion : instalacion
             })
             .done(function(data){
+
+                if( data == "archivo1" )
+                {
+                    swal("Error","Falta la Contizacion" , "error");
+                    return;
+                }
+
+                if( data == "archivo2" )
+                {
+                    swal("Error","Falta la Orden de compra del cliente","error")
+                    return;
+                }
+
                 if( data == "validar" )
                 {
                     swal("Error","Ese protyecto ya tiene una configuracion guardada","error")

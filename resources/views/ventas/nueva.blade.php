@@ -81,7 +81,7 @@
                                         <label>Orden de Compra</label>
                                         <input type="text" class="form-control" id="numero_orden">
 
-                                        <button id="buscar_orden" style="margin-top:10px" type="button" class="btn btn-primary col-lg-12 waves-effect">Buscar y Guardar Orden de Compra</button>
+                                        <button id="buscar_orden" style="margin-top:10px" type="button" class="btn btn-primary col-lg-12 waves-effect">Buscar o Guardar Orden de Compra</button>
                                     </div>
 
                                     <div class="col-lg-12" id="solicitar_form">

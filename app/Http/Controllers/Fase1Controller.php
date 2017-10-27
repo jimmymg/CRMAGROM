@@ -738,6 +738,23 @@ class Fase1Controller extends Controller
         {
             return "validar";
         }
+        ///////////////////////////////////////////////////////////////////////
+        $validar_cotizacion = DB::SELECT("SELECT * FROM archivos 
+        WHERE id_proyecto = $idproyecto 
+        AND id_tipo = 1");
+
+        $validar_odrden_c_cliente = DB::SELECT("SELECT * FROM archivos 
+        WHERE id_proyecto = $idproyecto 
+        AND id_tipo = 2");
+
+        if( empty($validar_cotizacion) || empty($validar_odrden_c_cliente) )
+        {
+            if( empty( $validar_cotizacion ) ){ return "archivo1"; }
+            if( empty( $validar_odrden_c_cliente ) ){ return "archivo2"; }
+        }
+        
+        ///////////////////////////////////////////////////////////////////////////
+
         DB::TABLE("proyectos")->WHERE("id", $proyecto )->UPDATE([
             "ventas" => 1
         ]);

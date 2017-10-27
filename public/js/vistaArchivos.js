@@ -1,7 +1,6 @@
 $("#archivos_cotizacion").click(function(){
 	$("#vistaArchivosModal").modal('show');
 	var proyecto = $("#data-proyecto").val();
-	alert(proyecto);
 	cargarArchivos( proyecto , 1 );
 });
 
