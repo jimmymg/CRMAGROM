@@ -29,9 +29,7 @@ class VentasController extends Controller
         if( empty($validar) )
     	{  
             //Insertar esa Orden y Actualizar al proyecto
-             DB::TABLE("proyectos")->WHERE("id", $proyecto )->UPDATE([
-                "ventas" => 1
-            ]);
+            
 
             $id = DB::TABLE('ventas')->INSERTGETID([
                     "id_proyecto"   => $proyecto ,
@@ -58,7 +56,8 @@ class VentasController extends Controller
     {
     	$proyectos = DB::SELECT('SELECT proyectos.id , proyectos.nombre , orden_compra FROM proyectos 
     		LEFT JOIN ventas 
-    		ON ventas.id_proyecto = proyectos.id');
+            ON ventas.id_proyecto = proyectos.id
+            WHERE proyectos.ventas = 1');
 
     	return $proyectos;
     }
@@ -100,8 +99,17 @@ class VentasController extends Controller
         $series             = $request->input('series');
         $id_numero_orden    = $request->input('numero_orden');
 
-        $validar = DB::SELECT('SELECT * FROM movimiento_productos WHERE id_producto = '.$producto.' AND id_venta ='.$id_numero_orden);
-        //Falta Validar si ya se hizo una factura anteriormente para evitar que se agreguen mas productos
+//Falta Validar si ya se hizo una factura anteriormente para evitar que se agreguen mas productos
+        $validar_solicitud = DB::SELECT("select * from solicitud where id_venta=$id_numero_orden");
+
+        if( !empty($validar_solicitud) )
+        {
+            return "validar_solicitud";
+        }
+
+        $validar = DB::SELECT('SELECT * FROM movimiento_productos 
+        WHERE id_producto = '.$producto.' AND id_venta ='.$id_numero_orden);
+        
         if( !empty($validar) )
         {
             return "validar";
@@ -223,7 +231,8 @@ class VentasController extends Controller
         $venta = DB::SELECT("SELECT * FROM ventas WHERE orden_compra=$orden_compra");
         $id_venta = $venta[0]->id;
 
-        $validar = DB::SELECT("SELECT * FROM solicitud WHERE facturado = 0 AND cancelado = 0 AND id_venta = ".$id_venta);
+        $validar = DB::SELECT("SELECT * FROM solicitud 
+        WHERE facturado = 0 AND cancelado = 0 AND id_venta = ".$id_venta);
 
         if( !empty($validar) )
         {
@@ -300,5 +309,14 @@ class VentasController extends Controller
         }   
 
     }
+
+    public function cargarFacturas($idventa)
+    {   
+        return 
+        DB::SELECT("SELECT facturas.factura , solicitud.total FROM solicitud 
+        INNER JOIN solicitud_factura ON solicitud.id = solicitud_factura.id_solicitud
+        INNER JOIN facturas          ON facturas.id = solicitud_factura.id_factura
+        WHERE id_venta = $idventa and facturas.factura != null");
+    }   
 
 }

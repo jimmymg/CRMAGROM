@@ -357,7 +357,7 @@ $("#save_new_product").click(function(event){
 $("#add_product").click(function(event){
     event.preventDefault();
     $(this).hide();
-
+    var hay = 0;
     var series = [];
     var lleva_serie = ($("#al-series").is(":visible")) ?true:false;
     
@@ -395,9 +395,22 @@ $("#add_product").click(function(event){
 
         if( hay < cantidad )
         {
-            swal("Error","Faltan Series por Capturar","Error")
+            if( hay == 0 )
+            {
+                swal("Error","No se han Capturado ninguna serie","error")
+            }else{
+                swal("Error","Faltan Series por Capturar","error")
+            }
+            $("#add_product").show();
             return;
         }  
+
+        if( hay > cantidad )
+        {
+            swal("Error","La cantidad Capurada con la cantidad de numeros de series capturados no coincide, Cantidad: "+cantidad+" < series: "+hay,"error")
+            $("#add_product").show();
+            return;
+        }
     }
 
     $.post('nueva/orden/addproduct',{
@@ -440,21 +453,28 @@ $("#add_series").click(function(){
         swal("Error","Cantidad tiene que ser > 0 y no tiene que estar vacio","error");
         return ;
     }
-
-    var actual = parseInt( $("#APM_add_series").find("h3").find("strong").html() );
+    var actual = 0;
+    $("#lista_series ul").find('li').each(function(n){
+            actual = n+1;
+            //recuerde que comienza a contar desde 0
+          
+        
+        });
+    //var actual = parseInt( $("#APM_add_series").find("h3").find("strong").html() );
 
     if( actual > cantidad )
     {
     
         swal({
             title: '¿Seguro?',
-            text: "Actualmente hay un cantidad de: "+cantidad+" y la nueva cantidad de productos es menor a la actual, si desea continuar se eliminaran las series agregadas anteriormente",
+            text: "Cantidad: "+cantidad+" < Series Capturadas: "+actual+", Se Eliminaran las Series Capturadas! ",
             type: 'warning',
             showCancelButton: true,
             confirmButtonColor: '#3085d6',
             cancelButtonColor: '#d33',
             confirmButtonText: 'Si'
         }).then(function () {
+
             $("#APM_add_series").find("h3").find("strong").html(cantidad);
             $("#APM_add_series").show();
             $("#addProductoModal .modal-title").html("Añadir las Series");
@@ -465,7 +485,7 @@ $("#add_series").click(function(){
 
         return ;
     }else{
-
+        /*Es para Aparecer la seccio nde series y YA*/ 
         $("#APM_add_series").find("h3").find("strong").html(cantidad);
         $("#APM_add_series").show();
         $("#addProductoModal .modal-title").html("Añadir las Series");

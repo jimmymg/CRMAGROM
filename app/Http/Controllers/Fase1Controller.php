@@ -738,7 +738,9 @@ class Fase1Controller extends Controller
         {
             return "validar";
         }
-
+        DB::TABLE("proyectos")->WHERE("id", $proyecto )->UPDATE([
+            "ventas" => 1
+        ]);
         DB::TABLE("configuracion")->INSERT([
             "stock"                 => $stock ,
             "contado_proveedor"     => $contado_proveedor,

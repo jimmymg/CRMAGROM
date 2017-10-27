@@ -273,7 +273,7 @@
                             </div>
                             <div class="panel-body">
                                 <div class="col-lg-12">
-                                    <table class="table">
+                                    <table class="table" id="table-facturas">
                                         <thead>
                                             <tr>
                                                 <th>#</th>
@@ -414,7 +414,7 @@
 
                     $("#cantidad_productos").val('0');
                     $("#product_total").val('0');
-                    $("#solicitar_form").showe();
+                    $("#solicitar_form").show();
                 }else{
                     //Funcion para Apareer los Cmapos  
                     
@@ -426,7 +426,7 @@
                 }
 
                 $("#porc").val(0);
-
+                cargar_facturas();
                 cargar_solicitudes($("#solicitud_id").val());
                 llenar_tablas_productos($("#solicitud_id").val());
             })
@@ -716,11 +716,12 @@
 
         $("#solicitar_form").click(function(){
             $("#card_add_pagos").toggle();
-                $("#guardar").toggle();
+                $("#guardar").parent().toggle();
                 $("#card_comun").toggle();
                 $("#card_facturacion").toggle();
                 $("#card_cobranza").toggle();
-                $("#guardar").parent().toggle();
+               // $("#guardar").toggle();
+               responsivo();
         });
 
         function cargar_proyectos()
@@ -789,10 +790,10 @@
                 var facturado  = "";
                 var color = "";
                 for( var x = 0 ; x < Object.keys(data).length ; x++ )
-                {   
+                {    color="";
                     moneda = (data[x].moneda == 2)?"USD":"MN";
                     facturado = ( data[x].facturado == 1 )?"Facturado":"Pendiente";
-                    facturado = ( data[x].cancelado == 1 )?"Cancelado":"Facturado"; 
+                    facturado = ( data[x].cancelado == 1 )?"Cancelado":facturado; 
 
                     if( data[x].facturado == 1 ){ color="green"; }
 
@@ -819,9 +820,32 @@
             });
         }
 
-        function cargar_facturas(id_venta)
+        function cargar_facturas()
         {
-            alert("venta");
+            $.get("getFacturas/"+$("#solicitud_id").val())
+            .done(function(data){
+                console.log("Facturas:");
+                console.log(data);
+
+                var table = $("#table-facturas tbody");
+                var tbody = "";
+
+                for( var x = 0 ; x < Object.keys(data).length ; x++ )
+                {
+                    tbody +=
+                        "<tr>"+
+                            "<td>"+(x+1)+"</td>"+
+                            "<td>"+data[x].factura+"</td>"+
+                            "<td>"+data[x].total+"</td>"+
+                        "</tr>";
+                }
+
+                table.html(tbody);
+
+            })
+            .error(function(){
+                alert("Error al Consultar las Facturas");
+            })
         }
     </script>
 </body>

@@ -114,6 +114,7 @@ Route::get('Archivos/{tipoArchivo}/proyecto/{proyecto}','crmController@archivos'
 	Route::get( 'ventas/nueva/orden/{orden}/productos' , 'VentasController@productos_orden' );
 	Route::get( 'ventas/nueva/calcular/orden/{orden}' , 'VentasController@calcular' );
 	Route::post( 'ventas/nueva/solicitarFactura' , 'VentasController@solicitar_factura' );
+	Route::get( 'ventas/getFacturas/{idventa}' , 'VentasController@cargarFacturas' );
 //############################################################
 /*Solicitar Factura y Facturar:*/
 	Route::get( 'solcitarFactura' , "FacturarController@index" );
