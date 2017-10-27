@@ -117,7 +117,7 @@
                         </div>
                     </div>
 
-                    <input type="text" id="data-proyecto">
+                    <input type="hidden" id="data-proyecto">
                     <div class="col-sm-6">
                         <div class="form-horizontal">
                             <div class="form-group form-group-lg">
@@ -1109,7 +1109,7 @@
             var flete               = ( $("#flete").is(":checked") )?1:0;
             var paqueteria          = ( $("#paqueteria").is(":checked") )?1:0;
             var linea_transportista = ( $("#linea_t").is(":checked") )?1:0;
-            var proyecto            = $("#data-proyecto").val();
+            
             var instalacion         = ( $("#instalacion").is(":checked") )?1:0;
             
             //Validar la seleccion y la subida de archivos
@@ -1120,6 +1120,7 @@
                 $("#guardar_config").show();
                 return;
             }
+           
 
            
             $.post("Fase1/GuardarConfiguracion",{
@@ -1130,7 +1131,7 @@
                 flete : flete ,
                 paqueteria : paqueteria ,
                 linea_transportista : linea_transportista ,
-                proyecto : proyecto ,
+                proyecto : $("#data-proyecto").val() ,
                 instalacion : instalacion
             })
             .done(function(data){
@@ -1138,18 +1139,20 @@
                 if( data == "archivo1" )
                 {
                     swal("Error","Falta la Contizacion" , "error");
+                    $("#guardar_config").show();
                     return;
                 }
 
                 if( data == "archivo2" )
                 {
                     swal("Error","Falta la Orden de compra del cliente","error")
+                    $("#guardar_config").show();
                     return;
                 }
 
                 if( data == "validar" )
                 {
-                    swal("Error","Ese protyecto ya tiene una configuracion guardada","error")
+                    swal("Error","Ese proyecto ya tiene una configuracion guardada","error")
                 }else{
                     swal("Guardado","Configuracion Guardado","success")
                     

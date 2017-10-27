@@ -732,7 +732,7 @@ class Fase1Controller extends Controller
         $paqueteria           =  $request->input('paqueteria');  
         $linea_transportista  =  $request->input('linea_transportista');  
         $proyecto             =  $request->input('proyecto');
-
+       
         $validar = DB::SELECT("SELECT * FROM configuracion WHERE id_proyecto = ".$proyecto);
         if( !empty($validar) )
         {
@@ -740,11 +740,11 @@ class Fase1Controller extends Controller
         }
         ///////////////////////////////////////////////////////////////////////
         $validar_cotizacion = DB::SELECT("SELECT * FROM archivos 
-        WHERE id_proyecto = $idproyecto 
+        WHERE id_proyecto = $proyecto 
         AND id_tipo = 1");
 
         $validar_odrden_c_cliente = DB::SELECT("SELECT * FROM archivos 
-        WHERE id_proyecto = $idproyecto 
+        WHERE id_proyecto = $proyecto 
         AND id_tipo = 2");
 
         if( empty($validar_cotizacion) || empty($validar_odrden_c_cliente) )
