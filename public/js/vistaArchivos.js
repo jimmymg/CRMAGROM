@@ -1,24 +1,25 @@
 $("#archivos_cotizacion").click(function(){
 	$("#vistaArchivosModal").modal('show');
-	var proyecto = $("#siguiente_fase").attr("data-proyecto");
+	var proyecto = $("#data-proyecto").val();
+	alert(proyecto);
 	cargarArchivos( proyecto , 1 );
 });
 
 $("#archivos_orden_compra_cliente").click(function(){
 	$("#vistaArchivosModal").modal('show');
-	var proyecto = $("#siguiente_fase").attr("data-proyecto");
+	var proyecto = $("#data-proyecto").val();
 	cargarArchivos( proyecto , 2 );
 });
 
 $("#archivos_orden_compra_proveedor").click(function(){
 	$("#vistaArchivosModal").modal('show');
-	var proyecto = $("#siguiente_fase").attr("data-proyecto");
+	var proyecto = $("#data-proyecto").val();
 	cargarArchivos( proyecto , 3 );
 });
 
 $("#archivos_formato_pedido").click(function(){
 	$("#vistaArchivosModal").modal('show');
-	var proyecto = $("#siguiente_fase").attr("data-proyecto");
+	var proyecto = $("#data-proyecto").val();
 	cargarArchivos( proyecto , 4 );
 });
 //FASE 2
@@ -39,7 +40,7 @@ $("#archivos_anticipo_proveedor").click(function(){
 
 
 $("#vistaArchivosModal").on('hidden.bs.modal' , function(e){
-            $("body").addClass("modal-open");
+    $("body").addClass("modal-open");
  });
 
 function cargarArchivos( $proyecto , $tipoArchivo )
