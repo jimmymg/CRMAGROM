@@ -102,7 +102,7 @@ Route::get('Archivos/{tipoArchivo}/proyecto/{proyecto}','crmController@archivos'
 	Route::get( 'ventas/nueva' , function(){
 		return view('ventas.nueva');
 	} );
-
+	Route::get( "ventas/getVentas" , "VentasController@getVentas" );
 	Route::get( "ventas/solicitudes/{venta}" , "VentasController@get_facturas" );
 
 	Route::get( 'ventas/nueva/getOrden/{orden}/proyecto/{proyecto}', 'VentasController@buscarorden' );
@@ -115,6 +115,7 @@ Route::get('Archivos/{tipoArchivo}/proyecto/{proyecto}','crmController@archivos'
 	Route::get( 'ventas/nueva/calcular/orden/{orden}' , 'VentasController@calcular' );
 	Route::post( 'ventas/nueva/solicitarFactura' , 'VentasController@solicitar_factura' );
 	Route::get( 'ventas/getFacturas/{idventa}' , 'VentasController@cargarFacturas' );
+	Route::get( 'ventas/getSeries/{idproducto}' , 'VentasController@getSeries' );
 //############################################################
 /*Solicitar Factura y Facturar:*/
 	Route::get( 'solcitarFactura' , "FacturarController@index" );
@@ -130,6 +131,9 @@ Route::get('Archivos/{tipoArchivo}/proyecto/{proyecto}','crmController@archivos'
 /*Productos:*/
 	Route::get( 'productos' , 'ProductosController@index' );
 	Route::get( 'productos/todos' , 'ProductosController@consultaProductos' );
+//############################################################
+/*Pagos:*/
+	Route::get( 'Pagos' , 'PagosController@index' );
 //############################################################
 /*Fase2:*/
 	Route::get('Fase2','Fase2Controller@index')->middleware('guest')->middleware('Fase2');

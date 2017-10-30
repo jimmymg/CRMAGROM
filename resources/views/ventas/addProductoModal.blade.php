@@ -184,7 +184,7 @@
                         </div>
 
                         <div class="col-sm-2">
-                            <button id ="cancelar_APM_alta_producto" class="btn-danger btn">Cancelar</button>
+                            <button id ="cancelar_APM_alta_producto" class="btn-danger btn">Regresar</button>
                         </div>
                         <div class="col-sm-2">
                             <button type="button" id="save_new_product" class="btn btn-success">Guardar</button>
@@ -655,7 +655,7 @@ function llenar_tablas_productos(orden)
         {   
             if( data[x].lleva_series == "1" )
             {
-                button = "<button type='button' class='btn btn-primary verSeries'>Series ("+data[x].cantidad+")</button>";
+                button = "<button data-producto='"+data[x].id_movimiento+"' type='button' class='btn btn-primary verSeries'>Series ("+data[x].cantidad+")</button>";
             }else{
                 button = "N/A";
             }

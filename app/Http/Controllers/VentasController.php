@@ -319,4 +319,67 @@ class VentasController extends Controller
         WHERE id_venta = $idventa and facturas.factura != null");
     }   
 
+    public function getVentas()
+    {   ///Get Cantidad de Facturas getTotal y pendiente
+        $condition = "";
+        $result = [];
+        if( Auth::user()->id_area > 1  )
+        {
+            $condition = " WHERE ventas.id_usuario =  ".Auth::user()->id;
+        }
+
+        $data =
+        DB::SELECT("SELECT ventas.id , ventas.orden_compra , proyectos.nombre , usuarios.nombre as usuario
+        FROM ventas 
+        INNER JOIN proyectos ON proyectos.id = ventas.id_proyecto
+        INNER JOIN usuarios ON usuarios.id = ventas.id_usuario
+        $condition");
+        $result = [];
+        foreach($data as $row)
+        {
+            $solicitudes_facturadas = 
+            DB::SELECT("SELECT * FROM solicitud
+            WHERE facturado = 1 AND id_venta = ".$row->id);
+
+            $cantidad_facturas = count( $solicitudes_facturadas );
+
+            $productos =
+            DB::SELECT("SELECT SUM(total) as total
+            FROM movimiento_productos WHERE id_venta=".$row->id);
+
+            $total = $productos[0]->total;
+
+            array_push($result , [
+                "id" => $row->id ,
+                "orden_compra" => $row->orden_compra ,
+                "proyecto" => $row->nombre ,
+                "usuario"  => $row->usuario ,
+                "facturas" => $cantidad_facturas ,
+                "total" => $total ,
+                "pendiente" => ($total*1.16)
+            ]);
+
+        }//END FOREACH
+        return $result;
+    }
+
+    public function getSeries($idmov)
+    {   
+        $validarProducto = DB::SELECT("SELECT 
+        producto.id , producto.lleva_series
+        FROM movimiento_productos
+        INNER JOIN producto ON producto.id = movimiento_productos.id_producto
+        WHERE movimiento_productos.id=".$idmov);
+        $producto = $validarProducto[0]->id;
+        if( $validarProducto[0]->lleva_series == 0 )
+        {
+            return "Sin Series";
+        }
+        return 
+        DB::SELECT("SELECT * FROM series
+        WHERE id_producto = $producto");
+
+    }
+
+
 }

@@ -321,7 +321,7 @@
         <!-- /. PAGE WRAPPER  -->
     </div>
 
-   
+  
 
     <!-- /. WRAPPER  -->
     <!-- JS Scripts-->
@@ -341,7 +341,7 @@
 
      <!-- MODALS -->
     @include('ventas.addProductoModal')
- 
+    @include('ventas.seriesModal')
     <!-- End JS  -->
     <script>
     //Vista de Pagos Vista de Facturas y Modal de Ver Series
@@ -579,7 +579,7 @@
             $(".subtotal_anticipo").html(0);
             $(".iva_anticipo").html(0);
             $(".total_anticipo").html(0);
-
+            $("#solicitar_form").hide();
             var id = $(this).val();
 
 
