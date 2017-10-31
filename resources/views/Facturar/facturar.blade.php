@@ -35,7 +35,6 @@
 
                 <div style="margin-bottom:20px" class="row">
                
-                    
                 </div>
 
                 <div class="row">

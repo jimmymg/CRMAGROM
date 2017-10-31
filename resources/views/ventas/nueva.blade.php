@@ -522,6 +522,7 @@
                 {
                     swal("Error","Hay una Solicitud en Espera, No puedes tener mas de una solicitud en espera por proyecto","error")
                     $("#guardar").show();
+                    $("#guardar").attr("disabled","disabled");
                     return;
                 }
 
@@ -529,7 +530,7 @@
 
                 cargar_solicitudes($("#solicitud_id").val());
 
-                $("#numero_orden").val('');
+               
                 $("#fecha_solicitud").val('');
                 $("#razon").val('');
                 $("#direccion").val('');
@@ -545,7 +546,7 @@
                 $(".subtotal_anticipo").html("");
                 $(".iva_anticipo").html("");
                 $(".total_anticipo").html("");
-
+                $("#guardar").attr("disabled","disabled");
                 $("#guardar").show();
             })
             .error(function(){

@@ -134,6 +134,9 @@ Route::get('Archivos/{tipoArchivo}/proyecto/{proyecto}','crmController@archivos'
 //############################################################
 /*Pagos:*/
 	Route::get( 'Pagos' , 'PagosController@index' );
+	Route::get( 'Pagos/GetPagosHistorial' , 'PagosController@GetPagosHistorial' );
+	Route::get( 'Pagos/getPagosPendientes/tipo/{tipo}/solicitud/{solicitud}' , 'PagosController@getPagosPendientes' );
+	Route::post( 'Pagos/pagar' , 'PagosController@pagarFactura' );
 //############################################################
 /*Fase2:*/
 	Route::get('Fase2','Fase2Controller@index')->middleware('guest')->middleware('Fase2');

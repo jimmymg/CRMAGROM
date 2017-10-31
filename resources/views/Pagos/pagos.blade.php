@@ -54,20 +54,20 @@
                         <!-- Advanced Tables -->
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                Historia de Pagos
+                                Historial de Pagos
                             </div>
                             <div class="panel-body">
                                 <div class="col-lg-12">
-                                    <button id="update_table" type="button" class="btn btn-primary"> 
+                                    <button id="update_histotial" type="button" class="btn btn-primary"> 
                                         <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
                                     </button>
                                 </div>
                                 <div class="col-lg-12" >
-                                    <div style="margin-left: calc(50% - 60px);margin-top: 10px;" class="loader"></div>
+                                    <div id="load_historial" style="margin-left: calc(50% - 60px);margin-top: 10px;" class="loader"></div>
                                 </div>
 
                                 <div class="table-responsive col-lg-12">
-                                    <table class="table" id="table-ventas">
+                                    <table class="table" id="table-historial">
                                         <thead>
                                             <tr>
                                                 <th>#</th>
@@ -112,6 +112,8 @@
                                                 <th>Factura</th>
                                                 <th>Total</th>
                                                 <th>Pendiente</th>
+                                                <th>Moneda</th>
+                                                <th>Pagar</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -149,7 +151,7 @@
     <script src="{{url('js/tinymce/tinymce.min.js')}}"></script>
 
     <script>tinymce.init({ selector:'#comentario' });</script>
-
+    @include('Pagos.modalPagar')
     <!-- JS  -->
  
     <!-- End JS  -->
@@ -165,7 +167,88 @@
             }
         });
             
-       
+        $(document).ready(function(){
+            pagos_pendientes();
+            pagos_historial();
+        });
+
+        $("#update_histotial").click(function(){
+            pagos_historial();
+        });
+
+        $("#update_table_pendientes").click(function(){
+            pagos_pendientes();
+        });
+
+
+        function pagos_historial()
+        {
+            $("#load_historial").show();
+            $("#table-historial").hide();
+            
+            $.get("Pagos/GetPagosHistorial")
+            .done(function(data){
+                console.log(data);
+                var table = $("#table-historial tbody");
+                var tbody = "";
+
+                for( var x = 0 ; x < Object.keys(data).length ; x++ )
+                {
+                    tbody +=
+                    "<tr>"+
+                        "<td>"+(x+1)+"</td>"+
+                        "<td>"+data[x].orden_compra+"</td>"+
+                        "<td>"+data[x].usuario+"</td>"+
+                        "<td>"+data[x].factura+"</td>"+
+                        "<td>"+data[x].total+"</td>"+
+                    "</tr>";
+                }
+                table.html(tbody);
+                $("#load_historial").hide();
+                $("#table-historial").show();
+
+            })
+            .error(function(){
+                alert("Error al Cargar el Historial de los Pagos");
+            });
+        }
+
+        function pagos_pendientes()
+        {   $("#table-pendientes").hide();
+            $("#load_pendietes").show();
+            $("#table-pendientes tbody").html("");
+           // Pagos/getPagosPendientes/tipo/{tipo}/solicitud/{solicitud}
+            $.get("Pagos/getPagosPendientes/tipo/0/solicitud/0")
+            .done(function(data){
+                
+                var tbody = "";
+                var table = $("#table-pendientes tbody");
+                for( var x = 0 ; x < Object.keys(data).length ; x++ )
+                {
+                    tbody += 
+                    "<tr>"+
+                        "<td>"+(x+1)+"</td>"+
+                        "<td>"+data[x].orden_compra+"</td>"+
+                        "<td>"+data[x].usuario+"</td>"+
+                        "<td>"+data[x].factura+"</td>"+
+                        "<td>"+data[x].total+"</td>"+
+                        "<td>"+data[x].pendiente_total+"</td>"+
+                        "<td>"+data[x].moneda+"</td>"+
+                        "<td><button data-solicitud='"+data[x].solicitud_id+"' type='button' class='pagar btn btn-warning'>Pagar</button></td>"+
+                    "</tr>";
+                }
+
+                table.html(tbody);
+                $("#table-pendientes").show();
+                $("#load_pendietes").hide();
+            })
+            .error(function(){
+                alert("Error al Consultar los Pagos Pendientes");
+                $("#table-pendientes").show();
+                $("#load_pendietes").hide();
+            });
+        }
+
     </script>
 </body>
 </html>
