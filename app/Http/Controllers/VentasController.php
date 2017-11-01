@@ -9,7 +9,11 @@ use Auth;
 class VentasController extends Controller
 {
     //
-
+    public function __construct(){
+        $this->middleware('guest');
+        
+    }
+    
     public function buscarorden($orden,$proyecto)
     {
     	$validar = DB::SELECT("SELECT ventas.id , ventas.orden_compra , proyectos.nombre , ventas.id_proyecto
@@ -203,6 +207,7 @@ class VentasController extends Controller
             FROM movimiento_productos 
             WHERE id_venta = '.$orden);
 
+
         return $datos['0']->total;
     }
 
@@ -237,6 +242,14 @@ class VentasController extends Controller
         if( !empty($validar) )
         {
             return "Solicitud En Espera";
+        }
+
+        $solicitudes = DB::SELECT("SELECT SUM(porcentaje) as porc FROM solicitud 
+        WHERE id_venta = ".$id_venta);
+        
+        if( ( $solicitudes[0]->porc + $porcentaje ) > 100 )
+        {
+            return "mayor";
         }
 
         DB::TABLE('solicitud')->INSERT([
@@ -316,7 +329,7 @@ class VentasController extends Controller
         DB::SELECT("SELECT facturas.factura , solicitud.total FROM solicitud 
         INNER JOIN solicitud_factura ON solicitud.id = solicitud_factura.id_solicitud
         INNER JOIN facturas          ON facturas.id = solicitud_factura.id_factura
-        WHERE id_venta = $idventa and facturas.factura != null");
+        WHERE id_venta = $idventa ");
     }   
 
     public function getVentas()
@@ -380,6 +393,18 @@ class VentasController extends Controller
         WHERE id_producto = $producto");
 
     }
+
+    public function getPagosVenta($idventa)
+    {
+        return 
+        DB::SELECT("SELECT facturas.factura , fecha_pago , solicitud.total FROM ventas 
+        INNER JOIN solicitud ON solicitud.id_venta = ventas.id
+        INNER JOIN solicitud_factura ON solicitud_factura.id_solicitud = solicitud.id
+        INNER JOIN facturas ON facturas.id = solicitud_factura.id_factura
+        INNER JOIN pagos ON pagos.id_Factura = facturas.id
+        WHERE ventas.id = ".$idventa);
+    }
+    
 
 
 }

@@ -81,6 +81,11 @@
                         <a href='{{url("/facturar")}}'  class="waves-effect">Facturar</a>
                     </li> 
                     @endif
+                    @if( Auth::user()->id_area == 1  || Auth::user()->id_area == 5 || Auth::user()->id_area == 6 )
+                    <li>
+                        <a href='{{url("/Pagos")}}'  class="waves-effect">Pagos</a>
+                    </li> 
+                    @endif
                 </ul>
 
             </div>

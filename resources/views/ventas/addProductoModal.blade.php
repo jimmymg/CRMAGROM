@@ -423,6 +423,12 @@ $("#add_product").click(function(event){
     })
     .done(function(data){
 
+        if( data == "validar_solicitud" )
+        {
+            swal("Error","Esta Venta ya tiene una solicitud de Factura","error")
+            return;
+        }
+
         if( data == "validar" )
         {
             swal("Error","Ese Producto ya esta en la orden","error")

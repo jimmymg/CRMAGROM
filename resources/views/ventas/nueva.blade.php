@@ -242,12 +242,12 @@
                             </div>
                             <div class="panel-body">
                                 <div class="col-lg-12">
-                                    <table class="table">
+                                    <table class="table" id="table-pagos">
                                         <thead>
                                             <tr>
-                                                <th>#</th>
-                                                <th>%</th>
-                                                <th>Total</th>
+                                                <th>Factura</th>
+                                                <th>Tota</th>
+                                                <th>Fecha de Pago</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -427,6 +427,7 @@
 
                 $("#porc").val(0);
                 cargar_facturas();
+                cargar_pagos();
                 cargar_solicitudes($("#solicitud_id").val());
                 llenar_tablas_productos($("#solicitud_id").val());
             })
@@ -521,6 +522,14 @@
                 if( data == "Solicitud En Espera" )
                 {
                     swal("Error","Hay una Solicitud en Espera, No puedes tener mas de una solicitud en espera por proyecto","error")
+                    $("#guardar").show();
+                    $("#guardar").attr("disabled","disabled");
+                    return;
+                }
+
+                if( data == "mayor" )
+                {
+                    swal("Error" , "La Suma de los porcenajes de las solicitudas anteriores es mayor a 100%, ya no se pueden solicitar mas facturas,","error")
                     $("#guardar").show();
                     $("#guardar").attr("disabled","disabled");
                     return;
@@ -822,7 +831,7 @@
         }
 
         function cargar_facturas()
-        {
+        {   
             $.get("getFacturas/"+$("#solicitud_id").val())
             .done(function(data){
                 console.log("Facturas:");
@@ -847,6 +856,33 @@
             .error(function(){
                 alert("Error al Consultar las Facturas");
             })
+        }
+
+        function cargar_pagos()
+        {
+            $.get("getPagos/Venta/"+$("#solicitud_id").val())
+            .done(function(data){
+                console.log("Pagos:");
+                console.log(data);  
+
+                var table = $("#table-pagos tbody");
+                var tbody = "";
+
+                for( var x = 0 ; x < Object.keys(data).length ; x++ )
+                {
+                    tbody +=
+                    "<tr>"+
+                        "<td>"+data[x].factura+"</td>"+
+                        "<td>"+data[x].fecha_pago+"</td>"+
+                        "<td>"+data[x].total+"</td>"+
+                    "</tr>";
+                } 
+
+                table.html(tbody);
+            })
+            .error(function(){
+                alert("Error al Consultar los Pagos");
+            });
         }
     </script>
 </body>
