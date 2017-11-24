@@ -25,6 +25,10 @@ Route::get('Ejecutar/{password}','PublicoController@ejecutar');
 
 Route::get('/inicio','crmController@index')->middleware('guest');
 
+Route::get('eventosmasivos','crmController@eventosmasivos');
+Route::get('calendarios','crmController@listarCalendarios');
+Route::post( 'addem' , 'crmController@add_eventosmasivos' );
+
 Route::get('/',function(){
 	return redirect('login');
 });

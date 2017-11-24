@@ -14,6 +14,9 @@ use Mailgun\Mailgun;
 use Google_Client;
 use Google_Service_Calendar;
 use Google_Service_Calendar_Event;
+use PHPExcel\PHPExcel;
+use PHPExcel_IOFactory;
+use PHPExcel_Shared_Date;
 
 
 class crmController extends Controller{
@@ -127,6 +130,125 @@ class crmController extends Controller{
         $correo = explode("@",Auth::user()->correo);
        //print_r($client);
         return view('GoogleCalendar')->with(["principal" => $correo[0] , "dominio"=> $correo[1]]);
+    }
+
+    public function eventosmasivos()
+    {
+        return view('eventosmasivos');
+    }
+
+    public function listarCalendarios()
+    {   
+
+        $result = [];
+        $client = new Google_Client();
+        $this->core($client);
+
+        $service = new Google_Service_Calendar($client);
+
+        $calendarList = $service->calendarList->listCalendarList();
+        //print_r($calendarList);
+        while(true) {
+            foreach ($calendarList->getItems() as $calendarListEntry) {
+                //echo $calendarListEntry->getSummary();
+                //echo $calendarListEntry->getId();
+                array_push($result , [
+                    "summary" => $calendarListEntry->getSummary() ,
+                    "id"      => $calendarListEntry->getId()
+                ]);
+            }
+            $pageToken = $calendarList->getNextPageToken();
+            if ($pageToken) {
+                $optParams = array('pageToken' => $pageToken);
+                $calendarList = $service->calendarList->listCalendarList($optParams);
+            } else {
+                break;
+            }
+        }
+
+        return $result;
+    }
+
+    public function add_eventosmasivos(Request $request)
+    {      
+
+        include 'lib/PHPExcel/Classes/PHPExcel.php';
+        
+                $archivo 		=  $_FILES["file"]["tmp_name"];
+        
+                $inputFileType  = PHPExcel_IOFactory::identify($archivo);
+                $objReader      = PHPExcel_IOFactory::createReader($inputFileType);
+                $objPHPExcel    = $objReader->load($archivo);
+                $sheet          = $objPHPExcel->getSheet(0); 
+                $highestRow     = $sheet->getHighestRow(); 
+                $highestColumn  = $sheet->getHighestColumn();
+
+                $calendarId = $_POST['calendario'];
+
+                $titulo = "";
+                $descripcion = "";
+                $date = "";
+                $end = "";
+                $client = new Google_Client();
+            
+                $this->core($client);
+                $service = new Google_Service_Calendar($client);
+                for ($row = 2 ; $row <= $highestRow  ; $row++)
+                {
+                    $titulo      = $sheet->getCell('A' . $row)->getValue();
+                    $date        = $sheet->getCell('B' . $row)->getFormattedValue();
+                    $descripcion = $sheet->getCell('C' . $row)->getValue();
+
+                   
+            //Y-m-d                    
+                    $explota = explode("/",$date);
+                    $date = $explota[2]."-".$explota[0]."-".$explota[1]."T01:00:00";
+                    $end =  $explota[2]."-".$explota[0]."-".$explota[1]."T02:00:00";
+
+                            $event = new Google_Service_Calendar_Event(array(
+                              'summary' => $titulo,
+                              'location' => '',
+                              'description' => $descripcion,
+                              'start' => array(
+                                'dateTime' => $date,
+                                'timeZone' => 'America/Mexico_City',
+                              ),
+                              'end' => array(
+                                'dateTime' =>  $end,
+                                'timeZone' => 'America/Mexico_City',
+                              ),
+                              /*'recurrence' => array(
+                                'RRULE:FREQ=DAILY;COUNT=1'
+                              ),*/
+                              /*'attendees' => array(
+                                array('email' => 'lpage@example.com'),
+                                array('email' => 'sbrin@example.com'),
+                              ),*/
+                              'reminders' => array(
+                                'useDefault' => FALSE,
+                                'overrides' => array(
+                                  array('method' => 'email', 'minutes'  => 1),
+                                  //array('method' => 'popup', 'minutes'  => 1),
+                                ),
+                              ),
+                            ));
+                    
+                            
+                    
+                          
+                            $event = $service->events->insert($calendarId, $event);
+                          
+                }
+
+
+        
+
+        
+
+
+        
+
+
     }
 
     public function event(Request $request)
