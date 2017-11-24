@@ -9,10 +9,28 @@ use Illuminate\Http\Request;
 use DB;
 use PHPMailer;
 use Mailgun\Mailgun;
-
+use Pusher;
 
 class PublicoController extends Controller
-{
+{   
+
+    public function pusher()
+    {
+        $options = array(
+			'cluster' => 'us2',
+			'encrypted' => true
+		  );
+		  $pusher = new Pusher\Pusher(
+			'040c4ec34fd1f7806ba2',
+			'0ed5531d6000b88401d2',
+			'424479',
+			$options
+		  );
+		
+		  $data['message'] = 'hello world';
+		  $pusher->trigger('canal', 'evento', $data);
+    }
+
 	Public function ejecutar($password)
     { /*Recordar que el servidor esta atrasado dos horas al horario de guadalajara*/
         if( $password != "Xq13wuI2Wiz0SM5vEzIylNJHd3paCBsXj8ocufyW0CNC" )

@@ -43,8 +43,9 @@ function cargarSeries(id_producto)
         for( var x = 0 ; x < Object.keys(data).length ; x++ )
         {
             li += 
-            "<li class='list-group-item list-group-item-success'>"
-                +data[x].serie+
+            "<li class='col-lg-12 list-group-item list-group-item-success'>"
+               +data[x].serie+ "<input type='hidden' value='"+data[x].id+"' >"+
+               "<button data-serie='"+data[x].serie+"' style='float:right' type='button' class='btn btn-warning edit-serie'>Editar</button>"
             "</li>";
         }
         $("#SeriesModal").find(".row").html(ul+li+"</ul>");

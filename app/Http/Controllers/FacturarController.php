@@ -20,10 +20,11 @@ class FacturarController extends Controller
 
     public function solicitudes()
     {	
-
-    	return
+	
+    	$result = 
     	DB::SELECT("
-    		SELECT solicitud.`id` ,
+			SELECT 
+				solicitud.`id` ,
     			id_venta ,
     			fecha_solicitud ,
     			razon ,
@@ -48,7 +49,11 @@ class FacturarController extends Controller
     	 	INNER JOIN ventas ON solicitud.id_venta = ventas.id
     	 	INNER JOIN usuarios ON solicitud.created_by = usuarios.id
     	 	LEFT JOIN solicitud_factura ON solicitud_factura.id_solicitud = solicitud.id 
-			LEFT JOIN facturas ON solicitud_factura.id_factura = facturas.id");
+			LEFT JOIN facturas ON solicitud_factura.id_factura = facturas.id
+			order by fecha_solicitud desc
+			");
+	
+			return $result;
     }
 
     public function get_soliciud($solicitud)
@@ -56,7 +61,8 @@ class FacturarController extends Controller
     	$info_solicitud =
     	DB::SELECT("
     		SELECT solicitud.`id` as id_solicitud,
-    			id_venta ,
+				id_venta ,
+				vendedor ,
     			fecha_solicitud ,
     			razon ,
     			direccion ,
@@ -83,6 +89,7 @@ class FacturarController extends Controller
     	 	INNER JOIN usuarios ON solicitud.created_by = usuarios.id
     	 	LEFT JOIN solicitud_factura ON solicitud_factura.id_solicitud = solicitud.id 
 			LEFT JOIN facturas ON solicitud_factura.id_factura = facturas.id
+			
     		WHERE solicitud.id=".$solicitud);
 
     	$productos = DB::SELECT("SELECT 

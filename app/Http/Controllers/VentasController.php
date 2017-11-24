@@ -230,7 +230,7 @@ class VentasController extends Controller
         $iva          =  $request->input('iva');
         $total        =  $request->input('total');
 
-        
+        $vendedor    =  $request->input('vendedor');
 
 
         $venta = DB::SELECT("SELECT * FROM ventas WHERE orden_compra=$orden_compra");
@@ -254,6 +254,7 @@ class VentasController extends Controller
 
         DB::TABLE('solicitud')->INSERT([
                 "id_venta"          => $id_venta ,
+                "vendedor"          => $vendedor ,
                 "fecha_solicitud"   => $solicitud ,
                 "razon"             => $razon,
                 "direccion"         => $direccion ,
@@ -398,13 +399,24 @@ class VentasController extends Controller
     {
         return 
         DB::SELECT("SELECT facturas.factura , fecha_pago , solicitud.total FROM ventas 
-        INNER JOIN solicitud ON solicitud.id_venta = ventas.id
+        INNER JOIN solicitud         ON solicitud.id_venta = ventas.id
         INNER JOIN solicitud_factura ON solicitud_factura.id_solicitud = solicitud.id
-        INNER JOIN facturas ON facturas.id = solicitud_factura.id_factura
-        INNER JOIN pagos ON pagos.id_Factura = facturas.id
+        INNER JOIN facturas          ON facturas.id = solicitud_factura.id_factura
+        INNER JOIN pagos             ON pagos.id_Factura = facturas.id
+        
         WHERE ventas.id = ".$idventa);
+
     }
     
+    public function editarSerie(Request $request)
+    {
+        $serie    = $request->input("nueva_serie");
+        $id_serie = $request->input("id_serie");
 
+        //Solo Editar la serie Actual y ya y levantar una bandera de no mas una vez se puede editar
+        //Validar si anteriormente estaba como PENDIENTE
+        //Hacer un Pendiente en Agregar Serie solo un boton que escriba Pendiente y Ya en la Seccion de serie
+        
+    }
 
 }

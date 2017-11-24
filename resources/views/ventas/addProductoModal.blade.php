@@ -202,7 +202,17 @@
                         </div>
 
                         <div class="col-lg-12">
-                            <h3>Cantidad: <strong></strong></h3>
+                            <div class="col-lg-4">
+                                <h3>Cantidad: <strong></strong></h3>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="col-lg-6">  
+                                    <h4 style="margin-top:0">Pendiente: </h4>
+                                </div>
+                                <div class="col-lg-6">
+                                    <input type="checkbox" id="pendiente" class="form-control" >
+                                </div>
+                            </div>
                         </div>
 
                         <div class="col-lg-12">
@@ -252,6 +262,16 @@ $(".bar").parent().hide();
 $("#APM_add_series").hide();
 $("#al-series").hide();
 
+$("#pendiente").change(function(){
+    if( $(this).is(":checked") )
+    {
+        $("#serie").val("PENDIENTE");
+        $("#serie").attr("disabled","disabled");
+    }else{
+        $("#serie").val('');
+        $("#serie").removeAttr("disabled");
+    }
+});
 
 $("#lleva_serie").change(function(){
     if( $(this).is(":checked") )
@@ -540,14 +560,16 @@ $("#a_s").click(function(){
         return ;
     }
 
-    
-
+   
+        
 
     var actual = $("#lista_series ul").html();
     var nuevo = '<li class="list-group-item list-group-item-info"><strong>'+$.trim(serie)+'</strong><span style="color:red;float:right" class="glyphicon glyphicon-remove remove-serie"></span></li>';
      $("#lista_series ul").html(actual + nuevo);
 
      $("#serie").val('');
+     $("#serie").removeAttr("disabled");
+     $("#pendiente").prop("checked",false);
 });
 
 $("body").on('click', '.remove-serie' ,function(){
@@ -653,7 +675,7 @@ function llenar_tablas_productos(orden)
 
     $.get('nueva/orden/'+orden+'/productos')
     .done(function(data){
-        console.log(data);
+     
 
         var tbody = "";
         var button = "";
@@ -661,7 +683,8 @@ function llenar_tablas_productos(orden)
         {   
             if( data[x].lleva_series == "1" )
             {
-                button = "<button data-producto='"+data[x].id_movimiento+"' type='button' class='btn btn-primary verSeries'>Series ("+data[x].cantidad+")</button>";
+                button = 
+                "<button data-producto='"+data[x].id_movimiento+"' type='button' class='btn btn-primary verSeries'>Series ("+data[x].cantidad+")</button>";
             }else{
                 button = "N/A";
             }

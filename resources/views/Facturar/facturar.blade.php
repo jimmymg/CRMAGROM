@@ -151,6 +151,7 @@
         {
             $.get("solicitarFactura/pendientes")
             .done(function(data){
+              
                 console.log(data);
              
                 var table = $("#table-pendietes-facturar tbody");

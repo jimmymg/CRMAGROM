@@ -89,11 +89,11 @@
                                     </div>
 
                                     <div class="col-lg-12" id="card_comun">
-                                        <label>Fecha de Solicitud</label>
-                                        <input type="date" class="form-control" id="fecha_solicitud">
+                                        <label>Fecha de Solicitud: <strong>{{date(date('Y/m/d'))}}</strong> </label> <br>
+                                        <input type="hidden" class="form-control" id="fecha_solicitud" value="{{date(date('Y/m/d'))}}">
 
                                         <label>Vendedor</label>
-                                        <input type="text" class="form-control" value="{{Auth::user()->nombre}}">
+                                        <input type="text" id="vendedor" class="form-control" value="{{Auth::user()->nombre}}">
                                     </div>
 
                                     <div class="col-lg-6" id="card_facturacion">
@@ -342,6 +342,7 @@
      <!-- MODALS -->
     @include('ventas.addProductoModal')
     @include('ventas.seriesModal')
+    @include('ventas.editarSerieModal')
     <!-- End JS  -->
     <script>
     //Vista de Pagos Vista de Facturas y Modal de Ver Series
@@ -454,6 +455,8 @@
             var metodo_pago  = $("#metodo_pago").val();
             var vencimiento  = $("#vencimiento").val();
             var porcentaje   = $("#porc").val();
+
+            var vendedor     = $("#vendedor").val(); 
             //alert( moneda + " " + solicito +" "+metodo_pago+" "+vencimiento );
            
             if( porcentaje == "" )
@@ -515,7 +518,8 @@
                 porcentaje   : porcentaje ,
                 subtotal     : subtotal ,
                 iva          : subtotal * .16 ,
-                total        : subtotal * 1.16
+                total        : subtotal * 1.16 ,
+                vendedor     : vendedor
             })
             .done(function(data){
 

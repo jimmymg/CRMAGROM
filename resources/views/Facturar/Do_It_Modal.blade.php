@@ -11,9 +11,95 @@
                 strong {
                     font-size: 14pt;
                 }
+
+                #preloader_3{
+    position:relative;
+}
+#preloader_3:before{
+    width:20px;
+    height:20px;
+    border-radius:20px;
+    background:blue;
+    content:'';
+    position:absolute;
+    background:#9b59b6;
+    animation: preloader_3_before 1.5s infinite ease-in-out;
+}
+ 
+#preloader_3:after{
+    width:20px;
+    height:20px;
+    border-radius:20px;
+    background:blue;
+    content:'';
+    position:absolute;
+    background:#2ecc71;
+    left:22px;
+    animation: preloader_3_after 1.5s infinite ease-in-out;
+}
+ 
+@keyframes preloader_3_before {
+    0% {transform: translateX(0px) rotate(0deg)}
+    50% {transform: translateX(50px) scale(1.2) rotate(260deg); background:#2ecc71;border-radius:0px;}
+      100% {transform: translateX(0px) rotate(0deg)}
+}
+@keyframes preloader_3_after {
+    0% {transform: translateX(0px)}
+    50% {transform: translateX(-50px) scale(1.2) rotate(-260deg);background:#9b59b6;border-radius:0px;}
+    100% {transform: translateX(0px)}
+}
+            
+            .loader {
+   
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.bar {
+  width: 100%;
+  height: 20px;
+  border: 1px solid #2980b9;
+  border-radius: 3px;
+  background-image: 
+    repeating-linear-gradient(
+      -45deg,
+      #2980b9,
+      #2980b9 11px,
+      #eee 10px,
+      #eee 20px /* determines size */
+    );
+  background-size: 28px 28px;
+  animation: move .5s linear infinite;
+}
+
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 28px 0;
+  }
+}
             </style>
             <div class="modal-body">
-                <div class="row">
+                <div class="row" id="row_loader"> 
+                    <div class="col-sm-12" >
+                        <h4>
+                            <div class="loader" style="margin-left: calc(50% - 60px);margin-top: 10px;"></div>
+                        </h4>    
+                    </div>
+                </div>
+                <div class="row" id="row_info">
+
+
                     <div class="col-lg-12" id="numero_orden">
                         <h3 style="text-align: center;">Orden: <strong></strong></h3>
                         <input id="id_solicitud" type="hidden">
@@ -108,8 +194,14 @@
 
     function cargar_info_modal(id)
     {
-        
-        $.get("solcitarFactura/solicitud/"+id)
+        $("#row_info").hide();
+        $("#row_loader").show();
+        $("#folio_pedido").val("");
+        $("#folio_remision").val("");
+        $("#folio_pedido").removeAttr("disabled");
+        $("#folio_remision").removeAttr("disabled");
+
+        $.get("solicitarFactura/solicitud/"+id)
         .done(function(data){
             console.log(data);
             var tamano = Object.keys(data).length
@@ -131,7 +223,7 @@
             $("#total label strong").html( info.total );
             $("#porcentaje label strong").html( info.porcentaje+"%" );
             $("#numero_orden strong").html( info.orden_compra );
-            $("#vendedor").html( info.usuario );
+            $("#vendedor").html( info.vendedor );
       
             if( info.pedido != null )
             {
@@ -140,6 +232,9 @@
 
                 $("#folio_pedido").val(info.pedido);
                 $("#folio_remision").val(info.remision);
+
+                $("#folio_pedido").attr("disabled","disabled");
+                $("#folio_remision").attr("disabled","disabled");
 
                 if( info.factura !=null )
                 {
@@ -160,10 +255,14 @@
             }else{
                 $("#pago").html("*Anticipo del "+porcentaje+"%.");
             }
+
+            $("#row_info").show();
+            $("#row_loader").hide();
             
         })
         .error(function(){
             alert("Error al Cargar la Solicitud");
+            $("#modalFacturar").modal("hide");
         });
     }
 

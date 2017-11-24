@@ -117,14 +117,15 @@ Route::get('Archivos/{tipoArchivo}/proyecto/{proyecto}','crmController@archivos'
 	Route::get( 'ventas/getFacturas/{idventa}' , 'VentasController@cargarFacturas' );
 	Route::get( 'ventas/getSeries/{idproducto}' , 'VentasController@getSeries' );
 	Route::get( 'ventas/getPagos/Venta/{idventa}' , 'VentasController@getPagosVenta' );
+	Route::post( 'ventas/editarSerie' , 'VentasController@editarSerie' );
 //############################################################
 /*Solicitar Factura y Facturar:*/
-	Route::get( 'solcitarFactura' , "FacturarController@index" );
+	Route::get( 'solicitarFactura' , "FacturarController@index" );
 	Route::get( 'facturar' , function(){
 		return view('Facturar.facturar');
 	} );
-	Route::get( 'solcitarFactura/solicitudes' , 'FacturarController@solicitudes' );
-	Route::get( 'solcitarFactura/solicitud/{solicitud}' , 'FacturarController@get_soliciud' );
+	Route::get( 'solicitarFactura/solicitudes' , 'FacturarController@solicitudes' );
+	Route::get( 'solicitarFactura/solicitud/{solicitud}' , 'FacturarController@get_soliciud' );
 	Route::post( 'solicitarFactura/solicitar' , 'FacturarController@solicitar_factura' );
 	Route::get( 'solicitarFactura/pendientes' , 'FacturarController@pendiente_facturar' );
 	Route::post( 'solicitarFactura/facturar' , 'FacturarController@facturar' );
@@ -240,3 +241,10 @@ Route::get('Archivos/{tipoArchivo}/proyecto/{proyecto}','crmController@archivos'
 //############################################################
 /*Mis Recordatorios*/
 	Route::get('MisRecordatorios' , 'MisRecordatoriosController@index')->middleware('guest');
+
+//PRUEBAS
+	Route::get("pruebas" , function(){
+		return view("pruebas");
+	});
+
+	Route::get("pruebas/pusher", "PublicoController@pusher");

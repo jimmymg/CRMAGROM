@@ -137,10 +137,12 @@
             cargar_solicitudes();
             $("#factura").parent().hide();
         });  
+    
+    
 
      function cargar_solicitudes()
-     {
-        $.get("solcitarFactura/solicitudes")
+     {  
+        $.get("solicitarFactura/solicitudes")
         .done(function(data){
             console.log(data);
 
@@ -171,10 +173,12 @@
             }
 
             table.html(tbody);
+            $("#page-wrapper").css("height", '');
         })
         .error(function(){
             alert("Error al Cargar las Solicitudes");
         });
+       
      }
 
      $(document).on("click",".doIt" , function(){

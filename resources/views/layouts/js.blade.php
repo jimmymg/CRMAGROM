@@ -20,14 +20,14 @@
     <script src="http://cdn.jsdelivr.net/clippy.js/1.0/clippy.min.js">
     </script>
     <script>
-        
+       /* 
         $(document).ready(function(){
             clippy.load('Clippy', function(agent) {
         agent.show();
         agent.moveTo(200,200);
         
     });
-        });
+        });*/
     </script>
 
 

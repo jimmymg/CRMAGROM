@@ -10,7 +10,6 @@ function responsivo()
                 var alto  = $("html").height();
                 var alto_ventana = window.innerHeight;
                 
-
                 
                 if( alto_ventana >= alto )
                 {

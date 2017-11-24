@@ -8,6 +8,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use DB;
 use Mailgun\Mailgun;
+use Pusher;
 
 
 class Fase1Controller extends Controller
@@ -309,7 +310,24 @@ class Fase1Controller extends Controller
     			"id_proyecto" => $proyecto        ,
     			"id_usuario"  => Auth::user()->id ,
     			"seguimiento"  => $comentario
-    		]);
+            ]);
+        
+            $options = array(
+                'cluster' => 'us2',
+                'encrypted' => true
+              );
+              $pusher = new Pusher\Pusher(
+                '040c4ec34fd1f7806ba2',
+                '0ed5531d6000b88401d2',
+                '424479',
+                $options
+              );
+            
+            //Enviar por Pusher que comento el usuario, el nombre del proyecto
+
+            $data['message'] = 'hello world';
+            $pusher->trigger('canal', 'evento', $data);    
+
     }
 
     public function get_comentarios_seguimientos($proyecto)

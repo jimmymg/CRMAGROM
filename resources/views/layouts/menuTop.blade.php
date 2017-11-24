@@ -9,11 +9,11 @@
                 <a class="navbar-brand" href="">{{Auth::user()->nombre}}</a>
             </div>
           
-            <ul class="nav navbar-top-links navbar-right">
-            <!--
+            <ul class="nav navbar-top-links navbar-right" style="margin-right: 0px;">
+            
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
-                        <i class="fa fa-envelope fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    <i class="glyphicon glyphicon-bell"></i> <i class="glyphicon glyphicon-menu-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-messages">
                         <li>
@@ -60,11 +60,11 @@
                         </li>
                     </ul>
                 
-                </li>-->
-                <!-- /.dropdown 
+                </li>
+              
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
-                        <i class="fa fa-tasks fa-fw"></i> <i class="fa fa-caret-down"></i>
+                        <i class="glyphicon glyphicon-tasks"></i> <i class="glyphicon glyphicon-menu-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-tasks">
                         <li>
@@ -138,12 +138,12 @@
                             </a>
                         </li>
                     </ul>
-                    /.dropdown-tasks 
-                </li>-->
-                <!-- /.dropdown 
+                   
+                </li>
+               
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
-                        <i class="fa fa-bell fa-fw"></i> <i class="fa fa-caret-down"></i>
+                        <i class="glyphicon glyphicon-bullhorn"></i> <i class="glyphicon glyphicon-menu-down"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-alerts">
                         <li>
@@ -198,10 +198,10 @@
                             </a>
                         </li>
                     </ul>
-                     /.dropdown-alerts 
-                </li>-->
+                   
+                </li>
                 <!-- /.dropdown -->
-                <!--
+             
                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">
                         <span class="glyphicon glyphicon-user"></span> <i class="fa fa-caret-down"></i>
@@ -216,7 +216,7 @@
                        
                         </li>
                     </ul>
-                    -->
+                    
                     <!-- /.dropdown-user -->
                 </li>
                

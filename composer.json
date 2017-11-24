@@ -12,6 +12,7 @@
         "laravel/framework": "5.4.*",
         "laravel/tinker": "~1.0",
         "phpmailer/phpmailer": "^5.2",
+        "pusher/pusher-php-server": "^3.0",
         "rackspace/php-opencloud": "dev-master"
     },
     "require-dev": {
