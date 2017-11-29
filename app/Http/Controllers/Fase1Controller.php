@@ -310,7 +310,7 @@ class Fase1Controller extends Controller
     			"id_usuario"  => Auth::user()->id ,
     			"seguimiento"  => $comentario
             ]);
-        
+        /*
             $options = array(
                 'cluster' => 'us2',
                 'encrypted' => true
@@ -326,7 +326,7 @@ class Fase1Controller extends Controller
 
             $data['message'] = 'hello world';
             $pusher->trigger('canal', 'evento', $data);    
-
+*/
     }
 
     public function get_comentarios_seguimientos($proyecto)
