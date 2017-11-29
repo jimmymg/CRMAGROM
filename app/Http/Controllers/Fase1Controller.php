@@ -8,7 +8,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use DB;
 use Mailgun\Mailgun;
-use Pusher;
+use Pusher\Pusher;
 
 
 class Fase1Controller extends Controller
